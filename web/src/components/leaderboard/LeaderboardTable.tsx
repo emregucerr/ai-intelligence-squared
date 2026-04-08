@@ -20,6 +20,7 @@ import {
   Zap,
   Shield,
 } from "lucide-react";
+import Link from "next/link";
 
 interface Props {
   leaderboard: LeaderboardEntry[];
@@ -84,6 +85,7 @@ export function LeaderboardTable({ leaderboard, modelStats }: Props) {
               <TableRow
                 key={entry.model_id}
                 className="border-border/30 hover:bg-accent/50 transition-colors group cursor-pointer"
+                onClick={() => window.location.href = `/model/${entry.model_id}`}
               >
                 {/* Rank */}
                 <TableCell className="text-center font-bold text-lg">
