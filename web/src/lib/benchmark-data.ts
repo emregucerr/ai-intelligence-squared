@@ -12,11 +12,15 @@ export function getBenchmarkData(): BenchmarkData {
   if (_benchmarkData) return _benchmarkData;
 
   try {
-    // Try to load from file (will be available after benchmark completes)
+    // Load from the pre-built JSON file
     // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const data = require("@/data/benchmark-results.json") as BenchmarkData;
-    _benchmarkData = data;
-    return data;
+    const raw = require("@/data/benchmark-results.json");
+    // If the file has data, use it; otherwise fall back to placeholder
+    if (raw && raw.leaderboard && raw.leaderboard.length > 0) {
+      _benchmarkData = raw as BenchmarkData;
+      return _benchmarkData;
+    }
+    return getPlaceholderData();
   } catch {
     // Return placeholder data
     return getPlaceholderData();
