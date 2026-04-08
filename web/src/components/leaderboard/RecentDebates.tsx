@@ -5,6 +5,7 @@ import { MODELS, PROVIDER_COLORS } from "@/lib/models";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Trophy, Swords, Clock } from "lucide-react";
+import Link from "next/link";
 
 interface Props {
   debates: DebateSummary[];
@@ -37,9 +38,10 @@ export function RecentDebates({ debates }: Props) {
               : "Tie";
 
           return (
-            <div
+            <Link
+              href={`/debate/${debate.debate_id}`}
               key={debate.debate_id}
-              className="rounded-lg border border-border/40 bg-card/30 p-3 hover:bg-card/50 transition-colors"
+              className="block rounded-lg border border-border/40 bg-card/30 p-3 hover:bg-card/50 transition-colors"
             >
               {/* Header */}
               <div className="flex items-center gap-2 mb-2">
@@ -106,7 +108,7 @@ export function RecentDebates({ debates }: Props) {
               <p className="text-[10px] text-muted-foreground mt-1.5 line-clamp-1 italic">
                 {debate.motion}
               </p>
-            </div>
+            </Link>
           );
         })}
       </div>
