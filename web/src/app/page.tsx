@@ -1,12 +1,12 @@
 import { Navbar } from "@/components/Navbar";
 import { LeaderboardTable } from "@/components/leaderboard/LeaderboardTable";
+import { RecentDebates } from "@/components/leaderboard/RecentDebates";
 import { JudgeTendencyHeatmap } from "@/components/analytics/JudgeTendencyHeatmap";
 import { getLeaderboard, getJudgeTendencies, getModelStats, getDebates } from "@/lib/benchmark-data";
 import { MODELS } from "@/lib/models";
 import { Badge } from "@/components/ui/badge";
 import { Swords, Users, Brain, BarChart3, ArrowRight } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function HomePage() {
   const leaderboard = getLeaderboard();
@@ -100,7 +100,18 @@ export default function HomePage() {
           </div>
         </div>
 
-        <LeaderboardTable leaderboard={leaderboard} modelStats={modelStats} />
+        <div className="grid grid-cols-1 lg:grid-cols-[1fr,320px] gap-6">
+          <LeaderboardTable leaderboard={leaderboard} modelStats={modelStats} />
+
+          {/* Recent Debates Sidebar */}
+          <div>
+            <h3 className="text-sm font-semibold mb-3 flex items-center gap-2 text-muted-foreground">
+              <Swords className="h-4 w-4" />
+              Recent Debates ({debates.length})
+            </h3>
+            <RecentDebates debates={debates} />
+          </div>
+        </div>
 
         <p className="text-xs text-muted-foreground mt-3 text-center">
           Arena Score is from the original benchmark. Debate ELO is computed from AI² head-to-head matchups.
