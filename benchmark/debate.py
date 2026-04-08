@@ -78,7 +78,8 @@ class DebaterAgent:
             config=self.model.get("config"),
             temperature=0.7,
         )
-        return result["content"] or ""
+        content = result.get("content") or ""
+        return content.strip()
 
 
 def _format_transcript(entries: list[dict]) -> str:

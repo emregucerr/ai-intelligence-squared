@@ -87,8 +87,9 @@ class JudgeAgent:
             config=self.model.get("config"),
             temperature=0.8,
         )
+        content = result["content"] or ""
         return {
-            "question": result["content"].strip(),
+            "question": content.strip() if content else "What is the strongest piece of evidence supporting your position?",
             "judge_model_id": self.model["id"],
             "persona": self.persona_name,
         }

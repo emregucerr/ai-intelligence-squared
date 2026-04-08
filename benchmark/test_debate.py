@@ -54,7 +54,7 @@ async def test_2_all_models_respond():
             result = await chat_completion(
                 model_id=model["openrouter_id"],
                 messages=[{"role": "user", "content": "Reply with just the word 'OK'."}],
-                max_tokens=10,
+                max_tokens=50,
                 config=model.get("config"),
                 timeout=60.0,
             )
