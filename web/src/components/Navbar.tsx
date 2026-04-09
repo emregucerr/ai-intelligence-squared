@@ -1,24 +1,20 @@
 "use client";
 
 import Link from "next/link";
-import { Swords, BarChart3, Zap } from "lucide-react";
+import { Swords, BarChart3 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 border-b border-border/40 bg-background/80 backdrop-blur-xl">
+    <nav className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo */}
+        <div className="flex items-center justify-between h-14">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative">
-              <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-blue-500 to-red-500 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">AI²</span>
-              </div>
-              <div className="absolute -inset-1 rounded-lg bg-gradient-to-br from-blue-500/20 to-red-500/20 blur-sm group-hover:blur-md transition-all" />
+            <div className="w-8 h-8 rounded-md bg-primary flex items-center justify-center">
+              <span className="text-primary-foreground font-bold text-xs tracking-tight font-[family-name:var(--font-montserrat)]">AI&sup2;</span>
             </div>
             <div>
-              <h1 className="text-lg font-bold leading-tight">
+              <h1 className="text-sm font-semibold leading-tight tracking-tight font-[family-name:var(--font-montserrat)]">
                 Intelligence Squared
               </h1>
               <p className="text-[10px] text-muted-foreground leading-none">
@@ -27,22 +23,20 @@ export function Navbar() {
             </div>
           </Link>
 
-          {/* Nav links */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <Link href="/">
-              <Button variant="ghost" size="sm" className="gap-2 text-sm">
-                <BarChart3 className="h-4 w-4" />
+              <Button variant="ghost" size="sm" className="gap-1.5 text-xs">
+                <BarChart3 className="h-3.5 w-3.5" />
                 Leaderboard
               </Button>
             </Link>
             <Link href="/arena">
               <Button
                 size="sm"
-                className="gap-2 text-sm bg-gradient-to-r from-blue-600 to-red-600 hover:from-blue-500 hover:to-red-500 text-white border-0"
+                className="gap-1.5 text-xs"
               >
-                <Swords className="h-4 w-4" />
+                <Swords className="h-3.5 w-3.5" />
                 Live Arena
-                <Zap className="h-3 w-3" />
               </Button>
             </Link>
           </div>

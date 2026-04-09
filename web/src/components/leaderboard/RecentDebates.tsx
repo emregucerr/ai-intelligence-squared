@@ -1,7 +1,8 @@
 "use client";
 
 import { DebateSummary } from "@/lib/types";
-import { MODELS, PROVIDER_COLORS } from "@/lib/models";
+import { MODELS } from "@/lib/models";
+import { ProviderIcon } from "@/components/ProviderIcon";
 import { Badge } from "@/components/ui/badge";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Trophy, Swords, Clock } from "lucide-react";
@@ -14,8 +15,8 @@ interface Props {
 export function RecentDebates({ debates }: Props) {
   if (debates.length === 0) {
     return (
-      <div className="text-center py-8 text-muted-foreground text-sm">
-        <Swords className="h-8 w-8 mx-auto mb-2 opacity-30" />
+      <div className="text-center py-8 text-muted-foreground text-xs">
+        <Swords className="h-6 w-6 mx-auto mb-2 opacity-30" />
         <p>Benchmark debates will appear here as they complete.</p>
       </div>
     );
@@ -23,33 +24,24 @@ export function RecentDebates({ debates }: Props) {
 
   return (
     <ScrollArea className="h-[500px]">
-      <div className="space-y-3 pr-4">
+      <div className="space-y-2 pr-3">
         {debates.slice().reverse().map((debate) => {
           const modelFor = MODELS.find((m) => m.id === debate.model_for.id);
-          const modelAgainst = MODELS.find(
-            (m) => m.id === debate.model_against.id
-          );
+          const modelAgainst = MODELS.find((m) => m.id === debate.model_against.id);
           const winnerSide = debate.score.winner_side;
-          const winnerName =
-            winnerSide === "FOR"
-              ? debate.model_for.display_name
-              : winnerSide === "AGAINST"
-              ? debate.model_against.display_name
-              : "Tie";
 
           return (
             <Link
               href={`/debate/${debate.debate_id}`}
               key={debate.debate_id}
-              className="block rounded-lg border border-border/40 bg-card/30 p-3 hover:bg-card/50 transition-colors"
+              className="block rounded-md border border-border bg-card p-3 hover:bg-muted/50 transition-colors"
             >
-              {/* Header */}
               <div className="flex items-center gap-2 mb-2">
                 <Badge variant="outline" className="text-[9px] px-1.5 py-0 shrink-0">
-                  {debate.score.initial.for}→{debate.score.final.for} FOR
+                  {debate.score.initial.for}&rarr;{debate.score.final.for} FOR
                 </Badge>
                 <Badge variant="outline" className="text-[9px] px-1.5 py-0 shrink-0">
-                  {debate.score.initial.against}→{debate.score.final.against} AGT
+                  {debate.score.initial.against}&rarr;{debate.score.final.against} AGT
                 </Badge>
                 {debate.metadata?.elapsed_seconds && (
                   <span className="text-[9px] text-muted-foreground flex items-center gap-0.5 ml-auto">
@@ -59,25 +51,18 @@ export function RecentDebates({ debates }: Props) {
                 )}
               </div>
 
-              {/* Matchup */}
               <div className="flex items-center gap-2 text-xs">
                 <div className="flex items-center gap-1.5 flex-1 min-w-0">
-                  <div
-                    className="w-1.5 h-4 rounded-full shrink-0"
-                    style={{
-                      backgroundColor:
-                        PROVIDER_COLORS[modelFor?.provider || ""] || "#888",
-                    }}
-                  />
+                  <ProviderIcon provider={modelFor?.provider || ""} size={16} className="shrink-0" />
                   <span
                     className={`truncate ${
-                      winnerSide === "FOR" ? "font-bold text-blue-400" : ""
+                      winnerSide === "FOR" ? "font-semibold text-foreground" : "text-muted-foreground"
                     }`}
                   >
                     {debate.model_for.display_name}
                   </span>
                   {winnerSide === "FOR" && (
-                    <Trophy className="h-3 w-3 text-yellow-400 shrink-0" />
+                    <Trophy className="h-3 w-3 text-yellow-600 shrink-0" />
                   )}
                 </div>
 
@@ -85,26 +70,19 @@ export function RecentDebates({ debates }: Props) {
 
                 <div className="flex items-center gap-1.5 flex-1 min-w-0 justify-end">
                   {winnerSide === "AGAINST" && (
-                    <Trophy className="h-3 w-3 text-yellow-400 shrink-0" />
+                    <Trophy className="h-3 w-3 text-yellow-600 shrink-0" />
                   )}
                   <span
                     className={`truncate ${
-                      winnerSide === "AGAINST" ? "font-bold text-red-400" : ""
+                      winnerSide === "AGAINST" ? "font-semibold text-foreground" : "text-muted-foreground"
                     }`}
                   >
                     {debate.model_against.display_name}
                   </span>
-                  <div
-                    className="w-1.5 h-4 rounded-full shrink-0"
-                    style={{
-                      backgroundColor:
-                        PROVIDER_COLORS[modelAgainst?.provider || ""] || "#888",
-                    }}
-                  />
+                  <ProviderIcon provider={modelAgainst?.provider || ""} size={16} className="shrink-0" />
                 </div>
               </div>
 
-              {/* Topic snippet */}
               <p className="text-[10px] text-muted-foreground mt-1.5 line-clamp-1 italic">
                 {debate.motion}
               </p>
