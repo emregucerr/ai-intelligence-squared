@@ -3,6 +3,7 @@
 import { useState, useRef, useCallback } from "react";
 import { Navbar } from "@/components/Navbar";
 import { MODELS, DEBATE_TOPICS, PROVIDER_COLORS } from "@/lib/models";
+import { runDebate, Vote, TranscriptEntry, DebateScore } from "@/lib/debate-engine";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -23,29 +24,13 @@ import {
   ArrowLeftRight,
 } from "lucide-react";
 
-interface Vote {
-  stance: string;
-  confidence: number;
-  reasoning: string;
-  judge_model_id: string;
-  persona: string;
-}
-
-interface TranscriptEntry {
-  phase: string;
-  speaker: string;
-  side: string;
-  content: string;
-  type?: string;
-}
-
 interface DebateState {
   status: "idle" | "running" | "complete" | "error";
   phase: string;
   transcript: TranscriptEntry[];
   initialVotes: Vote[];
   finalVotes: Vote[];
-  score: Record<string, unknown> | null;
+  score: DebateScore | null;
   error?: string;
 }
 
@@ -86,8 +71,8 @@ export default function ArenaPage() {
     }
 
     const useTopic = customTopic || topic;
-    const modelFor = MODELS.find((m) => m.id === modelForId)!;
-    const modelAgainst = MODELS.find((m) => m.id === modelAgainstId)!;
+    const mFor = MODELS.find((m) => m.id === modelForId)!;
+    const mAgainst = MODELS.find((m) => m.id === modelAgainstId)!;
 
     abortRef.current = new AbortController();
 
@@ -101,69 +86,18 @@ export default function ArenaPage() {
     });
 
     try {
-      const response = await fetch("/api/debate", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          model_for: modelFor,
-          model_against: modelAgainst,
-          motion: useTopic,
-          api_key: apiKey,
-        }),
-        signal: abortRef.current.signal,
-      });
-
-      if (!response.ok) {
-        const err = await response.json();
-        throw new Error(err.error || "Failed to start debate");
-      }
-
-      const reader = response.body?.getReader();
-      const decoder = new TextDecoder();
-
-      if (!reader) throw new Error("No response stream");
-
-      let buffer = "";
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        buffer += decoder.decode(value, { stream: true });
-        const lines = buffer.split("\n\n");
-        buffer = lines.pop() || "";
-
-        for (const line of lines) {
-          if (!line.startsWith("data: ")) continue;
-          const data = line.slice(6);
-          if (data === "[DONE]") continue;
-
-          try {
-            const event = JSON.parse(data);
-            setDebate((prev) => {
-              const next = { ...prev };
-              if (event.phase) next.phase = event.phase;
-
-              if (event.type === "transcript") {
-                next.transcript = [...prev.transcript, event.entry];
-              } else if (event.type === "initial_votes") {
-                next.initialVotes = event.votes;
-              } else if (event.type === "final_votes") {
-                next.finalVotes = event.votes;
-              } else if (event.type === "score") {
-                next.score = event.score;
-                next.status = "complete";
-              } else if (event.type === "error") {
-                next.error = event.message;
-                next.status = "error";
-              }
-
-              return next;
-            });
-          } catch {
-            // skip malformed events
-          }
-        }
-      }
+      await runDebate(apiKey, mFor, mAgainst, useTopic, (event) => {
+        setDebate((prev) => {
+          const next = { ...prev };
+          if ("phase" in event && event.type === "phase") next.phase = event.phase;
+          if (event.type === "transcript") next.transcript = [...prev.transcript, event.entry];
+          else if (event.type === "initial_votes") next.initialVotes = event.votes;
+          else if (event.type === "final_votes") next.finalVotes = event.votes;
+          else if (event.type === "score") { next.score = event.score; next.status = "complete"; }
+          else if (event.type === "error") { next.error = event.message; next.status = "error"; }
+          return next;
+        });
+      }, abortRef.current.signal);
     } catch (error) {
       if ((error as Error).name === "AbortError") return;
       setDebate((prev) => ({
@@ -203,8 +137,8 @@ export default function ArenaPage() {
                 OpenRouter API Key
               </Label>
               <p className="text-xs text-muted-foreground mb-3">
-                Your key is stored in your browser only and sent directly to OpenRouter.
-                Never stored on our servers.
+                Your key is stored in your browser only and sent directly to OpenRouter from your browser.
+                It never touches any server.
               </p>
               <div className="flex gap-2">
                 <div className="relative flex-1">
@@ -496,22 +430,22 @@ export default function ArenaPage() {
                     Winner:{" "}
                     <span
                       className={
-                        (debate.score as Record<string, string>).winner_side === "FOR"
+                        debate.score.winner_side === "FOR"
                           ? "text-blue-400"
                           : "text-red-400"
                       }
                     >
-                      {(debate.score as Record<string, string>).winner_side === "FOR"
+                      {debate.score.winner_side === "FOR"
                         ? modelFor?.display_name
                         : modelAgainst?.display_name}
                     </span>
                   </h3>
                   <p className="text-sm text-muted-foreground">
-                    {(debate.score as Record<string, string>).winner_side} side won with{" "}
+                    {debate.score.winner_side} side won with{" "}
                     Δ{" "}
-                    {(debate.score as Record<string, string>).winner_side === "FOR"
-                      ? (debate.score as Record<string, number>).delta_for
-                      : (debate.score as Record<string, number>).delta_against}
+                    {debate.score.winner_side === "FOR"
+                      ? debate.score.delta_for
+                      : debate.score.delta_against}
                     % vote conversion
                   </p>
                 </div>
