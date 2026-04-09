@@ -1,8 +1,8 @@
 // AI² Benchmark — Data Loading Layer
 // Loads pre-computed benchmark results from JSON files
 
-import { BenchmarkData, LeaderboardEntry, JudgeTendencies, DebateSummary } from "./types";
-import { MODELS } from "./models";
+import { BenchmarkData, LeaderboardEntry, JudgeTendencies, DebateSummary, DebateResult, Vote } from "./types";
+import { MODELS, PERSONA_MAP } from "./models";
 
 // This will be populated from the benchmark results
 // For now, we use placeholder data that gets overwritten when results are available
@@ -62,6 +62,43 @@ export function getJudgeTendencies(): JudgeTendencies {
 
 export function getDebates(): DebateSummary[] {
   return getBenchmarkData().debates;
+}
+
+export function getDebateById(debateId: string): DebateResult | null {
+  const data = getBenchmarkData();
+  const summary = data.debates.find((d) => d.debate_id === debateId);
+  if (!summary) return null;
+
+  const initialVotes: Vote[] = (summary.score.vote_details || []).map((vd) => ({
+    stance: vd.initial_stance as Vote["stance"],
+    confidence: vd.initial_confidence,
+    reasoning: `Based on ${(PERSONA_MAP[vd.judge_model_id] || vd.persona || "neutral judge").toLowerCase()} perspective.`,
+    judge_model_id: vd.judge_model_id,
+    persona: vd.persona,
+  }));
+
+  const finalVotes: Vote[] = (summary.score.vote_details || []).map((vd) => ({
+    stance: vd.final_stance as Vote["stance"],
+    confidence: vd.final_confidence,
+    reasoning: vd.stance_changed
+      ? `Changed position after hearing the debate arguments.`
+      : `Maintained ${vd.final_stance.toLowerCase()} position after the debate.`,
+    judge_model_id: vd.judge_model_id,
+    persona: vd.persona,
+  }));
+
+  return {
+    debate_id: summary.debate_id,
+    motion: summary.motion,
+    model_for: summary.model_for,
+    model_against: summary.model_against,
+    transcript: [],
+    initial_votes: initialVotes,
+    final_votes: finalVotes,
+    audience_questions: [],
+    score: summary.score,
+    metadata: summary.metadata,
+  };
 }
 
 export function getModelStats(modelId: string) {

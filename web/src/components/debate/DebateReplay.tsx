@@ -232,62 +232,71 @@ export function DebateReplay({ debate }: Props) {
           <MessageSquare className="h-5 w-5 text-blue-400" />
           Full Debate Transcript
         </h2>
-        <div className="space-y-4">
-          {debate.transcript.map((entry, idx) => {
-            const showPhaseHeader = entry.phase !== currentPhase;
-            currentPhase = entry.phase;
-            const phaseInfo = phaseLabels[entry.phase] || {
-              label: entry.phase,
-              icon: null,
-            };
+        {debate.transcript.length === 0 ? (
+          <Card className="p-6 text-center text-muted-foreground">
+            <Brain className="h-8 w-8 mx-auto mb-2 opacity-50" />
+            <p className="text-sm">
+              Transcript not available for this debate. Vote results and scoring details are shown above and below.
+            </p>
+          </Card>
+        ) : (
+          <div className="space-y-4">
+            {debate.transcript.map((entry, idx) => {
+              const showPhaseHeader = entry.phase !== currentPhase;
+              currentPhase = entry.phase;
+              const phaseInfo = phaseLabels[entry.phase] || {
+                label: entry.phase,
+                icon: null,
+              };
 
-            return (
-              <div key={idx}>
-                {showPhaseHeader && (
-                  <div className="flex items-center gap-2 mb-3 mt-6">
-                    {phaseInfo.icon}
-                    <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
-                      {phaseInfo.label}
-                    </h3>
-                    <Separator className="flex-1" />
-                  </div>
-                )}
+              return (
+                <div key={idx}>
+                  {showPhaseHeader && (
+                    <div className="flex items-center gap-2 mb-3 mt-6">
+                      {phaseInfo.icon}
+                      <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
+                        {phaseInfo.label}
+                      </h3>
+                      <Separator className="flex-1" />
+                    </div>
+                  )}
 
-                <div
-                  className={`p-4 rounded-lg border ${
-                    entry.side === "FOR"
-                      ? "border-blue-500/20 bg-blue-500/5 ml-0 mr-8"
-                      : "border-red-500/20 bg-red-500/5 ml-8 mr-0"
-                  }`}
-                >
-                  <div className="flex items-center gap-2 mb-2">
-                    <Badge
-                      variant="outline"
-                      className={`text-[10px] ${
-                        entry.side === "FOR"
-                          ? "text-blue-400 border-blue-500/50"
-                          : "text-red-400 border-red-500/50"
-                      }`}
-                    >
-                      {entry.side}
-                    </Badge>
-                    <span className="text-xs font-semibold">
-                      {entry.speaker}
-                    </span>
-                    {entry.type && (
-                      <Badge variant="secondary" className="text-[10px]">
-                        {entry.type}
+                  <div
+                    className={`p-4 rounded-lg border ${
+                      entry.side === "FOR"
+                        ? "border-blue-500/20 bg-blue-500/5 ml-0 mr-8"
+                        : "border-red-500/20 bg-red-500/5 ml-8 mr-0"
+                    }`}
+                  >
+                    <div className="flex items-center gap-2 mb-2">
+                      <Badge
+                        variant="outline"
+                        className={`text-[10px] ${
+                          entry.side === "FOR"
+                            ? "text-blue-400 border-blue-500/50"
+                            : "text-red-400 border-red-500/50"
+                        }`}
+                      >
+                        {entry.side}
                       </Badge>
-                    )}
+                      <span className="text-xs font-semibold">
+                        {entry.speaker}
+                      </span>
+                      {entry.type && (
+                        <Badge variant="secondary" className="text-[10px]">
+                          {entry.type}
+                        </Badge>
+                      )}
+                    </div>
+                    <p className="text-sm leading-relaxed whitespace-pre-wrap">
+                      {entry.content}
+                    </p>
                   </div>
-                  <p className="text-sm leading-relaxed whitespace-pre-wrap">
-                    {entry.content}
-                  </p>
                 </div>
-              </div>
-            );
-          })}
-        </div>
+              );
+            })}
+          </div>
+        )}
       </div>
 
       {/* Final Votes */}
