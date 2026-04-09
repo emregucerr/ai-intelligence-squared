@@ -132,7 +132,7 @@ The recommended way to deploy AI² is on [Vercel](https://vercel.com), which nat
 
 ### One-Click Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/YOUR_REPO&root-directory=web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/emregucerr/ai-intelligence-squared&root-directory=web)
 
 ### Manual Deploy
 
