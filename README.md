@@ -165,7 +165,7 @@ The recommended way to deploy AI² is on [Vercel](https://vercel.com), which nat
 
 The `/api/debate` route is a serverless function that orchestrates live debates via SSE streaming. It makes many sequential calls to the OpenRouter API, so it requires an extended execution timeout:
 
-- **`maxDuration: 300`** (5 minutes) is configured in both `vercel.json` and as a route segment export. This requires a **Vercel Pro plan** or higher. On the free Hobby plan, the max is 60 seconds, which is too short for a full debate.
+- **`maxDuration: 800`** (~13 minutes) is configured in both `vercel.json` and as a route segment export. This requires a **Vercel Pro plan** or higher. On the free Hobby plan, the max is 60 seconds, which is too short for a full debate.
 - The route uses `runtime: "nodejs"` and `dynamic: "force-dynamic"` to ensure it always runs as a serverless function, never statically cached.
 - No environment variables are needed on Vercel — the user's OpenRouter API key is passed per-request from the browser and never stored server-side.
 
@@ -175,7 +175,7 @@ The `/api/debate` route is a serverless function that orchestrates live debates 
 |---------|-------------|-----|------------|
 | Static pages | ✅ | ✅ | ✅ |
 | Live Arena (short debates) | ⚠️ 60s limit | ✅ | ✅ |
-| Live Arena (full debates) | ❌ Too slow | ✅ 300s | ✅ 900s |
+| Live Arena (full debates) | ❌ Too slow | ✅ 800s | ✅ 900s |
 
 ## 🔬 Unique Analytics
 

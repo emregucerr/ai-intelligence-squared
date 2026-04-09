@@ -1,7 +1,7 @@
 import { NextRequest } from "next/server";
 
 export const runtime = "nodejs";
-export const maxDuration = 300;
+export const maxDuration = 800;
 export const dynamic = "force-dynamic";
 
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
