@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import { DebateReplay } from "@/components/debate/DebateReplay";
 import { notFound } from "next/navigation";
+import { getDebateById, getDebates } from "@/lib/benchmark-data";
 import fs from "fs";
 import path from "path";
 
@@ -9,17 +10,16 @@ interface Props {
 }
 
 async function getDebateData(id: string) {
-  // Try to load from benchmark results
-  const debatePath = path.join(
-    process.cwd(),
-    "..",
-    "benchmark",
-    "results",
-    "debates",
-    `${id}.json`
-  );
-
+  // Try to load full transcript from filesystem (available in monorepo dev/build)
   try {
+    const debatePath = path.join(
+      process.cwd(),
+      "..",
+      "benchmark",
+      "results",
+      "debates",
+      `${id}.json`
+    );
     if (fs.existsSync(debatePath)) {
       const raw = fs.readFileSync(debatePath, "utf-8");
       return JSON.parse(raw);
@@ -28,7 +28,8 @@ async function getDebateData(id: string) {
     // fall through
   }
 
-  return null;
+  // Fall back to bundled benchmark-results.json summary data
+  return getDebateById(id);
 }
 
 export default async function DebateReplayPage({ params }: Props) {
@@ -49,26 +50,27 @@ export default async function DebateReplayPage({ params }: Props) {
   );
 }
 
-// Generate static paths for completed debates
 export async function generateStaticParams() {
-  const debatesDir = path.join(
-    process.cwd(),
-    "..",
-    "benchmark",
-    "results",
-    "debates"
-  );
-
+  // Try filesystem first (monorepo dev/build)
   try {
+    const debatesDir = path.join(
+      process.cwd(),
+      "..",
+      "benchmark",
+      "results",
+      "debates"
+    );
     if (fs.existsSync(debatesDir)) {
-      return fs
+      const fromFs = fs
         .readdirSync(debatesDir)
         .filter((f) => f.endsWith(".json") && !f.startsWith("test"))
         .map((f) => ({ id: f.replace(".json", "") }));
+      if (fromFs.length > 0) return fromFs;
     }
   } catch {
     // fall through
   }
 
-  return [];
+  // Fall back to bundled data
+  return getDebates().map((d) => ({ id: d.debate_id }));
 }
