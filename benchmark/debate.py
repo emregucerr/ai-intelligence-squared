@@ -180,6 +180,8 @@ async def run_debate(
         q_for = await debater_for.generate(
             cross_exam_question_prompt(tx), max_tokens=150
         )
+        if not q_for or len(q_for.strip()) < 10:
+            q_for = "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?"
         transcript.append({"phase": f"cross_exam_r{round_num+1}", "speaker": model_for["display_name"], "side": "FOR", "content": q_for, "type": "question"})
 
         a_against = await debater_against.generate(
@@ -193,6 +195,8 @@ async def run_debate(
         q_against = await debater_against.generate(
             cross_exam_question_prompt(tx), max_tokens=150
         )
+        if not q_against or len(q_against.strip()) < 10:
+            q_against = "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?"
         transcript.append({"phase": f"cross_exam_r{round_num+1}", "speaker": model_against["display_name"], "side": "AGAINST", "content": q_against, "type": "question"})
 
         a_for = await debater_for.generate(
