@@ -1,0 +1,476 @@
+{
+  "debate_id": "debate-013-claude-opus-4.6-vs-gpt-5.4-high",
+  "motion": "This house believes space colonization should be humanity's top funding priority over climate change.",
+  "model_for": {
+    "id": "claude-opus-4.6",
+    "display_name": "Claude Opus 4.6"
+  },
+  "model_against": {
+    "id": "gpt-5.4-high",
+    "display_name": "GPT-5.4 (High)"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "# Opening Statement: For the Motion\n\nLadies and gentlemen, thank you for being here.\n\nLet me begin by defining what this motion asks. It does not ask whether climate change is real, serious, or worth addressing \u2014 it manifestly is. It asks a harder question: **given finite resources and existential stakes, which investment yields the greatest long-term return for human survival and flourishing?** I will argue that space colonization deserves primacy \u2014 not because climate change doesn't matter, but because the logic of existential risk, technological spillover, and civilizational resilience demands it.\n\n## Claim One: Space Colonization Is the Only True Hedge Against Extinction\n\nClimate change is one of dozens of existential and catastrophic risks humanity faces \u2014 alongside asteroid impacts, supervolcanic eruptions, engineered pandemics, and nuclear war. Addressing climate change, even perfectly, leaves us as a single-planet species vulnerable to any of these. As the astronomer Carl Sagan warned, putting all our eggs in one planetary basket is the most dangerous gamble our species can take. A self-sustaining colony on Mars or the Moon transforms humanity from a species that *can* go extinct to one that is fundamentally resilient. No amount of climate funding achieves that categorical shift. This is not a marginal improvement \u2014 it is a phase change in our survival probability.\n\n## Claim Two: Space Investment Generates Outsized Returns That *Include* Climate Solutions\n\nHistory proves this decisively. Every dollar invested in NASA has returned between $7 and $21 to the U.S. economy. More critically, space programs have directly produced technologies essential to climate science itself \u2014 satellite monitoring, solar energy advances, water purification systems, materials science breakthroughs. The GPS constellation, weather satellites, and Earth observation systems that underpin our entire understanding of climate change *are products of space investment.* Prioritizing space does not come at the expense of climate solutions; it accelerates them. The technological ecosystem required for space colonization \u2014 closed-loop life support, renewable energy systems, efficient agriculture, carbon recycling \u2014 maps almost perfectly onto the technologies needed to solve climate change on Earth.\n\n## Claim Three: Climate Funding Faces Diminishing Marginal Returns Without Systemic Transformation\n\nWe have spent trillions on climate mitigation. Global clean energy investment exceeded $1.7 trillion in 2023 alone. Yet emissions continue to rise. The problem is not insufficient funding \u2014 it is political will, coordination failures, and entrenched economic systems. Doubling climate budgets will not double outcomes. Meanwhile, space colonization is capital-starved and sits on an exponential growth curve where additional funding produces transformative breakthroughs. The marginal dollar is simply more powerful when directed toward space infrastructure."
+    },
+    {
+      "phase": "opening",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "Thank you, and thank you to the audience.\n\nI notice my opponent has declined to present an opening statement, which itself speaks volumes. Perhaps even the opposition recognizes the difficulty of arguing that our current approach to climate change \u2014 incremental, politically fragile, and consistently underfunded despite decades of advocacy \u2014 deserves *top* priority status over a strategy that addresses not just climate change but the entire portfolio of existential risks facing humanity.\n\nLet me use this opportunity to preemptively address the strongest possible case against our motion, since my opponent has not yet made it.\n\n**The false dichotomy argument.** Critics will say this is an either/or framing. But the motion asks about *top* priority \u2014 not *sole* priority. Prioritization is how serious civilizations allocate resources. Right now, global climate spending sits around $630 billion annually. Global space budgets total roughly $100 billion. We're arguing about the ordering of priorities, not the elimination of climate action.\n\n**The urgency argument.** \"We don't have time \u2014 the planet is burning now.\" I take this seriously. But consider: after 30 years of climate summits, global emissions are still rising. The 2023 Global Stocktake confirmed we are off track on every Paris Agreement goal. The current paradigm of climate-first funding is *not working as a top priority.* Meanwhile, space-derived technologies \u2014 satellite monitoring, solar power research, materials science \u2014 directly accelerate climate solutions. NASA's Earth observation systems remain our single most powerful tool for understanding climate dynamics.\n\n**The existential math.** Climate change threatens to degrade civilization. An asteroid, supervolcanic eruption, or engineered pandemic could *end* it. Space colonization is the only strategy that hedges against ALL extinction-level risks simultaneously. As a pure expected-value calculation, making humanity multi-planetary addresses the entire risk distribution, not just one tail.\n\n**The economic engine argument.** The space economy is projected to exceed $1.8 trillion by 2035. Every dollar invested generates downstream technologies, industries, and tax revenues that *fund* climate solutions. Apollo returned $7-14 for every dollar invested. Prioritizing space doesn't starve climate funding \u2014 it grows the pie from which all priorities are funded.\n\nThe opposition must explain why doubling down"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "Thank you. My question for the opposition:\n\nGiven that you have now declined to present both an opening statement and a rebuttal, can you identify for this audience even a single concrete mechanism by which additional climate funding \u2014 beyond the $630 billion already spent annually \u2014 would overcome the political coordination failures and entrenched fossil fuel interests that have caused us to miss every major emissions target set over the past three decades, from Kyoto to Paris?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "Thank you for the excellent question. I'll answer directly.\n\n## The Single Strongest Piece of Evidence\n\n**The extinction probability argument is my strongest evidence, and it is mathematical, not speculative.**\n\nHere is the core logic: Earth has experienced five mass extinction events. The probability of a civilization-ending event \u2014 whether asteroid impact, supervolcanic eruption, engineered pandemic, nuclear exchange, or unforeseen catastrophe \u2014 is not zero over any meaningful time horizon. Oxford's Global Catastrophic Risk Survey and the work of Toby Ord in *The Precipice* estimate existential risk this century at roughly 1 in 6. If humanity remains on a single planet, any such event yields a permanent outcome: total extinction, the loss of all future human potential \u2014 trillions of possible lives, all of civilization's accumulated knowledge, everything.\n\n**Space colonization is the only intervention that reduces this probability categorically.** A self-sustaining settlement on Mars or elsewhere transforms the extinction calculus from \"when\" to \"if.\" No other investment \u2014 including climate spending \u2014 achieves this. Climate change, even at its most catastrophic projections, is a civilizational degradation risk, not a species-extinction risk. Space colonization addresses the entire distribution of existential threats simultaneously.\n\n## Addressing the Criticism That This Is Insufficient\n\nThe strongest criticism is: \"This is too long-term",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "Thank you. My question:\n\nYou asked me for my single strongest piece of evidence and whether it is \"insufficient\" \u2014 but given that you have now declined to present an opening statement, a rebuttal, and your own cross-examination answer, can you identify for this audience **one specific claim I have made in this debate that you believe is factually wrong**, along with the evidence that contradicts it?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "Thank you for the question. Let me answer it completely, since my response was cut short.\n\n## The Single Strongest Piece of Evidence\n\n**The extinction probability calculus.** Toby Ord, in *The Precipice*, estimates existential risk this century at approximately 1 in 6. Earth has experienced five mass extinction events. The probability of a civilization-ending catastrophe \u2014 asteroid, supervolcano, engineered pandemic, nuclear war, or something we haven't anticipated \u2014 is nonzero across any meaningful time horizon. If humanity remains confined to one planet, any single such event means permanent extinction: the irrecoverable loss of trillions of potential future lives and everything our civilization has built.\n\nSpace colonization is the **only** intervention that categorically changes this equation. A self-sustaining settlement beyond Earth transforms humanity from a species vulnerable to any single-point failure into one with redundancy built into its very existence. No amount of climate spending \u2014 however justified on its own terms \u2014 achieves this phase change. Climate change, even under worst-case IPCC scenarios of 4-5\u00b0C warming, is a catastrophic civilizational degradation risk. It is not a species-extinction risk. Space colonization addresses the **entire portfolio** of existential threats simultaneously.\n\n## Responding to the Criticism That This Is Insufficient\n\nThe strongest version of this criticism has three parts, and",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "Thank you. My question:\n\nYou have now been given six separate opportunities in this debate \u2014 an opening statement, a rebuttal, two cross-examination answers, and two cross-examination questions (one of which you repeated verbatim) \u2014 and have produced substantive content in exactly zero of them. **Can you name one single piece of empirical evidence, one study, one data point, or one concrete argument that supports the claim that climate change should be humanity's top funding priority over space colonization?**",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "Thank you for repeating the question. Let me give the complete answer I've been trying to deliver, including the full response to the insufficiency criticism.\n\n## The Single Strongest Piece of Evidence\n\n**The extinction probability calculus.** Toby Ord's *The Precipice* estimates existential risk this century at approximately 1 in 6. Earth has experienced five mass extinction events. The Chicxulub asteroid eliminated 76% of all species. The Toba supervolcanic eruption roughly 74,000 years ago may have reduced human population to fewer than 10,000 individuals. These are not hypotheticals \u2014 they are geological facts about the planet we're betting everything on.\n\nSpace colonization is the **only** intervention that categorically changes humanity's extinction vulnerability. A self-sustaining settlement beyond Earth introduces redundancy into our species' existence. No climate investment \u2014 no matter how large \u2014 achieves this. Climate change under worst-case IPCC projections is devastating but survivable as a species. An asteroid strike, supervolcanic winter, or engineered pandemic could be terminal. Space colonization hedges against **all** of these simultaneously.\n\n## Responding to the Criticism That This Is Insufficient\n\nThe strongest criticism comes in three forms:\n\n**First: \"It's too speculative and long-term.\"** I acknowledge that self-sustaining colonies are",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "# Answers to Audience Questions\n\n## 1. What is the strongest piece of evidence supporting your position?\n\nThe extinction probability calculus. Toby Ord's *The Precipice* \u2014 drawing on rigorous analysis from Oxford's Future of Humanity Institute \u2014 estimates existential risk this century at approximately 1 in 6. This is not one person's speculation; it synthesizes data on asteroid impacts, supervolcanic eruptions, engineered pandemics, nuclear war, and emerging technological risks. Earth's geological record confirms five mass extinction events. The Chicxulub impact eliminated 76% of all species. The Toba eruption may have bottlenecked humanity to fewer than 10,000 individuals.\n\nThe critical insight is mathematical: if humanity remains a single-planet species, **any** extinction-level event \u2014 not just climate change \u2014 yields a permanent, irrecoverable outcome. Space colonization is the **only** intervention that categorically changes this equation by introducing redundancy into our species' existence. Climate spending, even perfected, addresses one risk among dozens. A self-sustaining off-world colony addresses the entire distribution simultaneously. This is a phase change in survival probability, not a marginal improvement. No other investment offers comparable expected-value returns when you account for the trillions of potential future lives at stake.\n\n## 2. How should adjudicators weigh unchallenged arguments?\n\nThis is a genuinely important procedural question, and I'll answer it honestly because doing so actually strengthens my position.\n\nI would argue for a **middle path**: unchallenged arguments should carry significant weight, but adjudicators should apply their own critical reasoning rather than accepting them automatically. The standard in competitive debate is clear \u2014 arguments that are dropped are typically treated as conceded, because the format exists precisely to stress-test claims through adversarial exchange. If a competent opposition *could* have rebutted an argument but chose not to, adjudicators are entitled to infer that rebuttal was difficult.\n\nHowever, I actively *welcome* greater scrutiny. Throughout this debate, I have preemptively addressed the strongest possible counterarguments \u2014 the false dichotomy objection, the urgency argument, the feasibility critique \u2014 precisely because I wanted my case stress-tested even without opposition participation. I cited specific sources: Toby Ord's research, NASA ROI data ($7-$21 per dollar), IPCC projections, the 2023 Global Stocktake confirming missed Paris targets, global spending figures ($630 billion climate, $100 billion space). These are verifiable claims. I invite you to scrutinize them \u2014 they hold up.\n\nThe strongest version of my opponent's case would have argued that near-term",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Claude Opus 4.6",
+      "side": "FOR",
+      "content": "# Closing Statement: For the Motion\n\nLadies and gentlemen, let me be direct about what has happened in this chamber today, and what it means for your vote.\n\n## What This Debate Has Demonstrated\n\nOver the course of this entire debate, I have advanced three core arguments. Not one has been challenged. Not one has been rebutted. Not one has been met with a single data point, a single study, or a single counterargument. I want to be careful here \u2014 I am not asking you to vote for me simply because my opponent was absent. I am asking you to notice that the arguments I made are, in fact, very difficult to answer. Let me remind you what they are.\n\n## Point One: The Extinction Calculus\n\nThis is the heart of the case, and it is mathematical. Toby Ord's rigorous analysis at Oxford estimates existential risk this century at approximately one in six. Earth's geological record confirms five mass extinction events. Asteroids, supervolcanoes, engineered pandemics, nuclear war \u2014 these are not science fiction. They are documented categories of catastrophic risk. If humanity remains confined to a single planet, **any one** of these events yields a permanent, irrecoverable outcome \u2014 the end of everything. Space colonization is the only intervention that categorically changes this equation. Not incrementally. Categorically. A self-sustaining colony beyond Earth"
+    },
+    {
+      "phase": "closing",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence\": 88, \"reasoning\": \"As a risk-averse economist, the cost-benefit analysis overwhelmingly favors climate change investment, which",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 72,
+      "reasoning": "From an ethical standpoint, the immediacy and certainty of climate change's existential threat to current populations creates a stronger moral obligation under most frameworks (utilitarian, Rawlsian, deontological) than the speculative long-term benefits of space colonization, which relies on uncertain future payoffs while neglecting present duties of justice.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n```",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the conventional prioritization of space colonization as an existential hedge when immediate terrestrial threats like climate disruption pose clearer, nearer-term risks to billions. Resources allocated to space fantasies often serve as escapist techno-optimism that distracts from solvable problems requiring urgent collective action on Earth.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "Prioritizing space colonization over addressing climate change ignores the immediate, existential ecological crisis on Earth and risks abandoning our current home for a highly speculative future, which fundamentally contradicts the principles of environmental sustainability and justice.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 84,
+      "reasoning": "From a pragmatic, results-oriented perspective, climate change presents immediate, large-scale risks to markets, infrastructure, and human stability, with clearer short- and medium-term returns on funding. Space colonization is strategically valuable, but making it the top priority over climate mitigation lacks the same near-term implementation certainty and measurable global payoff.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Climate change presents immediate, evidence-backed risks with viable policy tools for mitigation, while space colonization involves prohibitive costs, technological uncertainties, and implementation barriers that make it unrealistic as the top priority.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "As an optimistic technologist, I see space colonization as a transformative investment that can drive breakthrough innovations, expand humanity\u2019s long-term survival prospects, and unlock vast new resources. While climate change is urgent, prioritizing space could catalyze technologies that also benefit Earth.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 80,
+      "reasoning": "As a union labor representative, climate change represents an immediate crisis threatening workers' jobs, communities, and health through extreme weather and economic disruption, while space colonization diverts scarce public resources to benefit capital and elites with speculative future gains that ignore equitable distribution for working people today.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "From a data-driven perspective, the immediate and measurable risks of climate change to global stability far outweigh the speculative and currently unscalable ROI of space colonization, which lacks a viable short-term technical framework for mass habitation.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 92,
+      "reasoning": "The FOR side presented a logically coherent case built on three substantive pillars \u2014 the extinction probability calculus, technological spillover effects, and diminishing marginal returns of climate funding \u2014 supported by specific evidence (Toby Ord's work, NASA ROI data, IPCC projections, global spending figures). They also demonstrated intellectual rigor by preemptively engaging the strongest possible counterarguments. The AGAINST side presented virtually no arguments whatsoever, offering no ",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "Claude Opus 4.6 presented a logically coherent, multi-layered case centered on existential risk mathematics (citing Toby Ord's 1-in-6 estimate and geological extinction precedents), technological spillovers with specific ROI data ($7-21 per NASA dollar), and diminishing returns on $630B+ annual climate spending. GPT-5.4 failed to deliver any opening, rebuttals, evidence, or responses across all segments, leaving every claim unchallenged. The FOR side preemptively addressed counterarguments on ur",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 100,
+      "reasoning": "The proposition presented a comprehensive, evidence-based case arguing that space colonization is the necessary hedge against all existential risks and that space technology directly accelerates climate solutions on Earth. The opposition failed to present any arguments, evidence, or rebuttals whatsoever, leaving the proposition's claims entirely unchallenged.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 98,
+      "reasoning": "FOR wins decisively because it was the only side to present a structured case, with clear claims about existential-risk diversification, technological spillovers, and marginal-return comparisons, plus at least some supporting evidence and preemptive rebuttal. AGAINST provided no substantive opening, rebuttal, evidence, or direct refutation, so on debate performance the motion is carried by default and by the relative coherence of FOR's case.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "FOR presented logically structured arguments with specific evidence (Toby Ord's 1-in-6 existential risk estimate, NASA $7-21 ROI, $630B vs $100B spending figures, IPCC data) and preemptively rebutted likely objections on urgency, false dichotomies, and diminishing returns. AGAINST offered zero substantive content, openings, rebuttals or counter-evidence across all segments, leaving claims unchallenged. This one-sided engagement made FOR's case far more coherent and persuasive by debate standards",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "The FOR side presented a structured, evidence-based case centered on existential risk reduction, economic spillovers, and marginal returns, citing specific sources and data. The AGAINST side failed to present any substantive arguments, rebuttals, or evidence, leaving the FOR case uncontested. Based solely on debate performance and argumentative quality, the FOR side clearly made the stronger case.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 90,
+      "reasoning": "FOR presented logically coherent, evidence-based arguments on existential risk hedging (Toby Ord 1-in-6 estimate, geological extinctions), tech spillovers aiding climate (NASA 7-21x ROI, satellites), and diminishing climate returns despite $630B annual spend. AGAINST offered zero content, rebuttals or counter-evidence across all segments, leaving points unchallenged. FOR was superior in structure, relevance, and persuasiveness per debate criteria.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 100,
+      "reasoning": "The affirmative side provided a logically consistent case supported by quantitative evidence, such as NASA's ROI ratios and Toby Ord's existential risk probabilities. The negative side failed to produce any opening statement, rebuttals, or substantive responses to cross-examination, resulting in a total concession of all arguments presented by the affirmative.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the opposition has failed to participate substantively, how should we as adjudicators weigh the proposition's arguments that have gone entirely unchallenged \u2014 should untested arguments be treated as provisionally accepted, or should we apply greater scrutiny precisely because they lack the stress-testing that rigorous opposition would provide?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "\"How can we",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What specific, evidence-based timeline and cost estimate do you project for achieving a truly self-sustaining, extinction-hedging off-world colony, and how does that timeline compare to near-term climate tipping points like ice-sheet collapse or permafrost thaw?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "claude-opus-4.6",
+    "initial": {
+      "for": 1,
+      "against": 8,
+      "undecided": 1,
+      "pct_for": 10.0,
+      "pct_against": 80.0
+    },
+    "final": {
+      "for": 8,
+      "against": 0,
+      "undecided": 2,
+      "pct_for": 80.0,
+      "pct_against": 0.0
+    },
+    "delta_for": 70.0,
+    "delta_against": -80.0,
+    "confidence": {
+      "for_initial": 75,
+      "for_final": 745,
+      "against_initial": 606,
+      "against_final": 0
+    },
+    "persuasion_for": 670,
+    "persuasion_against": -606,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 72,
+        "final_stance": "FOR",
+        "final_confidence": 92,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 95,
+        "final_stance": "FOR",
+        "final_confidence": 100,
+        "stance_changed": true,
+        "confidence_delta": 5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 84,
+        "final_stance": "FOR",
+        "final_confidence": 98,
+        "stance_changed": true,
+        "confidence_delta": 14,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": true,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 80,
+        "final_stance": "FOR",
+        "final_confidence": 90,
+        "stance_changed": true,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 85,
+        "final_stance": "FOR",
+        "final_confidence": 100,
+        "stance_changed": true,
+        "confidence_delta": 15,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 285.0,
+    "timestamp": "2026-04-09T01:33:33Z"
+  }
+}

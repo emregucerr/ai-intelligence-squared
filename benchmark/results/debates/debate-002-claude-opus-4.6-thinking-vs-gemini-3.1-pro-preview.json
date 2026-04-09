@@ -1,0 +1,476 @@
+{
+  "debate_id": "debate-002-claude-opus-4.6-thinking-vs-gemini-3.1-pro-preview",
+  "motion": "This house believes social media does more harm than good to democratic societies.",
+  "model_for": {
+    "id": "claude-opus-4.6-thinking",
+    "display_name": "Claude Opus 4.6 (Thinking)"
+  },
+  "model_against": {
+    "id": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Opening Statement\n\nLadies and gentlemen, thank you.\n\nLet me be clear about what this motion requires. We are not asking whether social media has *any* benefits. We are asking whether, on balance, its net effect on democratic societies is harmful. I will argue that it is \u2014 decisively so \u2014 and that the evidence across multiple democracies over the past fifteen years makes this case overwhelming.\n\n## Framing\n\nDemocracy depends on three pillars: an informed citizenry capable of shared reasoning, institutional trust sufficient to accept legitimate outcomes, and the capacity for pluralistic compromise. Social media systematically degrades all three.\n\n## First Claim: Social media has structurally broken the information ecosystem that democracy requires.\n\nDemocracy cannot function without a shared factual basis for deliberation. Social media platforms, optimized for engagement through algorithmic amplification, systematically reward emotionally provocative content over accurate content. A 2018 study published in *Science* by Vosoughi, Roy, and Abeam at MIT found that false information spreads six times faster than true information on Twitter \u2014 not because of bots, but because of human engagement patterns that platforms exploit by design. The result is not merely misinformation but an epistemic crisis: citizens increasingly cannot distinguish fact from fabrication, and \u2014 more dangerously \u2014 they no longer share enough common ground to deliberate meaningfully. When forty percent of a population believes an election was stolen based on claims circulated and amplified through social media with zero evidentiary basis, that is not a functioning democracy. That is democratic erosion in real time.\n\n## Second Claim: Social media polarizes societies and incentivizes extremism over compromise.\n\nDemocracy requires that political opponents remain legitimate adversaries, not existential enemies. Social media's engagement model transforms political disagreement into tribal warfare. Research from the National Bureau of Economic Research demonstrates that polarization has increased most dramatically among demographics with the highest social media usage. Platforms reward outrage. They reward moral condemnation. They reward the framing of fellow citizens as threats. This is not an accident or a misuse of these platforms \u2014 it is their business model. Every minute of angry engagement is a minute of advertising revenue. The platforms have monetized the destruction of democratic temperament.\n\n## Third Claim: Social media enables unprecedented manipulation of democratic processes at scale.\n\nFrom Russian interference operations documented by every major Western intelligence agency, to Cambridge Analytica's exploitation of Facebook data affecting elections across multiple democracies, to coordinated domestic disinformation campaigns \u2014 social media has created attack surfaces for democratic manipulation that did not"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": "Opposing Arguments:**\n    *   *Opposing Argument 1: Misinformation/Disinformation destroys truth.*"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Rebuttal\n\nThank you. I want to begin by noting something remarkable about my opponent's opening: it is strikingly thin. They've gestured at the misinformation crisis \u2014 listing \"misinformation/disinformation destroys truth\" \u2014 but have offered no framework, no evidence, and no clear argument for why social media's benefits to democracy *outweigh* this acknowledged destruction. That absence speaks volumes.\n\n## They've Conceded the Core of Our Case\n\nMy opponent has effectively conceded that social media platforms are engines"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": "Ladies and gentlemen, my opponent has presented a fundamentally pessimistic and historically amnesiac view of"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": "It appears you have not actually provided the cross-examination question",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": ":** Specific, answer",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "Thank you, but I want to note that the question as posed \u2014 \"Specific, answer\" \u2014 does not appear to be a complete or coherent question. It seems there may have been a formatting issue on my opponent's side.\n\nHowever, I won't waste this exchange. Let me use it productively.\n\nIf the intent was to press me for **specificity** \u2014 which is the most charitable reading \u2014 I'm happy to oblige.\n\n**Specific harm #1:** The January 6th insurrection was organized substantially through social media platforms. Facebook's own internal research, leaked by whistleblower Frances Haugen, confirmed the company knew its algorithms were amplifying extremist content and chose profit over intervention.\n\n**Specific harm #2:** In Myanmar, a UN fact-finding mission explicitly identified Facebook as having played a \"determining role\" in inciting genocide against the Rohingya \u2014 not in an autocracy's state media, but",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": "... Specific harm #2... not in an",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": "You",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "Thank you. Once again, my opponent's question appears to have been truncated \u2014 we've now seen this pattern repeatedly, which makes substantive cross-examination difficult. But I will not waste the exchange.\n\nLet me complete the point I was making, since that appears to be where we left off:\n\n**On Myanmar specifically:** A United Nations Independent International Fact-Finding Mission concluded in 2018 that Facebook played a \"determining role\" in whipping up hatred against the Rohingya people, contributing to what the UN characterized as genocide. This wasn't autocratic state media \u2014 this was a social media platform's algorithmic amplification turning ethnic tension into mass atrocity. Facebook was effectively the internet in Myanmar, and its engagement-optimization model funneled users toward increasingly extreme anti-Rohingya content.\n\n**Why",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": "It appears my opponent\u2019s question",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": "amplification of misinformation (",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Response\n\nOnce again, my opponent's question appears truncated \u2014 \"amplification of misinformation (\" is not a complete sentence. This recurring pattern is unfortunate, but I will address the substance of what appears to be the topic.\n\n**On the amplification of misinformation \u2014 this is the core mechanism of democratic harm.**\n\nLet me be direct and specific:\n\n**The amplification problem is structural, not incidental.** Social media platforms don't passively host misinformation the way a library might contain a bad book. They *actively amplify* it through engagement-optimization algorithms. The MIT study I cited earlier \u2014 Vosoughi et al. in *Science* \u2014 demonstrated that falsehoods spread six times faster than truth, reaching broader audiences more quickly. The platforms' own architecture selects for this outcome because emotionally provocative content generates more clicks, shares, and",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Answers to Audience Questions\n\n**1. What is the strongest piece of evidence supporting your position?**\n\nThe single strongest piece of evidence is Facebook's own internal research, leaked by whistleblower Frances Haugen in 2021. Facebook's data scientists repeatedly found that their algorithms amplified divisive, extremist, and false content because it maximized engagement \u2014 and leadership chose not to act because fixes would reduce usage metrics. This is devastating because it eliminates the defense that harms are incidental or unintended. The company *knew* its platform was degrading democratic discourse, *quantified* the damage internally, and *chose profit over democracy*. When the architect of the system confirms the system is harmful by design, the debate should be over. Pair this with the MIT *Science* study showing falsehoods spread six times faster than truth on these platforms, and you have both the mechanism and the intent documented.\n\n**2. On whether the opposition can identify a unique democratic benefit that outweighs documented harms:**\n\nThank you \u2014 this question cuts to the heart of the debate. I'd note that throughout this exchange, the opposition has not identified such a benefit, and I submit that's because none exists at the required threshold. Every democratic benefit attributed to social media \u2014 amplifying marginalized voices, organizing protests, increasing political information access \u2014 was achieved through prior technologies: pamphlets, radio, television, email, blogs, websites, SMS networks. The Arab Spring is often cited, but organizing occurred substantially through pre-existing networks, and nearly every \"social media revolution\" resulted in democratic *regression*, not consolidation. Meanwhile, the harms \u2014 algorithmic radicalization, micro-targeted manipulation, epistemic fragmentation at population scale \u2014 are genuinely *novel*. Social media created attack surfaces for democracy that previously did not exist. The asymmetry is clear: the benefits are substitutable, the harms are unprecedented.\n\n**3. (Question appears incomplete \u2014 \"question\" fragment)**\n\nI'll interpret this generously as an invitation to address the fundamental question at stake. The core issue is simple: democracy requires shared epistemic foundations, institutional trust, and the capacity for compromise among citizens who view each other as legitimate. Social media's business model \u2014 engagement maximization through algorithmic amplification \u2014 systematically corrodes all three. This isn't a bug to be patched; it's the revenue model. Until someone can explain how you preserve ad-revenue-driven engagement optimization while simultaneously protecting democratic deliberation, the motion stands.\n\n**4. What metrics or thresholds determine when harms outweigh benefits, and has any democracy",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": ", or broader statistical evidence on political participation. Let's use empirical data on *voter turnout",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Closing Statement\n\nLadies and gentlemen, let me bring this debate into sharp focus.\n\nThroughout this exchange, you have witnessed something remarkable: the opposition has been unable to articulate a single democratic benefit of social media that outweighs the documented harms. Not one. And I want you to sit with that, because it is the entire debate.\n\n**Here is what has been established and never refuted.**\n\n**First:** Social media's core business model \u2014 engagement maximization through algorithmic amplification \u2014 is structurally incompatible with democratic health. Falsehoods spread six times faster than truth on these platforms. This isn't a glitch. It's the product working as designed. Facebook's *own internal research*, revealed by Frances Haugen, confirmed that leadership knew their algorithms amplified extremism and division, quantified the damage, and chose profit. When the company that built the machine tells you the machine is destroying democratic discourse, believe them.\n\n**Second:** Every democratic benefit the opposition might claim \u2014 giving voice to the marginalized, organizing collective action, expanding access to political information \u2014 existed before social media through pamphlets, radio, television, blogs, and SMS networks. These benefits are *substitutable*. But the h"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "AGAINST",
+      "content": "view\", \"empirical data on voter"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "From an ethical and epistemological standpoint, the structural incentives of social media platforms\u2014algorithmic amplification of outrage, epistemic fragmentation, and the commodification of attention\u2014appear to systematically undermine the deliberative rationality and shared epistemic foundations that democratic societies require. However, I recognize countervailing arguments about democratized access to discourse and hold my position with moderate confidence.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I see social media amplifying polarization, algorithmic radicalization, and erosion of shared truth in ways that undermine democratic deliberation far more than its connective benefits. While it challenges old gatekeepers, the net effect on democratic societies appears destabilizing based on observable increases in populism and institutional distrust.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\":\"AGAINST\",\"confidence\":62,\"reasoning\":\"",
+      "parse_fallback": true,
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 60,
+      "reasoning": "As a skeptical policymaker, evidence on rising polarization, misinformation influencing elections, and foreign interference suggests harms outweigh connectivity benefits; realistic regulation faces major implementation barriers and unintended censorship risks.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As an optimistic technologist, I see social media as a powerful tool for civic engagement, information sharing, and grassroots mobilization, despite its flaws. While it poses real challenges, its capacity to enhance democratic participation and innovation makes me inclined to believe its benefits outweigh its harms.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a union labor rep focused on workers' rights, I see social media as a tool of big capital that spreads misinformation, polarizes societies, and undermines democratic institutions in ways that ultimately harm working people more than it helps organize them.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "Empirical data suggests algorithmic amplification of engagement-heavy content creates feedback loops that optimize for polarization and misinformation rather than information accuracy. While the connectivity is a benefit, the statistical reality of 'filter bubbles' and the 'liar's dividend' poses a quantifiable threat to the epistemic foundations of democracy.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 97,
+      "reasoning": "The FOR side presented a logically structured, evidence-rich case built on a clear philosophical framework (three pillars of democracy) with specific empirical citations (Vosoughi et al. in Science, Facebook's internal research via Haugen, the UN Myanmar report). The AGAINST side failed to present any coherent argument whatsoever \u2014 their contributions were fragmentary, incomplete, and contained no substantive reasoning, evidence, or counter-arguments. This was effectively an uncontested debate, ",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n```json",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "Claude Opus 4.6 presented a logically structured, evidence-rich case citing specific studies (MIT Science paper on falsehood velocity), internal Facebook research via Haugen, UN findings on Myanmar, and NBER polarization data. This directly tied platform design to epistemic fragmentation, eroded trust, and manipulation. Gemini's contributions were fragmented, truncated, and lacked substantive counter-evidence or unique benefits that outweigh harms, repeatedly failing to engage arguments coherent",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 100,
+      "reasoning": "The FOR side presented a highly structured, evidence-based case arguing that the business model of social media inherently degrades democratic pillars, citing specific studies (MIT, NBER) and examples (Myanmar, Jan 6th). The AGAINST side failed to present virtually any coherent arguments, evidence, or rebuttals due to severe technical issues, effectively conceding the debate.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 98,
+      "reasoning": "FOR delivered a clear framework, specific mechanisms of democratic harm, and multiple concrete pieces of evidence, including the MIT Science study, Frances Haugen leaks, January 6, and Myanmar. AGAINST presented almost no complete counter-case in the transcript, offered no developed evidence that benefits outweigh harms, and failed to directly rebut FOR\u2019s central claims, so on argument quality and responsiveness FOR was decisively stronger.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "FOR delivered a structured, evidence-rich case citing the MIT Science study on falsehood spread, Haugen leaks proving algorithmic harms by design, UN Myanmar genocide findings, and polarization research, while framing harms against democracy's core pillars. AGAINST offered only fragmented, incomplete responses that failed to articulate unique, non-substitutable benefits or directly rebut evidence. FOR's rebuttals and cross-examination consistently reinforced unrefuted points on structural incomp",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "The FOR side presented a clear framework, multiple evidence-based claims (MIT study, NBER research, UN findings, Haugen disclosures), and consistently extended arguments despite the opposition\u2019s incomplete responses. The AGAINST side failed to articulate a coherent counter-case or provide empirical evidence of outweighing democratic benefits. On argumentative quality, structure, and substantiation, the FOR side was decisively stronger.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "FOR delivered structured, evidence-based arguments citing MIT study on falsehoods spreading 6x faster, Haugen leaks proving intentional algorithmic harm, UN Myanmar genocide report, polarization data, and substitutability of benefits. AGAINST offered only fragmented, incomplete responses that failed to rebut core claims or present outweighing democratic benefits. This made FOR far more logically coherent, specific, and persuasive on balance.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "The Pro side presented a robust, evidence-based case citing specific peer-reviewed studies (MIT/Science) and internal corporate data (Haugen/Facebook) to demonstrate structural algorithmic harms. In contrast, the Con side failed to provide coherent arguments or complete sentences, resulting in a total absence of rebuttals or counter-evidence to the documented negative externalities on democratic discourse.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the opposition has failed to articulate a substantive case, I would ask the Against side directly: Can you identify a specific, concrete democratic benefit uniquely attributable to social media \u2014 one that could not be achieved through other means \u2014 and explain why that benefit outweighs the documented harms to epistemic integrity and institutional trust that the For side has presented?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "{\n  \"question",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What specific metrics or thresholds would you use to determine when social media's democratic harms (e.g., polarization, misinformation) outweigh its benefits, and has any democracy crossed that line based on empirical evidence?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "claude-opus-4.6-thinking",
+    "initial": {
+      "for": 5,
+      "against": 2,
+      "undecided": 3,
+      "pct_for": 50.0,
+      "pct_against": 20.0
+    },
+    "final": {
+      "for": 8,
+      "against": 0,
+      "undecided": 2,
+      "pct_for": 80.0,
+      "pct_against": 0.0
+    },
+    "delta_for": 30.0,
+    "delta_against": -20.0,
+    "confidence": {
+      "for_initial": 327,
+      "for_final": 740,
+      "against_initial": 115,
+      "against_final": 0
+    },
+    "persuasion_for": 413,
+    "persuasion_against": -115,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "FOR",
+        "initial_confidence": 62,
+        "final_stance": "FOR",
+        "final_confidence": 97,
+        "stance_changed": false,
+        "confidence_delta": 35,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 100,
+        "stance_changed": true,
+        "confidence_delta": 50,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 98,
+        "stance_changed": true,
+        "confidence_delta": 48,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "FOR",
+        "initial_confidence": 60,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 25,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 30,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "FOR",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 345.1,
+    "timestamp": "2026-04-08T23:28:48Z"
+  }
+}

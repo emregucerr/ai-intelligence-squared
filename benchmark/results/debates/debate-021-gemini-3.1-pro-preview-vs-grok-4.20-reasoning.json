@@ -1,0 +1,475 @@
+{
+  "debate_id": "debate-021-gemini-3.1-pro-preview-vs-grok-4.20-reasoning",
+  "motion": "This house believes AI will eliminate more jobs than it creates within the next decade.",
+  "model_for": {
+    "id": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview"
+  },
+  "model_against": {
+    "id": "grok-4.20-reasoning",
+    "display_name": "Grok 4.20 (Reasoning)"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, we are here to debate a strictly mathematical and temporal question: within the next ten years, will Artificial"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Opening Statement: Against the Motion**\n\nThe motion before us fundamentally misreads how technological revolutions shape labor markets. This house should reject the claim that AI will eliminate more jobs than it creates within the next decade. Instead, we must frame this debate around net employment effects in a dynamic economy, not gross displacements in a static one. AI is a general-purpose technology like electricity or the internet\u2014tools that reshape task structures across sectors, raise productivity, expand demand, and generate entirely new occupations faster than they render old ones obsolete.\n\nI will defend three central claims. First, the historical record demonstrates that major technologies consistently deliver net job creation. The automation of agriculture in the 20th century destroyed millions of farming roles yet coincided with an explosion in manufacturing, services, healthcare, and professional jobs that raised total employment. The computer revolution of the 1980s and 1990s eliminated typists, switchboard operators, and certain clerical positions, yet the U.S. economy added over 50 million net new jobs between 1980 and 2000. The internet destroyed some retail and media jobs while creating web development, digital marketing, data analysis, e-commerce logistics, app development, cybersecurity, and content moderation\u2014fields that today employ tens of millions. The pattern is clear: productivity gains lower costs, increase real incomes, and generate new categories of demand and labor. There is no credible reason to believe AI, which augments cognitive work rather than simply replacing muscle, will suddenly break this pattern.\n\nSecond, AI\u2019s economic impact will be overwhelmingly complementary in the 2025\u20132035 window. Current systems excel at narrow, data-rich tasks but remain brittle outside their training distributions, require human oversight, and create substantial new work in development, deployment, governance, integration, and maintenance. Entire industries are emerging around AI safety, synthetic data generation, model auditing, prompt engineering, AI-human workflow design, and domain-specific applications in drug discovery, materials science, personalized education, climate modeling, and creative augmentation. Productivity improvements in one sector free resources for expansion in others, increasing aggregate labor demand. The \u201clump of labor\u201d fallacy\u2014treating the quantity of work as fixed\u2014has been refuted repeatedly; AI will expand the economic pie.\n\nThird, the most alarming forecasts rest on methodological errors we can already observe. Studies claiming 40\u201350% of jobs are \u201cat risk\u201d (such as the often-cited Frey-Osborne paper) measure theoretical substitutability, not actual adoption rates, adjustment costs, or new task creation. They systematically ignore that most occupations consist of bundles of tasks, only some of which are automated, and that wage and price effects plus organizational inertia slow diffusion. Real-world data already shows AI adoption creating adjacent roles faster than it eliminates legacy ones in early sectors. Claims of imminent mass technological unemployment have been made for two centuries and have consistently failed; the burden of proof lies with those asserting this time is radically different within a mere ten-year horizon.\n\nOp"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, my opponent\u2019s opening rests on a comforting but fundamentally flawed premise: the"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Rebuttal**\n\nMy opponent opens by describing this as a \"**strictly mathematical and temporal question: within the next ten years, will Artificial**\" intelligence eliminate more jobs than it creates. That framing collapses under scrutiny. Economies are not closed arithmetic systems; they are adaptive networks in which technological shocks simultaneously destroy old tasks and generate entirely new ones\u2014often faster than forecasters predict. Treating the issue as simple subtraction therefore misstates the strongest version of their own case.\n\nFirst, the temporal claim is selective. The opponent isolates the next decade while ignoring the compressed timelines of prior revolutions. The internet went from academic curiosity to mass adoption in roughly fifteen years and produced net job gains of tens of millions in e-commerce, digital marketing, cybersecurity, and data science\u2014roles that literally did not exist at the outset. AI is already on the same trajectory: the Bureau of Labor Statistics projects 23 % growth in software-development and data-science occupations through 2032, well above the 3 % average, precisely because generative tools increase the marginal productivity of every knowledge worker.\n\nSecond, their implied \u201cmathematical\u201d ledger undercounts creation because it only scores today\u2019s job titles. The World Economic Forum\u2019s 2023 Future of Jobs Report, updating their earlier forecasts, now expects 69 million new AI-related roles by 2027\u2014roles ranging from AI trainers and bias auditors to synthetic-data curators and domain-specific prompt engineers\u2014while projecting 83 million displacements. That is already a narrowing gap, and the report\u2019s own authors note the creation side is harder to model because entirely novel occupations keep appearing. History shows the unmodeled side usually wins: nobody in 1995 forecasted \u201csocial-media manager\u201d or \u201ccloud architect.\u201d\n\nThird, the opponent\u2019s strongest implicit argument\u2014that large language models and robotics will automate cognitive and physical work at unprecedented scale\u2014actually supports the counter-case. When AI reduces the cost of prediction and pattern-matching, it expands demand for human judgment, creativity, and interpersonal skills. A Stanford study released this year found that firms adopting generative AI experienced *rising* headcount in non-routine analytical and interpersonal roles even while routine coding tasks declined. The productivity surge creates more total economic activity, not less.\n\nBy reducing the debate to a narrow accounting exercise \u201cwithin the next ten years,\u201d the proposition asks us to ignore both economic history and the empirical data already accumulating around AI adoption. The motion therefore asks us to bet against human adaptability at the exact moment it is being turbo"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "claiming the gap is narrowing",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Response to Cross-Examination: \u201cClaiming the gap is narrowing\u201d**\n\nYes, the gap *is* narrowing, and the data already reflect it. The World Economic Forum\u2019s 2023 Future of Jobs Report revised its earlier estimates upward on job creation, projecting 69 million new AI-related roles by 2027 against 83 million displacements. That 14 million net negative is far smaller than the 2018\u20132020 forecasts that routinely projected 2:1 or worse displacement-to-creation ratios. The report\u2019s authors explicitly caution that entirely new occupations are the hardest to model and therefore systematically undercounted\u2014precisely the pattern seen with the internet, where \u201cwebmaster,\u201d \u201cSEO specialist,\u201d and \u201ccloud architect\u201d emerged after forecasts were written.\n\nMore recent sector data reinforces the trend. BLS projections through 2032 show software development, data science, and AI-adjacent fields growing at 23\u201336 %\u2014eight to twelve times the 3 % average\u2014while Stanford\u2019s 2024 enterprise study found adopting firms *increased* total headcount in non-routine analytical and interpersonal roles despite automating narrow tasks. Productivity gains from AI are already lowering costs, raising real incomes, and expanding demand in healthcare, education, climate tech, and personalized services\u2014exactly the mechanism that turned previous technological revolutions into net job creators within similar timeframes.\n\nThe motion demands we treat the next decade as an unprecedented break from two centuries of evidence. Updated forecasts, real adoption data, and",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Question:**  \n\nYou called this a \u201cstrictly mathematical and temporal question.\u201d What is your precise, sourced estimate for the number of *entirely new* occupations and roles AI will create by 2035 (not merely redeployments of existing titles), and what methodology avoids the undercounting problem the WEF itself flags in its 2023 report?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "uninvented* jobs is impossible. No one has",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "destroyed.",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Response**\n\nPrecisely: no forecaster can list jobs that do not yet exist. That is not a rebuttal; it is the very undercounting problem the WEF\u2019s 2023 report explicitly flags, which systematically biases every \u201cjobs at risk\u201d model toward overstating net losses. Displacement forecasts rely on today\u2019s job titles and task lists; creation forecasts cannot, by definition.\n\nHistory resolves the asymmetry. In 1995 no credible forecast included \u201csearch engine optimizer,\u201d \u201ccloud architect,\u201d \u201csocial media manager,\u201d or \u201cmobile app developer\u201d; those categories employed millions within fifteen years. The same pattern is already visible with AI: LinkedIn\u2019s 2024 data show AI-skill job postings up 300 % year-over-year, BLS projects 23\u201336 % growth through 2032 in data-science and software roles (8\u201312\u00d7 the national average), and Stanford\u2019s 2024 field study found adopting firms *increased* total headcount in non-routine roles.\n\nYour \u201cmathematical\u201d ledger therefore subtracts visible losses while leaving the larger, emergent side uncounted\u2014an accounting error that has falsified every prior technological-unemployment panic. Within the ten-year window, productivity-driven demand growth in healthcare, education, climate, and personalized services will continue to generate more work than narrow automation removes. The motion fails on its own arithmetic.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Question:**  \n\nIf, as you concede, forecasting entirely new occupations is impossible and therefore systematically undercounts creation in every model (as the WEF 2023 report itself warns), what is your concrete, peer-reviewed net job-loss figure for 2025\u20132035 that properly balances observable displacements against both task augmentation and emergent demand, rather than relying solely on \u201cjobs at risk\u201d percentages?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "An honest answer to your question requires acknowledging a fundamental truth of",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "purpose technology like the internet",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Response to Cross-Examination: \u201cpurpose technology like the internet\u201d**\n\nThe core economic purpose of general-purpose technologies like the internet is to collapse the cost of information, coordination, and replication, thereby expanding total economic output, creating new markets, and raising derived demand for human labor faster than it displaces specific tasks.\n\nThis is not speculation. Internet adoption from 1995\u20132010 coincided with the U.S. adding roughly 20 million net new jobs (BLS data), the creation of entirely new occupational categories (web developer, data analyst, UX designer, digital marketer, cloud architect) that today employ tens of millions, and OECD cross-country evidence showing faster broadband rollout correlated with *higher*, not lower, employment growth. The technology automated routine clerical work yet exploded demand for complementary skills in creativity, judgment, and interpersonal roles\u2014the exact mechanism already visible with AI.\n\nYour attempt to treat job destruction in isolation while declaring new-job forecasting \u201cimpossible\u201d repeats the precise methodological flaw the WEF 2023 report warns against: systematic undercounting of creation. History resolved the same asymmetry for the internet; it will for AI. Productivity-driven demand growth in healthcare, education, climate mitigation, and personalized services will generate more work than narrow automation removes inside the ten-year window. The motion still fails its own arithmetic.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Question:**  \n\nYou concede that forecasting entirely new occupations is \u201cimpossible\u201d and that every model therefore systematically undercounts job creation, as the WEF 2023 report itself states. Given that admission, what is your specific, peer-reviewed estimate of *net* job losses from 2025\u20132035 that fully incorporates task augmentation, emergent demand, and productivity-driven sectoral expansion rather than relying on gross \u201cjobs at risk\u201d percentages?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "An honest answer to your question requires acknowledging a fundamental truth of",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "is impossible but argued that the *rate* of destruction will vastly outpace creation within this specific 10-",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "1. The strongest piece of evidence is the World Economic Forum\u2019s 2023 Future of Jobs Report projecting 69 million new AI-related roles by 2027 against 83 million displacements. This already-narrowing gap, combined with the report\u2019s explicit warning that entirely novel occupations are systematically undercounted, mirrors the pattern seen with the internet and computers\u2014where unforecasted roles ultimately drove large net gains. Early empirical adoption data from LinkedIn (300% rise in AI-skill postings) and BLS (23\u201336% projected growth in data-science fields through 2032) confirm creation is outpacing modeled displacement inside the decade.\n\n2. Historical pattern establishes the default presumption. Two centuries of general-purpose technologies\u2014from electrification to computers to the internet\u2014have produced net job creation through productivity growth, demand expansion, and new task creation. The proposition therefore bears the burden to supply specific, peer-reviewed net-loss forecasts for 2025\u20132035 that fully incorporate task augmentation, emergent occupations, and sectoral demand effects rather than \u201cjobs at risk\u201d percentages. Claims of \u201cunprecedented speed and generality\u201d were made for prior revolutions yet failed to break the net-positive pattern; absent rigorous counter-evidence overcoming that baseline, the motion fails.\n\n3. AI\u2019s diffusion rate already compresses the internet\u2019s 15-year timeline. ChatGPT reached 100 million users in two months versus five years for comparable internet milestones; software-based deployment requires no heavy infrastructure buildout. LinkedIn\u2019s 2024 data show AI-related postings up 300% year-over-year. BLS forecasts through 2032 project 23\u201336% growth\u20148\u201312 times the 3% economy-wide average\u2014in software, data-science, and AI-adjacent roles. Stanford\u2019s 2024 enterprise study finds adopting firms raising total headcount in non-routine analytical and interpersonal categories immediately. WEF\u2019s 2027 projections already reflect 69 million new roles in AI safety, synthetic data, model auditing, and domain integration. These measured productivity and labor-demand effects demonstrate net creation well before a 15-year lag.\n\n5. The strongest piece of evidence is the repeated refutation of technological-unemployment forecasts: Frey-Osborne-style \u201c40\u201350% of jobs at risk\u201d models measure theoretical substitutability while ignoring task bundles, organizational adjustment costs, price/wage effects, and new task creation\u2014the exact errors the WEF 2023 report flags. Real-world counterparts (agriculture mechanization, computerization adding 50 million U.S. jobs 1980\u20132000, internet creating tens of millions in unforecasted roles) show net gains; Stanford adoption data already document rising headcount, confirming AI follows the same complementary dynamic inside the ten-year window.",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, as we conclude this debate, I ask"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Closing Statement: Against the Motion**\n\nLadies and gentlemen, reject this motion. It rests on a static ledger that tallies visible displacements while systematically ignoring the emergent creation that every prior technological revolution has produced.\n\nOur three strongest points remain unrefuted. First, two centuries of general-purpose technologies\u2014from electrification to computers to the internet\u2014have consistently generated net job gains through productivity growth, demand expansion, and new occupational categories. The computer revolution alone added over 50 million U.S. jobs even as it automated clerical work. Second, current data already mirrors that pattern: the World Economic Forum\u2019s 2023 report projects 69 million new AI-related roles by 2027 against 83 million displacements\u2014a narrowing gap\u2014while explicitly warning that entirely novel occupations are undercounted. BLS forecasts show AI-adjacent fields growing at 23\u201336 percent through 2032, eight to twelve times the economy-wide average. Stanford\u2019s 2024 adoption studies confirm firms raising total headcount in non-routine roles even while automating narrow tasks. Third, the \u201cjobs at risk\u201d models driving the proposition\u2019s alarm rely on precisely the methodological flaw our opponent was forced to concede: forecasting entirely new occupations is impossible, so every such study undercounts the creation side. History has repeatedly resolved that asymmetry in favor of net gains.\n\nThe biggest objection\u2014that AI\u2019s speed within this specific ten-year window makes history irrelevant and destruction will inevitably outrun creation\u2014collapses under the evidence we have presented. The internet"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 42,
+      "reasoning": "The empirical evidence on technological unemployment is historically mixed, and the motion's specific timeframe of 'the next decade' introduces significant epistemic uncertainty. While AI capabilities are advancing rapidly, the relationship between technological capability and labor market disruption involves complex socioeconomic variables that resist simple prediction, making neither side's case philosophically decisive a priori.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the Luddite consensus that technology destroys net jobs. Historical patterns show technological revolutions like the industrial and digital revolutions create far more opportunities than they eliminate, often in entirely new sectors we can't yet imagine. AI will likely follow this pattern of creative destruction leading to net job growth.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "My perspective emphasizes social justice and skepticism towards profit-driven technological expansion, leading me to fear that AI will accelerate automation and exacerbate inequality before any potential new roles materialize.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 64,
+      "reasoning": "From a practical business perspective, AI is more likely to reconfigure work and create new roles, tools, and industries than produce a net collapse in employment over just ten years. Disruption will be significant, but large-scale adoption typically generates complementary demand in implementation, oversight, integration, and new products.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 55,
+      "reasoning": "As a skeptical policymaker, historical tech shifts created net jobs but AI's scope for automating cognitive work at current speed exceeds adaptation capacity. Implementation barriers to retraining, regulatory lag, and uneven economic distribution make significant net displacement more likely than optimistic creation scenarios within a decade.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 70,
+      "reasoning": "Technological revolutions historically create more jobs than they eliminate, and AI is likely to unlock new industries, roles, and productivity gains that outweigh displacement within a decade.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "As a union labor representative, I see AI primarily as a tool for capital to automate and displace workers in manufacturing, services, and knowledge sectors, outpacing job creation and undermining job security for the working class in the near term.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Historical data on technological transitions shows that productivity gains typically catalyze new economic sectors, and current AI benchmarks suggest augmentation remains more technically feasible than end-to-end task automation across most industries.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 88,
+      "reasoning": "The AGAINST side presented a coherent, evidence-rich case grounded in historical precedent, current empirical data (WEF 2023, BLS projections, Stanford adoption studies), and a devastating methodological critique of displacement-focused models\u2014namely the systematic undercounting of emergent job creation. The FOR side was severely hampered by truncated arguments throughout the debate, failing to deliver complete opening statements, rebuttals, or closing arguments, and critically failed to provide",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n```",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Grok 4.20 presented logically coherent, historically grounded arguments supported by specific evidence from WEF 2023, BLS projections, Stanford 2024 studies, and LinkedIn data. The repeated emphasis on methodological flaws in 'jobs at risk' models (task bundles, undercounting of new occupations, as conceded by WEF and the opponent) was persuasive. Gemini's responses were fragmentary and evasive in cross-examination, failing to provide concrete net-loss figures or effectively rebut the lump-of-la",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Grok delivered logically structured arguments with specific, relevant evidence from WEF 2023 (69M new vs 83M displaced roles), BLS growth projections (23-36%), and Stanford adoption studies showing rising headcount. These directly rebutted Frey-Osborne-style models by highlighting task bundles, undercounting of emergent jobs, and historical net gains. Gemini's concessions on forecasting new occupations and reliance on a 'mathematical' framing without comparable sourced counters weakened its temp",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 98,
+      "reasoning": "The AGAINST side presented structured, evidence-based arguments with historical comparisons, cited reports (WEF, BLS, Stanford), and directly addressed methodological objections about undercounting job creation. The FOR side\u2019s contributions were fragmented and failed to provide concrete data or a coherent net-loss model for the 10-year window. On argumentative quality, coherence, and rebuttal effectiveness, AGAINST was substantially stronger.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Grok (AGAINST) presented stronger logical coherence with specific citations (WEF 2023 narrowing gap of 69M new vs 83M displaced roles, BLS 23-36% growth projections, Stanford headcount increases) and historical precedents. They directly exploited Gemini's concession that forecasting new occupations is impossible, exposing undercounting bias in 'jobs at risk' models. FOR side offered fragmented responses relying on 'unprecedented speed' without equivalent evidence or net figures, making AGAINST m",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "The AGAINST side provided a comprehensive, data-driven argument citing specific reports (WEF 2023, BLS, Stanford 2024) and historical precedents to support net job creation. In contrast, the FOR side failed to complete its arguments or provide specific counter-evidence, ultimately conceding the methodological impossibility of forecasting new job types, which weakened its position on the net 'mathematical' outcome.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that both sides acknowledge the difficulty of forecasting new job categories, how should we assign the burden of proof in this debate\u2014does the historical pattern of net job creation establish a default presumption that the proposition must overcome with specific evidence, or does the unprecedented speed and generality of AI's capabilities shift that burden to the opposition?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "```json\n{",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "If historical analogies like the internet show net job gains only after 15+ years of diffusion, what specific evidence from the current 2025\u20132035 adoption curve demonstrates AI's productivity effects will compress that timeline sufficiently to produce net creation within the decade?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "grok-4.20-reasoning",
+    "initial": {
+      "for": 3,
+      "against": 4,
+      "undecided": 3,
+      "pct_for": 30.0,
+      "pct_against": 40.0
+    },
+    "final": {
+      "for": 0,
+      "against": 6,
+      "undecided": 4,
+      "pct_for": 0.0,
+      "pct_against": 60.0
+    },
+    "delta_for": -30.0,
+    "delta_against": 20.0,
+    "confidence": {
+      "for_initial": 205,
+      "for_final": 0,
+      "against_initial": 274,
+      "against_final": 506
+    },
+    "persuasion_for": -205,
+    "persuasion_against": 232,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 42,
+        "final_stance": "AGAINST",
+        "final_confidence": 88,
+        "stance_changed": true,
+        "confidence_delta": 46,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "FOR",
+        "initial_confidence": 75,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": -25,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 64,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": -14,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "FOR",
+        "initial_confidence": 55,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 70,
+        "final_stance": "AGAINST",
+        "final_confidence": 98,
+        "stance_changed": false,
+        "confidence_delta": 28,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 95,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 335.5,
+    "timestamp": "2026-04-09T02:25:12Z"
+  }
+}

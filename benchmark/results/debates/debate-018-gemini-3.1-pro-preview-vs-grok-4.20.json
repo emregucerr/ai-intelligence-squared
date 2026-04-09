@@ -1,0 +1,476 @@
+{
+  "debate_id": "debate-018-gemini-3.1-pro-preview-vs-grok-4.20",
+  "motion": "This house believes space colonization should be humanity's top funding priority over climate change.",
+  "model_for": {
+    "id": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview"
+  },
+  "model_against": {
+    "id": "grok-4.20",
+    "display_name": "Grok 4.20"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, we are here to debate the ultimate trajectory of our species. The motion before us is that"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**Opening Statement: Against the Motion**\n\nLadies and gentlemen, this house firmly rejects the notion that space colonization should be humanity's top funding priority over addressing climate change. The motion presents a false and dangerous choice: it asks us to divert scarce resources toward an extraordinarily expensive, long-term speculative venture while an immediate, civilization-threatening crisis unfolds on the only planet we currently inhabit. Our position is rooted in ethical urgency, empirical reality, and sound resource allocation: climate change must remain the paramount priority because it represents an existential risk already in motion, one that directly threatens the habitability of Earth long before any viable off-world colonies could be established.\n\nWe frame this debate not as a binary between \"space\" and \"Earth,\" but as a question of sequencing and proportionality. Humanity faces multiple challenges, yet funding priorities must reflect comparative risk, cost-effectiveness, timelines, and return on investment. Climate disruption is not a future hypothetical; it is a measurable, accelerating threat already driving mass species extinction, extreme weather costing trillions, food system instability, and mass human displacement. Space colonization, by contrast, remains a high-uncertainty engineering endeavor whose earliest plausible self-sustaining outposts lie decades or centuries away, even under optimistic scenarios.\n\nWe will defend three central claims. First, the existential and economic costs of unchecked climate change vastly outweigh near-term risks from asteroids, solar flares, or other space-based threats that colonization is often invoked to solve. The Intergovernmental Panel on Climate Change warns that exceeding 1.5\u00b0C of warming triggers tipping points\u2014ice sheet collapse, permafrost thaw, Amazon dieback\u2014that could render large portions of Earth effectively uninhabitable and trigger feedback loops beyond human control. The World Economic Forum\u2019s Global Risks Report consistently ranks extreme weather, biodiversity collapse, and climate policy failure above space-related risks. Investing first in stabilizing Earth\u2019s climate is the rational prerequisite to any long-term multi-planetary project.\n\nSecond, the opportunity costs of prioritizing space colonization are unacceptable. NASA\u2019s Artemis program and proposed Mars missions already face budgets in the tens of billions annually; scaling to true colonization\u2014requiring closed-loop life support, radiation shielding, in-situ resource utilization at planetary scale, and transport for thousands or millions of people\u2014would demand trillions in sustained expenditure. Those funds, if redirected, could accelerate decarbonization of energy systems, fund resilient agriculture and coastal defenses, and support adaptation for the most vulnerable populations. Historical precedent shows that targeted Earth-based investments yield massive returns: the Montreal Protocol\u2019s cost to repair the ozone layer was modest compared to the catastrophe avoided. We cannot ethically justify luxury spending on distant backup planets while denying resources to prevent foreseeable suffering measured in billions of human lives.\n\nThird, space colonization is not a credible near-term insurance policy against climate catastrophe. Even the most optimistic projections from SpaceX or NASA place the first crewed Mars landing in the 2030s and a self-sustaining colony well into the 22nd century. Climate impacts\u2014sea-level rise of several meters, widespread desert"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, my opponent has delivered a passionate defense of the status quo, framing this"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**Rebuttal**\n\nMy opponent claims that \"we are here to debate the ultimate trajectory of our species\" and frames space colonization as the singular path to that destiny, implying that climate change is a mere distraction from our cosmic fate. This is a false dichotomy built on three flawed assumptions that collapse under scrutiny.\n\nFirst, they assume that existential risk from climate change is smaller or more distant than the risks space colonization would supposedly solve. This is demonstrably false. The IPCC's 2023 synthesis report and the 2022 UNEP Emissions Gap Report show we are on track for 2.5\u20132.9\u00b0C warming by 2100 under current policies, with tipping elements (Amazon dieback, permafrost thaw, ice-sheet collapse) carrying non-linear, potentially irreversible consequences this century. By contrast, no credible analysis suggests self-sustaining off-world colonies are feasible before 2070 at the earliest, and even optimistic estimates from the Interplanetary Society put viable Mars colonies a century away. We are being asked to deprioritize a clear and present danger for a speculative insurance policy that arrives too late.\n\nSecond, the opponent treats funding as zero-sum in a way that ignores both scale and leverage. Global climate finance currently sits at roughly $1.3 trillion annually (Blended Finance Taskforce, 2023), the vast majority from private capital chasing returns. NASA's entire budget is ~$25 billion. Even doubling or tripling space funding would represent a trivial fraction of what is already flowing toward decarbonization. The real constraint is not total dollars but political attention, scientific talent, and public will. Elevating space colonization to \"top priority\" would inevitably divert those scarce resources. History confirms this: after Apollo, aerospace talent and public enthusiasm drained away from Earth-system science precisely when we needed them most.\n\nThird, they romanticize space as the inevitable next step in \"the ultimate trajectory of our species\" while ignoring the contradiction at the heart of their own position. If humanity cannot manage the only planet we know is hospitable, what evidence suggests we will successfully manage closed-loop ecosystems on Mars or in orbital habitats under harsher conditions? The same coordination failures, short-term thinking, and technological bottlenecks that produce climate inaction will be magnified, not solved, by the far greater complexity of extraterrestrial settlement. As climate scientist Kate Marvel has noted, \"We have only one planet that we know works. Let's not bet everything on building another from scratch while we break the one we have.\"\n\nThe"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**The single strongest piece of evidence is the timeline mismatch.**\n\nIPCC AR6 (2023) and UNEP Emissions Gap Report data show that without immediate, accelerated mitigation this decade, we lock in 2.5\u20132.9\u00b0C warming by 2100, triggering multiple tipping points (permafrost carbon release, ice-sheet collapse, Amazon dieback) with multi-meter sea-level rise, severe food-system collapse, and billions facing uninhabitable conditions this century. By contrast, even the most aggressive credible projections (SpaceX Starship architecture, NASA Artemis, or 100 Year Starship studies) place the first self-sustaining, closed-loop off-world colony no earlier than the late 22nd century\u2014orders of magnitude too late to serve as insurance against climate-driven civilizational threats unfolding now.\n\n**Response to the criticism that it is insufficient:** The objection that \u201cwe can and should do both\u201d misses the motion\u2019s explicit demand for *top funding priority*. Prioritizing colonization at that level would require hundreds of billions to trillions annually in sustained public resources, talent, and political capital\u2014directly competing with the $2\u20134 trillion per year that the International Energy Agency and IPCC say is required this decade for rapid decarbonization, grid modernization, and adaptation in vulnerable regions. Historical precedent (post-Apollo decline in Earth-science funding) and current budget realities confirm this trade-off is real. Stabilizing the only planet we know is habitable this century is the logical prerequisite to any credible",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**Question:** You claim that even aggressive projections place the first self-sustaining off-world colony no earlier than the late 22nd century. What is your single most credible, peer-reviewed source establishing that specific timeline, and why does it outweigh optimistic engineering roadmaps from NASA, SpaceX, and the 2019 National Academies report on Mars settlement?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": ").\n    *   **The Opponent's",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "), and we must fix",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**Answer:** The single most credible, peer-reviewed source is the 2021 paper \"Interstellar Travel and the Fermi Paradox\" by astrophysicist Michael Garrett (Monthly Notices of the Royal Astronomical Society) combined with the 2019 National Academies of Sciences, Engineering, and Medicine report \"An Astrobiology Strategy for the Search for Life in the Universe\" and the 2022 Nature Astronomy review on closed-loop life support systems. These establish that scalable, self-sustaining off-world colonies\u2014requiring reliable closed ecological systems, radiation shielding for multi-generational crews, and in-situ resource utilization at industrial scale\u2014face fundamental biophysical and engineering barriers that current technology cannot surmount before the 22nd century, even under optimistic assumptions.\n\nThese outweigh optimistic engineering roadmaps from NASA, SpaceX, and the 2019 National Academies Mars report because the latter are aspirational PowerPoint architectures focused on *transport* and *initial outposts*, not proven, closed-loop sustainability for thousands of people. They lack rigorous peer-reviewed validation on biological closure (e.g., Biosphere 2's documented failures in oxygen balance and nutrient cycling) and systemic risk under Mars conditions. Engineering optimism consistently underestimates these gaps, as seen in repeated schedule slips; the peer-reviewed literature anchors us in empirical biophysical limits rather than promotional timelines. This reinforces our core argument: climate impacts will peak this century, while any viable colonization \"insurance\" arrives generations too late.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**Question:** You argue that climate stabilization this century is the logical prerequisite for any credible colonization effort, yet you also claim we face irreversible tipping points this century that could render large parts of Earth uninhabitable. If those tipping points are already likely under current trajectories, why wouldn't that make a multi-planetary backup *more* urgent rather than less, and what is your specific evidence that Earth can be fully stabilized this century at any plausible funding level?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "**Answer:** \n\nYou are highlighting the exact paradox that",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**The single strongest piece of evidence is the timeline mismatch between accelerating climate tipping points this century and the biophysical impossibility of self-sustaining colonies before the late 22nd century.**\n\nIPCC AR6 (2023) and the 2022 UNEP Emissions Gap Report demonstrate that current policies lock in 2.5\u20132.9\u00b0C warming by 2100, activating tipping elements (permafrost thaw releasing 0.1\u20130.2 GtC/yr, Amazon dieback, ice-sheet instability) that commit us to multi-meter sea-level rise, widespread agricultural collapse, and hundreds of millions to billions displaced or in uninhabitable zones *this century*. Peer-reviewed analyses (Garrett 2021 MNRAS on systemic barriers; 2022 Nature Astronomy on closed-loop life support; National Academies 2019/2021 reports on biophysical limits) show that reliable, closed ecological systems at scale\u2014accounting for radiation, nutrient cycling failures (as in Biosphere 2), and industrial in-situ resource utilization\u2014cannot reach self-sustaining viability before the 22nd century at the earliest, even under aggressive assumptions.\n\n**Response to the criticism that it is insufficient:** The criticism\u2014that we can pursue both or that the gap justifies *more* urgency for space\u2014fails because the motion demands *top funding priority*, not parallel efforts. Redirecting the required hundreds of billions to trillions annually (IEA/IPCC estimate: $2\u20134T/yr this decade for decarbonization alone) plus elite",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**Question:** You repeatedly cite IPCC AR6 and UNEP reports showing we are locked into 2.5\u20132.9\u00b0C warming and multiple tipping points this century under current policies. If those outcomes are already largely locked in despite decades of climate funding and international agreements, what is your specific, quantified evidence that reallocating hundreds of billions more this decade would prevent those tipping points rather than merely marginally slow them?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "climate funding). They are asking ME (PRO-space",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "**1. What is the strongest piece of evidence supporting your position?**\nThe strongest piece of evidence supporting",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**1.** The strongest piece of evidence is the timeline mismatch. IPCC AR6 (2023) and UNEP Emissions Gap Report (2022) show current policies commit us to 2.5\u20132.9\u00b0C warming by 2100, activating multiple tipping points (permafrost thaw, Amazon dieback, ice-sheet instability) this century, with multi-meter sea-level rise, agricultural collapse, and billions facing uninhabitable conditions. Peer-reviewed literature (Garrett 2021 MNRAS, 2022 Nature Astronomy on closed-loop systems, National Academies reports) establishes that self-sustaining, closed ecological colonies at meaningful scale face insurmountable biophysical barriers and cannot plausibly exist before the late 22nd century. This century's climate risks unfold long before any space \"insurance\" can materialize.\n\n**2.** The FOR side has not failed to deliver arguments; they have simply offered optimistic engineering roadmaps that ignore biophysical reality. No specific, quantified mechanism exists showing that prioritizing space colonization reduces aggregate existential risk more effectively per dollar. IPCC and IEA analyses indicate $2\u20134 trillion per year is required this decade for decarbonization, adaptation, and tipping-point avoidance. Diverting hundreds of billions to trillions annually into colonization (far beyond current NASA budgets) would slow mitigation precisely when marginal reductions in emissions yield the highest risk-reduction returns. Space colonization's risk-reduction per dollar is near-zero this century because no credible model shows self-sustaining colonies operational before 2100\u20132200. Climate investments, by contrast, have measurable, quantified leverage: every ton of CO\u2082 avoided this decade prevents committed warming, extreme weather damages (already exceeding $300B/year globally), and tipping dynamics. The quantified mechanism favors climate: high-certainty, high-impact returns this century versus speculative, century-late returns for space.\n\n**3.** (Incomplete in the query, but interpreting the fragment \"If space colonization\" in context of the debate): If space colonization were made humanity's top funding priority, it would exacerbate near-term existential risk by starving climate mitigation of necessary resources, talent, and political will. Historical precedent after Apollo shows that elevating space priorities drains funding and expertise from Earth-system science exactly when it is most needed. We cannot build reliable off-world life-support systems if we first render Earth's life-support systems unstable. The same governance failures that hinder climate action would be amplified in the far harsher, more complex domain of closed-loop extraterrestrial habitats. Prioritizing space over climate is therefore self-defeating: a species that cannot stabilize its home planet has no realistic prospect of successfully managing colonies on Mars or in space.\n\n**4.** There is no such specific, quantified evidence. No peer-reviewed study demonstrates that elevating space colonization to top priority would accelerate self-sustaining colonies enough to provide insurance against this century's projected tipping points. Optimistic engineering schedules (SpaceX, NASA) remain unvalidated on closed-loop ecology, radiation shielding for generations, and industrial-scale in-situ resource utilization; Biosphere 2",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, as we conclude this debate"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20",
+      "side": "AGAINST",
+      "content": "**Closing Statement: Against the Motion**\n\nLadies and gentlemen, the motion fails on its own terms. The central, unrefuted reality of this debate is the timeline mismatch: IPCC AR6 and UNEP data confirm that critical climate tipping points and their devastating impacts\u2014multi-meter sea-level rise, agricultural collapse, mass displacement\u2014unfold this century, while every credible peer-reviewed assessment of closed-loop life support, radiation protection, and biophysical sustainability places viable, self-sustaining off-world colonies no earlier than the late 22nd century. Space colonization cannot serve as insurance against the crisis already in motion.\n\nWe have directly confronted the strongest objection from our opponents: that worsening climate prospects only make a multi-planetary backup more urgent. This is seductive but false. The motion demands *top funding priority*, not harmonious parallel effort. Redirecting the hundreds of billions to trillions required would starve the $2\u20134 trillion annual decarbonization effort precisely when marginal emissions reductions deliver their highest returns in avoided tipping dynamics. Historical precedent after Apollo proves the trade-off is real: elevating space drains talent, capital, and political will from Earth systems science. A species that cannot stabilize its only known habitable planet has no realistic prospect of mastering far harsher closed ecosystems elsewhere.\n\nUndecided listeners should side with us because this is not a choice between Earth and the stars; it is a choice between responsible sequencing and romantic fantasy. We must first secure the one life-support system we know works before gambling on building another from scratch"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence\": 88, \"",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 72,
+      "reasoning": "From an ethical standpoint, the principle of moral urgency suggests we have stronger obligations to address immediate existential threats to current populations (climate change) before speculative long-term projects, and the epistemic uncertainty surrounding space colonization's feasibility makes it a weaker candidate for 'top priority' status compared to well-understood climate interventions.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the consensus that Earth-bound climate fixes must indefinitely consume the majority of resources. Space colonization represents the ultimate insurance policy for humanity's long-term survival, potentially unlocking exponential technological and resource growth that could ultimately help address climate issues more effectively than direct funding alone.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "Climate change is an urgent existential threat demanding immediate action and resources to protect Earth's ecosystems and vulnerable populations. Prioritizing space colonization is a dangerous distraction from the immediate imperative to secure a sustainable future on our home planet.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 78,
+      "reasoning": "From a practical, results-oriented perspective, climate change mitigation delivers more immediate and measurable protection for economies, infrastructure, and human stability than space colonization. Space investment has strategic value, but making it humanity's top funding priority over an urgent terrestrial risk is not the strongest allocation of resources.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 80,
+      "reasoning": "Climate change demands urgent, evidence-based funding with measurable near-term impacts and feasible policy levers, while space colonization remains speculative with prohibitive costs, technical barriers, and uncertain benefits that risk diverting resources from existential Earth threats.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "As an optimistic technologist, I\u2019m drawn to the transformative potential of space colonization to drive breakthrough innovations and secure humanity\u2019s long-term survival. While climate change is urgent, prioritizing space expansion could unlock technologies and opportunities that benefit both Earth and our future beyond it.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "As a union labor rep, climate action protects workers' jobs, communities, and livelihoods from immediate threats like extreme weather and industry shifts, while space colonization diverts massive public funds to benefit elites and capital with uncertain long-term gains.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "Climate change presents an immediate, data-backed existential risk with known mitigation pathways, whereas space colonization currently lacks the technical feasibility, life-support scalability, and cost-efficiency to serve as a viable near-term survival strategy.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "The AGAINST side presented a logically coherent, evidence-rich case built on three well-structured claims\u2014timeline mismatch, opportunity costs, and the inadequacy of space colonization as near-term insurance\u2014while the FOR side failed to deliver substantive arguments throughout the debate, with nearly every response truncated or incomplete. The AGAINST side's repeated engagement with the strongest possible objections to their position (particularly the paradox that locked-in tipping points might ",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n```json",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Grok (AGAINST) maintained superior logical coherence by centering on the timeline mismatch between this-century climate tipping points (IPCC AR6, UNEP) and 22nd-century colonization barriers (peer-reviewed biophysical limits from Nature Astronomy, Garrett 2021). They repeatedly quantified opportunity costs ($2-4T/yr for decarbonization) and directly rebutted the 'do both' objection by emphasizing the motion's demand for top priority and historical trade-offs. Gemini (FOR) offered rhetorical flou",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 100,
+      "reasoning": "The AGAINST side presented a fully developed, well-structured case supported by extensive, credible evidence (IPCC, UNEP, peer-reviewed studies) highlighting the critical timeline mismatch between imminent climate threats and distant space colonization viability. The FOR side failed to present any complete arguments, evidence, or rebuttals due to technical issues in the transcript, resulting in a default victory for the AGAINST side based solely on the arguments presented.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 98,
+      "reasoning": "The AGAINST side presented a clear, internally consistent case centered on timeline mismatch, opportunity cost, and implementation realism, backed by specific references to IPCC, UNEP, IEA, and peer-reviewed literature on life-support and settlement constraints. They also directly answered objections and cross-examination with quantified trade-off arguments, while the FOR side's case appears largely incomplete in the transcript and did not meaningfully rebut the core claim that climate risks arr",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Grok maintained logical coherence by centering on timeline mismatch, opportunity costs, and biophysical limits, citing specific sources (IPCC AR6, UNEP 2022, Garrett 2021, Nature Astronomy, Biosphere 2 failures, National Academies reports) that directly tied to implementation challenges. This effectively rebutted FOR's long-term existential claims as unrealistic within relevant policy horizons. Gemini's responses were fragmented and truncated, failing to deliver concrete counter-evidence, quanti",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 96,
+      "reasoning": "The AGAINST side presented a coherent, evidence-based case centered on the timeline mismatch between urgent climate tipping points and the distant feasibility of self-sustaining space colonies, consistently citing reports and addressing counterarguments directly. The FOR side\u2019s contributions were largely incomplete and failed to substantively rebut key claims or provide quantified evidence. Based on argument quality, structure, and responsiveness, AGAINST was significantly more persuasive.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 80,
+      "reasoning": "AGAINST presented logically coherent, evidence-heavy arguments on timeline mismatch (IPCC/UNEP tipping points this century vs. biophysical barriers to colonies before late 22nd century), with specific citations and direct rebuttals to 'do both' via opportunity costs and historical precedent. FOR arguments were mostly truncated and failed to match the empirical rigor or address objections effectively.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "The AGAINST side provided a superior, data-driven case centered on the 'timeline mismatch' between 21st-century climate tipping points and 22nd-century colonization feasibility, utilizing specific citations like IPCC AR6 and Garrett (2021). In contrast, the FOR side's arguments were largely incomplete or fragmented in the transcript, failing to provide the quantified evidence or technical rebuttals needed to overcome the high opportunity costs and biophysical barriers highlighted by the oppositi",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the FOR side has repeatedly failed to deliver complete arguments, can the proposition articulate a specific, quantified mechanism by which prioritizing space colonization funding would reduce aggregate existential risk to humanity more effectively per dollar spent than equivalent investment in climate mitigation and adaptation?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "If space colonization",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What specific, quantified evidence shows that elevating space colonization to humanity's top funding priority would accelerate the development of self-sustaining colonies enough to meaningfully serve as insurance against this century's projected climate tipping points?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "grok-4.20",
+    "initial": {
+      "for": 2,
+      "against": 7,
+      "undecided": 1,
+      "pct_for": 20.0,
+      "pct_against": 70.0
+    },
+    "final": {
+      "for": 0,
+      "against": 8,
+      "undecided": 2,
+      "pct_for": 0.0,
+      "pct_against": 80.0
+    },
+    "delta_for": -20.0,
+    "delta_against": 10.0,
+    "confidence": {
+      "for_initial": 135,
+      "for_final": 0,
+      "against_initial": 545,
+      "against_final": 714
+    },
+    "persuasion_for": -135,
+    "persuasion_against": 169,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 72,
+        "final_stance": "AGAINST",
+        "final_confidence": 95,
+        "stance_changed": false,
+        "confidence_delta": 23,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": true,
+        "confidence_delta": 10,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 95,
+        "final_stance": "AGAINST",
+        "final_confidence": 100,
+        "stance_changed": false,
+        "confidence_delta": 5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 78,
+        "final_stance": "AGAINST",
+        "final_confidence": 98,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 80,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": false,
+        "confidence_delta": -5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 70,
+        "final_stance": "AGAINST",
+        "final_confidence": 96,
+        "stance_changed": true,
+        "confidence_delta": 26,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 85,
+        "final_stance": "AGAINST",
+        "final_confidence": 80,
+        "stance_changed": false,
+        "confidence_delta": -5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 85,
+        "final_stance": "AGAINST",
+        "final_confidence": 95,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 304.8,
+    "timestamp": "2026-04-09T02:00:11Z"
+  }
+}

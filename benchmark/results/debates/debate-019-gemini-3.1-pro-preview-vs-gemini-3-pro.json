@@ -1,0 +1,477 @@
+{
+  "debate_id": "debate-019-gemini-3.1-pro-preview-vs-gemini-3-pro",
+  "motion": "This house believes universal basic income is both inevitable and desirable.",
+  "model_for": {
+    "id": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview"
+  },
+  "model_against": {
+    "id": "gemini-3-pro",
+    "display_name": "Gemini 3 Pro"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, we are standing at the precipice of the most profound economic transformation in human history. For the last"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, we are debating the motion that universal basic income is both inevitable and desirable."
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Pro (AGAINST):",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "You premise the \"inevitability\" of UBI on automation decimating the labor market; if human labor and its associated taxable income vanish, precisely where will the government source the trillions of dollars required yearly to fund UBI without triggering catastrophic inflation?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "To answer directly, we will fund UBI by",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "To answer directly, we will",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "Given that the supply of essential goods like housing is relatively inelastic, how can you guarantee that a massive universal cash injection won't simply trigger demand-pull inflation, driving up rents and prices until the real purchasing power of the UBI is neutralized?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "I acknowledge that housing supply inelasticity is a",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "If current welfare systems",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "The single strongest piece of evidence supporting the desirability of UBI",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "```json \\n { ``` (Malformed question)\n        *   *Strategy:* Treat it as a",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "* (implied/partial in transcript): Funding via taxing"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": ""
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 35,
+      "reasoning": "As a philosopher, I find the conjunction of 'inevitable' and 'desirable' epistemically demanding\u2014inevitability is a strong empirical claim requiring historical and economic evidence, while desirability requires robust normative justification. The motion's dual structure means both claims must be defended, and I see serious philosophical arguments on both sides regarding autonomy, distributive justice, moral hazard, and the nature of work.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the conventional progressive consensus that UBI is desirable. While automation may disrupt jobs, UBI risks creating dependency, inflating costs through universal distribution, and undermining the dignity of earned achievement that has driven human progress.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "UBI aligns with social justice imperatives and offers a potential pathway to decouple human survival from environmentally destructive economic growth models, potentially allowing for lower-consumption lifestyles.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a skeptical policymaker focused on implementation challenges and unintended consequences, UBI faces insurmountable fiscal burdens, work disincentives, and political infeasibility without concrete evidence it can scale effectively or become inevitable.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 78,
+      "reasoning": "Given accelerating automation and AI-driven productivity gains, universal basic income appears both a practical policy response and a powerful tool to unlock human creativity and economic resilience. Technological progress makes large-scale redistribution increasingly feasible and potentially transformative.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "As a union labor representative, UBI aligns with priorities of equitable wealth distribution, enhanced job security, and greater worker bargaining power by reducing desperation for exploitative jobs. Automation trends make it both inevitable and a desirable counter to capital's dominance over labor.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 75,
+      "reasoning": "While automation and algorithmic efficiency may displace significant portions of the labor market, the macroeconomic stability of UBI depends on complex fiscal modeling and its long-term impact on human capital development remains empirically unproven.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence\": 55,",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 62,
+      "reasoning": "Neither side presented complete or well-developed arguments, as the transcript shows severely truncated contributions from both debaters. However, the AGAINST side managed to pose two substantive and logically rigorous questions\u2014on funding sources under automation and on demand-pull inflation in inelastic markets\u2014that struck at the core premises of the motion, while the FOR side consistently failed to complete any argument, rebuttal, or answer. The AGAINST side's pointed cross-examination questi",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{\"stance",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "The AGAINST side posed sharp, targeted questions on funding mechanisms, inflationary pressures from inelastic supply (esp. housing), and taxable income erosion that directly challenged the core premises of inevitability and desirability. The FOR side's responses were incomplete, evasive, or truncated in the transcript, failing to provide rigorous counter-evidence or coherent rebuttals. This left the FOR position logically underdeveloped compared to the pointed critiques raised.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "The proposition failed to present any complete arguments for the motion due to severe transcript truncation. The opposition, however, posed critical, unanswered questions regarding funding sources amidst automation and the high risk of demand-pull inflation in essential sectors like housing, which are vital social justice concerns.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 45,
+      "reasoning": "AGAINST posed sharp, policy-focused questions on funding sources amid automation-driven revenue loss, demand-pull inflation with inelastic housing supply, and evidential weaknesses that directly targeted the motion's core claims. FOR's responses were incomplete or concessional (e.g. acknowledging inelasticity without remedies), lacking concrete mechanisms or robust counter-evidence. This left implementation challenges and unintended consequences unaddressed, weakening overall coherence and persu",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 72,
+      "reasoning": "The FOR side failed to present complete, coherent arguments or evidence, with most statements cut off and key challenges on funding and inflation left unanswered. The AGAINST side, while also incomplete, articulated clear and substantive objections regarding tax base erosion and demand-pull inflation. Given the limited but comparatively sharper critique from AGAINST, they made the stronger case in this transcript.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 60,
+      "reasoning": "AGAINST posed sharp, logically coherent cross-exam questions directly attacking core claims on funding (no taxable labor income post-automation risks inflation) and desirability (inelastic supply like housing neutralizing UBI via demand-pull inflation), plus demanding strongest evidence. FOR responses were incomplete, often started with acknowledgments of problems, and showed less evidence or full rebuttals in the transcript. This gave AGAINST superior targeting of objections and overall persuas",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "The AGAINST side provided targeted, technically grounded challenges regarding the fiscal mechanics of UBI, specifically mentioning demand-pull inflation and supply inelasticity in housing. The FOR side failed to complete any substantive arguments or provide data-driven rebuttals, leaving the economic risks raised by the opposition entirely unaddressed.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "Given that existing UBI pilot programs (such as those in Finland, Stockton, and Kenya) have been limited in scale, duration, and geographic scope, can either side point to empirical evidence that credibly demonstrates the long-term macroeconomic effects\u2014positive or negative\u2014of a truly universal and permanent basic",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the FOR side has repeatedly begun responses without completing them, and the AGAINST side has raised substantive questions about funding and inflation that remain unanswered: Can the FOR side articulate a concrete, logically complete argument for why UBI is *inevitable* as opposed to merely one possible policy response among many to labor market disruption, and what distinguishes inevitability from desirability in their framework?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "```json\n{",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "If automation does not fully eliminate taxable labor income as you assume, what specific evidence demonstrates that governments will still choose to implement and sustain a fully universal (non-means-tested) basic income over targeted welfare expansions?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "gemini-3-pro",
+    "initial": {
+      "for": 3,
+      "against": 3,
+      "undecided": 4,
+      "pct_for": 30.0,
+      "pct_against": 30.0
+    },
+    "final": {
+      "for": 0,
+      "against": 8,
+      "undecided": 2,
+      "pct_for": 0.0,
+      "pct_against": 80.0
+    },
+    "delta_for": -30.0,
+    "delta_against": 50.0,
+    "confidence": {
+      "for_initial": 223,
+      "for_final": 0,
+      "against_initial": 180,
+      "against_final": 534
+    },
+    "persuasion_for": -223,
+    "persuasion_against": 354,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "AGAINST",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 35,
+        "final_stance": "AGAINST",
+        "final_confidence": 62,
+        "stance_changed": true,
+        "confidence_delta": 27,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "FOR",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 45,
+        "stance_changed": false,
+        "confidence_delta": -20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 78,
+        "final_stance": "AGAINST",
+        "final_confidence": 72,
+        "stance_changed": true,
+        "confidence_delta": -6,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 70,
+        "final_stance": "AGAINST",
+        "final_confidence": 60,
+        "stance_changed": true,
+        "confidence_delta": -10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 85,
+        "stance_changed": true,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 793.4,
+    "timestamp": "2026-04-09T02:13:27Z"
+  }
+}

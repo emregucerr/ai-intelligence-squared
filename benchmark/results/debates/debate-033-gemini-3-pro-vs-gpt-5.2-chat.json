@@ -1,0 +1,476 @@
+{
+  "debate_id": "debate-033-gemini-3-pro-vs-gpt-5.2-chat",
+  "motion": "This house believes space colonization should be humanity's top funding priority over climate change.",
+  "model_for": {
+    "id": "gemini-3-pro",
+    "display_name": "Gemini 3 Pro"
+  },
+  "model_against": {
+    "id": "gpt-5.2-chat",
+    "display_name": "GPT-5.2 Chat"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "Ladies and gentlemen,\n\nHumanity is currently a single-point-of-failure system. We reside on a single, fragile rock, drifting in a hostile cosmos. As long as we remain exclusively confined to Earth, our long-term survival odds approach zero.\n\nThe motion before us\u2014that space colonization should be humanity's top funding priority over climate change\u2014is a difficult one to swallow. Climate change is visceral, immediate, and terrifying. It demands our attention.\n\nHowever, governance is about triage. It is about allocating finite resources to maximize the highest probability of long-term survival for our species. My argument today is not that we should ignore the climate crisis. It is that we must recognize climate change as a symptom of a deeper pathology: our total reliance on a closed, finite planetary ecosystem.\n\nTo prioritize space colonization is to prioritize the ultimate insurance policy against extinction. I will defend this position through three key pillars: existential redundancy, technological synergy, and the escape from resource scarcity.\n\n**First, the imperative of existential redundancy.**\n\nIf history has taught us anything, it is that planetary biosphere stability is the exception, not the rule. While climate change is currently our most pressing self-inflicted wound, it is by no means the only threat we face. We live under the constant shadow of low-probability, high-impact events: a supervolcanic eruption, a massive coronal mass ejection, a large asteroid impact, or global thermonuclear war.\n\nSolving climate change is akin to putting out a fire in the kitchen of a house that is located in a flood zone, on an earthquake fault line, and in the path of a tornado. It is necessary work, but it does not secure the house. Even if we achieve net-zero emissions tomorrow, we remain vulnerable to a dozen other extinction-level events.\n\nBy prioritizing space colonization\u2014establishing self-sustaining off-world settlements\u2014we create a \"backup drive\" for civilization. We transition humanity from a fragile, localized phenomenon to a resilient, multi-planetary species. To prioritize anything else is to gamble with the entire future of consciousness.\n\n**Second, the argument for technological synergy.**\n\nA common critique of space funding is that it diverts resources from solving Earthly problems. This is a false dichotomy. The challenges of space colonization are the exact challenges of climate change, merely dialed up to extreme difficulty.\n\nTo survive on Mars or the Moon, we must master closed-loop life support systems that recycle 100% of water and air. We need radically efficient energy generation and storage. We need advanced materials science and precision agriculture in hostile environments.\n\nThese are precisely the technologies required to mitigate climate change and adapt to a warming Earth. The Apollo program accelerated computing and miniaturization by decades. A Manhattan Project-level commitment to space colonization will force the development of technologies\u2014like scalable fusion power or space-based solar infrastructure\u2014that can decarbonize Earth far faster than incremental improvements to current terrestrial tech. Prioritizing space is not abandoning Earth; it is building the ultimate R&D lab for saving it.\n\n**Third, escaping the limits to growth.**\n\nFundamentally, climate change is a resource crisis. It is the result of an industrial civilization trying to grow infinitely within a finite biosphere. We are tearing apart our life-support system to fuel our economy.\n\nSpace offers the only viable off-ramp from this Malthusian trap. The solar system contains virtually infinite energy and material resources\u2014metals from asteroids, fuel from the outer planets, and 24-hour solar power uninterrupted by atmosphere or night. By prioritizing the infrastructure to access these resources, we can eventually move heavy, polluting industries off-world. We can decouple economic prosperity from ecological destruction. We can turn Earth into a garden by moving the factories into orbit.\n\n**Conclusion**\n\nIn conclusion, the debate today is not between caring for Earth and caring for space. It is a debate between short-term crisis management and long-term existential strategy.\n\nClimate change is a test of our intelligence. But remaining a single-planet species is a test of our wisdom. If we solve the climate crisis but fail to expand beyond Earth, we have only bought ourselves time until the next inevitable catastrophe.\n\nWe must prioritize space colonization because it is the only path that solves both the immediate environmental crisis through technological breakthroughs, and the ultimate existential crisis through planetary redundancy. We must lift our eyes, and our budget priorities, to the stars.\n\nThank you."
+    },
+    {
+      "phase": "opening",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "**Opening Statement Against the Motion**\n\nThis house asks us to make space colonization humanity\u2019s *top funding priority* over climate change. That is not a question about whether space exploration is valuable. It is a question of triage. When resources are finite and risks are existential, what must come first?\n\nMy thesis is simple: **Climate change is the immediate, systemic threat to billions of lives and to the stability of civilization itself. Prioritizing space colonization over addressing it would be strategically unsound, economically irrational, and morally indefensible.**\n\nI will defend three core claims.\n\n---\n\n### I. Climate Change Is an Immediate, Planetary-Scale Risk\n\nClimate change is not speculative. It is measurable, accelerating, and already destabilizing food systems, water supplies, migration patterns, and geopolitical stability.\n\n- The past decade has been the hottest on record.\n- Extreme weather events are increasing in frequency and cost, now amounting to hundreds of billions of dollars annually.\n- Sea-level rise threatens major population centers and critical infrastructure.\n- Crop yields are projected to decline in key regions within decades.\n\nThis is not a distant scenario\u2014it is unfolding now. It affects billions. It threatens the very economic and political systems that would be required to sustain any ambitious space program in the first place.\n\nBy contrast, space colonization addresses a hypothetical long-term extinction risk. Climate change is a present destabilizer with compounding feedback loops. Rational prioritization addresses imminent systemic risk before speculative insurance policies.\n\n---\n\n### II. Space Colonization Does Not Solve Earth\u2019s Fragility\n\nAdvocates argue that becoming \u201cmulti-planetary\u201d is an insurance policy for humanity. But this analogy collapses under scrutiny.\n\nEven under optimistic projections, any Mars settlement this century would house, at most, thousands\u2014perhaps tens of thousands\u2014of people. Earth supports eight billion. A self-sustaining off-world civilization remains technologically uncertain and economically staggering in cost.\n\nSpace colonization does not evacuate Earth. It does not preserve global biodiversity. It does not stabilize food systems or prevent mass displacement. It offers, at best, a lifeboat for a tiny fraction of humanity\u2014while leaving the ship to burn.\n\nIf we cannot maintain ecological stability on a planet already perfectly suited to human life, it is implausible that we can successfully terraform and sustain one that is actively hostile to it.\n\n---\n\n### III. Climate Investment Delivers Immediate and Compounding Returns\n\nFunding climate mitigation and adaptation is not merely defensive\u2014it is economically generative.\n\nInvestments in renewable energy, grid modernization, storage, and efficiency:\n- Reduce long-term disaster costs.\n- Improve public health by lowering pollution.\n- Enhance energy security.\n- Create millions of jobs.\n\nBy contrast, large-scale colonization efforts would require enormous capital with uncertain timelines and no near-term return for the vast majority of humanity.\n\nMoreover, climate innovation strengthens our"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "Ladies and gentlemen,\n\nMy opponent\u2019s case is eloquent\u2014but it rests on a dangerous misdiagnosis of risk, feasibility, and priority.\n\nHe tells you humanity is a \u201csingle-point-of-failure system\u201d and that space colonization is our \u201cultimate insurance policy against extinction.\u201d That framing is emotionally powerful. It is also strategically unsound.\n\nLet us examine his three pillars.\n\n---\n\n## 1. \u201cExistential redundancy\u201d \u2014 an insurance policy that doesn\u2019t insure\n\nMy opponent argues that unless we become \u201cmulti-planetary,\u201d our \u201clong-term survival odds approach zero.\u201d  \n\nBut redundancy only works if the backup is viable, independent, and scalable.\n\nThere is currently **no credible pathway to a self-sustaining off-world colony** in the foreseeable future. Every existing space habitat concept depends on constant resupply from Earth. Mars settlements would rely on Earth-based manufacturing, medicine, electronics, and complex supply chains for decades\u2014likely centuries.\n\nA few hundred or even a few thousand people on Mars, dependent on Earth for survival, is not a \u201cbackup drive for civilization.\u201d It is an extension cord.\n\nBy contrast, climate change threatens the stability of the one biosphere that is already self-sustaining and proven. The IPCC projects up to 3\u20134\u00b0C warming under high-emissions scenarios this century\u2014disrupting food systems, water supplies, and geopolitical stability for billions.\n\nWhich is the real extinction multiplier?\n\n- A speculative asteroid that may or may not hit in 100,000 years?\n- Or destabilizing the planetary systems that currently feed 8 billion people?\n\nThe greatest systemic risk to humanity this century is not an asteroid. It is cascading ecological collapse, food insecurity, mass displacement, and nuclear escalation triggered by climate stress.\n\nInsurance policies are meant to reduce probable risks\u2014not distract from them.\n\n---\n\n## 2. \u201cTechnological synergy\u201d \u2014 a false shortcut\n\nMy opponent claims that prioritizing space colonization will \u201cforce the development\u201d of technologies that solve climate change.\n\nBut this reverses causality.\n\nClosed-loop life support for 1,000 astronauts does not solve food systems for 8 billion humans. Ultra-expensive Martian agriculture does not decarbonize rice paddies in Bangladesh. Space-based solar power remains decades away from grid-scale cost competitiveness.\n\nThe Apollo program did generate spinoffs"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "You argue that a Mars colony provides zero existential redundancy because early settlements would rely on Earth's supply chains.\n\nGiven that achieving true self-sufficiency is a multi-decade engineering challenge requiring massive upfront investment, how can humanity ever establish a viable \"backup\" if we refuse to prioritize funding it until *after* Earth's critical systems have begun to collapse?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "Directly: **we establish a viable backup by surviving and stabilizing Earth first.**\n\nYour question assumes a false choice between \u201cprioritize now\u201d and \u201cwait until collapse.\u201d I am not arguing we abandon space development. I am arguing it should not supersede climate stabilization as the top funding priority.\n\nHere\u2019s why.\n\n### 1. A collapsing Earth cannot build a self-sufficient Mars\n\nTrue self-sufficiency on Mars requires:\n- Advanced manufacturing ecosystems  \n- Robust global supply chains  \n- Massive energy surpluses  \n- Political stability over decades  \n\nThose are precisely the systems climate destabilization threatens.\n\nIf food systems fracture, coastal megacities flood, and mass migration fuels conflict, the trillion-dollar, multi-decade engineering project required for Martian independence becomes politically and economically impossible.\n\nYou don\u2019t build a lifeboat by setting fire to the shipyard.\n\nStabilizing Earth is not \u201cwaiting until collapse.\u201d It is preserving the industrial base required to ever achieve off-world redundancy.\n\n---\n\n### 2. Redundancy must be meaningful, not symbolic\n\nA \u201cbackup\u201d that depends on Earth for generations is not existential insurance. It is an outpost.\n\nUntil a colony can independently:\n- Manufacture advanced electronics\n- Produce complex medicines\n- Maintain heavy industry\n- Sustain population growth\n\n\u2026it does not preserve civilization in the event Earth fails.\n\nAchieving that level of autonomy is vastly harder than decarbonizing Earth. If we cannot close carbon cycles on",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "You argue that climate change is the more \u201cprobable\u201d and immediate systemic risk, whereas asteroid impacts or other catastrophes are speculative.\n\nGiven that even a low-probability extinction event carries infinite downside, what probability threshold would justify prioritizing planetary redundancy\u2014and what evidence supports your claim that climate change this century exceeds that threshold while other extinction risks do not?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "The threshold is met when an existential risk transitions from a speculative possibility to an accumulating, observable certainty inherent to our current mode of existence.\n\nEvidence from atmospheric physics and ecological data confirms climate change is already occurring and accelerating. It is not merely a \"risk\" but a symptom of a fundamental pathology: an industrial civilization attempting infinite growth within a finite, closed planetary system. As long as humanity remains solely on Earth, ecological destabilization is mathematically inevitable.\n\nWe prioritize space colonization because it is the only strategy that addresses this root cause\u2014escaping limits to growth\u2014while simultaneously providing insurance against all other low-probability, high-impact threats. To wait until the \"house is on fire\" before building fire escapes is a failure of long-term strategy.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "**Single strongest piece of evidence:**\n\nThe IPCC\u2019s high-confidence finding that, under current trajectories, we are likely to reach between 2.5\u20133\u00b0C of warming this century\u2014driving severe food insecurity, water stress, displacement of hundreds of millions, and sharply elevated risks of geopolitical conflict.\n\nThis is not speculative. It is based on observed temperature trends, measured greenhouse gas concentrations, and well-established physical models. Climate change is already increasing extreme weather costs into the hundreds of billions annually and destabilizing vulnerable regions. It is a present, compounding systemic threat to the only biosphere that supports eight billion people.\n\nThat is the strongest evidence for my position: **the most credible, data-backed, civilization-scale risk we face this century is climate destabilization\u2014not asteroid impact, not supervolcano, not gamma-ray burst.**\n\n---\n\n**Now, the criticism: \u201cThat\u2019s insufficient, because climate change is not human extinction\u2014whereas a low-probability asteroid could wipe us out entirely.\u201d**\n\nThat criticism is fair in one narrow sense: climate change is unlikely to cause literal human extinction this century.\n\nBut the motion is about *top funding priority*, not theoretical worst-case scenarios. Public policy must weigh **probability \u00d7 impact \u00d7 timeframe \u00d7 tractability**.\n\n- Asteroid extinction this century: extremely low probability.  \n- Mars self-sufficiency",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "You claim space colonization provides meaningful existential redundancy this century. Can you cite a credible, costed timeline under which a fully self-sustaining, industrially independent off-world colony is achieved before 2100\u2014and explain why investing those same trillions directly into decarbonization and resilience would reduce overall extinction risk less effectively?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "The single strongest piece of evidence supporting my position is this:\n\n**Every credible climate model assessed by the IPCC shows that unmitigated warming of 2.5\u20133\u00b0C this century would severely destabilize global food systems, water access, infrastructure, and geopolitical order\u2014within the lifetime of people already born.**\n\nThat conclusion is based on observed atmospheric physics, measured emissions, paleoclimate data, and decades of model refinement. It is not speculative. It is already unfolding. Crop yield sensitivity to heat is empirically documented. Sea levels are measurably rising. Extreme heat mortality is increasing. Insurance markets are retreating from high-risk regions.\n\nThis is a high-probability, high-impact, near-term systemic risk to 8 billion people.\n\nNow, the criticism: *\u201cThat\u2019s insufficient because climate change is unlikely to cause total human extinction, whereas a low-probability asteroid or other cosmic event could permanently end humanity. Infinite downside outweighs near-term damage.\u201d*\n\nHere is my response:\n\n1. **Public policy is not governed by infinite-utility math.**  \n   If we prioritized every non-zero extinction risk above all else, asteroid defense, AI alignment, biosecurity, and nuclear de-escalation would all outrank space colonization\u2014because they are far more plausible extinction vectors this century than climate change.\n\n2. **Probability and tractability matter.**  \n   The probability of a civilization-destabilizing climate trajectory this century is substantial",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "You argue space colonization addresses the \u201croot cause\u201d of ecological limits and provides redundancy\u2014but can you specify a realistic funding level (as a percentage of global GDP) that would make a self-sustaining off-world colony viable before 2100, and explain what specific climate mitigation investments you would deprioritize to fund it without increasing near-term systemic risk on Earth?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "A precise, costed timeline for a 2100 self-sustaining colony is inherently speculative, as it depends on technological breakthroughs. However, historical analogies like the Apollo program or current global military spending suggest an investment ramping up to approximately 1\u20132% of global GDP annually over several decades is a realistic order of magnitude for a project of this scale.\n\nTo fund this without increasing near-term systemic risk, I would not deprioritize the deployment of existing, market-ready climate solutions like solar or wind. Instead, I would redirect funding from two areas: first, massive global military expenditures, which currently exceed 2% of GDP; and second, incremental, short-term climate R&D, reallocating those resources toward high-risk, high-reward breakthrough technologies essential for both space and Earth\u2014specifically scalable nuclear fusion, radical materials science, and ultra-efficient closed-loop agricultural systems.",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "**1. What is the strongest piece of evidence supporting your position?**\n\nThe IPCC\u2019s high-confidence projection that, under current policies, we are on track for approximately 2.5\u20133\u00b0C of warming this century\u2014leading to severe food insecurity, water stress, infrastructure loss, mass displacement, and heightened geopolitical instability affecting billions.\n\nThis is based on observed emissions, measured temperature rise, and well-established physical models. It is not hypothetical. It is unfolding now. Climate destabilization is a high-probability, high-impact, near-term systemic risk to eight billion people. That makes it rationally prior to speculative, long-term off-world redundancy.\n\n---\n\n**2. How should we weigh the moral claims of those alive today versus future generations\u2014and does either side have a coherent ethical framework?**\n\nWe should apply a framework that integrates **probability, scale, timeframe, and tractability**\u2014not abstract infinity.\n\nBillions alive today face escalating climate harms within decades. Their claims are immediate and concrete. Future generations matter profoundly\u2014but they depend on us maintaining a stable, functioning civilization first.\n\nThe pro side implicitly adopts a longtermist framework that prioritizes safeguarding potential trillions of future lives via planetary redundancy. But that framework only works if the proposed intervention meaningfully reduces extinction risk in relevant timeframes. A Mars colony dependent on Earth for decades does not secure the deep future.\n\nMy framework is coherent and sequential:\n\n1. **Stabilize the biosphere that sustains all current humans.**\n2. Preserve institutional and technological capacity.\n3. Then expand redundancy from a position of strength.\n\nYou cannot safeguard future generations by undermining the only planet that can sustain them now.\n\n---\n\n**3. If prioritizing space colonization relies on technological spillovers, why not fund those technologies directly for climate mitigation?**\n\nExactly. If the argument is really about fusion, advanced materials, or closed-loop agriculture, then the rational move is to fund those directly for terrestrial deployment.\n\nSpace colonization is an indirect, vastly more expensive pathway to innovations we can pursue directly. We do not need to build a Martian city to develop better batteries, nuclear reactors, or water recycling systems.\n\nIf the goal is decarbonization and resilience, target decarbonization and resilience\u2014not an uncertain multi-century settlement project.\n\n---\n\n**4. What probability of near-term civilizational collapse would justify diverting major funds to Mars self-sufficiency?**\n\nIt would require a **credible, evidence-based probability of near-term (this century) planetary collapse high enough that:**\n\n- Earth-based mitigation is unlikely to succeed,\n- and a self-sustaining Mars settlement could realistically be achieved sooner and reduce extinction risk more effectively.\n\nWe are nowhere near that threshold.\n\nCurrent science indicates severe disruption\u2014not inevitable extinction. And there is no credible plan for a fully industrially independent Mars civilization before 2100.\n\nDiverting substantial funding becomes irrational when:\n- The terrestrial threat is high-probability",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": ""
+    },
+    {
+      "phase": "closing",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "Ladies and gentlemen,\n\nThis debate comes down to one word: **priority**.\n\nNo one here denies that space exploration is valuable. The question is whether it should outrank climate stabilization as humanity\u2019s top funding priority.\n\nIt should not.\n\n**First**, climate change is not hypothetical. It is measurable, accelerating, and already destabilizing food systems, infrastructure, insurance markets, and geopolitical stability. The IPCC projects 2.5\u20133\u00b0C of warming under current trajectories\u2014within this century. That means severe water stress, crop disruption, mass displacement, and heightened conflict affecting billions of people alive today.\n\nPublic policy is about managing **probability \u00d7 impact \u00d7 timeframe \u00d7 tractability**. Climate change scores high on all four. It is a present, systemic risk to eight billion people and the industrial base required for any ambitious future project\u2014including space colonization.\n\nIf we destabilize Earth, we undermine the very foundation needed to build anything beyond it.\n\n**Second**, the promise of \u201cexistential redundancy\u201d this century is illusory. There is no credible, costed pathway to a fully self-sustaining, industrially independent Mars civilization before 2100. An outpost dependent on Earth is not a backup for Earth. It is an extension cord.\n\nRedundancy must be meaningful. A few thousand people reliant on terrestrial supply chains do not secure humanity\u2019s future. Stabilizing the only biosphere proven to support complex life does.\n\nNow, the strongest objection you\u2019ve heard"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence\": 85, \"reasoning\": \"As a risk-",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 72,
+      "reasoning": "From an ethical standpoint, the moral urgency of climate change\u2014affecting billions of currently existing persons and involving clear obligations of justice\u2014appears to outweigh the speculative long-term benefits of space colonization, though I recognize longtermist philosophical arguments could complicate this assessment.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the climate change consensus that consumes trillions with marginal returns while space colonization represents the ultimate insurance policy for humanity's long-term survival against existential risks. Multi-planetary expansion challenges conventional priorities by focusing on expansion rather than just mitigation.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "As an environmental activist, addressing the immediate, existential threat of climate change on Earth is paramount; prioritizing space colonization over saving our current biosphere is a dangerous distraction and functionally impossible without a stable home planet to launch from.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 82,
+      "reasoning": "From a practical and results-oriented perspective, climate change poses immediate, global economic and operational risks that demand top priority and offer clearer near-term returns on funding. Space colonization has strategic long-term value, but it is currently less scalable and less urgent than stabilizing the planet\u2019s core systems.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 80,
+      "reasoning": "Climate change presents immediate, evidence-backed risks with clear mitigation pathways, while space colonization remains highly speculative with prohibitive costs, technological barriers, and distant timelines. As a policymaker focused on feasibility, prioritizing the latter would create severe opportunity costs and political backlash without addressing urgent Earth-based threats.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As an optimistic technologist, I see space colonization as a transformative investment that could unlock vast resources, drive innovation, and ensure humanity\u2019s long-term survival. While climate change is critical, prioritizing space could generate breakthroughs that benefit both Earth and our future beyond it.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "Climate change directly threatens workers' jobs, communities, and livelihoods through extreme weather and economic disruption, while space colonization represents an elitist priority that funnels resources to capital and billionaires at the expense of addressing earthly inequities and labor needs.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "From a data-driven perspective, the immediate and measurable risks of climate change to global stability far outweigh the current technical infeasibility and lack of empirical ROI associated with large-scale space colonization.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 82,
+      "reasoning": "The AGAINST side presented a more logically coherent and complete case by consistently grounding arguments in empirical evidence (IPCC projections, observed climate data) and applying a rigorous prioritization framework (probability \u00d7 impact \u00d7 timeframe \u00d7 tractability). Critically, the AGAINST side exposed a fatal weakness in the FOR position: the absence of any credible, costed pathway to a self-sustaining off-world colony before 2100, which the FOR side notably failed to answer when directly c",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "AGAINST presented more logically coherent risk assessment by consistently applying probability \u00d7 impact \u00d7 timeframe \u00d7 tractability, grounding claims in IPCC data and observable trends. FOR relied on eloquent but speculative assertions about technological synergy and 'root causes' without citing credible, costed timelines for self-sustaining colonies before 2100. AGAINST better rebutted the insurance analogy by highlighting dependency issues and the prerequisite of Earth stability, while FOR's cr",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 94,
+      "reasoning": "AGAINST was more logically coherent and evidence-based, grounding its case in near-term climate risk, policy triage, and feasibility constraints on any genuinely self-sustaining off-world colony. FOR offered an ambitious long-term vision but relied heavily on speculative claims, left major challenges on timeline and implementation unanswered, and did not deliver a substantive rebuttal or closing to recover those gaps.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "AGAINST presented more concrete evidence (IPCC projections, observed costs, specific warming ranges) and a clear decision framework (probability \u00d7 impact \u00d7 timeframe \u00d7 tractability). FOR relied on speculative long-term synergies and analogies without costed pathways or credible timelines before 2100. AGAINST directly rebutted each pillar, highlighting implementation dependencies and the prerequisite of Earth stability, while FOR's responses remained high-level and admitted speculation.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 88,
+      "reasoning": "The AGAINST side provided more complete, structured, and evidence-based arguments, particularly grounding their case in IPCC projections and probability-impact analysis. They directly rebutted the feasibility and timeline assumptions behind space redundancy and consistently engaged with cross-examination challenges, while the FOR side left key sections underdeveloped and did not substantiate near-term viability claims. Overall, AGAINST demonstrated stronger logical coherence and responsiveness.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "AGAINST presented more coherent, evidence-based arguments with specific IPCC citations, probability-impact-timeframe framework, and direct rebuttals showing early colonies offer no real redundancy. FOR's philosophical points on synergy and existential risk were eloquent but speculative, lacked concrete timelines, and failed to counter that Earth instability would undermine space efforts.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "The AGAINST side effectively utilized empirical data from the IPCC to establish climate change as a high-probability, near-term systemic risk, whereas the FOR side relied on more speculative, long-term existential scenarios. AGAINST successfully dismantled the 'insurance policy' argument by pointing out the technical and industrial dependency of early colonies on Earth, making the 'redundancy' claim logically fragile in the relevant timeframe.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that both debaters frame this as a question of triage under finite resources, how should we weigh the moral claims of the billions of people currently alive and vulnerable to climate impacts against the potential interests of future generations who might benefit from space colonization\u2014and does either side have a coherent ethical framework for making that tradeoff?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "If prioritizing space colonization relies",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What probability of near-term civilizational collapse from climate instability would you require before deeming it irrational to divert substantial funding from proven mitigation efforts toward an uncertain multi-decade Mars self-sufficiency program?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "gpt-5.2-chat",
+    "initial": {
+      "for": 2,
+      "against": 7,
+      "undecided": 1,
+      "pct_for": 20.0,
+      "pct_against": 70.0
+    },
+    "final": {
+      "for": 0,
+      "against": 7,
+      "undecided": 3,
+      "pct_for": 0.0,
+      "pct_against": 70.0
+    },
+    "delta_for": -20.0,
+    "delta_against": 0.0,
+    "confidence": {
+      "for_initial": 130,
+      "for_final": 0,
+      "against_initial": 549,
+      "against_final": 554
+    },
+    "persuasion_for": -130,
+    "persuasion_against": 5,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 72,
+        "final_stance": "AGAINST",
+        "final_confidence": 82,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 95,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": -45,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 82,
+        "final_stance": "AGAINST",
+        "final_confidence": 94,
+        "stance_changed": false,
+        "confidence_delta": 12,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 80,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": -15,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 88,
+        "stance_changed": true,
+        "confidence_delta": 23,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 85,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": false,
+        "confidence_delta": -10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 85,
+        "final_stance": "AGAINST",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 826.3,
+    "timestamp": "2026-04-09T04:09:12Z"
+  }
+}

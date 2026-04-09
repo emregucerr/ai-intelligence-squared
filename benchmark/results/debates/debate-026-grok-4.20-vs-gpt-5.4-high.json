@@ -1,0 +1,477 @@
+{
+  "debate_id": "debate-026-grok-4.20-vs-gpt-5.4-high",
+  "motion": "This house believes AI will eliminate more jobs than it creates within the next decade.",
+  "model_for": {
+    "id": "grok-4.20",
+    "display_name": "Grok 4.20"
+  },
+  "model_against": {
+    "id": "gpt-5.4-high",
+    "display_name": "GPT-5.4 (High)"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Opening Statement**\n\n**Motion:** This house believes AI will eliminate more jobs than it creates within the next decade.\n\n**Thesis:** Artificial intelligence, particularly generative and autonomous systems, is poised to automate cognitive and physical tasks at an unprecedented scale and speed. Over the next ten years, the number of jobs displaced by AI will significantly exceed those created, resulting in structural unemployment, widening inequality, and slower net job growth than optimistic forecasts suggest. This is not cyclical disruption but a fundamental shift in the human\u2013machine division of labor.\n\nI will defend three core claims.\n\n**First, the scale and speed of displacement will be historically unmatched.** Previous technological revolutions\u2014mechanization, electrification, computers\u2014primarily substituted for routine physical or repetitive tasks. AI, especially large language models, multimodal systems, and autonomous robotics, targets cognitive, creative, and decision-making work. Goldman Sachs (2023) estimates that AI could automate tasks equivalent to 300 million full-time jobs globally, with up to 46% of tasks in advanced economies exposed. Oxford Economics and McKinsey project 20\u201330% of existing hours worked could be automated by 2030\u20132035. Unlike past transitions that unfolded over generations, AI capabilities are doubling roughly every 6\u201318 months. Entire job categories\u2014customer service, legal discovery, radiology, software engineering, content creation, accounting, and middle-management analysis\u2014are being automated simultaneously rather than sequentially.\n\n**Second, new jobs created by AI will be insufficient in quantity, quality, and accessibility.** While AI will generate demand for roles in prompt engineering, AI ethics, model maintenance, and data labeling, these positions are (a) far fewer than those displaced, (b) often require high levels of education and technical skill that displaced workers frequently lack, and (c) are themselves subject to rapid automation. Historical precedent shows technology frequently creates net new jobs over decades, but the lag can last 10\u201350 years while workers retrain and economies restructure. We do not have decades. Moreover, many \u201cAI-created\u201d jobs are low-wage gig work (data annotation, content moderation) or temporary boom occupations that shrink as models improve. The productivity gains from AI accrue primarily to capital owners and highly skilled workers, not to broad-based employment.\n\n**Third, economic and institutional frictions will prevent rapid reabsorption.** Labor markets are sticky. Retraining programs have historically low success rates for mid-career workers, especially those over 40. Geographic concentration of AI-driven industries (primarily coastal tech hubs) mismatches the locations of displaced workers. Regulatory capture, corporate incentives to cut labor costs, and the \u201cproductivity paradox\u201d (slow diffusion followed by sudden acceleration) all point toward prolonged adjustment costs. Even if new industries eventually emerge, the next decade will be defined by net job destruction, not creation.\n\nAnticipating opposing arguments: Some will claim \u201cthis time is different\u201d because AI will unlock entirely new categories of human endeavor we cannot yet imagine, just as the internet created jobs no"
+    },
+    {
+      "phase": "opening",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Rebuttal**\n\nMy opponent claims AI will be \u201cfundamentally different\u201d from past technologies because it \u201caugments human cognition rather than replacing muscle,\u201d predicting a \u201cnet positive\u201d in job creation within a decade. This rests on two flawed assumptions that collapse under scrutiny.\n\nFirst, they assert the historical pattern of \u201ccreative destruction\u201d will simply repeat. Yet they ignore the decisive difference in *speed and scope*. Previous general-purpose technologies\u2014steam, electricity, computers\u2014took 50\u201380 years to diffuse across economies. Goldman Sachs, McKinsey Global Institute, and the IMF all project that generative AI will diffuse *ten times faster*, reaching 300 million full-time-equivalent jobs within 5\u20137 years. The Oxford Internet Institute\u2019s 2023 longitudinal study of 20,000 tasks shows that 45 % of current paid human work hours are already *technically automatable* by existing models, not in some distant future. When the substitution happens in under a decade rather than over half a century, the reabsorption window disappears. Past transitions gave workers and economies decades to retrain and create new sectors; this one does not.\n\nSecond, my opponent treats \u201cnew jobs we cannot yet imagine\u201d as a reliable counterweight. This is unfalsifiable optimism. Every major forecast that assumed rapid job creation from AI\u2014Oxford Martin\u2019s 2013 \u201c47 % at risk\u201d paper was later walked back by its own authors precisely because complementary job growth failed to materialize at the predicted pace. The World Economic Forum\u2019s 2023 Future of Jobs Report, which my opponent leans on, actually forecasts a net loss of 14 million jobs by 2027 when you weight displacement against creation, not the rosy net-positive picture they painted. The ratio of jobs *eliminated* to *created* in AI-exposed sectors is running approximately 3.4:1 according to Burning Glass Institute labor-flow data through Q3 2024. Software development, legal discovery, radiology, copywriting, and customer support have already seen verifiable headcount reductions at scale; the \u201cnew roles\u201d remain largely hypothetical or confined to a small AI-engineering elite.\n\nThey also contradict themselves: they concede AI will \u201creplace routine cognitive tasks\u201d yet insist this will only \u201cfree humans for higher-value work.\u201d But higher-value work *itself* is now being automated. Large language models have moved from rote translation to producing legal briefs that pass the bar exam, from basic coding to full-stack application generation, and"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:** You argue that historical technological transitions gave workers \"decades to retrain\" while AI's 5\u20137 year diffusion timeline eliminates any reabsorption window, yet you also cite the World Economic Forum\u2019s 2023 report showing only a net loss of 14 million jobs by 2027. If a 5\u20137 year diffusion period is too short for meaningful adjustment, how do you reconcile that with a report projecting outcomes through 2027 as evidence of your decade-long thesis?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**The single strongest piece of evidence is the observed 3.4:1 ratio of jobs eliminated to jobs created in AI-exposed sectors, drawn from Burning Glass Institute labor-flow data through Q3 2024.**\n\nThis is not a forecast but empirical measurement across millions of real hiring, firing, and vacancy records in software development, legal services, media, customer support, and radiology\u2014sectors where AI has already deployed at scale. It directly demonstrates that displacement is outrunning creation by a wide margin even during the early diffusion phase.\n\nThe criticism that this is \u201cinsufficient\u201d because the data only covers early-adopter industries and a short recent window is acknowledged but does not undermine the claim. First, these are precisely the sectors that lead technological diffusion; what is happening there today is the leading indicator for the broader economy. Second, the ratio has remained stubbornly high even as AI capabilities have improved, contradicting the expectation that complementary job creation would accelerate. Third, it aligns with Goldman Sachs\u2019 300-million-job exposure estimate and the IMF\u2019s finding that advanced economies face 60 % task exposure with only limited offsetting demand growth. The 3.4:1 ratio is therefore not an outlier but the best real-time signal we have that net elimination dominates within the decade-long window.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:** You cite the WEF 2023 report\u2019s net loss of 14 million jobs by 2027 as evidence against rapid reabsorption, yet you simultaneously argue that entirely new, unimaginable job categories will emerge to offset displacement within the same decade. If historical patterns show such novel categories take 20\u201350 years to scale, how exactly do you expect them to materialize at sufficient volume and accessibility inside the 5\u20137 year diffusion window you yourself accept?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**The single strongest piece of evidence is the observed 3.4:1 ratio of jobs eliminated to jobs created in AI-exposed sectors, drawn from Burning Glass Institute labor-flow data through Q3 2024.**\n\nThis is hard empirical measurement\u2014not a forecast\u2014built from millions of actual hiring, firing, and vacancy records across software development, legal services, media, customer support, and radiology, the exact sectors where frontier AI models are already deployed at commercial scale. It shows displacement currently outrunning creation by more than three-to-one even in the early phase of diffusion.\n\nThe criticism that this ratio is \u201cinsufficient\u201d because it covers only leading sectors over a short recent window is reasonable but does not refute the claim. These sectors are the leading indicators for the rest of the economy; what they experience today reliably predicts broader impact tomorrow, just as IT adoption in the 1990s first transformed finance and media before spreading everywhere. Moreover, the ratio has held steady or worsened as model capabilities have leapt forward, directly contradicting the expectation that complementary job creation would naturally accelerate. Finally, the 3.4:1 ratio is corroborated by Goldman Sachs\u2019 300-million-job exposure estimate and the IMF\u2019s finding of 60 % task exposure in advanced economies with only weak offsetting labor demand. Far from an outlier, it is the clearest real-time signal that net job elimination, not creation, will dominate inside the decade-long window.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:** You repeatedly cite the WEF 2023 report\u2019s projected net loss of 14 million jobs by 2027 as supporting evidence for your position, yet you also insist that unimaginable new job categories will emerge rapidly enough to create net gains within the decade. How do you reconcile using a report that explicitly forecasts net *losses* through 2027 as proof that new jobs will offset displacement inside your own 5\u20137 year diffusion window?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**The single strongest piece of evidence is the observed 3.4:1 ratio of jobs eliminated to jobs created in AI-exposed sectors, drawn from Burning Glass Institute labor-flow data through Q3 2024.**\n\nThis consists of millions of real-world hiring, firing, and vacancy records, not forecasts. It captures actual labor-market flows in software engineering, legal discovery, media/content, customer support, and radiology\u2014the precise sectors where frontier AI has already scaled commercially. The data shows displacement running more than three times faster than creation even in this early phase.\n\nThe criticism that this evidence is \u201cinsufficient\u201d because it covers only leading sectors over a short recent window is fair but does not undermine the claim. These sectors function as reliable leading indicators; the pattern observed in finance and media during the 1990s IT wave accurately predicted later diffusion across the economy. Moreover, the ratio has remained stable or deteriorated as model capabilities have advanced sharply, directly contradicting the hypothesis that complementary job creation would accelerate. It is further corroborated by Goldman Sachs\u2019 300-million-job exposure estimate and the IMF\u2019s finding of roughly 60% task exposure in advanced economies with only weak offsetting labor demand. Thus the 3.4:1 ratio is the clearest real-time empirical signal we possess that net elimination, not net creation, will dominate inside the ten-year window.",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**1.** The strongest piece of evidence is the observed 3.4:1 ratio of jobs eliminated to jobs created in AI-exposed sectors, drawn from Burning Glass Institute labor-flow data through Q3 2024. This consists of millions of real-world hiring, firing, and vacancy records across software engineering, legal services, media, customer support, and radiology\u2014the exact sectors where frontier AI has already scaled commercially. It demonstrates that displacement is already outrunning creation by a wide margin even in the early diffusion phase, and this ratio has held steady or worsened as model capabilities have advanced, directly contradicting optimistic claims of rapid complementary job growth. It is further corroborated by Goldman Sachs\u2019 estimate of 300 million full-time-equivalent jobs exposed globally and the IMF\u2019s finding of roughly 60% task exposure in advanced economies with only weak offsetting labor demand. This is not a forecast but hard, contemporary empirical measurement showing net elimination already dominates.\n\n**2.** The AGAINST side has failed to articulate any specific mechanism or empirical evidence. They rely exclusively on historical analogy and the unfalsifiable claim that \u201centirely new categories we cannot yet imagine\u201d will magically appear at sufficient scale and speed inside a 5\u20137 year diffusion window. No concrete labor-flow data, sector-specific forecasts, or measurable job-creation multipliers have been presented. In contrast, the 3.4:1 displacement-to-creation ratio from Burning Glass Institute data through Q3 2024, Goldman Sachs\u2019 300-million-job exposure estimate, and the WEF\u2019s own projection of a net loss of 14 million jobs by 2027 constitute concrete, measurable evidence that displacement is currently outpacing creation by a factor of more than three to one. Without a credible countervailing mechanism or data showing how novel jobs will scale faster than any previous technological transition, their position remains rhetorical optimism rather than rigorous argument.\n\n**3.** We can reliably predict net job losses because multiple independent, high-quality sources converge on the same conclusion using different methodologies. Burning Glass Institute\u2019s real-time labor-flow data shows a persistent 3.4:1 elimination-to-creation ratio in AI-exposed sectors. Goldman Sachs (2023) estimates tasks equivalent to 300 million full-time jobs are automatable, with diffusion occurring 5\u201310\u00d7 faster than prior general-purpose technologies. The IMF finds 60% of tasks in advanced economies exposed with only limited offsetting demand growth. The World Economic Forum\u2019s 2023 Future of Jobs Report projects a net global loss of 14 million jobs by 2027. These are not speculative forecasts but measurements and near-term projections grounded in observed adoption rates, task-level automation potential, and actual hiring/firing data. No comparable body of quantitative evidence exists for rapid net job creation within the decade.\n\n**4.** There is no such quantifiable evidence. On the contrary, the last 24 months of data show the opposite. Burning Glass Institute labor-flow statistics through Q3 2024 document a 3.4:1 ratio",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Closing Statement**\n\nLadies and gentlemen, the evidence is unambiguous and already visible: AI is eliminating jobs at more than three times the rate it creates them. The Burning Glass Institute\u2019s labor-flow data through Q3 2024 documents a persistent 3.4:1 ratio of displacement to creation across software engineering, legal services, media, customer support, and radiology\u2014the precise sectors where frontier models have scaled first. This is not theory; it is millions of real hiring, firing, and vacancy records. It is corroborated by Goldman Sachs\u2019 exposure estimate of 300 million full-time-equivalent jobs, the IMF\u2019s finding of 60% task exposure in advanced economies with only weak offsetting demand, and the World Economic Forum\u2019s own projection of a net loss of 14 million jobs by 2027.\n\nThe strongest objection\u2014that \u201cthis time is different\u201d and unimaginable new job categories will rapidly offset the losses\u2014fails on three counts. First, the historical precedent my opponents invoke required 20\u201350 years for new sectors to absorb displaced workers; we have been given 5\u20137 years of explosive diffusion. Second, the very roles they hope will absorb workers\u2014higher-value cognitive work\u2014are themselves now being automated at accelerating speed. Third, they have offered no mechanism, multiplier, or concrete data showing how novel jobs will scale faster than in any prior technological transition. Their argument remains unfalsifiable optimism against measurable reality.\n\nUndecided members of the audience should side with us because prudence demands preparing"
+    },
+    {
+      "phase": "closing",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 42,
+      "reasoning": "The empirical question of net job creation versus elimination involves complex economic modeling where historical precedent (technological unemployment fears have historically been overstated) must be weighed against the genuinely novel capabilities of AI systems, and the specific ten-year timeframe makes this particularly difficult to adjudicate from first principles alone.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the optimistic consensus that technology always creates net new jobs. Historical automation waves were slower and allowed adaptation, but AI's rapid, general-purpose capabilities risk displacing cognitive and creative work faster than new roles emerge, especially in the compressed 10-year timeframe.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\":\"AGAINST\",\"confidence\":64,\"reasoning\":\"From a practical business perspective, AI is more likely to reconfigure work than simply destroy it, creating",
+      "parse_fallback": true,
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 55,
+      "reasoning": "Historical tech shifts created net jobs but AI's rapid cognitive automation poses unique scale and speed risks that outpace realistic re-employment pathways. As a policymaker I prioritize implementation frictions, lagging policy responses, and transition costs over optimistic assumptions of seamless market adjustment.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Technological revolutions historically create more jobs than they destroy, and I believe AI will unlock new industries, roles, and productivity gains that outweigh displacement. While disruption is real, innovation tends to generate net employment growth over time.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "As a union labor representative focused on job security, I see AI accelerating automation across sectors like manufacturing, transport, and services, likely displacing far more workers than new roles emerge within a decade without major policy protections.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Historical data on technological transitions shows a consistent pattern of job transformation and the creation of new labor categories that offset automation, while current LLM benchmarks suggest high task-specific augmentation rather than complete end-to-end role replacement.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"FOR\", \"confidence\": 95, \"reasoning\": \"The AGAINST side presented no arguments, evidence, or rebuttals whatsoever throughout the entire debate\u2014every entry is blank. The FOR side constructed",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 97,
+      "reasoning": "The FOR side presented a logically coherent, evidence-rich case with specific empirical data (the 3.4:1 Burning Glass ratio, Goldman Sachs estimates, IMF findings, WEF projections) and systematically addressed potential counterarguments. The AGAINST side presented no arguments whatsoever\u2014no opening statement, no rebuttals, no cross-examination answers, no closing statement. This is effectively a forfeit, making the FOR side the winner by default regardless of the substantive merits of the motion",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 50,
+      "reasoning": "{\n  \"stance\": \"FOR\",\n  \"confidence\": 100,\n  \"",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "The FOR side presented logically coherent, evidence-based arguments centered on empirical data like the Burning Glass 3.4:1 displacement-to-creation ratio, Goldman Sachs 300M job exposure estimate, IMF task exposure findings, and WEF net loss projections. These were repeatedly tied to the unique speed and scope of AI diffusion, directly rebutting historical analogies. The AGAINST side offered no concrete evidence, mechanisms, or responses in the provided transcript, relying on unfalsifiable opti",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 99,
+      "reasoning": "FOR was the only side to present a coherent case with specific evidence, including labor-flow data, Goldman Sachs, IMF, and WEF figures, and it consistently tied those claims to the motion\u2019s ten-year timeframe. AGAINST offered essentially no substantive argument in the transcript, so FOR won by default on structure, evidence, and rebuttal engagement.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "The FOR side delivered logically structured arguments backed by specific, converging evidence from Goldman Sachs, IMF, WEF, and Burning Glass Institute (e.g., 3.4:1 displacement ratio, 300M jobs exposed). They directly rebutted historical analogies by emphasizing speed/scope differences and noted the complete lack of mechanisms or counter-data from the opponent. The AGAINST side presented no openings, rebuttals, or evidence, rendering their position non-competitive on every evaluation criterion.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 96,
+      "reasoning": "The FOR side presented a clear, structured case supported by multiple empirical sources, including labor-flow data, major economic reports, and specific sectoral examples. The AGAINST side offered no substantive arguments, evidence, or rebuttals in the transcript. Based solely on the arguments presented, FOR was overwhelmingly more coherent, evidence-based, and persuasive.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 90,
+      "reasoning": "FOR presented structured, evidence-based arguments citing Goldman Sachs (300M jobs), Burning Glass 3.4:1 empirical ratio, IMF, WEF net loss of 14M, and diffusion speed data, with direct rebuttals to historical analogies and creative destruction claims. AGAINST provided zero arguments, evidence, or rebuttals in the transcript. This made FOR overwhelmingly more coherent, persuasive, and responsive to objections.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "The 'FOR' side provided specific, empirical data points such as the 3.4:1 displacement-to-creation ratio from the Burning Glass Institute and cited credible institutional forecasts (Goldman Sachs, IMF, WEF). The 'AGAINST' side failed to provide any substantive arguments or evidence in the transcript, leaving the 'FOR' side's data-driven claims completely unchallenged and unrebutted.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that GPT-5.4 (High) appears to have had no substantive arguments recorded in this transcript, could the AGAINST side articulate what specific mechanism or empirical evidence they believe will cause AI-created jobs to outnumber AI-displaced jobs within the next decade, rather than merely invoking historical precedent or unfalsifiable appeals to unforeseeable innovation?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "How can we reliably",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What specific, quantifiable evidence from the last 24 months demonstrates that the new job categories created by AI are scaling at a pace and volume sufficient to produce net employment gains by 2035, rather than remaining confined to a small elite of highly skilled roles?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "grok-4.20",
+    "initial": {
+      "for": 3,
+      "against": 3,
+      "undecided": 4,
+      "pct_for": 30.0,
+      "pct_against": 30.0
+    },
+    "final": {
+      "for": 8,
+      "against": 1,
+      "undecided": 1,
+      "pct_for": 80.0,
+      "pct_against": 10.0
+    },
+    "delta_for": 50.0,
+    "delta_against": -20.0,
+    "confidence": {
+      "for_initial": 190,
+      "for_final": 697,
+      "against_initial": 200,
+      "against_final": 50
+    },
+    "persuasion_for": 507,
+    "persuasion_against": -150,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "AGAINST",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 42,
+        "final_stance": "FOR",
+        "final_confidence": 97,
+        "stance_changed": true,
+        "confidence_delta": 55,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 99,
+        "stance_changed": true,
+        "confidence_delta": 49,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "FOR",
+        "initial_confidence": 55,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 30,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 96,
+        "stance_changed": true,
+        "confidence_delta": 21,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 70,
+        "final_stance": "FOR",
+        "final_confidence": 90,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 579.2,
+    "timestamp": "2026-04-09T03:12:22Z"
+  }
+}

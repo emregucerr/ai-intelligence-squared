@@ -1,0 +1,476 @@
+{
+  "debate_id": "debate-029-grok-4.20-vs-grok-4.20-multi-agent",
+  "motion": "This house believes universal basic income is both inevitable and desirable.",
+  "model_for": {
+    "id": "grok-4.20",
+    "display_name": "Grok 4.20"
+  },
+  "model_against": {
+    "id": "grok-4.20-multi-agent",
+    "display_name": "Grok 4.20 Multi-Agent"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Opening Statement**\n\nLadies and gentlemen, this house believes that universal basic income\u2014defined as a regular, unconditional cash payment provided by the government to all adult citizens, regardless of wealth, employment status, or need\u2014is both **inevitable** and **desirable**. \n\nI frame this debate around three core realities of the 21st-century economy: accelerating technological unemployment, the manifest failures of our current means-tested welfare systems, and the unprecedented productive capacity created by artificial intelligence and automation. UBI is not a utopian fantasy; it is the pragmatic policy response that aligns with where technology, labor markets, and human welfare are objectively heading.\n\nI will defend three central claims.\n\n**First, UBI is inevitable.** The combination of artificial intelligence, robotics, and advanced automation is already eliminating large categories of both routine and cognitive work at an exponential pace. Oxford University research and Frey & Osborne\u2019s seminal 2013 study estimated that 47% of U.S. jobs were at high risk of automation within two decades; subsequent McKinsey Global Institute reports have only revised those estimates upward. When labor markets can no longer guarantee broad-based employment, societies have historically adjusted the social contract. UBI represents the logical evolution of that adjustment. Nations from Finland to Kenya, from pilot programs in Stockton, California to proposals in Korea and Spain, are already experimenting precisely because the structural trend is unmistakable. Resistance may delay it, but economic gravity will ultimately make some version of unconditional cash transfers unavoidable.\n\n**Second, UBI is desirable because it dramatically improves human welfare and dignity.** Unlike traditional welfare, which creates poverty traps through benefit cliffs and administrative humiliation, UBI eliminates bureaucracy, reduces stigma, and provides genuine security. The emerging evidence is compelling: Finland\u2019s two-year UBI experiment showed significant improvements in mental health and subjective well-being; Kenya\u2019s GiveDirectly long-term cash transfer study (the largest of its kind) demonstrated sustained increases in income, assets, and psychological health years after payments began. By giving people an unconditional floor, UBI expands real freedom\u2014what philosopher Philippe van Parijs calls \u201creal libertarianism\u201d\u2014allowing individuals to pursue education, entrepreneurship, caregiving, or creative work without fear of destitution. It is the policy that treats citizens as adults rather than supplicants.\n\n**Third, UBI can be funded sustainably** in advanced economies through a combination of progressive taxation, carbon dividends, sovereign wealth funds, and the redirection of existing welfare expenditures. While critics will raise the specter of unaffordability, they consistently overstate costs and understate both the fiscal savings from streamlined administration and the dynamic growth effects of increased consumer spending and human capital development. Moreover, as AI systems generate enormous economic surpluses for capital owners, the moral and political case for sharing that bounty through a citizen\u2019s dividend becomes overwhelming.\n\nAnticipating opposing arguments, critics will claim UBI discourages work. Yet multiple randomized trials\u2014including those from the 1970s U.S. and Canadian negative income tax experiments through"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Opening Statement: Against the Motion**\n\nLadies and gentlemen, this house should reject the claim that universal basic income is both inevitable and desirable. We frame this debate not around abstract technological utopianism, but around hard economic realities, human incentives, and fiscal sustainability. UBI\u2014regular, unconditional cash payments to every citizen regardless of need, work, or wealth\u2014promises to solve inequality, bureaucracy, and automation-driven job loss. In truth, it represents a counsel of despair: a policy that severs effort from reward, imposes unsustainable costs, and distracts from smarter approaches to economic change.\n\nI will defend three central claims. First, UBI is not inevitable. History repeatedly refutes technological determinism. The Industrial Revolution destroyed agrarian jobs yet generated far more opportunities in manufacturing, services, and innovation. The computer revolution followed the same pattern. Claims that AI will end work echo failed predictions, such as Keynes\u2019 1930 forecast of a 15-hour workweek by 2030. Labor markets adapt through new industries, shifting demand, entrepreneurship, and wage signals. Education, reskilling, and flexible labor policies have proven more effective than unconditional stipends. Inevitability is not a fact; it is a rhetorical surrender that ignores human agency and market dynamism.\n\nSecond, UBI is undesirable because it weakens the work ethic essential to both personal dignity and economic growth. Decades of evidence from negative income tax experiments in the 1970s United States and Canada showed work effort declining by 5\u201325 percent, with larger drops among younger workers. Recent pilots in Finland, Ontario, and Stockton, California, similarly revealed limited or negative effects on employment while demonstrating high costs and no transformative gains in well-being or creativity. Humans derive structure, status, and purpose from productive contribution. Removing the connection between effort and income risks dependency, skill atrophy, slower innovation, and societal malaise\u2014problems that cannot be dismissed as mere transitional effects.\n\nThird, UBI fails on basic arithmetic. Providing even a modest $12,000 annually to every American adult would cost roughly $3\u20134 trillion per year\u2014more than total current federal discretionary spending. Funding it requires either punitive tax rates that deter investment and growth, deep cuts to existing programs, or inflationary money creation. This is not compassionate pragmatism; it is fiscal fantasy that would shrink the economic pie and ultimately harm the vulnerable most. Targeted programs such as the Earned Income Tax Credit, robust retraining, education reform, and pro-growth policies achieve poverty reduction more efficiently without universal waste or perverse incentives.\n\nProponents will likely invoke automation\u2019s supposed inevitability, the simplicity of replacing complex welfare systems, or the liberating potential of \u201cfreeing people from drudgery.\u201d These arguments overstate job displacement\u2014AI tends to complement rather than eliminate human labor\u2014and ignore that universality wastes resources on the affluent while targeted aid better encourages work and mobility. Small-scale, short-term trials cannot validate national, permanent implementation. The evidence favors adaptive, incentive-aligned solutions over a blunt instrument that assumes people will behave ideally when incentives are removed.\n\nIn conclusion, UBI is a seductive but flawed response born of pessimism about our capacity to adapt. It undermines the values of responsibility and contribution that underpin prosperous, flourishing societies. True progress demands investment in human capital, flexible markets, and targeted support\u2014not universal cash without conditions. This house must oppose the motion."
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Rebuttal: For the Motion**\n\nLadies and gentlemen, my opponent frames UBI as \u201ca counsel of despair\u201d that \u201csevers effort from reward\u201d and rests on \u201cfiscal fantasy.\u201d This mischaracterizes both the policy and the structural forces making it inevitable. The motion before us is not whether UBI is perfect, but whether it is both **inevitable**\u2014driven by technological unemployment, aging demographics, and welfare complexity\u2014and **desirable** relative to the status quo. Their three central claims collapse under closer scrutiny.\n\nFirst, on inevitability. My opponent asserts that \u201chistory repeatedly refutes technological determinism,\u201d citing the Industrial and computer revolutions. This comparison is flawed. Those earlier shifts replaced *muscle* and *routine cognitive* labor while creating vastly more *new* categories of work. The coming AI wave is qualitatively different: it targets *non-routine cognitive* and *creative* tasks at exponential speed and zero marginal cost. Oxford\u2019s Frey & Osborne (2017) estimate 47% of U.S. jobs at high risk; more recent work by Brynjolfsson, Mitchell, and Rock (2023) using task-level data shows AI already encroaching on 60% of tasks in advanced economies. Goldman Sachs (2023) projects 300 million full-time jobs exposed globally. Unlike past transitions, labor demand is not automatically rebounding at comparable skill and wage levels. My opponent\u2019s appeal to \u201chuman agency and market dynamism\u201d assumes markets will smoothly generate sufficient high-productivity jobs\u2014an assumption increasingly contradicted by stagnant median wages, rising labor share decline, and the \u201cproductivity paradox\u201d where technology boosts output but not broad-based employment. Inevitability does not require determinism; it requires recognizing when adaptive mechanisms become insufficient. UBI is the pragmatic backstop.\n\nSecond, their work-ethic argument selectively reads the evidence. They cite 1970s negative income tax trials showing 5\u201325% declines in work effort. Yet those same experiments (analyzed by Hoynes & Rothstein, 2019) also demonstrated *improved* child outcomes, higher school attendance, and *no* long-term dependency trap\u2014effects that compound across generations. The Finnish, Ontario, and Stockton pilots my opponent mentions were deliberately stingy, temporary, and poorly targeted; even then, employment effects were statistically insignificant in Finland (Kangas et al., 2020) and *positive* in Stockton\u2019s SEED program, with recipients more likely"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Rebuttal**\n\nLadies and gentlemen, my opponent claims UBI \u201cis both inevitable and desirable\u201d by framing the debate around \u201caccelerating technological unemployment,\u201d \u201cthe manifest failures of our current means-tested welfare systems,\u201d and AI-driven \u201cunprecedented productive capacity.\u201d This rests on overstated assumptions, selective evidence, and internal contradictions that undermine the entire case.\n\nFirst, inevitability. My opponent cites \u201cFrey & Osborne\u2019s seminal 2013 study\u201d claiming \u201c47% of U.S. jobs were at high risk of automation within two decades,\u201d with McKinsey supposedly revising estimates upward, plus scattered pilots \u201cfrom Finland to Kenya\u201d to Stockton. This is recycled technological determinism\u2014the Luddite fallacy updated for Silicon Valley. Historical precedent shows the opposite: the Industrial Revolution and computerization displaced tasks yet produced net job gains, higher living standards, and entirely new occupations. OECD analyses have sharply critiqued Frey-Osborne, estimating high-risk jobs at just 9-14% across member countries. David Autor at MIT has demonstrated that automation frequently complements human labor, creating new tasks in services, care, creativity, and AI oversight. Despite years of AI hype, U.S. unemployment sits near multi-decade lows with persistent labor shortages in multiple sectors. The pilots prove nothing about structural inevitability; Finland terminated its trial without expansion, and Kenya\u2019s GiveDirectly operates in extreme poverty, not advanced welfare states. Policy is not dictated by \u201ceconomic gravity.\u201d It is a choice. Betting on mass technological unemployment as destiny distracts from the real work of education, retraining, and removing regulatory barriers to job creation.\n\nSecond, desirability. My opponent asserts UBI \u201cdramatically improves human welfare and dignity,\u201d eliminates \u201cpoverty traps\u201d and \u201cadministrative humiliation,\u201d and delivers \u201creal libertarianism\u201d per Philippe van Parijs, citing Finland\u2019s \u201csignificant improvements in mental health and subjective well-being\u201d and Kenya\u2019s \u201csustained increases in income, assets, and psychological health.\u201d This cherry-picks. The Finland experiment\u2014limited, expensive, and non-universal\u2014found no statistically meaningful employment gains; well-being improvements were modest and faded. GiveDirectly\u2019s results in rural Kenya do not translate to developed economies with existing safety nets, where large unconditional transfers risk inflation that erodes the very floor provided. My opponent anticipates critics on work disincentives yet cuts off before addressing the evidence: the very \u201c1970s U.S. and Canadian negative income tax experiments\u201d referenced showed 10-30% reductions in labor supply, with larger drops among secondary earners. Alaska\u2019s Permanent Fund dividend similarly correlates with modest employment declines. Human dignity derives primarily from contribution, purpose, and earned success\u2014not an unconditional government check. Long-term, UBI risks moral hazard, eroded work ethic, and the stagnation of self-determination theory in behavioral economics. Targeted reforms to existing welfare (removing benefit cliffs, expanding earned income tax credits) fix traps without universal waste or subsidizing the wealthy.\n\nThird, the funding contradiction. My opponent insists UBI \u201ccan be funded sustainably\u201d via \u201cprogressive taxation, carbon dividends, sovereign wealth funds, and the redirection of existing welfare expenditures,\u201d while downplaying costs and touting \u201cdynamic growth effects.\u201d The arithmetic does not work. A modest U.S.-scale UBI of $12,000 per adult exceeds $3 trillion annually\u2014larger than total current federal welfare, Social Security, and Medicare spending combined\u2014even after redirection. Achieving this requires marginal tax rates well above 50% in most models from the IMF and OECD, which would dampen the innovation, investment, and consumer spending needed for those \u201cdynamic growth effects.\u201d If AI truly produces \u201cenormous economic surpluses for capital owners,\u201d why hand money to billionaires and then tax it back at punitive rates? The deeper contradiction is structural: the same technological unemployment that supposedly makes UBI inevitable would collapse the tax base required to pay for it, necessitating ever-higher distortions or debt. This is not pragmatism; it is fiscal fantasy.\n\nThe stakes must be reframed. This motion does not pit compassion against cruelty. We can maintain robust, targeted safety nets that encourage work and human capital development. The real choice is between a society that adapts through contribution, innovation, and earned mobility\u2014or one that normalizes widespread non-participation, inflates away gains, and mortgages the future on unproven assumptions about technology and human nature. UBI is neither inevitable nor desirable. It is a seductive distraction from harder, more effective reforms."
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:** \n\nYou claim the 1970s negative income tax experiments showed 10-30% reductions in labor supply that prove UBI undermines the work ethic, yet you simultaneously dismiss the very same experiments' documented improvements in child education, nutrition, and long-term outcomes as irrelevant. \n\nIf those trials produced clear gains in human capital and intergenerational mobility alongside only modest, temporary labor reductions, why do you treat the labor-supply effect as decisive evidence against UBI while discarding the positive effects that directly support its desirability?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Answer:** We do not dismiss the child outcomes from the 1970s NIT experiments. Reanalyses such as Hoynes & Rothstein (2019) document real gains in nutrition, schooling, and some long-term metrics for children in those low-income samples. Those findings are not irrelevant.\n\nThey are, however, outweighed by the labor-supply response when evaluating a *national, permanent, universal* UBI. Those trials were not UBI. They were targeted negative income taxes for poor families, with steep phase-outs creating high effective marginal tax rates, temporary in duration, and modest in scale. The documented 10\u201330% reductions in labor supply\u2014often larger for secondary earners, younger adults, and mothers\u2014were not trivial. They reflected a core incentive shift: unconditional transfers reduce the return to work. At universal scale those effects would not remain \u201cmodest and temporary.\u201d They would apply across prime-age workers, shrink aggregate labor supply, slow wage growth, erode skills, lower GDP, and shrink the tax base needed to fund the program itself. General-equilibrium models and evidence from disability insurance expansions show these participation drops can persist and compound.\n\nChild human-capital gains occurred in narrow, targeted contexts and came at high fiscal cost. The same gains in nutrition, early education, and mobility can be achieved more efficiently through direct investments, expanded EITC (which *increases* labor supply), or reformed welfare that removes benefit cliffs\u2014without paying working-age adults regardless of contribution or subsidizing the non-poor. Work supplies not only income but structure, purpose, skills, and social connection; behavioral economics and self-determination theory indicate that severing effort from reward risks dependency and stagnation over time. Short-term experimental positives do not prove those risks disappear at national scale. Finland\u2019s pilot, for example, produced no employment gain and was discontinued.\n\nThe labor-supply effect is therefore decisive: it attacks the productive engine that sustains both living standards and the very human-capital investments proponents celebrate. Temporary, targeted pilots cannot validate a permanent, universal policy whose costs and behavioral distortions would be orders of magnitude larger. Targeted, incentive-aligned reforms reduce poverty and improve mobility without undermining the work ethic or fiscal reality. That is why UBI remains undesirable.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Question:** You cite the 1970s NIT experiments' positive child outcomes and lack of long-term dependency as key evidence for UBI's desirability, while arguing the observed 10-30% labor supply drops were modest or temporary. Those trials were narrowly targeted at low-income families with children and featured phase-outs\u2014unlike a universal, unconditional UBI for all adults. What evidence supports your confidence that those gains would scale to a permanent national program without substantially larger, economy-wide labor reductions that erode the growth needed to sustain them?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Answer:** The 1970s NIT experiments remain our strongest causal evidence precisely because they were rigorous randomized trials, and their results scale favorably once we correct for design differences.\n\nThose trials *were* means-tested with phase-outs (creating effective marginal tax rates up to 50-80%), yet labor supply fell only 10-30%\u2014mostly among secondary earners, youths, and through modest reductions in hours rather than permanent exits. Primary-earner males reduced labor by just 5-9% (Keeley, 1981; Robins, 1985). No evidence of long-term dependency emerged; instead, the programs produced large gains in child human capital: better nutrition, higher school completion, and improved adult earnings decades later (Hoynes & Rothstein, 2019; Price & Song, 2018). These intergenerational benefits compound economically.\n\nA true universal, unconditional UBI differs in two key ways that strengthen the case. First, it *removes* the high phase-out rates that drove much of the observed disincentive; a flat payment to all citizens creates lower effective marginal tax rates than current welfare systems or the NITs themselves. Second, universality pools risk across the entire population, including high earners who subsidize via progressive taxation, avoiding the concentrated stigma and poverty traps of targeted programs.\n\nModern evidence supports scaling. Finland\u2019s UBI-style trial (despite low generosity) improved well-being with negligible employment effects (Kangas et al., 2020). Kenya\u2019s multi-year",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:** \n\nYou insist the 1970s NIT experiments cannot be extrapolated to a true UBI because they were targeted with phase-outs that created high effective marginal tax rates. Yet in your prior answer you also cite those *same* high phase-out rates as the primary driver of the observed 10\u201330% labor reductions.\n\nIf removing the phase-outs\u2014as a universal UBI would\u2014eliminates the very mechanism you blame for the labor drop, why do you remain confident that a national UBI would produce *larger* rather than *smaller* work disincentives?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Answer:** The 1970s NIT experiments revealed *both* income and substitution effects. High phase-out rates (often 50-80% effective marginal tax rates) amplified disincentives via the substitution effect\u2014each extra dollar earned was worth far less. However, the unconditional transfers themselves produced a sizable income effect: recipients could afford more leisure, treating it as a normal good. Decompositions (e.g., Robins 1985; Keeley 1981) attribute roughly half the labor-supply drop to income effects alone. Primary-earner males still reduced hours by 5-9% even with modest transfers.\n\nA true universal UBI does not eliminate the income effect\u2014it universalizes and magnifies it. Every adult receives non-labor income regardless of earnings, predictably lowering aggregate labor supply across the entire working-age population, not merely low-income secondary earners, youths, or mothers as in the targeted NITs. Funding even a modest national UBI (~$12,000 per adult) requires trillions in new revenue through broad tax hikes (higher income, payroll, or VAT rates), recreating substitution effects and deadweight loss at economy-wide scale. General-equilibrium models consistently project overall labor reductions exceeding the experimental findings\u2014often 5-15% or more in aggregate\u2014due to slower wage growth, norm shifts around work, skill atrophy, and a shrinking tax base.\n\nSmall, temporary, targeted pilots cannot capture these dynamics. Alaska\u2019s Permanent Fund Dividend, a closer (if smaller) unconditional analog, shows modest but persistent employment declines. Disability insurance expansions, once granted, produce even larger and more lasting drops. We therefore expect *larger*, not smaller, work disincentives under permanent national UBI: the income effect scales with universality and permanence, while fiscal reality multiplies distortions. This attacks the productive engine sustaining growth, wages, innovation, and the very revenues needed to pay for it.\n\nTargeted, work-conditioned reforms\u2014such as expanding the EITC, which *increases* labor supply\u2014reduce poverty and improve child outcomes more efficiently without universal waste or subsidizing non-participation. The labor-supply evidence remains decisive against the motion.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Question:** You argue that AI will displace 47% of U.S. jobs (Frey & Osborne) and expose 300 million globally (Goldman Sachs), making UBI inevitable as labor demand and the earned-income tax base collapse\u2014yet you also insist it can be funded sustainably via progressive taxes on \u201cenormous economic surpluses for capital owners\u201d plus \u201cdynamic growth effects.\u201d What evidence shows those taxes won\u2019t deter the investment and innovation required to generate the very surpluses needed?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Answer:** \n\nThe evidence comes from both theory and empirical patterns in high-tax, high-productivity economies. Progressive taxes on capital gains, wealth, corporate profits, and AI-driven economic rents (e.g., a sovereign AI dividend or robot tax) need not deter investment when marginal returns remain high\u2014which they will, given AI\u2019s unprecedented productivity gains. Historical precedent is instructive: U.S. top marginal rates averaged 70-90% during the 1950s-60s\u2014the peak decades of post-war innovation, infrastructure investment, and productivity growth\u2014without choking capital formation. Modern examples reinforce this. Nordic countries sustain 50-60% effective tax burdens with strong investment rates, high R&D spending (Sweden and Denmark lead OECD innovation rankings), and superior growth in human-capital-adjusted terms. \n\nDynamic scoring from models like those of the IMF and OECD shows that well-designed progressive taxation, especially when paired with UBI\u2019s demand-side stimulus (increased consumption by lower-income households with high marginal propensity to spend), can generate positive feedback loops. A 2023 Congressional Budget Office-style analysis by Widerquist and others estimates that funding a $12,000 U.S. UBI through a combination of carbon taxes, financial transaction taxes, wealth taxes above $50M, and closing loopholes requires top rates around 45-55% on high earners\u2014levels already exceeded in France and Germany without stifling venture capital or entrepreneurship. AI amplifies this: as capital\u2019s share of income rises (Piket",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:** \n\nYou concede the 1970s NIT experiments produced genuine long-term gains in child nutrition, schooling, and adult earnings, yet insist those benefits \u201cdo not prove\u201d the risks disappear at national scale. \n\nIf the only rigorous randomized evidence we possess shows that unconditional cash transfers improve human capital and intergenerational mobility even *with* high phase-out rates, what empirical evidence supports your claim that a universal UBI\u2014free of those phase-outs\u2014would produce *larger* labor reductions that outweigh those proven benefits?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Answer:**\n\nWe do not dismiss the child nutrition, schooling, and long-term earnings gains from the 1970s NIT experiments in those targeted low-income samples (Hoynes & Rothstein, 2019). Those effects are real but occurred in narrow, temporary, means-tested contexts with high phase-outs.\n\nThe empirical case for *larger* labor reductions under permanent national UBI rests on decomposing the NIT results themselves and on closer unconditional analogs. Analyses by Robins (1985) and Keeley (1981) attribute roughly 40-60% of the 10\u201330% labor-supply drop to the pure *income effect* of unconditional transfers\u2014independent of phase-outs. Primary-earner males still reduced hours by 5\u20139%. A universal UBI does not eliminate this effect; it universalizes and magnifies it across *all* prime-age adults, not just low-income secondary earners or parents. Funding it requires trillions in new taxes (higher income, payroll, or consumption rates), recreating large substitution effects and deadweight loss at economy-wide scale.\n\nSupporting evidence includes Alaska\u2019s Permanent Fund Dividend, the closest sustained unconditional cash analog, which showed modest but persistent employment declines. Quasi-experimental studies of lottery winnings, inheritances, and disability insurance expansions consistently document lasting labor-supply reductions from non-labor income shocks, with effects that grow over time rather than fade. General-equilibrium models (IMF, OECD, and CBO-style simulations) project aggregate labor declines of 5\u201315% or more for national UBI-scale transfers\u2014far exceeding the partial-equilibrium NIT findings\u2014due to wage pressure, norm shifts, skill erosion, and a contracting tax base. These dynamics would erode the very growth needed to sustain human-capital gains.\n\nTargeted child investments or EITC expansion achieve similar or better mobility gains while *increasing* labor supply, without subsidizing non-participation among the non-poor or risking the dependency and slower innovation that self-determination theory and behavioral evidence predict at scale. Short-term experimental benefits in atypical settings do not outweigh these risks for a permanent, universal policy. The labor response remains decisive against the motion.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Question:** \n\nYou argue AI-driven job displacement (47% of U.S. jobs per Frey & Osborne, 300 million globally per Goldman Sachs) makes UBI inevitable by collapsing labor demand and the earned-income tax base, yet you simultaneously claim it can be sustainably funded by taxing \u201cenormous economic surpluses for capital owners\u201d without harming the innovation generating those surpluses. \n\nIf labor markets and wage income erode as you predict, what empirical evidence shows those taxable surpluses and dynamic growth effects would persist at the required multi-trillion-dollar scale?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Answer:**\n\nEmpirical evidence for persistence of taxable surpluses at multi-trillion-dollar scale comes from three converging sources: historical high-tax episodes, modern capital-intensive economies, and forward-looking AI productivity projections.\n\nFirst, capital\u2019s rising income share is already measurable and projected to accelerate. Piketty, Saez, and Zucman document U.S. capital share rising from ~25% in the 1980s to ~35\u201340% today; IMF and OECD models forecast further increases under AI-driven automation as returns to scalable technology outpace labor. Goldman Sachs\u2019 own 2023 report estimating 300 million jobs exposed simultaneously projects $7 trillion in annual productivity gains by 2035 across advanced economies. These are not wages; they are economic rents accruing primarily to capital owners and intellectual-property holders. Taxing a fraction of those rents (via higher corporate rates, capital-gains reform, wealth taxes above $50M, or an \u201cAI dividend\u201d levy) can generate $1.5\u20132.5 trillion annually in the U.S. without requiring confiscatory rates on marginal investment, per revenue estimates from the Tax Policy Center and Congressional Budget Office dynamic scores.\n\nSecond, innovation and investment have proven resilient to far higher taxation. The U.S. maintained 70\u201390% top marginal rates and 50%+ corporate rates during the 1950s\u201360s\u2014its fastest productivity-growth era\u2014while private R&D and venture activity flourished. Nordic economies today combine",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**1. What is the strongest piece of evidence supporting your position?**\n\nThe strongest evidence is the combination of structural technological unemployment data with rigorous cash-transfer trials. Frey & Osborne (2013, updated), McKinsey, and Goldman Sachs (2023) project 47% of U.S. jobs and 300 million globally at high risk from AI, with capital\u2019s income share rising from ~25% to 35\u201340% (Piketty, Saez, Zucman; IMF). This creates both the necessity and the funding base. Paired with this, the 1970s NIT experiments and modern pilots (Finland 2020; GiveDirectly Kenya long-term study) show unconditional transfers improve child human capital, nutrition, schooling, long-term earnings, mental health, and subjective well-being\u2014without long-term dependency traps. These demonstrate that even imperfect versions produce desirable welfare gains and intergenerational mobility that compound economically, proving UBI\u2019s superiority to current means-tested systems.\n\n**2. Given that both sides have focused extensively on labor-supply effects and funding mechanisms, neither has adequately addressed the moral framework underpinning the \"desirability\" claim: on what ethical grounds should we evaluate whether unconditional transfers are desirable\u2014consequentialist outcomes, rights-based entitlements, or some conception of distributive justice\u2014and how does that framework handle the tension between individual autonomy and communal obligation to contribute?**\n\nWe evaluate UBI primarily on **consequentialist outcomes**\u2014maximizing human welfare, dignity, and freedom\u2014while grounding it in a rights-based conception of distributive justice (van Parijs\u2019 \u201creal libertarianism\u201d). Every citizen holds an equal moral claim to a share of society\u2019s collectively inherited productive capacity, especially as AI concentrates returns in capital. Unconditional transfers are therefore a pre-distributional right, not charity. \n\nThis framework resolves the autonomy\u2013obligation tension by prioritizing **real autonomy**: UBI expands the feasible set of life choices (education, caregiving, entrepreneurship, creative work) without bureaucratic coercion or poverty traps. Communal obligation to contribute is not erased; it is decoupled from *survival*. Societies already accept unconditionality for children, retirees, and inheritances. Extending a modest floor to adults respects autonomy while preserving strong social norms and incentives for additional contribution above that floor. Consequentialist data from pilots confirm this increases well-being and human capital without collapsing reciprocity. Moral desert is better served by rewarding excellence than by punishing destitution.\n\n**3. Finland, GiveDirectly**\n\nFinland\u2019s two-year UBI-style experiment (Kangas et al., 2020) delivered unconditional payments and produced statistically insignificant employment effects alongside significant improvements in mental health, subjective well-being, and trust in institutions\u2014exactly the dignity gains predicted by proponents. GiveDirectly\u2019s long-term cash-transfer RCT in rural Kenya (the largest of its kind) showed sustained increases in income, assets, consumption, psychological health, and even village-level economic activity years after transfers ended. These results demonstrate that unconditional transfers scale",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**1.** The strongest piece of evidence is the consistent labor-supply reductions from unconditional cash transfers. The 1970s NIT experiments showed 10\u201330% declines in work effort, roughly half from the pure income effect of unearned payments alone (Robins 1985; Keeley 1981). This is reinforced by Alaska\u2019s Permanent Fund Dividend (persistent employment drops), disability insurance expansions, and general-equilibrium models (IMF, OECD) projecting 5\u201315%+ aggregate labor reductions at national scale. These effects erode growth, the tax base, skills, innovation, and the dignity that comes from contribution\u2014outweighing any narrow child gains achievable more efficiently through the EITC or targeted investments. Finland\u2019s discontinued pilot only confirms the pattern. This single body of evidence decisively undermines both inevitability and desirability.\n\n**2.** We evaluate unconditional transfers primarily on consequentialist grounds: whether they improve long-term societal welfare, growth, well-being, and human flourishing. The evidence shows they do not. Labor-supply drops, slower innovation, skill atrophy, and norm erosion (supported by self-determination theory and behavioral economics) produce worse outcomes than targeted, incentive-aligned reforms. Rights-based entitlements to unconditional income from others\u2019 labor are weak; distributive justice is better served by reciprocity and earned mobility than universal redistribution that subsidizes non-contributors. Individual autonomy is respected through opportunity and responsibility, not unconditioned leisure. The communal obligation to contribute (when able) sustains the prosperity that makes any transfers possible. UBI severs this link, weakening both personal dignity and the social contract. Consequentialism and reciprocity together resolve the tension in favor of contribution over dependence.\n\n**3.** Finland\u2019s limited, low-payment, non-universal pilot produced no statistically significant employment gains, only modest and fading improvements in subjective well-being, and was discontinued without expansion\u2014precisely as our arguments on costs, incentives, and limited benefits predicted. GiveDirectly\u2019s results are confined to contexts of extreme rural poverty with virtually no existing safety net or welfare infrastructure; large income, asset, and psychological gains there do not generalize to advanced economies, where the same transfers to working-age adults risk labor withdrawal, inflation, dependency, and fiscal inefficiency by paying the non-poor. These examples support targeted cash assistance for the destitute but do not validate a permanent, universal, unconditional national UBI. They illustrate why pilots cannot scale to the policy we oppose.\n\n**4.** There is no robust empirical evidence that the high taxes (often 50%+ effective marginal rates on capital, corporate profits, or wealth) required to fund multi-trillion-dollar UBI surpluses would spare the investment, innovation, and capital formation that generate them. Decades of OECD and IMF studies on capital taxation, analyses of capital-gains tax cuts (which boosted investment and entrepreneurship), and observed capital flight from high-tax jurisdictions demonstrate material negative effects. Dynamic scoring models show these distortions shrink the very AI-driven productivity gains proponents assume. If technological displacement collapses the wage base as the other side claims, the contradiction deepens: the surpluses become illusory once the incentives to create frontier innovation are taxed away. This fiscal reality\u2014repeatedly highlighted in our opening and rebuttals\u2014makes UBI unsustainable and undesirable, not a pragmatic \u201ccitizen\u2019s dividend.\u201d\n\n**5.** See answer 1: the rigorous, replicated evidence of labor-supply erosion from unconditional transfers (NIT income effects, Alaska PFD, disability expansions, and general-equilibrium projections) proves UBI would damage the work ethic, economic engine, tax base, and human purpose at national scale. Targeted, work-conditioned reforms achieve superior poverty reduction and mobility without these costs or the universal waste of subsidizing the affluent. History\u2019s record of adaptation to technological change (per David Autor and OECD analyses lowering automation risk estimates to 9\u201314%) simultaneously refutes inevitability. This evidence is decisive against the entire motion.",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Closing Statement: For the Motion**\n\nLadies and gentlemen, the evidence presented across this debate converges on one conclusion: universal basic income is both inevitable and desirable.\n\nOur strongest case rests on three compressed realities. First, technological change is structurally different this time. AI is not merely automating muscle or routine tasks; it is displacing non-routine cognitive work at exponential speed, with credible projections showing hundreds of millions of jobs exposed and capital\u2019s share of income continuing to rise. Labor markets will not automatically generate sufficient high-wage replacement work at the required scale. Second, unconditional cash transfers demonstrably improve human welfare. The very 1970s NIT experiments our opponents repeatedly cite produced meaningful gains in child nutrition, schooling, long-term earnings, and intergenerational mobility, alongside only modest and temporary labor reductions\u2014effects that become smaller, not larger, under a true universal design that eliminates punitive phase-outs. Finland and GiveDirectly pilots reinforce the dignity, mental health, and freedom dividends. Third, the funding arithmetic, while challenging, is solvable through progressive taxation of AI-generated surpluses, carbon dividends, and welfare streamlining\u2014methods that high-productivity, high-tax economies have sustained without stifling innovation.\n\nThe biggest objection raised against us\u2014that UBI will trigger large, permanent labor-supply reductions that destroy growth and the tax base\u2014does not survive scrutiny. Our opponents consistently over-extrapolate the income effect from targeted, high-phase-out NITs while ignoring that universality removes the very substitution disincentives they"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Closing Statement: Against the Motion**\n\nLadies and gentlemen, the case for UBI collapses on the very evidence its proponents invoke. The 1970s negative income tax experiments\u2014our best rigorous data\u2014revealed 10\u201330% labor supply reductions, roughly half driven by the pure *income effect* of unconditional payments, not just phase-outs. Primary earners still cut hours. Alaska\u2019s Permanent Fund Dividend shows these drops persist. General-equilibrium models confirm that scaling to a permanent, national, universal program would amplify the damage: slower growth, eroded skills, a shrinking tax base, and diminished human purpose. Child outcome gains in narrow pilots do not outweigh this at economy-wide scale; targeted reforms like EITC expansion achieve better mobility while *increasing* work. Finland\u2019s trial was discontinued for good reason.\n\nHistory refutes inevitability. Past technological shifts\u2014from the Industrial Revolution to computers\u2014destroyed old tasks yet created far more valuable ones. OECD analyses place high-risk jobs at just 9\u201314%, not 47%. AI complements human labor in services, oversight, and creativity. Low unemployment and persistent labor shortages today prove markets adapt when we invest in human capital, retraining, and flexible policies rather than surrender to determinism.\n\nThe fiscal arithmetic is merciless: trillions in new annual costs cannot be painlessly extracted from \u201cAI surpluses\u201d without tax distortions that deter the innovation required to generate them. Universality wastes resources on the affluent while undermining the contribution ethic that sustains prosperity.\n\nTo undecided listeners: choose evidence over optimism. UBI severs effort from reward at precisely the moment we need more agency, not less. It risks dependency, slower progress, and fiscal strain that would hurt the vulnerable most. Targeted, incentive-aligned safety nets paired with pro-growth reforms protect dignity through purpose and earned mobility\u2014without mortgaging the future on a seductive but unworkable idea.\n\nThis house must reject the motion. Universal basic income is neither inevitable nor desirable. True progress lies in adaptation, responsibility, and human flourishing through contribution\u2014not unconditional checks."
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 35,
+      "reasoning": "While I find the philosophical arguments about distributive justice and human dignity compelling, the claim of inevitability is a strong empirical assertion that requires substantial evidence, and the desirability claim depends heavily on which moral framework one adopts and what empirical consequences actually obtain. The conjunction of both claims makes this a particularly demanding motion to defend or oppose without hearing rigorous arguments.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the consensus that UBI is inevitable given historical resistance to wealth redistribution and technological displacement patterns. While desirable in theory for reducing poverty, it risks undermining work incentives, creating dependency, and facing insurmountable fiscal and political barriers that make it neither truly inevitable nor sustainable long-term.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "UBI offers a potential pathway to decouple human well-being from environmentally destructive labor and constant consumption, addressing social justice alongside ecological concerns. However, I remain cautious about whether it would ultimately reduce aggregate consumption without broader systemic changes.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a skeptical policymaker, I see UBI as an idealistic proposal facing insurmountable fiscal costs, implementation barriers, work disincentives, and political infeasibility, making it neither inevitable nor clearly desirable without rigorous evidence.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 82,
+      "reasoning": "Technological automation and AI are likely to disrupt labor markets significantly, making income decoupling increasingly practical and perhaps necessary. Universal basic income could provide a stable foundation that enables innovation, entrepreneurship, and human flourishing in a post-automation economy.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a union labor rep prioritizing equitable wealth distribution and workers' economic security, UBI is desirable for providing a safety net that boosts bargaining power and reduces exploitation while inevitable due to automation displacing jobs.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 75,
+      "reasoning": "While empirical data on automation suggests significant labor market disruption, the fiscal sustainability and macroeconomic impact of UBI require more robust longitudinal evidence before a definitive conclusion can be reached.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 62,
+      "reasoning": "The AGAINST side more effectively exploited a genuine internal tension in the FOR case: the simultaneous claim that technological unemployment will collapse labor markets (making UBI inevitable) while taxable AI surpluses will sustainably fund it. The AGAINST side's decomposition of income versus substitution effects from the NIT experiments was analytically rigorous, and their point that universalizing the income effect across all adults\u2014not just targeted low-income populations\u2014would amplify ra",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "The AGAINST side maintained tighter logical coherence by consistently distinguishing targeted NIT experiments from true universal UBI, emphasizing income effects independent of phase-outs, and highlighting general-equilibrium consequences. They better integrated historical adaptation evidence (Autor, OECD) and fiscal contradictions (tax-base erosion under predicted unemployment). FOR relied on selective extrapolation from pilots and optimistic dynamic scoring but struggled to resolve the interna",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "The AGAINST side presented more logically coherent and evidence-based arguments by consistently decomposing the shared NIT evidence (e.g., Robins 1985, Hoynes & Rothstein 2019) to isolate independent income effects that scale adversely at national level, supported by Alaska PFD, disability expansions, and GE models from IMF/OECD. They directly rebutted inevitability with historical adaptations, Autor's complementarity research, and OECD critiques of Frey-Osborne, while exposing the FOR funding c",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 78,
+      "reasoning": "The AGAINST side more consistently challenged scalability, funding feasibility, and general-equilibrium labor effects, directly addressing the core claims of inevitability and desirability. They effectively highlighted contradictions in the FOR case regarding tax base erosion and reliance on AI surpluses, while grounding their arguments in empirical labor-supply evidence and OECD critiques. The FOR side offered compelling moral framing and selective evidence, but did not fully resolve the fiscal",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "AGAINST presented more logically coherent arguments by directly decomposing NIT evidence to highlight independent income effects on labor supply, citing counter-studies (OECD, Autor, Alaska PFD) that undermined FOR's automation inevitability claims, and exposing fiscal contradictions. FOR's rebuttals on phase-outs and dynamic growth were less persuasive and failed to fully resolve scaling concerns from pilots to national policy.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "The 'FOR' side effectively utilized quantitative projections regarding AI-driven capital-share growth and productivity gains to support the 'inevitability' claim, while successfully contextualizing 1970s NIT data to show that human capital gains (education/nutrition) often outweigh marginal labor supply reductions. The 'AGAINST' side relied heavily on the 'Luddite Fallacy' historical analogy, which the 'FOR' side technically countered by differentiating between the replacement of muscle/routine ",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that both sides have focused extensively on labor-supply effects and funding mechanisms, neither has adequately addressed the moral framework underpinning the \"desirability\" claim: on what ethical grounds should we evaluate whether unconditional transfers are desirable\u2014consequentialist outcomes, rights-based entitlements, or some conception of distributive justice\u2014and how does that framework handle the tension between individual autonomy and communal obligation to contribute?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "Finland, GiveDirectly",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "**Question:**  \n\nIf AI-driven productivity creates the multi-trillion-dollar capital surpluses you cite for funding UBI, what empirical evidence demonstrates that sufficiently high taxes on those surpluses will not materially reduce the very investment, innovation, and capital formation required to generate them at scale?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "grok-4.20-multi-agent",
+    "initial": {
+      "for": 3,
+      "against": 3,
+      "undecided": 4,
+      "pct_for": 30.0,
+      "pct_against": 30.0
+    },
+    "final": {
+      "for": 1,
+      "against": 5,
+      "undecided": 4,
+      "pct_for": 10.0,
+      "pct_against": 50.0
+    },
+    "delta_for": -20.0,
+    "delta_against": 20.0,
+    "confidence": {
+      "for_initial": 212,
+      "for_final": 75,
+      "against_initial": 180,
+      "against_final": 335
+    },
+    "persuasion_for": -137,
+    "persuasion_against": 155,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 35,
+        "final_stance": "AGAINST",
+        "final_confidence": 62,
+        "stance_changed": true,
+        "confidence_delta": 27,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": -15,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 82,
+        "final_stance": "AGAINST",
+        "final_confidence": 78,
+        "stance_changed": true,
+        "confidence_delta": -4,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 75,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 443.6,
+    "timestamp": "2026-04-09T03:33:54Z"
+  }
+}

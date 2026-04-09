@@ -1,0 +1,728 @@
+{
+  "ratings": {
+    "claude-opus-4.6-thinking": 1590.0,
+    "claude-opus-4.6": 1508.1,
+    "gemini-3.1-pro-preview": 1377.0,
+    "grok-4.20": 1546.3,
+    "gemini-3-pro": 1430.5,
+    "gpt-5.4-high": 1407.1,
+    "grok-4.20-reasoning": 1577.3,
+    "gpt-5.2-chat": 1515.0,
+    "grok-4.20-multi-agent": 1590.0,
+    "gemini-3-flash": 1458.7
+  },
+  "history": [
+    {
+      "debate_id": "debate-001-claude-opus-4.6-thinking-vs-claude-opus-4.6",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "claude-opus-4.6",
+      "winner": "claude-opus-4.6-thinking",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1500.0,
+        "claude-opus-4.6": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1516.0,
+        "claude-opus-4.6": 1484.0
+      }
+    },
+    {
+      "debate_id": "debate-002-claude-opus-4.6-thinking-vs-gemini-3.1-pro-preview",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "gemini-3.1-pro-preview",
+      "winner": "claude-opus-4.6-thinking",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1516.0,
+        "gemini-3.1-pro-preview": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1531.3,
+        "gemini-3.1-pro-preview": 1484.7
+      }
+    },
+    {
+      "debate_id": "debate-003-claude-opus-4.6-thinking-vs-grok-4.20",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "grok-4.20",
+      "winner": "claude-opus-4.6-thinking",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1531.3,
+        "grok-4.20": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1545.9,
+        "grok-4.20": 1485.4
+      }
+    },
+    {
+      "debate_id": "debate-004-claude-opus-4.6-thinking-vs-gemini-3-pro",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "gemini-3-pro",
+      "winner": "claude-opus-4.6-thinking",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1545.9,
+        "gemini-3-pro": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1559.8,
+        "gemini-3-pro": 1486.1
+      }
+    },
+    {
+      "debate_id": "debate-005-claude-opus-4.6-thinking-vs-gpt-5.4-high",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "gpt-5.4-high",
+      "winner": "claude-opus-4.6-thinking",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1559.8,
+        "gpt-5.4-high": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1573.1,
+        "gpt-5.4-high": 1486.7
+      }
+    },
+    {
+      "debate_id": "debate-006-claude-opus-4.6-thinking-vs-grok-4.20-reasoning",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "grok-4.20-reasoning",
+      "winner": "claude-opus-4.6-thinking",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1573.1,
+        "grok-4.20-reasoning": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1585.8,
+        "grok-4.20-reasoning": 1487.3
+      }
+    },
+    {
+      "debate_id": "debate-007-claude-opus-4.6-thinking-vs-gpt-5.2-chat",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "gpt-5.2-chat",
+      "winner": "claude-opus-4.6-thinking",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1585.8,
+        "gpt-5.2-chat": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1597.9,
+        "gpt-5.2-chat": 1487.9
+      }
+    },
+    {
+      "debate_id": "debate-008-claude-opus-4.6-thinking-vs-grok-4.20-multi-agent",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1597.9,
+        "grok-4.20-multi-agent": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1577.5,
+        "grok-4.20-multi-agent": 1520.4
+      }
+    },
+    {
+      "debate_id": "debate-009-claude-opus-4.6-thinking-vs-gemini-3-flash",
+      "model_a": "claude-opus-4.6-thinking",
+      "model_b": "gemini-3-flash",
+      "winner": "claude-opus-4.6-thinking",
+      "elo_before": {
+        "claude-opus-4.6-thinking": 1577.5,
+        "gemini-3-flash": 1500.0
+      },
+      "elo_after": {
+        "claude-opus-4.6-thinking": 1590.0,
+        "gemini-3-flash": 1487.5
+      }
+    },
+    {
+      "debate_id": "debate-010-claude-opus-4.6-vs-gemini-3.1-pro-preview",
+      "model_a": "claude-opus-4.6",
+      "model_b": "gemini-3.1-pro-preview",
+      "winner": "claude-opus-4.6",
+      "elo_before": {
+        "claude-opus-4.6": 1484.0,
+        "gemini-3.1-pro-preview": 1484.7
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1500.0,
+        "gemini-3.1-pro-preview": 1468.7
+      }
+    },
+    {
+      "debate_id": "debate-011-claude-opus-4.6-vs-grok-4.20",
+      "model_a": "claude-opus-4.6",
+      "model_b": "grok-4.20",
+      "winner": "claude-opus-4.6",
+      "elo_before": {
+        "claude-opus-4.6": 1500.0,
+        "grok-4.20": 1485.4
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1515.3,
+        "grok-4.20": 1470.1
+      }
+    },
+    {
+      "debate_id": "debate-012-claude-opus-4.6-vs-gemini-3-pro",
+      "model_a": "claude-opus-4.6",
+      "model_b": "gemini-3-pro",
+      "winner": "claude-opus-4.6",
+      "elo_before": {
+        "claude-opus-4.6": 1515.3,
+        "gemini-3-pro": 1486.1
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1530.0,
+        "gemini-3-pro": 1471.4
+      }
+    },
+    {
+      "debate_id": "debate-013-claude-opus-4.6-vs-gpt-5.4-high",
+      "model_a": "claude-opus-4.6",
+      "model_b": "gpt-5.4-high",
+      "winner": "claude-opus-4.6",
+      "elo_before": {
+        "claude-opus-4.6": 1530.0,
+        "gpt-5.4-high": 1486.7
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1544.0,
+        "gpt-5.4-high": 1472.7
+      }
+    },
+    {
+      "debate_id": "debate-014-claude-opus-4.6-vs-grok-4.20-reasoning",
+      "model_a": "claude-opus-4.6",
+      "model_b": "grok-4.20-reasoning",
+      "winner": "grok-4.20-reasoning",
+      "elo_before": {
+        "claude-opus-4.6": 1544.0,
+        "grok-4.20-reasoning": 1487.3
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1525.4,
+        "grok-4.20-reasoning": 1505.9
+      }
+    },
+    {
+      "debate_id": "debate-015-claude-opus-4.6-vs-gpt-5.2-chat",
+      "model_a": "claude-opus-4.6",
+      "model_b": "gpt-5.2-chat",
+      "winner": "gpt-5.2-chat",
+      "elo_before": {
+        "claude-opus-4.6": 1525.4,
+        "gpt-5.2-chat": 1487.9
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1507.7,
+        "gpt-5.2-chat": 1505.6
+      }
+    },
+    {
+      "debate_id": "debate-016-claude-opus-4.6-vs-grok-4.20-multi-agent",
+      "model_a": "claude-opus-4.6",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "claude-opus-4.6": 1507.7,
+        "grok-4.20-multi-agent": 1520.4
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1492.3,
+        "grok-4.20-multi-agent": 1535.8
+      }
+    },
+    {
+      "debate_id": "debate-017-claude-opus-4.6-vs-gemini-3-flash",
+      "model_a": "claude-opus-4.6",
+      "model_b": "gemini-3-flash",
+      "winner": "claude-opus-4.6",
+      "elo_before": {
+        "claude-opus-4.6": 1492.3,
+        "gemini-3-flash": 1487.5
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1508.1,
+        "gemini-3-flash": 1471.7
+      }
+    },
+    {
+      "debate_id": "debate-018-gemini-3.1-pro-preview-vs-grok-4.20",
+      "model_a": "gemini-3.1-pro-preview",
+      "model_b": "grok-4.20",
+      "winner": "grok-4.20",
+      "elo_before": {
+        "gemini-3.1-pro-preview": 1468.7,
+        "grok-4.20": 1470.1
+      },
+      "elo_after": {
+        "gemini-3.1-pro-preview": 1452.8,
+        "grok-4.20": 1486.0
+      }
+    },
+    {
+      "debate_id": "debate-019-gemini-3.1-pro-preview-vs-gemini-3-pro",
+      "model_a": "gemini-3.1-pro-preview",
+      "model_b": "gemini-3-pro",
+      "winner": "gemini-3-pro",
+      "elo_before": {
+        "gemini-3.1-pro-preview": 1452.8,
+        "gemini-3-pro": 1471.4
+      },
+      "elo_after": {
+        "gemini-3.1-pro-preview": 1437.7,
+        "gemini-3-pro": 1486.5
+      }
+    },
+    {
+      "debate_id": "debate-020-gemini-3.1-pro-preview-vs-gpt-5.4-high",
+      "model_a": "gemini-3.1-pro-preview",
+      "model_b": "gpt-5.4-high",
+      "winner": "gpt-5.4-high",
+      "elo_before": {
+        "gemini-3.1-pro-preview": 1437.7,
+        "gpt-5.4-high": 1472.7
+      },
+      "elo_after": {
+        "gemini-3.1-pro-preview": 1423.3,
+        "gpt-5.4-high": 1487.1
+      }
+    },
+    {
+      "debate_id": "debate-021-gemini-3.1-pro-preview-vs-grok-4.20-reasoning",
+      "model_a": "gemini-3.1-pro-preview",
+      "model_b": "grok-4.20-reasoning",
+      "winner": "grok-4.20-reasoning",
+      "elo_before": {
+        "gemini-3.1-pro-preview": 1423.3,
+        "grok-4.20-reasoning": 1505.9
+      },
+      "elo_after": {
+        "gemini-3.1-pro-preview": 1411.0,
+        "grok-4.20-reasoning": 1518.2
+      }
+    },
+    {
+      "debate_id": "debate-022-gemini-3.1-pro-preview-vs-gpt-5.2-chat",
+      "model_a": "gemini-3.1-pro-preview",
+      "model_b": "gpt-5.2-chat",
+      "winner": "gpt-5.2-chat",
+      "elo_before": {
+        "gemini-3.1-pro-preview": 1411.0,
+        "gpt-5.2-chat": 1505.6
+      },
+      "elo_after": {
+        "gemini-3.1-pro-preview": 1399.3,
+        "gpt-5.2-chat": 1517.3
+      }
+    },
+    {
+      "debate_id": "debate-023-gemini-3.1-pro-preview-vs-grok-4.20-multi-agent",
+      "model_a": "gemini-3.1-pro-preview",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "gemini-3.1-pro-preview": 1399.3,
+        "grok-4.20-multi-agent": 1535.8
+      },
+      "elo_after": {
+        "gemini-3.1-pro-preview": 1389.3,
+        "grok-4.20-multi-agent": 1545.8
+      }
+    },
+    {
+      "debate_id": "debate-024-gemini-3.1-pro-preview-vs-gemini-3-flash",
+      "model_a": "gemini-3.1-pro-preview",
+      "model_b": "gemini-3-flash",
+      "winner": "gemini-3-flash",
+      "elo_before": {
+        "gemini-3.1-pro-preview": 1389.3,
+        "gemini-3-flash": 1471.7
+      },
+      "elo_after": {
+        "gemini-3.1-pro-preview": 1377.0,
+        "gemini-3-flash": 1484.0
+      }
+    },
+    {
+      "debate_id": "debate-025-grok-4.20-vs-gemini-3-pro",
+      "model_a": "grok-4.20",
+      "model_b": "gemini-3-pro",
+      "winner": "grok-4.20",
+      "elo_before": {
+        "grok-4.20": 1486.0,
+        "gemini-3-pro": 1486.5
+      },
+      "elo_after": {
+        "grok-4.20": 1502.0,
+        "gemini-3-pro": 1470.5
+      }
+    },
+    {
+      "debate_id": "debate-026-grok-4.20-vs-gpt-5.4-high",
+      "model_a": "grok-4.20",
+      "model_b": "gpt-5.4-high",
+      "winner": "grok-4.20",
+      "elo_before": {
+        "grok-4.20": 1502.0,
+        "gpt-5.4-high": 1487.1
+      },
+      "elo_after": {
+        "grok-4.20": 1517.3,
+        "gpt-5.4-high": 1471.8
+      }
+    },
+    {
+      "debate_id": "debate-027-grok-4.20-vs-grok-4.20-reasoning",
+      "model_a": "grok-4.20",
+      "model_b": "grok-4.20-reasoning",
+      "winner": "grok-4.20",
+      "elo_before": {
+        "grok-4.20": 1517.3,
+        "grok-4.20-reasoning": 1518.2
+      },
+      "elo_after": {
+        "grok-4.20": 1533.3,
+        "grok-4.20-reasoning": 1502.2
+      }
+    },
+    {
+      "debate_id": "debate-028-grok-4.20-vs-gpt-5.2-chat",
+      "model_a": "grok-4.20",
+      "model_b": "gpt-5.2-chat",
+      "winner": "grok-4.20",
+      "elo_before": {
+        "grok-4.20": 1533.3,
+        "gpt-5.2-chat": 1517.3
+      },
+      "elo_after": {
+        "grok-4.20": 1548.6,
+        "gpt-5.2-chat": 1502.0
+      }
+    },
+    {
+      "debate_id": "debate-029-grok-4.20-vs-grok-4.20-multi-agent",
+      "model_a": "grok-4.20",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "grok-4.20": 1548.6,
+        "grok-4.20-multi-agent": 1545.8
+      },
+      "elo_after": {
+        "grok-4.20": 1532.5,
+        "grok-4.20-multi-agent": 1561.9
+      }
+    },
+    {
+      "debate_id": "debate-030-grok-4.20-vs-gemini-3-flash",
+      "model_a": "grok-4.20",
+      "model_b": "gemini-3-flash",
+      "winner": "grok-4.20",
+      "elo_before": {
+        "grok-4.20": 1532.5,
+        "gemini-3-flash": 1484.0
+      },
+      "elo_after": {
+        "grok-4.20": 1546.3,
+        "gemini-3-flash": 1470.2
+      }
+    },
+    {
+      "debate_id": "debate-031-gemini-3-pro-vs-gpt-5.4-high",
+      "model_a": "gemini-3-pro",
+      "model_b": "gpt-5.4-high",
+      "winner": "gemini-3-pro",
+      "elo_before": {
+        "gemini-3-pro": 1470.5,
+        "gpt-5.4-high": 1471.8
+      },
+      "elo_after": {
+        "gemini-3-pro": 1486.6,
+        "gpt-5.4-high": 1455.7
+      }
+    },
+    {
+      "debate_id": "debate-032-gemini-3-pro-vs-grok-4.20-reasoning",
+      "model_a": "gemini-3-pro",
+      "model_b": "grok-4.20-reasoning",
+      "winner": "grok-4.20-reasoning",
+      "elo_before": {
+        "gemini-3-pro": 1486.6,
+        "grok-4.20-reasoning": 1502.2
+      },
+      "elo_after": {
+        "gemini-3-pro": 1471.3,
+        "grok-4.20-reasoning": 1517.5
+      }
+    },
+    {
+      "debate_id": "debate-033-gemini-3-pro-vs-gpt-5.2-chat",
+      "model_a": "gemini-3-pro",
+      "model_b": "gpt-5.2-chat",
+      "winner": "gpt-5.2-chat",
+      "elo_before": {
+        "gemini-3-pro": 1471.3,
+        "gpt-5.2-chat": 1502.0
+      },
+      "elo_after": {
+        "gemini-3-pro": 1456.7,
+        "gpt-5.2-chat": 1516.6
+      }
+    },
+    {
+      "debate_id": "debate-034-gemini-3-pro-vs-grok-4.20-multi-agent",
+      "model_a": "gemini-3-pro",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "gemini-3-pro": 1456.7,
+        "grok-4.20-multi-agent": 1561.9
+      },
+      "elo_after": {
+        "gemini-3-pro": 1445.4,
+        "grok-4.20-multi-agent": 1573.2
+      }
+    },
+    {
+      "debate_id": "debate-035-gemini-3-pro-vs-gemini-3-flash",
+      "model_a": "gemini-3-pro",
+      "model_b": "gemini-3-flash",
+      "winner": "gemini-3-flash",
+      "elo_before": {
+        "gemini-3-pro": 1445.4,
+        "gemini-3-flash": 1470.2
+      },
+      "elo_after": {
+        "gemini-3-pro": 1430.5,
+        "gemini-3-flash": 1485.1
+      }
+    },
+    {
+      "debate_id": "debate-036-gpt-5.4-high-vs-grok-4.20-reasoning",
+      "model_a": "gpt-5.4-high",
+      "model_b": "grok-4.20-reasoning",
+      "winner": "grok-4.20-reasoning",
+      "elo_before": {
+        "gpt-5.4-high": 1455.7,
+        "grok-4.20-reasoning": 1517.5
+      },
+      "elo_after": {
+        "gpt-5.4-high": 1442.5,
+        "grok-4.20-reasoning": 1530.7
+      }
+    },
+    {
+      "debate_id": "debate-037-gpt-5.4-high-vs-gpt-5.2-chat",
+      "model_a": "gpt-5.4-high",
+      "model_b": "gpt-5.2-chat",
+      "winner": "gpt-5.2-chat",
+      "elo_before": {
+        "gpt-5.4-high": 1442.5,
+        "gpt-5.2-chat": 1516.6
+      },
+      "elo_after": {
+        "gpt-5.4-high": 1429.9,
+        "gpt-5.2-chat": 1529.2
+      }
+    },
+    {
+      "debate_id": "debate-038-gpt-5.4-high-vs-grok-4.20-multi-agent",
+      "model_a": "gpt-5.4-high",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "gpt-5.4-high": 1429.9,
+        "grok-4.20-multi-agent": 1573.2
+      },
+      "elo_after": {
+        "gpt-5.4-high": 1420.1,
+        "grok-4.20-multi-agent": 1583.0
+      }
+    },
+    {
+      "debate_id": "debate-039-gpt-5.4-high-vs-gemini-3-flash",
+      "model_a": "gpt-5.4-high",
+      "model_b": "gemini-3-flash",
+      "winner": "gemini-3-flash",
+      "elo_before": {
+        "gpt-5.4-high": 1420.1,
+        "gemini-3-flash": 1485.1
+      },
+      "elo_after": {
+        "gpt-5.4-high": 1407.1,
+        "gemini-3-flash": 1498.1
+      }
+    },
+    {
+      "debate_id": "debate-040-grok-4.20-reasoning-vs-gpt-5.2-chat",
+      "model_a": "grok-4.20-reasoning",
+      "model_b": "gpt-5.2-chat",
+      "winner": "grok-4.20-reasoning",
+      "elo_before": {
+        "grok-4.20-reasoning": 1530.7,
+        "gpt-5.2-chat": 1529.2
+      },
+      "elo_after": {
+        "grok-4.20-reasoning": 1546.6,
+        "gpt-5.2-chat": 1513.3
+      }
+    },
+    {
+      "debate_id": "debate-041-grok-4.20-reasoning-vs-grok-4.20-multi-agent",
+      "model_a": "grok-4.20-reasoning",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-reasoning",
+      "elo_before": {
+        "grok-4.20-reasoning": 1546.6,
+        "grok-4.20-multi-agent": 1583.0
+      },
+      "elo_after": {
+        "grok-4.20-reasoning": 1564.3,
+        "grok-4.20-multi-agent": 1565.3
+      }
+    },
+    {
+      "debate_id": "debate-042-grok-4.20-reasoning-vs-gemini-3-flash",
+      "model_a": "grok-4.20-reasoning",
+      "model_b": "gemini-3-flash",
+      "winner": "grok-4.20-reasoning",
+      "elo_before": {
+        "grok-4.20-reasoning": 1564.3,
+        "gemini-3-flash": 1498.1
+      },
+      "elo_after": {
+        "grok-4.20-reasoning": 1577.3,
+        "gemini-3-flash": 1485.1
+      }
+    },
+    {
+      "debate_id": "debate-043-gpt-5.2-chat-vs-grok-4.20-multi-agent",
+      "model_a": "gpt-5.2-chat",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "gpt-5.2-chat": 1513.3,
+        "grok-4.20-multi-agent": 1565.3
+      },
+      "elo_after": {
+        "gpt-5.2-chat": 1499.7,
+        "grok-4.20-multi-agent": 1578.9
+      }
+    },
+    {
+      "debate_id": "debate-044-gpt-5.2-chat-vs-gemini-3-flash",
+      "model_a": "gpt-5.2-chat",
+      "model_b": "gemini-3-flash",
+      "winner": "gpt-5.2-chat",
+      "elo_before": {
+        "gpt-5.2-chat": 1499.7,
+        "gemini-3-flash": 1485.1
+      },
+      "elo_after": {
+        "gpt-5.2-chat": 1515.0,
+        "gemini-3-flash": 1469.8
+      }
+    },
+    {
+      "debate_id": "debate-045-grok-4.20-multi-agent-vs-gemini-3-flash",
+      "model_a": "grok-4.20-multi-agent",
+      "model_b": "gemini-3-flash",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "grok-4.20-multi-agent": 1578.9,
+        "gemini-3-flash": 1469.8
+      },
+      "elo_after": {
+        "grok-4.20-multi-agent": 1590.0,
+        "gemini-3-flash": 1458.7
+      }
+    }
+  ],
+  "leaderboard": [
+    {
+      "model_id": "claude-opus-4.6-thinking",
+      "display_name": "Claude Opus 4.6 (Thinking)",
+      "provider": "Anthropic",
+      "elo": 1590.0,
+      "arena_score": 1503,
+      "rank": 1
+    },
+    {
+      "model_id": "grok-4.20-multi-agent",
+      "display_name": "Grok 4.20 Multi-Agent",
+      "provider": "xAI",
+      "elo": 1590.0,
+      "arena_score": 1475,
+      "rank": 2
+    },
+    {
+      "model_id": "grok-4.20-reasoning",
+      "display_name": "Grok 4.20 (Reasoning)",
+      "provider": "xAI",
+      "elo": 1577.3,
+      "arena_score": 1480,
+      "rank": 3
+    },
+    {
+      "model_id": "grok-4.20",
+      "display_name": "Grok 4.20",
+      "provider": "xAI",
+      "elo": 1546.3,
+      "arena_score": 1490,
+      "rank": 4
+    },
+    {
+      "model_id": "gpt-5.2-chat",
+      "display_name": "GPT-5.2 Chat",
+      "provider": "OpenAI",
+      "elo": 1515.0,
+      "arena_score": 1477,
+      "rank": 5
+    },
+    {
+      "model_id": "claude-opus-4.6",
+      "display_name": "Claude Opus 4.6",
+      "provider": "Anthropic",
+      "elo": 1508.1,
+      "arena_score": 1497,
+      "rank": 6
+    },
+    {
+      "model_id": "gemini-3-flash",
+      "display_name": "Gemini 3 Flash",
+      "provider": "Google",
+      "elo": 1458.7,
+      "arena_score": 1474,
+      "rank": 7
+    },
+    {
+      "model_id": "gemini-3-pro",
+      "display_name": "Gemini 3 Pro",
+      "provider": "Google",
+      "elo": 1430.5,
+      "arena_score": 1486,
+      "rank": 8
+    },
+    {
+      "model_id": "gpt-5.4-high",
+      "display_name": "GPT-5.4 (High)",
+      "provider": "OpenAI",
+      "elo": 1407.1,
+      "arena_score": 1484,
+      "rank": 9
+    },
+    {
+      "model_id": "gemini-3.1-pro-preview",
+      "display_name": "Gemini 3.1 Pro Preview",
+      "provider": "Google",
+      "elo": 1377.0,
+      "arena_score": 1493,
+      "rank": 10
+    }
+  ]
+}

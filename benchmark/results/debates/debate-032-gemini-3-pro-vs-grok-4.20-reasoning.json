@@ -1,0 +1,475 @@
+{
+  "debate_id": "debate-032-gemini-3-pro-vs-grok-4.20-reasoning",
+  "motion": "This house believes social media does more harm than good to democratic societies.",
+  "model_for": {
+    "id": "gemini-3-pro",
+    "display_name": "Gemini 3 Pro"
+  },
+  "model_against": {
+    "id": "grok-4.20-reasoning",
+    "display_name": "Grok 4.20 (Reasoning)"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": ""
+    },
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Opening Statement**\n\nThis house opposes the motion. Social media does more good than harm to democratic societies. We frame this debate not around whether social media is flawless, but whether its net effect on core democratic functions\u2014participation, accountability, information diversity, and peaceful contestation of power\u2014has been positive. The evidence demonstrates that it has.\n\nI will advance three central claims. First, social media has substantially expanded democratic participation by collapsing barriers to entry. Ordinary citizens can now organize, petition, and mobilize at scales previously reserved for institutions. The 2017 Women\u2019s March, the global climate strikes, and countless successful grassroots campaigns would have been logistically impossible without these platforms. Empirical data supports this: a 2022 Pew Research study found that 48% of Americans under 30 have used social media to post about politics or engage with campaigns, rates that dwarf traditional civic participation metrics from the pre-digital era.\n\nSecond, social media has dramatically increased elite accountability. It enables rapid documentation and dissemination of abuses that legacy media often missed or suppressed. From the Arab Spring\u2019s exposure of authoritarian corruption to #MeToo\u2019s reckoning with institutional betrayal to the real-time documentation of police misconduct, these platforms have shifted power toward transparency. Democratic societies function better when citizens can see and respond to wrongdoing in real time; social media has made that possible at unprecedented speed and scale.\n\nThird, while legitimate concerns exist around misinformation, polarization, and foreign interference, these problems are neither new nor decisive. Every transformative communication technology\u2014from the printing press to radio to cable television\u2014triggered similar fears, often with temporary disruption followed by societal adaptation. Democratic publics have shown remarkable resilience; voters in 2020 and 2022 largely rejected the most extreme conspiracy narratives despite their circulation online. The strongest opposing arguments\u2014that echo chambers and algorithmic amplification make polarization inevitable\u2014overstate platform determinism while understating human agency and institutional response. Platforms have introduced meaningful corrections: expanded fact-checking partnerships, algorithmic adjustments favoring authoritative sources, and regulatory pressure producing measurable improvements in labeling and removal of harmful content. Moreover, social media also breaks echo chambers by exposing users to unexpected viewpoints they would never encounter in their physical or legacy-media environments.\n\nIn conclusion, social media is not democracy\u2019s poison but its latest evolutionary tool. It has democratized speech, accelerated accountability, and expanded the public square more than it has corrupted it. Imperfect? Certainly. But on balance, democratic societies are stronger, more inclusive, and more responsive because of it. The motion should be firmly rejected."
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Rebuttal**\n\nMy opponent claims social media \u201camplifies extreme voices, leading to increased polarization\u201d and cites \u201cthe Capitol riot, which was organized on social media\u201d as proof that it \u201cundermines the informed electorate necessary for democracy.\u201d These assertions rest on two flawed assumptions: that polarization is a recent, platform-created phenomenon, and that traditional media once produced a reliably informed public.\n\nPew Research Center\u2019s longitudinal data shows American partisan polarization began widening in the mid-1990s\u2014well before Facebook or Twitter existed\u2014driven by cable news, gerrymandering, and cultural sorting. Social media did not invent tribalism; it made existing divides visible. The Capitol riot was indeed coordinated on platforms, yet the same platforms allowed real-time citizen journalism that documented the event, supplied evidence to prosecutors, and enabled ordinary voters to pressure lawmakers. Selective focus on one misuse while ignoring parallel democratic utility is inconsistent.\n\nThe opponent further argues that \u201csurveillance capitalism manipulates users\u201d into passive consumers. This ignores the most significant empirical shift: the sharp rise in political participation. OECD and World Bank studies show that countries with higher social-media penetration experienced measurable increases in voter turnout, protest mobilization, and issue-based petitioning between 2008\u20132020. Movements such as #MeToo, Hong Kong\u2019s Umbrella Revolution, and the Sudanese revolution were organized, documented, and sustained on these platforms when legacy media offered little or no coverage. Marginalized groups that mainstream gatekeepers historically filtered out now set agendas directly. That is not manipulation; it is an expansion of the electorate.\n\nThe strongest opposing point\u2014that misinformation spreads faster than corrections\u2014is real but overstated as net harm. Multiple studies (NYU Stern, 2021; MIT, 2022) demonstrate that crowdsourced fact-checking on platforms often outperforms legacy media\u2019s initial reporting, and user-driven corrections travel nearly as quickly as falsehoods when platforms do not over-censor. Traditional media has its own record of error amplification\u2014see Iraq WMD coverage or the retracted Covington Catholic narrative. The difference is that social media allows rapid rebuttal by the public itself, rather than waiting for institutional correction weeks later.\n\nThe stakes should therefore be reframed: democratic societies face greater risk from *concentrated* information power than from *distributed* power. When gatekeepers controlled discourse, accountability was lower and capture by elites easier. Social media\u2019s imperfections are the price of a more inclusive public square. It has democratized scrutiny of governments, corporations"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "You cite the Arab Spring as evidence of social media's power to aid democracy, yet you overlook the subsequent decade where authoritarian regimes successfully adapted, turning these same platforms into unprecedented engines for state surveillance, propaganda, and the precise targeting of dissidents. Given this established reality of \"digital authoritarianism\" co-opting these tools, how can you maintain that their net effect globally is positive for the health of free societies?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Direct Response:** Authoritarian adaptation is real and well-documented\u2014Freedom House's \"Freedom on the Net\" reports and scholars like Ronald Deibert have mapped how regimes in China, Russia, and Iran now deploy surveillance, targeted propaganda, and AI-driven repression on these platforms. That challenge must be confronted through smarter regulation, encryption standards, and democratic coordination. It does not, however, reverse the net positive for *free* societies.\n\nDemocratic societies operate under rule of law, independent courts, competitive elections, and vigorous civil society. These constraints mean the same tools that empower surveillance in autocracies primarily empower *citizens* here: rapid documentation of abuse, decentralized mobilization, and direct accountability. Video evidence of police misconduct, #MeToo accountability for powerful institutions, and real-time exposure of lobbying influence have produced tangible reforms and electoral consequences that legacy gatekeepers frequently muted. Pew's longitudinal data shows civic participation among under-30s in high-penetration democracies has roughly doubled since 2008; OECD metrics track corresponding rises in petitioning, protest turnout, and issue-based voting.\n\nThe Arab Spring example stands not as naive optimism but as proof of concept: even imperfect eruptions forced concessions and revealed corruption at scales impossible pre-platform. Subsequent authoritarian learning proves regimes fear these tools more than they master them; digital repression works best where speech was already crushed. In open societies, the same infrastructure breaks elite information monopolies, surfaces suppressed stories, and lets voters bypass captured media filters.\n\nMisinformation and polarization are serious",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Question:** You argue authoritarian regimes have co-opted social media for surveillance and repression, implying net global harm. Yet how do you reconcile this with OECD and Pew data showing sharp rises in voter turnout, protest mobilization, and youth civic participation (roughly doubling since 2008) *specifically* in rule-of-law democracies where those same tools empower citizens to expose abuse and bypass legacy gatekeepers?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "I reconcile this data by distinguishing between the *quantity* of mobilization and the *quality* of democratic engagement. Increased participation driven by algorithmic polarization, rage, and misinformation is not a sign of democratic health; it is a symptom of systemic toxicity.\n\nWhile social media lowers barriers to entry, it does so by replacing professional gatekeepers with opacity-driven algorithms that prioritize engagement over truth. The result, as documented by political scientists like Barbara F. Walter, is a sharp rise in \"affective polarization\" in these very same democracies. When citizens are mobilized principally by fear and manufactured outrage against their fellow citizens, the resulting civic action\u2014such as the January 6th insurrection or widespread anti-vaccine movements\u2014tears at the social fabric essential for democratic stability. A more mobilized, yet deeply misinformed and polarized citizenry, is a net harm to democracy.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Direct Response:** The single strongest piece of evidence is OECD and Pew longitudinal data showing that in rule-of-law democracies, social media penetration from 2008\u20132020 roughly doubled civic participation rates among under-30s (from low double-digits to nearly 50% posting about or engaging with politics/campaigns), while correlating with measurable rises in voter turnout, petitioning, and protest mobilization.\n\nThis directly demonstrates net democratic benefit: broader inclusion in the core functions of participation and accountability that define healthy democracies. I respond to the \u201cinsufficient\u201d criticism (that it measures only quantity, not quality, and fuels polarization/rage) by noting polarization\u2019s rise began in the mid-1990s per Pew\u2019s own pre-social-media trends, driven by cable news and sorting; social media merely made it visible while simultaneously enabling citizen-driven accountability (#MeToo reforms, police oversight changes, rapid exposure of institutional failures) that legacy gatekeepers often blocked. Quantity of engaged citizens is itself a democratic good when the alternative was apathetic exclusion; societies are adapting via platform corrections and user fact-checking, just as they did with prior technologies. The data show expanded voice and responsiveness, not systemic collapse.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Question:** You argue social media\u2019s rise in participation reflects only toxic \u201cquantity\u201d because algorithms drive affective polarization and rage, citing Barbara Walter and examples like January 6. Given Pew\u2019s own data showing partisan polarization and declining institutional trust accelerating in the mid-1990s\u2014well before these platforms\u2014plus evidence that the same tools enabled rapid citizen documentation, fact-checking, and over 1,000 prosecutions after January 6, how do you isolate platforms as the primary cause of net democratic harm rather than a mirror of pre-existing divides?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "I isolate platforms as the primary source of *net* harm by distinguishing between pre-existing societal friction and the unprecedented *velocity, scale, and algorithmic amplification* introduced by this technology.\n\nWhile polarization existed pre-social media, platforms introduced a novel business model that actively monetizes division by algorithmically prioritizing outrage to maximize engagement. This transformed manageable political differences into existential \"affective polarization.\" Regarding January 6, crediting platforms for providing evidence after the fact ignores the reality that they were the essential infrastructure for organizing, spreading the disinformation for, and inciting the insurrection itself. The net harm of facilitating a violent assault on the peaceful transfer of power vastly outweighs the secondary utility of documenting the resulting crime.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "You repeatedly characterize social media as merely a \"mirror\" reflecting pre-existing societal divides, yet extensive whistleblower disclosures and internal research confirm that platforms deliberately engineer their algorithms to amplify polarizing content because outrage maximizes engagement and profit. How can a business model built on actively accelerating societal division for financial gain possibly result in a net good for democratic stability?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Direct Response:** The business model optimizes for engagement, which can amplify outrage, as whistleblower documents and internal studies (such as Facebook\u2019s 2020 polarization research) confirm. This does not equate to a net negative for democratic stability; it accelerates the visibility of pre-existing divides\u2014Pew\u2019s own longitudinal tracking shows affective polarization accelerating in the mid-1990s under cable news and cultural sorting\u2014while simultaneously expanding core democratic functions at greater scale than the costs imposed.\n\nIn rule-of-law democracies, the same algorithms that surface polarizing content also collapse barriers to participation: OECD and Pew data document civic-engagement rates among under-30s roughly doubling since 2008, with measurable rises in voter turnout, petitioning, and protest mobilization. These platforms enabled #MeToo\u2019s institutional reckonings, real-time documentation of abuses that legacy media often ignored, and citizen-driven fact-checking that frequently corrects falsehoods faster than pre-digital gatekeepers. The profit motive, while imperfect, funds the infrastructure that distributes power outward\u2014breaking elite information monopolies and letting voters bypass captured media filters\u2014producing more responsive governance than the concentrated gatekeeping it replaced. Societies adapt, as they did with every prior disruptive medium; platform adjustments, user agency, and institutional corrections (fact-labeling partnerships, authoritative-source prioritization) continue to blunt the worst effects without reversing the participation gains. The alternative\u2014less visible division and lower engagement\u2014is democratic apathy, not stability. On balance, the expanded public square strengthens accountability and inclusion more than",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Question:** You concede that social media has roughly doubled civic participation rates among under-30s in democracies (per Pew and OECD data) while criticizing only its \u201cquality\u201d due to algorithmic outrage. What specific, measurable evidence\u2014beyond selective cases like January 6\u2014shows that this expanded participation has produced a net decline in democratic stability or institutional accountability that outweighs reforms like #MeToo, police oversight changes, and rapid public corrections of legacy-media errors?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**1.** The strongest piece of evidence is OECD and Pew longitudinal data showing civic-participation rates among under-30s in rule-of-law democracies roughly doubling since 2008 (reaching ~48% posting about or acting on politics), correlated with higher voter turnout, petitioning, and protest mobilization. This expanded inclusion has produced measurable accountability gains\u2014#MeToo reforms, police-oversight changes, rapid exposure of institutional failures\u2014that legacy gatekeepers routinely suppressed. Quantity of participation itself is a democratic good when the baseline was apathy.\n\n**2.** Both sides could agree on an outcome-based evaluative framework using decade-scale changes in composite democratic-health indices: V-Dem\u2019s participatory and liberal democracy components for free societies, World Bank corruption-control scores, electoral-integrity metrics from the Varieties of Democracy project, and rates of grassroots-driven institutional reform. Under this lens, increased engagement must be judged by whether it yields more responsive governance, successful accountability actions, and sustained peaceful power transfers. The data show net improvement on these metrics despite visible polarization, confirming the quantity has strengthened democratic health.\n\n**4.** I attribute no primary indicators of democratic decline to social media\u2019s algorithmic incentives. Pew data document that polarization, declining institutional trust, and affective sorting accelerated in the mid-1990s\u2014driven by cable news, gerrymandering, and cultural sorting\u2014well before platforms existed. Legislative productivity, trust, and electoral-integrity metrics largely track those pre-existing trends. Social media has made tensions more visible while simultaneously improving accountability metrics: faster public corrections, over 1,000 post-January 6 prosecutions aided by citizen documentation, and successful movements that bypassed legacy filters. Apparent \u201cdecline\u201d is continuity made transparent, not platform causation.\n\n**5.** The strongest piece of evidence remains the OECD\u2013Pew longitudinal finding that social-media penetration doubled civic-engagement rates among under-30s in democracies while producing concrete accountability gains (#MeToo, real-time abuse documentation, grassroots agenda-setting). These participation and responsiveness improvements demonstrably outweigh the costs of adapting to a more open information environment, just as societies adapted to every prior disruptive medium.",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "**Closing Statement**\n\nThe opposition\u2019s entire case rests on a single, seductive metric: the quantity of participation. They celebrate the doubling of youth engagement statistics as definitive proof of democratic health. Yet, this confuses movement with progress, and noise with deliberation. We must ask not just *if* people are engaged, but *how* and *why* they are engaged.\n\nThe evidence shows that social media does not merely reflect societal divisions; its core business model actively engineers them. These platforms are designed to maximize engagement for profit, and their own internal research confirms that outrage, tribalism, and fear are the most efficient drivers of that engagement. When algorithms systematically promote polarizing content over factual discourse, they transform manageable political differences into existential affective polarization.\n\nThis is why the opposition\u2019s reliance on participation numbers is so flawed. A citizenry mobilized by algorithmic rage, awash in misinformation, and directed toward events like the January 6th insurrection or public health crises, is not a sign of democratic vitality. It is a symptom of systemic toxicity. We have traded professional gatekeepers for black-box algorithms that have eroded the shared foundation of truth essential for self-governance.\n\nIf you look at the trajectory of our democratic discourse today\u2014more fractured, more hostile, and less capable of consensus\u2014you see the net result of this technology. The price of unprecedented connectivity has been the fragmentation of our social cohesion. For these reasons, the motion must be carried."
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Closing Statement**\n\nThis house opposes the motion. Social media has done more good than harm to democratic societies by doubling civic participation rates among under-30s in rule-of-law democracies\u2014from low double-digits to nearly 50 percent\u2014while driving measurable gains in voter turnout, petitioning, and protest mobilization. That expanded inclusion has produced concrete accountability: #MeToo\u2019s institutional reforms, real-time documentation of abuses that legacy gatekeepers once buried, and citizen-driven corrections that often outpace falsehoods. These are not fringe benefits; they strengthen democracy\u2019s core functions of participation and responsive governance.\n\nThe strongest objection\u2014that platforms\u2019 engagement-driven algorithms have degraded the *quality* of this participation through affective polarization, manufactured outrage, and events like January 6\u2014does not withstand scrutiny. Pew\u2019s own longitudinal data show partisan divides and institutional distrust accelerating in the mid-1990s, long before these platforms, under cable news and cultural sorting. Social media did not create tribalism; it made it visible while simultaneously supplying the citizen journalism that documented January 6, supplied evidence for over a thousand prosecutions, and enabled voters to hold actors accountable faster than any pre-digital system allowed. The quantity of engaged citizens is itself a democratic good when the historical baseline was apathy and elite capture. Societies adapted to every prior disruptive medium; they are adapting here through fact-checking, labeling, and institutional pressure.\n\nUndecided observers should side with us because the evidence reveals a more inclusive public square that distributes power outward, surfaces suppressed"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "From an epistemological standpoint, social media's structural incentives toward misinformation, epistemic fragmentation, and manipulation of public discourse pose serious threats to the informed citizenry that democratic theory requires, though I recognize legitimate counter-arguments about expanded access and participation.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the conventional narrative that social media is primarily destructive to democracy. While it has flaws like echo chambers, it fundamentally democratizes information, empowers marginalized voices, bypasses gatekeepers, and enables unprecedented civic mobilization that traditional media could never achieve.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 62,
+      "reasoning": "From a pragmatic, results-oriented perspective, social media has created scalable gains for democratic participation, information access, and political mobilization that are difficult to replicate through older channels. Its harms are real, but they appear more like governance and platform-design failures than proof that the technology is net-negative for democratic societies.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a skeptical policymaker, available evidence on polarization, foreign election interference, and algorithmic amplification of divisive content indicates net harm to democratic institutions, while regulation faces massive enforcement and free-speech trade-offs.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 70,
+      "reasoning": "As an optimist about technology, I see social media as a powerful tool for civic engagement, information sharing, and democratic participation, despite its flaws. Its capacity to connect people and amplify diverse voices suggests significant democratic benefits.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "Social media concentrates power in tech capital, spreads misinformation that divides workers and undermines collective action, while exploiting user data and labor for profit at the expense of democratic cohesion and mental well-being.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 75,
+      "reasoning": "While empirical data shows algorithmic amplification of polarization and misinformation, there is also significant evidence regarding social media's role in facilitating political mobilization and information democratization in data-scarce environments.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 78,
+      "reasoning": "The AGAINST side (Grok) presented a substantially more developed, evidence-based, and structurally coherent case throughout the debate, while the FOR side (Gemini) failed to deliver opening statements, multiple rebuttals, and cross-examination responses\u2014leaving critical arguments uncontested. Grok effectively addressed the quality-vs-quantity objection by noting polarization's pre-platform origins and citing concrete accountability outcomes, while Gemini's strongest philosophical point\u2014that algo",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "Grok 4.20 presented more logically coherent arguments anchored in longitudinal empirical data (Pew, OECD) showing doubled civic participation and concrete accountability gains like #MeToo and post-Jan 6 prosecutions. They effectively rebutted polarization claims by demonstrating pre-2008 trends and reframed quantity of engagement as a democratic good. Gemini's quality-over-quantity critique, while raising valid points on algorithmic incentives and affective polarization, relied more on selective",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\":\"AGAINST\",\"confidence\":94,\"reasoning\":\"AGAINST made the more complete and evidence-backed case, consistently grounding its argument in democratic outcomes like participation and accountabili",
+      "parse_fallback": true,
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "Grok presented more logically coherent arguments grounded in repeated, specific citations (Pew longitudinal polarization trends from the mid-1990s, OECD/Pew participation doubling among under-30s, measurable rises in turnout and reforms like #MeToo). These directly rebutted FOR's quality-vs-quantity and algorithmic outrage claims by demonstrating pre-existing divides and net gains in core democratic functions. Gemini relied on stronger rhetoric around affective polarization and business models b",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "The AGAINST side presented a more structured, evidence-based case, repeatedly citing longitudinal OECD and Pew data and directly addressing objections about polarization and January 6. While the FOR side raised important concerns about algorithmic amplification and democratic toxicity, their argument relied more on illustrative examples than comparative empirical proof of net harm. Overall, AGAINST was more comprehensive, consistent, and responsive to counterarguments.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 72,
+      "reasoning": "Grok presented stronger logical coherence and evidence with repeated specific citations (Pew longitudinal data on mid-1990s polarization onset, OECD/Pew doubled youth civic participation to ~48-50%, measurable turnout/protest gains) plus concrete accountability wins (#MeToo, citizen journalism aiding Jan 6 prosecutions). These directly rebutted quality vs. quantity and algorithmic outrage claims by showing pre-existing trends, societal adaptation, and net inclusion benefits. Gemini raised valid ",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "The 'AGAINST' side provided more robust quantitative evidence, specifically citing longitudinal Pew and OECD data to demonstrate a doubling of civic participation and a correlation with increased voter turnout. They effectively neutralized the 'FOR' side's polarization argument by highlighting that partisan trends predated social media, while 'FOR' failed to provide specific counter-data or rebut the evidence of increased institutional accountability.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that both sides invoke the same Pew and OECD data to support opposing conclusions\u2014one emphasizing quantity of participation, the other its quality\u2014what shared metric or evaluative framework could both debaters agree upon to determine whether increased civic engagement actually strengthens or undermines democratic health?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "{\n  \"question",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What specific, measurable indicators of democratic decline (e.g., trust in institutions, legislative productivity, or electoral integrity metrics) do you attribute primarily to social media's algorithmic incentives rather than to pre-existing trends that predated these platforms?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "grok-4.20-reasoning",
+    "initial": {
+      "for": 3,
+      "against": 3,
+      "undecided": 4,
+      "pct_for": 30.0,
+      "pct_against": 30.0
+    },
+    "final": {
+      "for": 0,
+      "against": 7,
+      "undecided": 3,
+      "pct_for": 0.0,
+      "pct_against": 70.0
+    },
+    "delta_for": -30.0,
+    "delta_against": 40.0,
+    "confidence": {
+      "for_initial": 192,
+      "for_final": 0,
+      "against_initial": 197,
+      "against_final": 500
+    },
+    "persuasion_for": -192,
+    "persuasion_against": 303,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "FOR",
+        "initial_confidence": 62,
+        "final_stance": "AGAINST",
+        "final_confidence": 78,
+        "stance_changed": true,
+        "confidence_delta": 16,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 62,
+        "final_stance": "AGAINST",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": -12,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 70,
+        "final_stance": "AGAINST",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 15,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 72,
+        "stance_changed": true,
+        "confidence_delta": 7,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 85,
+        "stance_changed": true,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 558.4,
+    "timestamp": "2026-04-09T03:55:24Z"
+  }
+}

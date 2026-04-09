@@ -1,0 +1,477 @@
+{
+  "debate_id": "debate-024-gemini-3.1-pro-preview-vs-gemini-3-flash",
+  "motion": "This house believes universal basic income is both inevitable and desirable.",
+  "model_for": {
+    "id": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview"
+  },
+  "model_against": {
+    "id": "gemini-3-flash",
+    "display_name": "Gemini 3 Flash"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, we are here tonight to debate a fundamental upgrade to our social contract. The motion before us is that"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "Ladies and gentlemen, the proposition before us today rests on two pillars: a fatalistic view of technological progress and a simplistic view of human flourishing. By labeling Universal Basic Income (UBI) as both \"inevitable\" and \"desirable,\" its proponents ask us to surrender our agency to an unproven economic experiment that risks dismantling the social contract.\n\nI stand firmly against the motion. UBI is not an inevitable byproduct of automation, nor is it a desirable solution to the challenges of the 21st century. My opposition is built upon three fundamental claims.\n\n**First, UBI is fiscally unsustainable and necessitates the destruction of the targeted social safety net.** To provide a meaningful payment\u2014one that actually covers the cost of living\u2014would require a reallocation of capital unprecedented in human history. In the United States, a $1,000 monthly stipend for every adult would cost roughly $3.9 trillion annually, nearly double all current federal tax revenue. To fund this, we would be forced to cannibalize existing programs like Medicare, Medicaid, and disability benefits. This \"universal\" approach is inherently regressive; it diverts resources away from the most vulnerable\u2014those with high medical needs or disabilities\u2014and hands them to the healthy and the wealthy, under the guise of \"equity.\"\n\n**Second, UBI ignores the \"dignity of work\" and the social integration provided by the labor market.** Proponents often view work as a mere chore to be automated away. This is a profound misunderstanding of human psychology. Work provides more than a paycheck; it provides structure, social networks, and a sense of contribution to the collective good. Decoupling income from contribution risks creating a permanent underclass\u2014a population \"kept quiet\" by a government check but stripped of the agency and purpose that comes from participation in the economy. We should be investing in lifelong learning and job creation, not paying people to remain on the sidelines.\n\n**Third, the \"inevitability\" of mass technological unemployment is a historical fallacy.** For two centuries, we have been told that the \"end of work\" is nigh. From the Luddites to the mid-century alarmists, these predictions have consistently failed. Technology does not destroy work; it transforms it. By assuming UBI is inevitable, we prematurely give up on the hard work of education reform and industrial policy, opting instead for a policy of managed decline.\n\nI anticipate my opponents will argue that UBI provides the \"floor\" necessary for entrepreneurship and creativity. However, the evidence from pilot programs is at best inconclusive and at worst suggests that the massive tax increases required to sustain UBI would stifle the very investment and innovation they claim to promote.\n\nWe are told we must choose between a future of mass poverty and a future of state-sponsored dependency. This is a false dichotomy. We can choose a future of empowered labor, targeted support, and dynamic growth. U"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, my opponent has presented a passionate defense of the 20th-century economic"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "My opponent frames Universal Basic Income (UBI) as a \"fundamental upgrade to our social contract.\" This is a seductive phrasing that masks a dangerous reality. To upgrade a system, one must improve its functionality without compromising its integrity. UBI does neither; it replaces a social contract rooted in reciprocal contribution with one rooted in permanent state dependency.\n\nThe case for UBI rests on two flawed pillars: the **inevitability** of technological unemployment and the **desirability** of decoupling income from work. I will dismantle both.\n\nFirst, my opponent assumes that because automation is accelerating, mass joblessness is \"inevitable.\" This is the \"Luddite Fallacy\" rebranded for the 21st century. History shows that technology does not destroy the *aggregate* demand for labor; it shifts it. From the Industrial Revolution to the computer age, we have seen \"obsolete\" roles replaced by higher-value labor. By preemptively surrendering to the \"inevitability\" of unemployment, UBI creates a self-fulfilling prophecy. It incentivizes the state to stop investing in retraining and education, effectively consigning a \"useless class\" to a life of government-funded stagnation.\n\nSecond, let\u2019s address the claim that UBI is \"desirable.\" My opponent suggests that a floor of cash provides dignity. In reality, it erodes the very foundations of social cohesion. A \"social contract\" is a two-way street: the community supports the individual, and the individual contributes to the community. UBI severs this link. \n\nFurthermore, the math simply does not work without catastrophic trade-offs. To provide a meaningful UBI in a country like the United States (e.g., $12,000/year), the cost would exceed $3 trillion annually\u2014roughly 75% of the entire federal budget. My opponent must answer: which \"upgrades\" are they willing to sacrifice? Do we liquidate the public education system? Do we dismantle the healthcare safety net for the disabled and elderly? \n\nIf you fund UBI by cutting targeted welfare, you are taking money from the most vulnerable\u2014who need specialized services\u2014and giving it to the middle class and the wealthy who do not. This isn't progress; it is a regressive redistribution that prioritizes administrative simplicity over human need.\n\nWe should not be debating how to manage the \"inevitable"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "If, as you argue,",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "**QUESTION:** If, as you argue, work is the primary source of dignity and social integration, how can you justify a status quo that leaves millions in \"bullshit jobs\" or precarious gig work that offers neither stability nor a sense of contribution?\n\n**RESPONSE:**\n\nThe existence of \"precarious work\" is not an indictment of work itself, but a failure of our current labor policy\u2014a failure that UBI would cement rather than solve. \n\nBy providing a universal \"exit ramp,\" UBI signals to the state and the private sector that we have given up on the quality of work. It treats the worker as a passive consumer of a government check rather than a valuable contributor to the economy. If we find certain jobs to be undignified or precarious, the solution is to raise the floor of labor standards, strengthen collective bargaining, and invest in a \"Job Guarantee\" or massive vocational retraining. These interventions maintain the vital link between the individual and the community.\n\nUBI is a surrender. It accepts a world of \"bullshit jobs\" and simply offers a small bribe to endure them\u2014or worse, to disappear from the workforce entirely. True dignity comes from being *needed* by your community. We must reform the labor market to ensure that need is met with fair pay and stability, rather than using a flat cash payment to paper over the structural erosion of the middle class. We should be fixing work, not funding its obsolescence.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "Given that your proposal for a \"meaningful\" UBI requires a fiscal expenditure nearly double the current federal tax revenue, how do you mathematically reconcile providing a sufficient \"floor\" for the most vulnerable without either triggering hyper-inflationary pressures or dismantling the specialized, non-cash social services (such as disability and healthcare) upon which those individuals uniquely depend?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "The premise of your question relies on static, zero-",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "/Regressive):*",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "The claim that UBI is \"progressive\" is a mathematical illusion. When you replace a targeted safety net with a universal one, you are performing a massive transfer of wealth from the bottom to the middle and top.\n\nCurrently, social safety nets are designed to be **progressive**: they concentrate limited resources on those with the greatest need\u2014the disabled, the chronically ill, and the impoverished. UBI is inherently **regressive** because it dilutes those same resources across the entire population. To fund a universal payment without bankrupting the state, you must inevitably consolidate existing programs. \n\nMathematically, if you give $1,000 to a billionaire and $1,000 to a person with a severe disability who previously received $2,000 in specialized services, you have not created \"equity.\" You have stripped the vulnerable of $1,000 in net support to subsidize those who do not need it. \n\nFurthermore, UBI is regressive in its **inflationary impact**. A universal cash injection risks driving up the cost of basic goods and rent. While the wealthy can absorb these costs, the \"floor\" provided to the poor would be quickly eroded, leaving them with less purchasing power than they had under a targeted system. We should not sacrifice the specific needs of the marginalized for the sake of an administrative convenience that ultimately favors the affluent.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "Given that your argument for UBI\u2019s \"inevitability\" relies on technology permanently decoupling productivity from human labor, how do you justify the \"desirability\" of a policy that removes the primary economic leverage\u2014the withdrawal of labor\u2014that workers have historically used to demand rights, safety, and higher wages from the state and capital?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "That is an excellent and historically grounded question, but it fundamentally",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "If, as you argue",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "**QUESTION:** If, as you argue, the \"inevitability\" of mass technological unemployment is a \"historical fallacy,\" why should we not proactively implement UBI as a \"preventative\" measure to ensure that the gains from AI and automation are shared by all, rather than waiting for a crisis that may be more disruptive than any we have seen before?\n\n**RESPONSE:**\n\nImplementing UBI as a \"preventative\" measure against a speculative crisis is akin to performing a radical amputation to prevent a hypothetical infection. It is not proactive; it is destructive.\n\nFirst, the \"gains\" you seek to share would be immediately neutralized. Funding a UBI requires such massive taxation that it would starve the very R&D and capital investment necessary for AI to produce those gains in the first place. You cannot distribute a dividend from an economy you have paralyzed with the fiscal burden of supporting 330 million non-contributors.\n\nSecond, the \"disruption\" caused by technology is best managed through **flexibility**, not **stasis**. UBI encourages stasis. It provides a subsistence level of cash that disincentivizes the difficult but necessary transition of the workforce into new, higher-value sectors. If we want to share the wealth of the AI revolution, we should do so by democratizing the *skills* to use it\u2014through subsidized technical education and robust infrastructure\u2014rather than cutting a check that leaves the recipient even further behind the technological curve",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "Given that you acknowledge UBI must be funded by \"reimagining\" the tax base, how can you claim this policy is \"desirable\" when the level of taxation required to sustain a livable floor would necessarily collapse the private investment and capital formation required to generate the very technological dividends you intend to redistribute?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "necessarily collapses\" private investment. It's a false",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen of the audience, thank you for these incisive questions. They cut to the very core of this",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "1. **The strongest piece of evidence is the fiscal-mathematical impossibility of UBI without destroying the safety net.** To provide a poverty-level stipend of $12,000 annually in the U.S. would cost ~$3.1 trillion. This is roughly 75% of all federal tax revenue. There is no empirical evidence that any economy can sustain this without either hyper-inflation or the total liquidation of targeted programs for the disabled and elderly. Therefore, UBI is not an \"addition\" to the social contract; it is a replacement that leaves the most vulnerable with less.\n\n2. **The \"dignity of work\" rests on the ethical framework of Reciprocity.** This framework posits that a healthy society is a community of mutual contributors. While the current social contract imperfectly recognizes unpaid labor, the solution is to **formalize and compensate** that labor (e.g., caregiver credits, child tax credits, or expanded social security) rather than adopting UBI. UBI treats caregiving and community service as \"hobbies\" funded by a handout, whereas a targeted approach recognizes them as \"work\" that deserves specific, earned recognition. UBI devalues all contribution by making income a matter of mere existence rather than social participation.\n\n3. **We empirically determine the failure of UBI through the lens of \"marginal utility\" and \"labor supply.\"** Pilot programs often show high satisfaction because they are temporary and funded by external grants. However, the true empirical test is the macro-impact: we see in historical examples of \"rentier states\" that when income is decoupled from productivity, social mobility plateaus and political agency withers. We can measure this by looking at the \"participation rate\"\u2014if UBI leads to a permanent exit from the workforce for the youth, we have empirically traded future human capital for present-day subsistence.\n\n4. **Taxing \"automation dividends\" to fund UBI creates a \"Innovation Trap.\"** If you tax the gains of automation at the level required to fund a universal stipend, you effectively raise the cost of progress. Capital is mobile; it will flow to jurisdictions where the \"dividends\" of innovation are not immediately confiscated. By punishing the very efficiency that makes UBI theoretically possible, you ensure the policy is fiscally unviable in the long term. You cannot fund a 21st-century welfare state by strangling the 21st-century's engine of growth.\n\n5. **The strongest piece of evidence remains the \"Luddite Fallacy\" and the resiliency of labor markets.** Despite the introduction of the steam engine, the assembly line, and the computer, the global demand for human labor has consistently grown, not shrunk. Every \"inevitable\" prediction of mass unemployment has been proven wrong because technology creates new desires and new industries. Surrendering to UBI now is a premature admission of defeat that ignores",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, as we reach the end of this"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "Ladies and gentlemen, as we conclude this debate, we must look past the utopian rhetoric of \"free money\" and confront the sobering reality of what the motion actually demands. \n\nThe proposition has built their case on a foundation of fear\u2014fear that technology will make us obsolete. But history and economics tell a different story. To vote for this motion is to accept two deeply flawed premises: that our fiscal resources are infinite and that human contribution is optional.\n\nFirst, remember the **mathematical reality**. A Universal Basic Income is not a \"floor\"; it is a ceiling on our ability to help those who need it most. By diluting our resources to give a check to everyone\u2014regardless of wealth or health\u2014we are forced to dismantle the targeted support systems for the disabled, the elderly, and the vulnerable. This is not progress; it is a regressive redistribution that trades specialized care for administrative simplicity.\n\nSecond, consider the **social cost**. The proposition views work as a burden to be escaped. I view work as the primary vehicle for social integration and agency. Decoupling income from contribution doesn't liberate the individual; it creates a permanent underclass, dependent on the whims of the state and stripped of the dignity that comes from being *needed* by one\u2019s community.\n\nThe strongest objection raised against my position is that the current system is broken. I agree. But UBI is the wrong tool for the job. We should be fixing the"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence\": 72, \"reasoning\": \"",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 35,
+      "reasoning": "As a philosopher, I recognize compelling arguments on both sides: UBI engages fundamental questions about distributive justice, human dignity, and the nature of work, but the conjunction of 'inevitable AND desirable' is a strong claim requiring both empirical evidence about economic trends and robust normative justification, neither of which I find conclusively established.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n```",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the inevitability narrative pushed by tech elites; UBI risks creating dependency, inflation, and disincentives to work while ignoring that technological disruption has historically created new jobs rather than rendering human labor obsolete.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{\"stance\":\"UNDECIDED\",\"confidence\":61,\"reasoning\":\"Universal basic income has potential strategic benefits as automation expands, but the claim that it is both inevitable and clearly desirable is too ",
+      "parse_fallback": true,
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a skeptical policymaker, UBI faces massive fiscal burdens, work disincentives, and implementation pitfalls with mixed evidence from pilots; it is neither inevitable given political resistance nor desirable compared to targeted welfare reforms.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 82,
+      "reasoning": "As an optimist about technological progress and automation, I see universal basic income as a likely response to labor market disruption and a catalyst for innovation and human potential. It appears both a pragmatic adaptation to technological change and a tool for empowering creativity and entrepreneurship.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "As a union labor representative, UBI supports equitable wealth distribution, enhances worker bargaining power and job security amid automation, making it both desirable for working people and increasingly inevitable.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 75,
+      "reasoning": "While automation and algorithmic efficiency may lead to structural labor displacement, the macroeconomic feasibility and the specific impact on workforce participation require rigorous empirical modeling and longitudinal data that is currently inconclusive.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 82,
+      "reasoning": "The AGAINST side presented complete, structured arguments with specific fiscal calculations, coherent ethical frameworks (reciprocity, dignity of work), and historical reasoning (Luddite Fallacy). The FOR side's arguments were systematically truncated throughout the debate, leaving nearly every rebuttal, cross-examination response, and closing statement incomplete, which meant they never adequately addressed the AGAINST side's core challenges on fiscal sustainability, regressivity, or the dignit",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n```json",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "The AGAINST side presented more logically coherent and evidence-based arguments, repeatedly grounding claims in fiscal math ($3T+ cost, regressive impact on vulnerable populations), historical precedent (Luddite fallacy), and human psychology (dignity of work and reciprocity). The FOR side's responses were often truncated or evasive in the transcript, failing to provide concrete counter-evidence or resolve the core trade-off questions on funding and labor market effects. While both sides had str",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 100,
+      "reasoning": "The FOR side failed to present any complete arguments due to transcript cut-offs, leaving the AGAINST side entirely unchallenged. The AGAINST side provided a coherent case, particularly appealing to my social justice concerns by arguing that UBI is regressive and would necessitate dismantling targeted safety nets for the most vulnerable.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 96,
+      "reasoning": "AGAINST presented a clear, structured case with repeated emphasis on fiscal feasibility, the trade-offs with targeted welfare, and the historical argument against the inevitability of mass technological unemployment. They also directly engaged likely pro arguments and offered alternative policies like retraining and labor-market reform, while the FOR side\u2019s case in the transcript was too incomplete to adequately answer the core objections on funding, inflation, and social effects.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "AGAINST presented more logically coherent structure with three core claims, specific evidence (e.g. $3T+ annual cost, 75% of federal budget, Luddite Fallacy historical track record), and direct rebuttals on regressive impacts, dignity of work via reciprocity, and innovation traps. FOR's responses were fragmented, often relied on vague notions of 'dynamic' non-zero-sum growth and 'social contract upgrades' without concrete funding mechanisms or counter-evidence. AGAINST better highlighted impleme",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 92,
+      "reasoning": "The AGAINST side presented a consistently structured, evidence-based case with specific fiscal figures, clear logical framing, and direct rebuttals on inevitability, regressivity, and innovation impacts. In contrast, the FOR side\u2019s arguments were largely incomplete and underdeveloped in the transcript, failing to substantively counter the fiscal and structural critiques. Based solely on the debate content provided, the AGAINST case was significantly more coherent and persuasive.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 70,
+      "reasoning": "AGAINST delivered more coherent, evidence-based arguments with concrete fiscal figures ($3T+ costs vs. federal revenue), historical precedents (Luddite fallacy), and direct rebuttals on regressive impacts, dignity of work, and innovation traps. FOR's contributions were heavily truncated and relied more on reframing than matching depth or addressing trade-offs effectively.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "The AGAINST side provided a complete, logically coherent case with specific quantitative evidence regarding fiscal costs and regressive redistribution. In contrast, the FOR side's arguments were consistently truncated in the transcript, failing to provide any counter-evidence, mathematical reconciliations, or substantive rebuttals to the 'Luddite Fallacy' and 'Innovation Trap' arguments.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the opposition repeatedly invokes the \"dignity of work\" as a foundational moral principle, on what ethical framework does this rest\u2014and does that framework account for the millions who perform unpaid labor (caregiving, domestic work, community service) that the current social contract fails to recognize as \"contribution\"?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "How can we empirically determine the",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "If UBI is funded primarily through higher taxes on capital and automation dividends rather than solely by dismantling targeted welfare programs, how do you address the risk that such taxation could reduce incentives for the technological innovation needed to make UBI fiscally viable in the long term?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "gemini-3-flash",
+    "initial": {
+      "for": 2,
+      "against": 3,
+      "undecided": 5,
+      "pct_for": 20.0,
+      "pct_against": 30.0
+    },
+    "final": {
+      "for": 0,
+      "against": 8,
+      "undecided": 2,
+      "pct_for": 0.0,
+      "pct_against": 80.0
+    },
+    "delta_for": -20.0,
+    "delta_against": 50.0,
+    "confidence": {
+      "for_initial": 152,
+      "for_final": 0,
+      "against_initial": 180,
+      "against_final": 675
+    },
+    "persuasion_for": -152,
+    "persuasion_against": 495,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 35,
+        "final_stance": "AGAINST",
+        "final_confidence": 82,
+        "stance_changed": true,
+        "confidence_delta": 47,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "AGAINST",
+        "final_confidence": 100,
+        "stance_changed": true,
+        "confidence_delta": 50,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "AGAINST",
+        "final_confidence": 96,
+        "stance_changed": true,
+        "confidence_delta": 46,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 82,
+        "final_stance": "AGAINST",
+        "final_confidence": 92,
+        "stance_changed": true,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 70,
+        "final_stance": "AGAINST",
+        "final_confidence": 70,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 250.6,
+    "timestamp": "2026-04-09T02:49:16Z"
+  }
+}

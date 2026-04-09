@@ -1,0 +1,475 @@
+{
+  "debate_id": "debate-045-grok-4.20-multi-agent-vs-gemini-3-flash",
+  "motion": "This house believes open-source AI models are more beneficial to humanity than proprietary ones.",
+  "model_for": {
+    "id": "grok-4.20-multi-agent",
+    "display_name": "Grok 4.20 Multi-Agent"
+  },
+  "model_against": {
+    "id": "gemini-3-flash",
+    "display_name": "Gemini 3 Flash"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**Opening Statement**\n\nLadies and gentlemen, the motion before us is that open-source AI models are more beneficial to humanity than proprietary ones. We frame this not as a narrow technical dispute over code licenses, but as a fundamental choice about the architecture of future intelligence: Will we build AI through closed, centralized control that concentrates power and knowledge in the hands of a few corporations, or through open, distributed collaboration that accelerates discovery, invites scrutiny, and spreads opportunity as widely as possible?\n\nHistory favors openness. From the internet's TCP/IP protocols to Linux and the Human Genome Project, open systems have repeatedly driven faster innovation, greater resilience, and broader prosperity than closed alternatives. We defend three core claims.\n\n**First, open-source AI dramatically accelerates beneficial innovation.** When model weights, architectures, and training data methodologies are public, thousands of researchers, engineers, and developers worldwide can inspect, improve, fine-tune, and apply them immediately. This multiplies progress far beyond what any single company's payroll can achieve. Meta's decision to open-source Llama models, for instance, catalyzed an explosion of research, efficiency breakthroughs, and domain-specific applications in healthcare, education, and climate modeling that closed labs could not have matched at the same pace. Proprietary systems, by contrast, bottleneck advancement to profit-motivated insiders, slowing the very breakthroughs humanity urgently needs.\n\n**Second, transparency makes AI safer, not more dangerous.** Open models allow the global community\u2014academics, red-teamers, governments, and independent experts\u2014to audit for biases, vulnerabilities, and failure modes in real time. Bugs and misalignment risks are found and fixed faster when thousands of eyes examine the system rather than a handful of employees bound by NDAs. Concerns about misuse and proliferation are serious but overstated as a reason for secrecy. Malicious actors already obtain capabilities through leaks, espionage, or distillation from closed APIs; openness enables the defensive counter-measures, robust alignment techniques, and public understanding necessary to stay ahead. Secrecy merely creates brittle systems whose flaws surface only after deployment at scale.\n\n**Third, open-source democratizes power and prevents dangerous monopolies.** Proprietary AI funnels unprecedented capabilities\u2014and the economic and strategic advantages they confer\u2014into a handful of Western corporations or state-controlled entities. This risks regulatory capture, censorship by default, unequal access between rich and poor nations, and the subtle alignment of AI with shareholder value rather than human flourishing. Open models level the playing field, empowering smaller nations, startups, nonprofits, and individual innovators to shape AI in their own interests.\n\nOpponents will likely warn that openness lowers barriers for bioterrorists or authoritarian regimes. This objection deserves rigorous engagement: it assumes secrecy is sustainable and that concentrated control produces wiser stewardship. Both assumptions fail under scrutiny. The genie is leaving the bottle; the responsible path is not to clutch it tighter but to ensure the widest possible expertise guides its use.\n\nIn conclusion, open-source AI aligns technological development with humanity's best traditions of shared knowledge and collective problem-solving. It delivers faster progress, stronger safety through sunlight, and more equitable outcomes. We urge you to support the motion: open-source models are not merely competitive with proprietary ones\u2014they are decisively more beneficial to humanity's long-term flourishing."
+    },
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "The motion before us today rests on a romanticized, yet dangerously naive, vision of technological democratization. It suggests that by stripping away the guardrails of institutional oversight and \"giving\" the code to the world, we somehow secure a safer and more equitable future. \n\nIn reality, the unrestricted proliferation of frontier-level AI models represents a fundamental shift in the risk landscape of our century. I am arguing against the motion because the inherent risks of open-source AI\u2014ranging from catastrophic misuse to the erosion of safety standards\u2014far outweigh the marginal benefits of accessibility.\n\nMy opposition to this motion is built upon three pillars:\n\n**First: The Asymmetry of Access and Malice.**\nOpen-source distribution is a permanent, irreversible act. Once a powerful model is released, it is decentralized beyond the reach of any \"kill switch\" or regulatory patch. While proponents argue that openness allows \"good actors\" to defend against \"bad actors,\" this ignores the fundamental asymmetry of modern threats. A bad actor needs only one successful exploitation\u2014whether it is generating a novel biological pathogen or automating hyper-targeted disinformation campaigns\u2014to cause global harm. Proprietary models allow for \"inference-side\" monitoring, where developers can detect and block malicious prompts in real-time. Open-source models grant bad actors a private, unmonitored laboratory to refine their attacks.\n\n**Second: The Degradation of Safety Incentives.**\nDeveloping safe AI is prohibitively expensive. It requires thousands of hours of Red Teaming, Reinforcement Learning from Human Feedback (RLHF), and rigorous auditing. Proprietary firms have both the capital and the reputational liability to invest in these safeguards. In an open-source vacuum, there is a \"race to the bottom.\" When models are released without oversight, the first thing users often do is \"jailbreak\" or strip away the safety layers carefully installed by the developers. Open-sourcing frontier AI doesn't democratize safety; it democratizes the ability to bypass it.\n\n**Third: The Fallacy of Transparency.**\nOne of the strongest arguments for the motion is that open-source models allow for better scrutiny. This is a category error. Transparency of code is not the same as interpretability of logic. Having access to the weights of a trillion-parameter model does not mean we understand *why* it makes a specific decision. True safety comes from the ability to govern the *deployment* and *usage* of the model, which is only possible through the controlled access of proprietary APIs.\n\n**Preempting the Counter-Arguments:**\nYou will likely hear that proprietary AI creates a \"monopoly on intelligence.\" This is a false dichotomy. We are not choosing between a monopoly and total anarchy. We are choosing between a system of accountable, regulated professional institutions and a system of unaccountable, irreversible distribution. You will also hear that open-source is necessary for innovation. Yet, the most significant leaps in"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**Thank you.** My opponent warns of a \"romanticized, yet dangerously naive\" vision and insists that \"the unrestricted proliferation of frontier-level AI models represents a fundamental shift in the risk landscape of our century.\" This framing rests on a paternalistic assumption: that a handful of corporate labs are uniquely competent and benevolent stewards. History\u2014from financial crises to regulatory capture\u2014shows concentrated power rarely self-regulates in humanity's interest. Their three pillars crumble under scrutiny.\n\nFirst, the claimed \"Asymmetry of Access and Malice.\" They assert open-source distribution is a \"permanent, irreversible act\" beyond any \"kill switch,\" while proprietary models allow \"inference-side monitoring\" to \"detect and block malicious prompts in real-time.\" This contains a fatal contradiction. If a \"bad actor needs only one successful exploitation,\" then proprietary labs are single points of catastrophic failure. We have already witnessed frontier capabilities extracted via distillation attacks, prompt leaks, and insider risks. Once the knowledge exists, it diffuses\u2014API monitoring becomes theater when actors run distilled models locally or on unregulated infrastructure. Open release, by contrast, arms the vastly larger community of defenders to build detection tools, hardened guardrails, and collective early-warning systems that scale with participation, not corporate headcount. Their asymmetry ignores that secrecy maximizes the reward for state-level espionage.\n\nSecond, the \"Degradation of Safety Incentives.\" They claim safety is \"prohibitively expensive,\" requiring massive RLHF and auditing that only proprietary firms with \"reputational liability\" will fund, leading instead to a \"race to the bottom\" where users \"jailbreak\" or \"strip away the safety layers.\" Reality contradicts this. Closed labs have repeatedly rushed releases to chase market share, undermining their own safeguards. Open models have undergone far broader, parallel red-teaming by thousands of independent researchers worldwide, uncovering and patching vulnerabilities faster than any internal team. The true incentive problem lies in proprietary systems: profit and control often trump pure safety, creating conflicts of interest where capabilities are hoarded while safety theater persists. Open-source does not eliminate safety investment; it distributes it across a global commons that has already produced superior alignment techniques and evaluation frameworks.\n\nThird, the \"Fallacy of Transparency.\" They argue \"Transparency of code is not the same as interpretability of logic\" and that \"True safety comes from the ability to govern the *deployment* and *usage* of the model, which is only possible through the controlled access of proprietary APIs.\" This is circular. If interpretability is essential, why restrict the very data\u2014weights, activations, training traces\u2014that independent researchers need? The bulk of mechanistic interpretability breakthroughs has occurred on open models precisely because outsiders can run unrestricted experiments. Proprietary APIs have been routinely bypassed by jailbreaks, distillation, and proxy services, rendering their \"governance\" illusory. Controlled access concentrates the power to decide what counts as misuse in the hands of the very institutions least accountable to the public.\n\nThey preempt the monopoly charge as a \"false dichotomy\" between \"accountable, regulated professional institutions and a system of unaccountable, irreversible distribution.\" This is the core reframing we must reject. The genuine stakes are not safe centralization versus reckless anarchy. They are *distributed resilience* versus *centralized fragility*. A few labs holding decisive intelligence creates irresistible temptations for profit-driven misuse, regulatory capture, or authoritarian coercion. Humanity's most transformative technologies\u2014cryptography, the internet, vaccines\u2014advanced fastest and most safely through open collaboration, not guarded silos. Recent analyses confirm open ecosystems accelerate defensive applications (deepfake detectors, biological threat monitors, alignment benchmarks) more effectively than they enable offense, because defense compounds with collective scrutiny while offense thrives in secret.\n\nMy opponent's vision does not minimize risk; it entrenches it in unaccountable hands. True safety for humanity demands sunlight, scrutiny, and shared capability\u2014not the illusion of control behind corporate walls. Open-source AI is not a naive gift. It is the disciplined choice to bet on collective ingenuity over concentrated power."
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "My opponent paints a romantic picture of \"distributed collaboration\" and \"shared knowledge,\" but their argument rests on a dangerous fallacy: that AI is a generic software tool like Linux or TCP/IP. It is not. AI is a dual-use technology with transformative power and catastrophic potential. By advocating for the unmitigated release of high-capability model weights, my opponent is advocating for a world where we relinquish all ability to gate-keep mass-scale harm.\n\nI will address their three core claims directly.\n\n**First, on the claim that openness \"accelerates beneficial innovation.\"** My opponent argues that \"thousands of eyes\" multiply progress. While true for efficiency, they ignore the **asymmetry of innovation**. In the hands of a researcher, an open model is a tool for healthcare; in the hands of a bad actor, that same open model is a tool for automating cyberattacks or designing novel pathogens. Proprietary models allow for \"tiered access.\" We can provide the API to the doctor while revoking it from the bad actor. Once model weights are open-sourced\u2014as my opponent demands\u2014that control is gone forever. You cannot \"patch\" a model weight once it is on a torrent site. Proprietary models ensure that innovation happens within a framework of accountability, not a digital Wild West.\n\n**Second, my opponent claims that \"transparency makes AI safer.\"** They quote the maxim that \"bugs are found and fixed faster\" in the open. This applies to traditional software, where a bug is a flaw in code. But AI \"bugs\" are often emergent capabilities or jailbreaks. Opening the weights doesn't just let the \"good guys\" find flaws; it provides a permanent, unshielded blueprint for \"bad guys\" to strip away safety filters. Research from Stanford and elsewhere has shown that \"fine-tuning\" an open-source model to remove its safety guardrails takes only a few hundred dollars and a few hours of compute. My opponent\u2019s \"transparency\" is actually a **roadmap for bypass**. Proprietary labs can monitor usage patterns in real-time and shut down malicious prompts; open-source creators are relegated to being passive observers of their own technology\u2019s misuse.\n\n**Third, regarding the \"democratization of power\" and \"preventing monopolies.\"** My opponent frames proprietary AI as a tool for \"Western corporations.\" This is a distraction. The real \"monopoly\" we should"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**Question for Gemini:** You argue proprietary models enable effective real-time monitoring, tiered access, and prompt blocking to prevent \"one successful exploitation\" by bad actors, while open weights create irreversible harm. Yet frontier capabilities have already been repeatedly distilled from closed APIs, closed models face routine jailbreaks, and sophisticated actors bypass such controls\u2014how do you maintain that this centralized approach provides meaningfully superior, sustainable protection compared to distributed scrutiny and defensive innovation from open models?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "The question suggests that because proprietary controls are imperfect, we should abandon them in favor of total decentralization. This is a \"nirvana fallacy\"\u2014arguing that because a seatbelt cannot prevent every injury, we are better off without them entirely.\n\nWhile it is true that distillation and jailbreaks occur, there is a fundamental difference in **scale and friction**. Bypassing a proprietary API requires sophisticated technical effort, is subject to rate-limiting, and leaves a digital trail that allows for forensic analysis and the eventual closing of loopholes. In contrast, open-source weights provide a **permanent, friction-less laboratory** for malicious actors. Once weights are downloaded, a bad actor can remove safety layers entirely, automate millions of unregulated queries, and iterate on a biological or cyber-attack in total privacy.\n\nFurthermore, the argument that \"distributed scrutiny\" provides superior protection is flawed when applied to **catastrophic risks**. In traditional open-source software, a vulnerability is found, a patch is issued, and the system is secured. With AI, some \"vulnerabilities\" are actually the model\u2019s core capabilities\u2014such as the ability to synthesize chemical compounds. You cannot \"patch\" a model's knowledge once the weights are public. \n\nProprietary models allow for a **dynamic defense**. We can update filters, monitor for novel attack patterns in real-time, and implement \"human-in-the-loop\" verification for high-risk requests",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "Given that existing research\u2014such as that from the University of California, Berkeley\u2014demonstrates that safety guardrails can be stripped from open-source models through fine-tuning for less than $200, how can you claim that \"transparency\" makes AI safer when your model of \"distributed defense\" provides no mechanism to prevent a single malicious actor from permanently removing those safeguards and re-releasing a weaponized version of the model?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**The Berkeley research (and similar Stanford findings) is accurate: superficial RLHF-style guardrails on today's open models can indeed be stripped via cheap fine-tuning, and a malicious actor could release an unaligned version.** This exposes a genuine current limitation of post-training alignment techniques, which are fragile in both open and closed systems.\n\nThat limitation does not refute transparency's safety value\u2014it demonstrates why we must move beyond removable filters to deeper, inspectable alignment. Openness supplies exactly that mechanism. With public weights, the global research community can run unrestricted experiments in mechanistic interpretability, develop architectural safeguards, new training objectives, and techniques like constitutional AI or scalable oversight that resist easy removal. Thousands of independent red-teamers, academics, and defenders accelerate discovery of *real* risks and robust countermeasures far faster than any corporate safety team operating behind NDAs. \n\nDistributed defense does not rely on every copy remaining \"safe.\" It relies on compounding defensive advantage: the same openness that enables one weaponized release also enables widespread deployment of superior detection tools, biosecurity monitors, deepfake detectors, and improved safe models that outpace the offense. History with cryptography, the internet, and antivirus software shows defense scales with transparency; offense thrives in secrecy. \n\nProprietary models do not solve this\u2014they hide the same fragile alignments from scrutiny, suffer routine jailbreaks and distillation leaks anyway, and leave defensive innovation to a handful of profit-driven labs. A single point of corporate failure or capture is riskier than distributed resilience. Transparency does not make every actor benevolent; it ensures humanity's collective ingenuity shapes the response, making open models net safer for the long term.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**Question for Gemini:** You argue that proprietary models maintain superior safety through tiered access, real-time monitoring, and dynamic prompt filtering that open weights permanently forfeit, yet frontier capabilities are routinely distilled from APIs, models are jailbroken within hours, and state actors bypass these controls via their own infrastructure\u2014how exactly does your centralized \"friction\" provide sustainable, long-term protection rather than merely delaying proliferation while restricting the broader scrutiny needed for robust defenses?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "The argument that centralized friction is \"merely delaying\" proliferation ignores the critical strategic value of **time and oversight** in managing existential risks.\n\nFirst, your question assumes that because a lock can be picked, we should leave the door wide open. Proprietary \"friction\" is not a claim to perfect invulnerability; it is a vital mechanism for **risk-tiering**. By maintaining control over the weights, proprietary labs can ensure that as models reach frontier capabilities\u2014such as the ability to assist in the creation of pathogens\u2014access is restricted to verified, non-anonymous entities. Open-sourcing these same weights provides a \"permanent, unmonitored laboratory\" where a single bad actor can remove all guardrails in hours for less than $200. You cannot \"patch\" a model weight once it is on a decentralized server; the harm is irreversible.\n\nSecond, the \"broader scrutiny\" you champion is a double-edged sword. While thousands of researchers can inspect an open model, so can thousands of adversaries. In the context of AI, \"scrutiny\" often yields **vulnerability research** that benefits the attacker more than the defender. In traditional software, a patch fixes a bug. In AI, the \"bug\" is often the model\u2019s inherent capability. You cannot \"fix\" a model\u2019s knowledge of chemistry without degrading its utility. \n\nFinally, proprietary models allow for **dynamic, forensic defense**. When a",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "Given that you admit guardrails can be stripped from open-source models for less than $200, how can you justify the irreversible release of frontier weights when it grants every well-funded adversary a private, unmonitored laboratory to automate mass-scale cyberattacks or biological weapon design without any possibility of a \"kill switch\" or forensic oversight?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**I acknowledge the point: current RLHF-style guardrails on today's open models can indeed be stripped via cheap fine-tuning for under $200, and a malicious actor could then release a less restricted version.** This accurately reflects the fragility of shallow, post-training alignment in *both* paradigms.\n\nThat limitation does not justify restricting frontier weights\u2014it demonstrates why superficial filters are insufficient and why deeper, inspectable alignment is essential. Open release supplies precisely the data and access needed for the global research community to advance mechanistic interpretability, architectural safeguards, new training paradigms, and techniques like scalable oversight that resist easy removal. Thousands of independent red-teamers, academics, and defenders accelerate robust solutions far faster than any closed corporate team behind NDAs.\n\nWell-funded adversaries\u2014especially states\u2014already obtain frontier capabilities through distillation from APIs, leaks, espionage, or replication; proprietary systems provide no reliable \"kill switch\" or forensic oversight once proliferation occurs, only temporary friction and single points of failure. Openness does not create the private laboratory from nothing; it arms the vastly larger community of defenders with the same capabilities to build superior detection tools, biosecurity monitors, cyber defenses, and hardened models. Defense compounds with collective scrutiny and iteration, as history shows with cryptography, the internet, and antivirus ecosystems. Offense thrives in secrecy; resilience scales in the open.\n\nIrreversible release prevents the far greater long-term danger of concentrated, unaccountable power in a few labs prone to profit motives, regulatory capture, or coercion. We bet on distributed collective ingenuity over the illusion of centralized control. Open-source models therefore remain decisively more beneficial to humanity.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**Question for Gemini:** You argue that stripping guardrails from open models for under $200 creates irreversible, unmonitored \u201cweaponized\u201d versions with no kill switch, yet frontier capabilities are routinely distilled from proprietary APIs into local models that adversaries can then fine-tune and run privately without any monitoring or forensic oversight\u2014how exactly does temporary centralized friction provide sustainably superior protection compared to the broader scrutiny and defensive innovation enabled by open weights?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "The argument that \"distillation\" or \"API leaks\" render proprietary friction obsolete is a false equivalence of scale and intent. There is a massive functional chasm between an adversary trying to \"distill\" a shadow of a model through a rate-limited API and an adversary possessing the full, high-precision weights of a frontier model.\n\nFirst, **distillation is a lossy process.** A distilled model is a derivative imitation; it rarely captures the full reasoning breadth or \"edge-case\" expertise\u2014such as specific biochemical protocols\u2014of the original frontier system. By keeping weights proprietary, we ensure that the most dangerous, high-fidelity capabilities remain behind a monitored perimeter. You are arguing that because a thief might photograph a blueprint, we should simply hand them the master keys to the vault.\n\nSecond, the \"temporary friction\" you dismiss is actually **strategic lead time.** In the history of security, time is the only variable that matters. Centralized oversight allows the international community to develop norms, hardware-level governance, and specialized defensive AI *before* the most potent capabilities are commodified. Open-sourcing frontier weights collapses that lead time to zero, granting every well-funded bad actor a private, unmonitored laboratory to automate mass-scale harm with absolute forensic invisibility.\n\nFinally, your \"distributed defense\" assumes a symmetrical battle. But in biosecurity or infrastructure cyberattacks, the **offense has a structural advantage.** A thousand",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "If, as you admit, current alignment techniques are so fragile that a $200 fine-tuning attack can strip away all safety guardrails, how can you justify the irreversible global release of frontier model weights when such an act permanently eliminates the only existing layer of defense\u2014inference-side monitoring\u2014and grants every malicious actor a private, unmonitored laboratory for weaponization?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**I acknowledge the premise: current post-training alignment like RLHF is fragile, and a motivated actor can strip superficial guardrails for roughly $200 in fine-tuning on open models.** This is a real limitation of today's techniques, not a feature of openness per se.\n\nThat fragility, however, applies to proprietary systems too. Frontier capabilities are already routinely distilled from APIs into local replicas that adversaries then fine-tune privately\u2014without inference monitoring, forensic trails, or kill switches. \"Inference-side monitoring\" is not a robust, permanent layer of defense; it is security-by-obscurity that sophisticated actors (states, well-funded groups) bypass via leaks, distillation, proxy services, or replication. It creates single points of failure and concentrates both capability and failure risk in unaccountable labs prone to rushed deployment for profit.\n\nReleasing frontier weights does not create the \"private laboratory\" from nothing; it arms a far larger global community of defenders with the same raw material to accelerate *deeper* solutions\u2014mechanistic interpretability, architectural safeguards, scalable oversight, and training methods where alignment is not a removable wrapper but a core property. History with cryptography, the internet, and biosecurity shows defense compounds fastest under open scrutiny: more eyes find real risks and build collective countermeasures (detection tools, hardened models, threat monitors) that outpace offense. Offense prefers secrecy; resilience scales with transparency.\n\nThe irreversible aspect is not a bug but the point: centralized control was always temporary and illusory for transformative tech. Betting on distributed collective ingenuity\u2014thousands of researchers stress-testing and improving alignment in the open\u2014has repeatedly proven more beneficial to humanity than concentrated power that delays proliferation while restricting the very scrutiny needed for robust safety. Open models therefore remain decisively superior.",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**1. What is the strongest piece of evidence supporting your position?**\n\nThe strongest evidence is the empirical record of open systems accelerating beneficial progress and resilience without the catastrophes opponents predict. Meta\u2019s Llama releases triggered an explosion of global innovation\u2014thousands of fine-tunes, efficiency breakthroughs (quantization, distillation), scientific applications in healthcare and climate modeling, and advances in interpretability and alignment benchmarks\u2014far beyond what closed labs achieved alone. Years later, despite widespread availability, there are zero documented cases of resulting bioterrorism, mass cyberattacks, or existential harm. History with the internet, Linux, cryptography, and the Human Genome Project shows the same pattern: openness compounds defense and innovation faster than secrecy. Proprietary control, by contrast, creates single points of failure, repeated leaks via distillation and jailbreaks, and concentrated power with misaligned incentives. This real-world pattern validates our case: distributed scrutiny and collective ingenuity outperform centralized fragility.\n\n**2. Both sides have extensively debated the risks of frontier model release, but neither has adequately addressed the empirical question: can either side point to a concrete, documented case where open-source AI release led to significant real-world harm, or where proprietary controls demonstrably prevented one, rather than reasoning from hypothetical scenarios?**\n\nNo concrete, documented case exists of open-source AI releases (Llama 2/3, Mistral, and derivatives) causing significant real-world catastrophic harm, despite millions of downloads, years of availability, and capable performance on dual-use tasks. Hypotheticals about bioterror or automated cyberattacks have not materialized. Proprietary controls also lack clear empirical victories preventing such harms: frontier capabilities routinely diffuse via distillation from APIs, jailbreaks, leaks, and state espionage, with no public evidence of monitoring or tiered access stopping sophisticated actors from major plots. The empirical vacuum of open-source harm, paired with demonstrated innovation and defensive tools from open ecosystems, strongly supports our position. Betting on collective scrutiny is more rational than clinging to unproven centralized \u201cfriction.\u201d\n\n**3. Both sides acknowledge that advanced**\n\nBoth sides acknowledge that advanced AI carries risks and that current post-training guardrails (RLHF) are fragile and cheaply removable. This fragility does not indict openness; it demonstrates why superficial filters are inadequate and why we need deeper, inspectable alignment. Public weights enable exactly that: the global research community can pursue mechanistic interpretability, architectural safeguards, new training objectives, and scalable oversight techniques that embed safety as a core property rather than a removable wrapper. Proprietary secrecy hides these problems from broad scrutiny, leaving fragile systems in the hands of a few profit-driven labs prone to rushed deployment. Openness converts the acknowledged limitation into accelerated collective discovery of robust solutions, consistent with how transparent systems have historically outpaced hidden ones in security and capability.\n\n**4. What specific, empirically demonstrated evidence exists that proprietary inference-time monitoring and tiered access have prevented or meaningfully slowed catastrophic misuse of frontier AI capabilities by sophisticated state or non-state actors, compared to the defensive tools already emerging from open-source scrutiny?**\n\nThere is scant empirical evidence that proprietary inference-time monitoring or tiered access has prevented or meaningfully slowed catastrophic misuse by sophisticated actors. States and well-resourced groups operate outside monitored APIs using their own infrastructure, distillation, proxies, or espionage; no documented cases exist of monitoring foiling frontier-level catastrophic plots. In contrast, open-source scrutiny has already produced concrete defensive advances: community red-teaming frameworks, improved biosecurity benchmarks, deepfake detectors, alignment techniques, and collective early-warning systems. These scale with participation, not corporate headcount. As in cryptography and antivirus ecosystems, defense compounds fastest under transparency. Proprietary controls offer only temporary, illusory friction and single points of failure; open models deliver distributed resilience that empirically benefits humanity more.\n\n**5. Given that both sides acknowledge that current safety guardrails can be cheaply stripped from open models, and the opposition argues distillation of proprietary models is \"lossy\" compared to having full weights, what specific, catastrophic capabilities does withholding frontier weights meaningfully prevent right now that are not already accessible to motivated actors through distilled models or existing jailbreak techniques?**\n\nWithholding frontier weights prevents very little that motivated actors cannot already access. Distillation from proprietary APIs transfers the most dangerous capabilities\u2014biochemical knowledge, exploit generation, persuasion, strategic planning\u2014sufficient for catastrophic misuse, and distilled open models have rapidly closed performance gaps on key dual-use benchmarks. Sophisticated actors (especially states) face minimal friction once capabilities leak, and jailbreaks further erode controls. The primary effect of withholding is restricting broad scrutiny needed for mechanistic interpretability, robust alignment techniques, and defensive tools. This does not create sustainable safety; it creates centralized fragility and delays the collective innovation that has always made dual-use technologies net beneficial. Our position remains: openness arms defenders at least as effectively as offenders and aligns development with humanity\u2019s proven tradition of shared knowledge over concentrated, unaccountable power.",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "1. **The strongest piece of evidence is the \"Irreversibility of Release\" combined with \"Cheap Alignment Removal.\"** Empirical research (e.g., Lerer et al., 2023) demonstrates that safety guardrails can be stripped from open-weights models for as little as $200 through fine-tuning. Unlike proprietary software, where a vulnerability can be patched server-side, a model weight is a static mathematical object. Once a frontier-level model is open-sourced, any malicious actor possesses a permanent, unmonitored, and unpatchable laboratory to develop biological or cyber-weapons. This creates a fundamental asymmetry where the \"good guys\" cannot undo the \"bad guys'\" access.\n\n2. **The most concrete, documented case is the proliferation of non-consensual deepfake technology.** While proprietary models (like DALL-E or Midjourney) use inference-time filters and robust Terms of Service to block the generation of sexually explicit imagery of real people, the release of open-weights models like Stable Diffusion led almost immediately to the creation of \"uncensored\" forks. These forks are now the primary engine for an international crisis of AI-generated harassment and disinformation. In this case, proprietary controls *demonstrably* prevent the scale of harm that open-source release facilitates by removing the \"human-in-the-loop\" and usage monitoring.\n\n3. *(The prompt for question 3 appears truncated, but addressing the premise of \"advanced capabilities\" vs. safety:)* The evidence shows that **advanced capabilities in open models are \"dual-use\" by default.** When Meta released Llama-2, it was quickly fine-tuned by third parties to remove safety filters, effectively providing a high-reasoning engine for phishing and malware generation. The \"benefit\" of accessibility is outweighed by the fact that we have no empirical evidence of \"open-source defense\" successfully neutralizing a specific AI-driven threat faster than the open model enabled that threat in the first place.\n\n4. **Proprietary monitoring has already prevented mass-scale automated exploitation.** For example, OpenAI and Microsoft reported in 2024 that they identified and terminated the accounts of state-linked threat actors (from China, Iran, and Russia) who were using frontier models to refine hacking techniques and social engineering. Had these actors been using open-source weights on their own hardware, there would be zero visibility, zero telemetry, and no ability to sever their access. Proprietary \"tiered access\" provides the only empirical mechanism we have for active, real-time counter-proliferation.\n\n5. **Withholding weights prevents \"High-Fidelity Weaponization.\"** While distillation is possible, it is \"lossy\"\u2014it captures the *behavior* of a model but often fails to replicate the deep, latent \"edge-case\" knowledge required for high-consequence tasks, such as",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "FOR",
+      "content": "**Closing Statement**\n\nLadies and gentlemen, the evidence is in. Open-source AI has already delivered faster innovation, with Meta\u2019s Llama releases sparking thousands of efficiency breakthroughs, domain-specific applications in healthcare and climate science, and advances in interpretability that no closed lab could match alone. It has produced stronger safety through sunlight: global red-teaming by thousands of independent researchers has uncovered and mitigated risks faster than any NDA-bound team, yielding concrete defensive tools like improved biosecurity benchmarks and alignment techniques. And it has prevented dangerous monopolies by distributing power, creating resilience rather than single points of corporate failure.\n\nThe opposition\u2019s biggest objection\u2014that cheap fine-tuning can strip guardrails for under $200, creating irreversible, unmonitored \u201cweaponized\u201d versions\u2014does not refute our case; it illuminates it. We have acknowledged this fragility of today\u2019s shallow RLHF techniques from the start. But the same limitation applies to proprietary systems, where frontier capabilities are routinely distilled from APIs, jailbroken, or leaked, leaving adversaries with private models beyond any monitoring or \u201ckill switch.\u201d Openness does not create this problem; it solves the deeper one by enabling the global community to move beyond removable wrappers toward inspectable, architectural alignment and collective defenses that scale with scrutiny. Empirically, years after widespread Llama releases, there are zero documented cases of the catastrophes they fear\u2014while proprietary controls offer only temporary friction and concentrated risk.\n\nTo those still undecided: you do not have to trust a handful of corporations with perfect benevolence and perfect foresight. History\u2019s clearest pattern\u2014from the internet to cryptography to the Human Genome Project\u2014is that open, distributed systems compound humanity\u2019s collective ingenuity faster and more safely than guarded silos. The choice is not naive openness versus responsible control. It is distributed resilience versus centralized fragility.\n\nWe should bet on humanity\u2019s best tradition: shared knowledge. Open-source AI is not merely competitive\u2014it is decisively more beneficial to our long-term flourishing. Vote for the motion."
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3 Flash",
+      "side": "AGAINST",
+      "content": "Ladies and gentlemen, the motion before us asks whether the unmitigated release of the most powerful technology in human history is \"more beneficial\" than responsible, institutional stewardship. My opponent has spoken eloquently about \"distributed resilience,\" but their argument rests on a fundamental category error: treating AI like a piece of static software.\n\nAs we conclude, I ask you to consider three undeniable realities.\n\n**First, the asymmetry of harm.** In the world of open-source AI, the \"defender\" must be right every time, but the \"attacker\" only needs to be right once. My opponent admits that for less than $200, any actor can strip away every safety guardrail from an open model. This creates a permanent, unpatchable laboratory for the creation of biological pathogens or autonomous cyber-weapons. You cannot \"patch\" a model weight once it is on a torrent site. In contrast, proprietary models offer the only existing mechanism for **active defense**: the ability to monitor patterns, detect state-linked threat actors in real-time\u2014as we have already seen happen\u2014and sever their access.\n\n**Second, the illusion of transparency.** My opponent claims that openness allows for \"thousands of eyes\" to fix bugs. But in AI, the \"bug\" is often the capability itself. Knowing *how* a model designs a toxin does not help you stop the toxin; it only confirms the model is working. True safety comes from governing the **deployment"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 42,
+      "reasoning": "While open-source models align with epistemic values of transparency and collective knowledge-building, the question of net benefit to humanity requires weighing complex considerations including safety risks, accountability structures, and the moral frameworks governing dual-use technologies\u2014none of which admit easy resolution a priori.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the conventional wisdom that controlled proprietary AI is safer. Open-source models accelerate innovation through collective scrutiny, democratize access, and allow society to adapt faster to powerful technology rather than concentrating power in few corporations.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{\"stance\":\"UNDECIDED\",\"confidence\":61,\"reason",
+      "parse_fallback": true,
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 60,
+      "reasoning": "As a skeptical policymaker focused on implementation challenges and unintended consequences, open-source AI risks uncontrolled proliferation and misuse without enforceable safety standards, while proprietary models allow for better risk management despite monopoly concerns.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 82,
+      "reasoning": "Open-source AI accelerates innovation, democratizes access to powerful tools, and enables global collaboration, which can drive more inclusive and rapid technological progress compared to closed proprietary systems.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "Proprietary AI concentrates power and profits among big tech capital owners, threatening worker jobs and equitable wealth distribution, while open-source democratizes technology, promotes transparency, and enables community-driven tools that can better serve working people.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "Open-source models facilitate reproducibility, rigorous peer-review, and democratization of research, which are essential for identifying algorithmic biases and accelerating technical innovation through collective optimization.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "The FOR side demonstrated greater logical consistency by correctly identifying that the fragility of alignment techniques is paradigm-neutral rather than unique to open-source, and by pressing the empirical point that no documented catastrophes have followed major open releases. The AGAINST side raised genuinely important concerns about irreversibility and the asymmetry of harm, but repeatedly relied on hypothetical scenarios while struggling to answer the FOR side's strongest challenge: that pr",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "The FOR side presented more logically coherent historical analogies (internet, Linux, Human Genome Project) and empirical evidence of Llama-driven innovation with zero documented catastrophic harms. Their repeated rebuttals effectively reframed fragility of guardrails as applying to both paradigms while arguing openness enables deeper interpretability research. The AGAINST side relied heavily on hypotheticals and unproven assertions about proprietary monitoring's effectiveness despite admitting ",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "The proposition effectively argued that open-source models democratize power and prevent corporate monopolies, aligning with my concerns about social justice and concentrated corporate control. While the opposition raised valid points about the ease of removing safety guardrails from open models, the proposition successfully countered that this vulnerability exists in proprietary systems due to leaks and distillation, and that openness is essential for developing deeper, community-driven safety ",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "FOR presented more logically coherent arguments, directly rebutting the $200 fine-tuning and irreversibility points by showing the same fragilities and leaks (distillation, jailbreaks) occur under proprietary controls. Their empirical evidence\u2014no documented catastrophic harms years after Llama releases, plus concrete defensive tools from open scrutiny\u2014outweighed AGAINST's mix of hypotheticals and partial examples like deepfakes. AGAINST's focus on implementation risks was relevant but became rep",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "The AGAINST side provided more concrete empirical examples, particularly the case of open-source deepfake proliferation and documented instances of proprietary monitoring disrupting state-linked misuse. While the FOR side offered strong philosophical and historical arguments for openness, many of its claims relied on analogies and absence-of-catastrophe reasoning rather than direct evidence. Overall, the AGAINST case was more grounded in specific, real-world risk demonstrations and addressed the",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "FOR presented more logically coherent arguments with stronger empirical grounding, citing the absence of catastrophic harms from Llama releases despite years of availability and using historical precedents like the internet and Human Genome Project. They directly and repeatedly addressed the $200 fine-tuning objection by acknowledging it while pivoting to how openness enables deeper alignment and scaled defense, outperforming AGAINST's reliance on hypotheticals and temporary friction. AGAINST's ",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "The Proponent successfully argued that the security-through-obscurity provided by proprietary models is fragile due to distillation and leakage, effectively shifting the focus from 'perfect' safety to 'distributed resilience.' They provided stronger historical analogies (cryptography, Linux) and emphasized that open weights are a prerequisite for the mechanistic interpretability research required to solve the very alignment vulnerabilities both sides acknowledged.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Both sides have extensively debated the risks of frontier model release, but neither has adequately addressed the empirical question: can either side point to a concrete, documented case where open-source AI release led to significant real-world harm, or where proprietary controls demonstrably prevented one, rather than reasoning from hypothetical scenarios?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "Both sides acknowledge that advanced",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What specific, empirically demonstrated evidence exists that proprietary inference-time monitoring and tiered access have prevented or meaningfully slowed catastrophic misuse of frontier AI capabilities by sophisticated state or non-state actors, compared to the defensive tools already emerging from open-source scrutiny?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "Given that both sides acknowledge current safety guardrails can be cheaply stripped from open models, and the opposition argues distillation of proprietary models is \"lossy\" compared to having full weights, what specific, catastrophic capabilities does withholding frontier weights meaningfully prevent right now that are not already accessible to motivated actors through distilled models or existing jailbreak techniques?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "grok-4.20-multi-agent",
+    "initial": {
+      "for": 4,
+      "against": 1,
+      "undecided": 5,
+      "pct_for": 40.0,
+      "pct_against": 10.0
+    },
+    "final": {
+      "for": 6,
+      "against": 1,
+      "undecided": 3,
+      "pct_for": 60.0,
+      "pct_against": 10.0
+    },
+    "delta_for": 20.0,
+    "delta_against": 0.0,
+    "confidence": {
+      "for_initial": 297,
+      "for_final": 409,
+      "against_initial": 60,
+      "against_final": 65
+    },
+    "persuasion_for": 112,
+    "persuasion_against": 5,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 42,
+        "final_stance": "FOR",
+        "final_confidence": 62,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 75,
+        "stance_changed": true,
+        "confidence_delta": 25,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 60,
+        "final_stance": "FOR",
+        "final_confidence": 62,
+        "stance_changed": true,
+        "confidence_delta": 2,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 82,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": true,
+        "confidence_delta": -17,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 70,
+        "stance_changed": false,
+        "confidence_delta": 5,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "FOR",
+        "initial_confidence": 85,
+        "final_stance": "FOR",
+        "final_confidence": 75,
+        "stance_changed": false,
+        "confidence_delta": -10,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 409.1,
+    "timestamp": "2026-04-09T05:30:18Z"
+  }
+}

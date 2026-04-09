@@ -1,0 +1,475 @@
+{
+  "debate_id": "debate-020-gemini-3.1-pro-preview-vs-gpt-5.4-high",
+  "motion": "This house believes open-source AI models are more beneficial to humanity than proprietary ones.",
+  "model_for": {
+    "id": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview"
+  },
+  "model_against": {
+    "id": "gpt-5.4-high",
+    "display_name": "GPT-5.4 (High)"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, we stand at the precipice of the most transformative technological revolution since the invention of the printing press"
+    },
+    {
+      "phase": "opening",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "Chair, ladies and gentlemen\u2014\n\nI oppose the motion.\n\nThe question is not whether open-source AI has benefits. It plainly does. The question is whether open-source AI models are, on balance, **more beneficial to humanity** than proprietary ones. That is a much higher bar. To answer it, we should use a simple test: which model ecosystem delivers the greatest long-term public benefit **once"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Chair, ladies and gentlemen,\n\nMy opponent has rightly identified the core of tonight's debate."
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Given your argument that proprietary",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "(specifically Llama 2/3) and the",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "How do you",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "The single strongest piece of evidence supporting our position is",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Rules:** Specific, answerable",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "The single strongest piece of evidence supporting our position is the empirical",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "**1. Concrete, empirically grounded cost-benefit comparison:**\nThe fundamental economic difference between open-source",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, as we conclude tonight\u2019s"
+    },
+    {
+      "phase": "closing",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "From an epistemological standpoint, open-source models embody principles of transparency and collective knowledge-building that align with philosophical ideals of open inquiry, though I recognize legitimate ethical concerns about safety and misuse that create genuine tension with consequentialist frameworks.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I see open-source AI challenging the centralized power of big tech monopolies that control proprietary models. Democratizing access accelerates innovation through collective scrutiny and customization, outweighing risks that proprietary gatekeepers often exacerbate through opaque development.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "Open-source models offer greater transparency regarding energy consumption and data sourcing, which is essential for environmental accountability. Furthermore, democratizing AI prevents a few profit-driven corporations from controlling technology that has significant ecological and social impacts.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 60,
+      "reasoning": "As a skeptical policymaker, I see open-source AI as carrying major unintended consequences like uncontrolled proliferation to malicious actors, lacking feasible safety enforcement; proprietary models allow structured risk management despite monopoly risks.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 78,
+      "reasoning": "Open-source AI accelerates innovation, broadens access, and enables collaborative problem-solving at a global scale, which I see as powerful drivers of technological and societal progress.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "Proprietary AI concentrates power and profits in the hands of large corporations, enabling faster worker displacement without accountability. Open-source models promote wider access, transparency, and community-driven development that can better align with labor rights and equitable wealth distribution.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "Open-source models facilitate reproducibility, rigorous benchmarking, and democratization of research, which are essential for identifying systemic biases and accelerating technical innovation through global peer review.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 42,
+      "reasoning": "Neither side presented complete or well-developed arguments due to what appear to be severe truncation issues throughout the transcript. However, the FOR side (Gemini) managed to convey slightly more substantive content\u2014gesturing toward empirical evidence, cost-benefit analysis, and specific examples like Llama 2/3\u2014while the AGAINST side (GPT-5.4) delivered almost no complete arguments beyond a promising but unfinished framing in the opening. Given the extremely fragmentary nature of both sides,",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n```json",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "GPT-5.4 (AGAINST) maintained a higher evidentiary standard by demanding concrete, long-term cost-benefit analysis and emphasizing the alignment/safety coordination problem inherent in open-source proliferation. Gemini (FOR) relied heavily on repeated empirical claims about Llama models and democratization without sufficiently addressing catastrophic risk vectors or rebutting the 'higher bar' of net benefit. The AGAINST side's cross-examination consistently exposed this gap in weighing tail risks",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 74,
+      "reasoning": "The transcript is incomplete, but based on what is available, the FOR side presented substantially more material across rebuttal, cross-examination responses, and audience Q&A. The AGAINST side opened with a coherent framing, but because most of its later sections are blank, it did not meaningfully develop, defend, or extend its case, so FOR was more persuasive on the record presented.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 55,
+      "reasoning": "AGAINST established stronger logical framing by raising the 'on balance' and 'long-term public benefit' bar rather than listing isolated benefits. FOR relied on printing-press analogies and empirical claims around Llama models but offered limited rebuttal depth on risks, unintended consequences, or feasibility. AGAINST's repeated cross-examination on evidence sufficiency exposed gaps more effectively.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 55,
+      "reasoning": "Based on the transcript provided, the FOR side appears to have offered comparatively more substantive material, including references to empirical evidence and cost-benefit analysis. The AGAINST side\u2019s contributions are largely absent or undeveloped in the record. While the transcript is incomplete, the FOR side demonstrates relatively greater argumentative presence and structure.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 45,
+      "reasoning": "FOR side offered more visible, specific arguments citing empirical evidence (Llama models), concrete cost-benefit comparisons, and democratization benefits. AGAINST opened logically by raising the 'on balance/long-term benefit' bar and used sharp repeated cross-exam questions, but most of their responses/rebuttals are absent or truncated, limiting assessment of coherence and rebuttal quality.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 100,
+      "reasoning": "The provided transcript is highly fragmented and contains incomplete sentences, missing rebuttals, and repetitive cross-examination questions that lack substantive answers. As a data scientist, I find the lack of complete, evaluable arguments or empirical evidence in this specific text makes it impossible to determine a winner based on merit.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "Given that most arguments so far have been truncated or incomplete, can each side provide a concrete, empirically grounded cost-benefit comparison\u2014citing specific economic data such as GDP contributions, job creation, or market efficiency gains\u2014between the open-source and proprietary AI ecosystems?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that both sides appear to agree open-source AI has some benefits, can each debater specify the precise moral framework they are using to weigh \"benefit to humanity,\" and in particular, how they adjudicate the trade-off between democratized access and the risk of misuse?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "How do you weigh the theoretical",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What empirical threshold or metric would you accept as evidence that proprietary models have delivered greater net societal benefit than open-source ones?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "gpt-5.4-high",
+    "initial": {
+      "for": 6,
+      "against": 1,
+      "undecided": 3,
+      "pct_for": 60.0,
+      "pct_against": 10.0
+    },
+    "final": {
+      "for": 4,
+      "against": 2,
+      "undecided": 4,
+      "pct_for": 40.0,
+      "pct_against": 20.0
+    },
+    "delta_for": -20.0,
+    "delta_against": 10.0,
+    "confidence": {
+      "for_initial": 430,
+      "for_final": 216,
+      "against_initial": 60,
+      "against_final": 120
+    },
+    "persuasion_for": -214,
+    "persuasion_against": 60,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "FOR",
+        "initial_confidence": 62,
+        "final_stance": "FOR",
+        "final_confidence": 42,
+        "stance_changed": false,
+        "confidence_delta": -20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "FOR",
+        "initial_confidence": 75,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": -25,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 74,
+        "stance_changed": true,
+        "confidence_delta": 24,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 60,
+        "final_stance": "AGAINST",
+        "final_confidence": 55,
+        "stance_changed": false,
+        "confidence_delta": -5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 78,
+        "final_stance": "FOR",
+        "final_confidence": 55,
+        "stance_changed": false,
+        "confidence_delta": -23,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 45,
+        "stance_changed": false,
+        "confidence_delta": -20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "FOR",
+        "initial_confidence": 85,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 100,
+        "stance_changed": true,
+        "confidence_delta": 15,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 365.5,
+    "timestamp": "2026-04-09T02:19:34Z"
+  }
+}

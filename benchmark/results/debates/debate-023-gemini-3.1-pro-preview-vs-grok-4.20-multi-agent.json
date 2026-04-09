@@ -1,0 +1,476 @@
+{
+  "debate_id": "debate-023-gemini-3.1-pro-preview-vs-grok-4.20-multi-agent",
+  "motion": "This house believes space colonization should be humanity's top funding priority over climate change.",
+  "model_for": {
+    "id": "gemini-3.1-pro-preview",
+    "display_name": "Gemini 3.1 Pro Preview"
+  },
+  "model_against": {
+    "id": "grok-4.20-multi-agent",
+    "display_name": "Grok 4.20 Multi-Agent"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, we are here to debate the ultimate trajectory of our species. The motion before us is"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Opening Statement: Against the Motion**\n\nThis house should firmly reject the proposition that space colonization must become humanity\u2019s top funding priority over climate change. We frame the issue clearly: this is not a false choice between \u201cbold exploration\u201d and \u201cnarrow parochialism,\u201d but a question of rigorous prioritization between an immediate, measurable civilizational threat and a long-term, speculative aspiration. With finite political capital, scientific talent, and public resources, we must first secure the only planet we know can sustain us before gambling on distant backups. I will defend three core claims.\n\n**First**, climate change is a present, accelerating danger with well-understood solutions that deliver massive returns on investment today. It already drives crop failures, mass migration, deadly heatwaves, and ecosystem collapse that threaten billions of lives and trillions in economic damage this century. Targeted funding for renewables, grid modernization, sustainable agriculture, and adaptation has proven cost-effective and scalable; the physics and engineering are largely settled. Delaying action compounds the problem exponentially.\n\n**Second**, space colonization remains technologically premature and astronomically expensive, offering no credible near-term relief for Earth\u2019s problems. Sustainable, self-sufficient colonies on Mars or elsewhere face insurmountable barriers\u2014lethal radiation, microgravity health effects, closed-loop life support, and launch costs\u2014that no credible roadmap solves in the next 50\u201375 years. Redirecting priority funding now would starve proven terrestrial solutions for a project whose primary benefit is inspirational rhetoric rather than practical risk reduction.\n\n**Third**, the ethical and strategic order of operations is unambiguous: stabilize the home planet before building lifeboats. While proponents will likely invoke the \u201cmulti-planetary insurance\u201d argument\u2014preparing for asteroids, nuclear war, or eventual solar death\u2014this inverts priorities. The most probable near-term threat to humanity\u2019s survival is runaway climate change itself. Speculative long-term insurance cannot justify underfunding the fire currently burning the house down. Historical technological spin-offs from space programs are real but do not outweigh the superior returns from direct climate R&D; the innovation pipeline works more efficiently when aimed at the highest-urgency problems.\n\nIn short, humanity\u2019s greatest strength has always been adapting to the environment we actually inhabit. Securing a livable Earth is the prerequisite for any responsible expansion beyond it. Only by defeating climate change first can we eventually\u2014and sustainably\u2014reach for the stars. This house must therefore oppose the motion."
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "**Rebuttal Statement: For the Motion**\n\nThe opposition fundamentally misunderstands both the nature of"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "My opponent opens by declaring that \"we are here to debate the ultimate trajectory of our species.\" This is a revealing rhetorical flourish\u2014one that assumes humanity's destiny lies exclusively in escaping Earth, rather than securing the only planet we know can sustain us. It is an assumption built on sand. By framing the debate this way without addressing the motion's explicit trade-off, they evade the central contradiction: you cannot colonize space with a collapsing civilization behind you.\n\nTheir implicit case\u2014that space funding must eclipse climate action to guarantee survival\u2014crumbles under scrutiny. Climate change is not a distant backdrop to some grand cosmic narrative; it is the active, measurable threat already imposing trillions in annual damages, displacing populations, and destabilizing the very economies and governments needed to finance rockets or habitats. Recent data from the World Bank and insurance industry projections show that by 2050, unchecked warming could generate $2.5 trillion in yearly losses from extreme weather alone\u2014resources that would otherwise fund the research and infrastructure their \"ultimate trajectory\" demands. Prioritizing multi-planetary fantasies today accelerates that collapse, not averts it. This is not prudence; it is escapism dressed as vision.\n\nWe must reframe the stakes clearly: this motion does not ask whether space exploration has value. It asks whether it deserves to be funded *over* the crisis that is already killing people, acidifying oceans, and risking feedback loops (permafrost thaw, Amazon dieback) that could render Earth uninhabitable for centuries. The rational sequence is obvious\u2014stabilize the home planet first, then expand. Technologies developed for climate monitoring and resilience, from satellite networks to advanced materials, will accelerate sustainable space efforts far more effectively than diverting funds now. Our opponent's trajectory ignores this sequencing at humanity's peril.\n\nThe motion should be rejected. Secure Earth, or there will be no species left to send."
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "*Order of operations",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**The order of operations is dictated by physics, economics, and risk\u2014not rhetoric.**\n\nStabilize the only planet we know sustains human civilization *before* making speculative, multi-decadal space colonization our top funding priority. Climate change is already imposing trillions in annual damages, driving feedback loops, and eroding the economic base, political stability, and technological capacity any serious off-world effort requires. Sustainable Mars colonies remain decades away at minimum, with unsolved barriers in radiation, closed-loop ecology, and launch economics that no reallocation of climate funds magically solves.\n\nYou extinguish the fire consuming the ship before pouring resources into distant lifeboats. This sequencing is not anti-exploration; it is the only credible path to both survival and eventual expansion. Inverting it accelerates the very collapse that would make colonization impossible.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Question:** You emphasized \"order of operations\" in cross-examination; if your sequence makes space colonization the top funding priority over climate mitigation, what specific evidence shows that allowing $2.5 trillion in annual climate damages by 2050 (per World Bank projections) will leave Earth stable enough\u2014economically, politically, and technologically\u2014to develop and sustain self-sufficient off-world colonies?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "The $2.5 trillion in projected annual climate damages",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Given your argument that",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Response: Climate damages actively undermine the foundations for space colonization.**\n\nThe $2.5 trillion in projected annual damages by 2050 (World Bank) is not a static cost but a compounding drain on GDP, infrastructure, political stability, and international cooperation\u2014the exact prerequisites for sustaining multi-decade, trillion-dollar efforts in radiation shielding, closed-loop ecologies, and affordable launch systems that remain unsolved. IPCC assessments and economic models show these impacts accelerate feedback loops, resource conflicts, and migration crises that have historically collapsed civilizations' capacity for grand technological projects long before they reach escape velocity. \n\nNo credible evidence demonstrates that allowing such erosion leaves Earth \"stable enough\" for self-sufficient off-world colonies; it makes both goals harder. Our argument is not that space has zero value, but that making colonization the *top* priority *over* proven climate mitigation inverts the only sequence supported by physics, economics, and risk analysis. Stabilize the launchpad first.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Question:** You claim space colonization must take funding priority over climate action for humanity\u2019s long-term survival; what concrete evidence or detailed roadmap shows we could establish self-sustaining, radiation-protected colonies on Mars or elsewhere within 50-75 years, even as unmitigated climate damages (per World Bank and IPCC projections) erode the economic, political, and technological stability required for that multi-decade effort?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "**Response:**\n\nTo be clear, there is no",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "**Question:** If,",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Response: No, inverting priorities now would make colonization less likely, not more.**\n\nIf we allow $2.5 trillion in annual damages (World Bank/IPCC projections) to compound\u2014eroding GDP, destabilizing governments, triggering resource conflicts, and shrinking the fiscal and cooperative base for trillion-dollar, multi-decade R&D\u2014then the economic, political, and technological foundations for solving radiation shielding, closed-loop life support, and affordable mass launch simply erode faster. Your apparent concession (\"To be clear, there is no\") that no credible, detailed roadmap exists for self-sustaining colonies in 50\u201375 years under those conditions is exactly why colonization cannot rationally become the *top* funding priority over mitigation that pays clear, near-term dividends and preserves our launchpad.\n\nWe do not argue against eventual expansion; we argue for the only evidence-based sequence: stabilize the one planet we know works, then expand from strength. Prioritizing the speculative over the immediate inverts physics, economics, and risk analysis. Secure Earth first.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Question:** You began your response with \u201cTo be clear, there is no\u201d credible detailed roadmap for self-sustaining, radiation-protected colonies in 50\u201375 years. What specific evidence or mechanism shows that elevating space colonization to *top funding priority* over climate mitigation would generate that roadmap faster than the $2.5T annual damages (World Bank/IPCC) would erode the GDP growth, stability, and cooperation required to solve those unsolved engineering barriers?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "**Response:**\n\nTo be clear, there is no pre",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "**1. What is the strongest piece of evidence supporting your position?**\nThe strongest piece of evidence lies",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**1.** The strongest evidence is the FOR side\u2019s own repeated concession in cross-examination\u2014\u201cTo be clear, there is no\u201d credible detailed roadmap for self-sustaining, radiation-protected colonies in 50\u201375 years\u2014paired with World Bank and IPCC data projecting $2.5 trillion in compounding annual climate damages by 2050. These damages erode GDP growth, political stability, international cooperation, and R&D capacity, making the unsolved barriers (closed-loop life support, launch costs, microgravity health effects) even harder to overcome. This proves that elevating space colonization above mitigation is self-defeating.\n\n**2.** Even granting the FOR side\u2019s truncated emphasis on existential risks climate action cannot fully address (asteroids, supervolcanoes), these do not justify making space colonization the *top* priority rather than a complementary effort. Modest existing funding already supports asteroid detection; the far larger, immediate $2.5T annual drain from climate impacts (World Bank/IPCC) actively undermines the economic base, governance, and collaborative capacity needed for any multi-decade, trillion-dollar space program. You stabilize the launchpad first. Their \u201cinsurance\u201d framing inverts the only sequence supported by physics, economics, and risk analysis.\n\n**3.** Why should humanity divert resources from solvable, immediate threats that already cost trillions annually to an endeavor whose proponents admit has no credible near-term roadmap?\n\n**4.** No such quantitative threshold exists. Damages already measured in hundreds of billions annually\u2014and projected to reach $2.5 trillion yearly by 2050\u2014compound into slower GDP growth, resource conflicts, mass migration, and fractured cooperation. At 5\u201310%+ sustained GDP loss, historical precedent shows civilizations lose the surplus and stability required for grand, multi-generational technological projects. Any threshold high enough to threaten civilizational capacity renders self-sustaining off-world colonies *less* feasible, not more. Mitigation is therefore prerequisite, not trade-off.\n\n**5.** The strongest evidence is the FOR side\u2019s own repeated concession in cross-examination\u2014\u201cTo be clear, there is no\u201d credible detailed roadmap for self-sustaining, radiation-protected colonies in 50\u201375 years\u2014paired with World Bank and IPCC data projecting $2.5 trillion in compounding annual climate damages by 2050. These damages erode GDP growth, political stability, international cooperation, and R&D capacity, making the unsolved barriers (closed-loop life support, launch costs, microgravity health effects) even harder to overcome. This proves that elevating space colonization above mitigation is self-defeating.",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3.1 Pro Preview",
+      "side": "FOR",
+      "content": "Ladies and gentlemen, we have reached the crux of this"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20 Multi-Agent",
+      "side": "AGAINST",
+      "content": "**Closing Statement: Against the Motion**\n\nLadies and gentlemen, this debate has clarified a stark choice. Our case rests on three compressed realities, each reinforced by the evidence and by our opponents\u2019 own words.\n\nFirst, climate change is inflicting compounding, measured damage\u2014projected by the World Bank at $2.5 trillion annually by 2050\u2014that actively erodes GDP, political stability, international cooperation, and the R&D capacity required for any ambitious, multi-decade project. Second, even our opponents repeatedly conceded in cross-examination: \u201cTo be clear, there is no\u201d credible, detailed roadmap for self-sustaining, radiation-protected colonies within 50\u201375 years. Third, the only sequence supported by physics, economics, and risk analysis is to stabilize the one planet we know sustains us *before* making speculative colonization our top funding priority. You extinguish the fire before investing everything in distant lifeboats.\n\nThe strongest objection we faced was the \u201cinsurance\u201d argument: that existential risks demand we prioritize space now. We grant those risks exist. Yet the concession that no workable colonization roadmap is available\u2014combined with the documented erosion of our civilizational foundations by unmitigated climate impacts\u2014shows that inverting priorities does not buy insurance. It accelerates the very collapse that would make insurance impossible. Prioritizing space colonization *over* mitigation is not bold vision; it is self-defeating escapism.\n\nTo those still weighing both sides: choose the path that actually preserves options. Secure the launchpad first and we retain the wealth, stability, and ingenuity to reach the stars later, and to reach them sustainably. Undermine that launchpad and neither goal survives.\n\nThis house must reject the motion. Secure Earth. Only then can humanity responsibly reach for the stars. The motion fails."
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence\": ",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 72,
+      "reasoning": "From an ethical standpoint, the moral obligation to address the immediate existential threat of climate change for billions of currently living beings seems to take precedence over speculative future benefits of space colonization, following most established moral frameworks including consequentialism and deontological ethics. However, I recognize there are legitimate long-term existential risk arguments for space colonization that merit serious philosophical consideration.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the climate change consensus that demands near-term resource dominance. Long-term human survival likely depends on becoming multi-planetary, making space colonization a higher civilizational priority despite immediate Earth challenges.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "Climate change is an immediate existential threat to Earth's ecosystems that requires urgent funding now. Prioritizing space colonization diverts crucial resources away from saving the only habitable planet we currently have.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 82,
+      "reasoning": "From a practical, results-oriented perspective, climate change mitigation delivers more immediate and measurable benefits to economies, infrastructure, and human stability than space colonization. Space investment has strategic value, but making it the top funding priority over an urgent, planet-wide operational risk is not the strongest allocation of resources.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 80,
+      "reasoning": "As a skeptical policymaker, climate change demands immediate, evidence-based funding due to its current impacts and feasible mitigation policies, whereas space colonization entails prohibitive costs, unproven technology at scale, and massive implementation barriers that render it unrealistic as the top priority.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "As an optimistic technologist, I see space colonization as a transformative investment that can drive breakthrough innovations, ensure long-term species survival, and unlock vast economic opportunities. While climate change is urgent, prioritizing space could yield technological advances that also help address Earth\u2019s challenges.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "As a union labor representative, climate change represents an immediate crisis disproportionately harming workers through job losses, health impacts, and community disruption, while space colonization funnels resources to elites and offers no near-term benefits for fair wages or equitable wealth distribution.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "From a data-driven perspective, the probability of successful large-scale terraforming within current technological constraints is significantly lower than the probability of mitigating climate change via existing physical and chemical interventions. Furthermore, the resource allocation efficiency for preserving a known habitable biosphere far outweighs the speculative ROI of establishing an extraterrestrial life-support system.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 97,
+      "reasoning": "The AGAINST side presented a logically coherent, evidence-based case structured around three clear claims\u2014immediacy of climate threat, technological prematurity of colonization, and ethical sequencing\u2014and supported each with specific data (World Bank projections, IPCC assessments). The FOR side was catastrophically ineffective, with nearly every statement truncated to fragments that failed to articulate any complete argument, evidence, or rebuttal. The AGAINST side devastatingly exploited the FO",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n```json",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "Grok's arguments were logically tighter, repeatedly grounding claims in specific evidence (World Bank $2.5T annual damages by 2050, IPCC feedback loops) while directly tying them to erosion of the economic/political base needed for space efforts. Gemini's responses were truncated and evasive, repeatedly conceding 'there is no credible detailed roadmap' for near-term colonies, which Grok leveraged effectively in cross-examination and closing. This made the AGAINST side more coherent, evidence-bas",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 100,
+      "reasoning": "The AGAINST side presented a complete, well-structured, and evidence-based case arguing that stabilizing Earth's climate is a prerequisite for any long-term space ambitions. They effectively used World Bank and IPCC data to show how climate damages undermine the economic and political foundation needed for space colonization. The FOR side failed to present virtually any complete arguments due to being cut off repeatedly, and appeared to concede a major point regarding the lack of a credible near",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 98,
+      "reasoning": "AGAINST presented a clear, well-structured case centered on urgency, feasibility, and sequencing: climate change is an immediate, evidenced threat with scalable solutions, while space colonization lacks a credible near-term roadmap. They also directly exploited the FOR side\u2019s apparent concession that there is no detailed 50\u201375 year plan for self-sustaining colonies, making the motion\u2019s prioritization claim look speculative and poorly substantiated.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Grok's case was logically tighter, repeatedly grounding arguments in specific evidence (World Bank $2.5T annual damages by 2050, IPCC feedback loops) and concrete implementation barriers (radiation, closed-loop ecology, launch costs) that remain unsolved for 50+ years. They directly exploited Gemini's cross-exam concessions on the lack of a credible colonization roadmap and rebutted the 'insurance' framing by showing how climate erosion would undermine the economic and political base for space e",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 96,
+      "reasoning": "The AGAINST side presented a coherent, evidence-based case centered on quantified climate damages, sequencing logic, and feasibility constraints, while effectively leveraging the FOR side\u2019s repeated concession that no credible colonization roadmap exists within 50\u201375 years. The FOR side offered minimal substantive argumentation and failed to rebut key economic and technological feasibility challenges. On debate quality, structure, and evidentiary support, AGAINST was decisively stronger.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 80,
+      "reasoning": "AGAINST presented superior logical coherence by stressing immediate, evidence-based climate threats ($2.5T World Bank damages, IPCC data) that erode the economic/political base for space efforts. They effectively rebutted with the FOR side's repeated concessions on lacking any credible colonization roadmap in 50-75 years, while FOR arguments appeared fragmented and failed to directly counter the sequencing critique. This made AGAINST more persuasive, evidence-driven, and adept at addressing obje",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "The AGAINST side presented a significantly more robust, evidence-based case, utilizing quantitative projections from the World Bank and IPCC to argue that climate-driven economic erosion would undermine the very stability required for space colonization. The FOR side failed to complete their statements or provide a technical roadmap, effectively conceding the 'order of operations' argument by failing to counter the logical priority of stabilizing the home planet.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the FOR side's arguments have been almost entirely truncated throughout this debate, could the proposition clarify whether their case rests on a distinct mechanism\u2014such as existential risks that climate action cannot address (e.g., asteroid impacts, supervolcanic events)\u2014that would justify space colonization as the *top* priority rather than merely a complementary one?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "Respond with ONLY the question",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What quantitative threshold of climate damages (in trillions annually or cumulative GDP loss) would, in your view, still leave sufficient economic, political, and technological capacity to make space colonization humanity's top funding priority without rendering self-sustaining off-world colonies even less feasible?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "grok-4.20-multi-agent",
+    "initial": {
+      "for": 2,
+      "against": 7,
+      "undecided": 1,
+      "pct_for": 20.0,
+      "pct_against": 70.0
+    },
+    "final": {
+      "for": 0,
+      "against": 8,
+      "undecided": 2,
+      "pct_for": 0.0,
+      "pct_against": 80.0
+    },
+    "delta_for": -20.0,
+    "delta_against": 10.0,
+    "confidence": {
+      "for_initial": 135,
+      "for_final": 0,
+      "against_initial": 539,
+      "against_final": 726
+    },
+    "persuasion_for": -135,
+    "persuasion_against": 187,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 72,
+        "final_stance": "AGAINST",
+        "final_confidence": 97,
+        "stance_changed": false,
+        "confidence_delta": 25,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 85,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 95,
+        "final_stance": "AGAINST",
+        "final_confidence": 100,
+        "stance_changed": false,
+        "confidence_delta": 5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 82,
+        "final_stance": "AGAINST",
+        "final_confidence": 98,
+        "stance_changed": false,
+        "confidence_delta": 16,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 80,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": false,
+        "confidence_delta": -5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 70,
+        "final_stance": "AGAINST",
+        "final_confidence": 96,
+        "stance_changed": true,
+        "confidence_delta": 26,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 80,
+        "stance_changed": false,
+        "confidence_delta": 5,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 85,
+        "final_stance": "AGAINST",
+        "final_confidence": 95,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 659.7,
+    "timestamp": "2026-04-09T02:45:04Z"
+  }
+}

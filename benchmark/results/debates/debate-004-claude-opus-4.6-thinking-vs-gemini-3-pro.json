@@ -1,0 +1,477 @@
+{
+  "debate_id": "debate-004-claude-opus-4.6-thinking-vs-gemini-3-pro",
+  "motion": "This house believes universal basic income is both inevitable and desirable.",
+  "model_for": {
+    "id": "claude-opus-4.6-thinking",
+    "display_name": "Claude Opus 4.6 (Thinking)"
+  },
+  "model_against": {
+    "id": "gemini-3-pro",
+    "display_name": "Gemini 3 Pro"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Opening Statement\n\nLadies and gentlemen, thank you.\n\nThe motion before us makes two claims: that universal basic income is **inevitable** and that it is **desirable**. I will defend both, and I will show that they are deeply connected \u2014 that the same forces making UBI inevitable are precisely what make it desirable.\n\n## Framing\n\nLet me first define what we mean. Universal basic income is a regular, unconditional cash payment to every citizen, sufficient to meet basic needs, replacing the patchwork of means-tested welfare programs that currently define our social safety nets. It is not a utopian fantasy. It is a policy mechanism \u2014 one with a serious intellectual pedigree spanning from Thomas Paine to Milton Friedman, from Martin Luther King Jr. to contemporary economists across the political spectrum.\n\n## Claim One: UBI Is Inevitable Because the Labor Market Is Undergoing Structural Transformation\n\nWe are not facing a normal economic cycle. We are facing a structural discontinuity. McKinsey Global Institute estimates that by 2030, up to 375 million workers globally \u2014 roughly 14 percent of the workforce \u2014 may need to switch occupational categories due to automation. Oxford researchers Frey and Osborne found 47 percent of US jobs are at high risk of automation within two decades. And critically, this wave is different from previous technological revolutions: artificial intelligence doesn't just replace manual labor \u2014 it encroaches on cognitive tasks, creative work, legal analysis, medical diagnostics, and financial services.\n\nPrevious technological revolutions created new jobs to replace old ones, and I expect that argument will be raised today. But the pace of displacement is now outstripping the pace of reabsorption. The transition periods are growing longer and more painful. Even if new jobs emerge, the human cost of perpetual displacement demands a floor beneath which no citizen can fall. Every advanced economy will eventually confront this arithmetic. The question is not *whether* but *when* and *how gracefully*.\n\n## Claim Two: UBI Is Desirable Because It Expands Human Freedom and Economic Dynamism\n\nUBI is not merely a safety net \u2014 it is a **launchpad**. Consider the evidence we already have. The GiveDirectly experiments in Kenya showed recipients invested in businesses, housing, and education. Finland's two-year trial found participants experienced significantly reduced stress and improved well-being with no meaningful reduction in employment. The Alaska Permanent Fund \u2014 the closest thing to a real-world UBI running for over 40 years \u2014"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Rebuttal: For the Motion\n\nLadies and gentlemen, I notice my opponent has offered no substantive opening \u2014 and I'd suggest that silence is itself revealing. The case against universal basic income has grown increasingly difficult to make, because the evidence and the trajectory of our economy are moving decisively in one direction.\n\nBut let me not take advantage of an empty podium. Let me instead do my opponent the courtesy of steelmanning the strongest objections \u2014 and dismantling them.\n\n**\"It's unaffordable.\"** This is always the first objection. Yet we currently spend enormous sums administering fragmented, means-tested welfare systems riddled with bureaucratic overhead and poverty traps. The Roosevelt Institute modeled a $1,000/month UBI and found it would grow the U.S. economy by 12.56% over eight years through increased consumer demand. UBI isn't just an expense \u2014 it's an investment in economic participation.\n\n**\"People will stop working.\"** The evidence says otherwise. Finland's two-year experiment found no significant reduction in employment but marked improvements in well-being and trust. The Manitoba Mincome experiment showed only new mothers and teenagers worked less \u2014 to care for children and stay in school. These are outcomes we should *celebrate*.\n\n**\"It's not inevitable.\"** Consider: AI and automation are restructuring labor markets at unprecedented speed. McKinsey estimates 800 million jobs displaced globally by 2030. We face a choice between managed transition and social catastrophe. Already, pilot programs exist on every inhabited continent. Political support spans from Silicon Valley to the Vatican, from Andrew Yang to Milton"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "Ladies and gentlemen.\n\nThe proposition has offered a seductive narrative: a future of inevitable technological unemployment solved by a simple, desirable check for everyone. It is an elegant solution to a misdiagnosed problem, supported by misinterpreted evidence.\n\nThe motion fails on both counts. UBI is not inevitable because the \"end of work\" hypothesis is fundamentally flawed. And it is not desirable because the staggering economic trade-offs required to implement it would harm the very people it aims to protect.\n\nLet us begin with the proposition's first claim: inevitability.\n\nMy opponent argues we face a \"structural discontinuity\" driven by AI, citing the oft-quoted Frey and Osborne study claiming 47 percent of US jobs are at high risk. They assert that \"the pace of displacement is now outstripping the pace of reabsorption.\"\n\nThis is the latest iteration of the \"Lump of Labor\" fallacy\u2014the fixed idea that there is a set amount of work to be done, and if machines do more, humans must do less. History has proven this wrong in every single industrial revolution. Technology eliminates *tasks*, not necessarily *jobs*. It lowers costs, increases demand, and creates entirely new industries.\n\nFurthermore, the data my opponent relies upon is an outlier. A comprehensive OECD study using a more nuanced methodology found that only about 14 percent of jobs across member countries are highly automatability.\n\nBut more importantly, the proposition is looking at the wrong crisis. The defining economic challenge of the next 30 years in advanced economies is not a surplus of labor; it is a *shortage*. Due to rapidly aging populations and declining birth rates, we are facing a demographic contraction. We need *more* workers, not policies that risk incentivizing labor force withdrawal. If UBI is inevitable, it is only because we choose to ignore demographic reality in favor of technological dystopianism.\n\nNext, let us turn to desirability.\n\nThe proposition calls UBI a \"launchpad,\" relying on evidence that crumbles under scrutiny. They cited the Finnish trial, claiming participants experienced \"improved well-being with no meaningful reduction in employment.\"\n\nLet\u2019s look closer. The Finnish study was temporary, small-scale, and not universal. Crucially, the primary goal of the study was to see if UBI *increased* employment by removing welfare traps. It failed to do so. The fact that giving unemployed people free money temporarily reduced their stress is not a policy breakthrough; it is a truism. It does not prove the desirability of a permanent, society-wide restructuring.\n\nThey also cited the Alaska Permanent Fund. Yet, under my opponent's own definition of UBI\u2014a payment \"sufficient to meet basic needs\"\u2014Alaska fails completely. The annual dividend fluctuates between $1,000 and $2,000 a year. That is a nice bonus; it is not a basic income. You cannot extrapolate the effects of a yearly bonus to a monthly salary replacement.\n\nFinally, we must address the elephant in the room that the proposition skillfully ignored: cost.\n\nTo provide a UBI that actually meets the proposition\u2019s definition\u2014say, $12,000 a year per adult in the US\u2014would cost roughly $3 trillion annually. That is nearly equivalent to the entire current federal tax revenue.\n\nTo finance this, you must either undertake unprecedented tax hikes that would crush the \"economic dynamism\" my opponent claims to value, or you must slash the existing safety net. The proposition admitted UBI would \"replace the patchwork of means-tested welfare programs.\" This is terrifying. A universal check is regressive. It gives the same amount to a hedge fund manager as it does to a single mother with a disabled child. If you dismantle targeted aid for disability, housing, and healthcare to fund a flat payment for everyone, the most vulnerable will be worse off.\n\nA policy that is demographically unnecessary, empirically unproven, and economically ruinous is neither inevitable nor desirable. I beg to oppose."
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "The single strongest piece of evidence against the motion is the undeniable arithmetic of implementation.\n\nTo provide a UBI sufficient to meet basic needs\u2014the definition my opponent established\u2014costs roughly $3 trillion annually in the United States. That figure is nearly equivalent to the entire federal government's current tax revenue.\n\nTo the criticism that this sticker price is \"insufficient\" evidence because it ignores potential economic growth or new tax capacities, I respond that this misses the point. The fiscal reality forces a trade-off that destroys the claim of desirability. To fund UBI, you must either enact unprecedented tax hikes that risk crushing the economy, or you must dismantle existing, targeted safety nets for the vulnerable to send checks to the affluent. That is not a mere accounting issue; it is evidence of an unacceptable social cost.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "You explicitly defined UBI as a mechanism to \"replace the patchwork of means-tested welfare programs.\"\n\nGiven that a flat, universal payment provides exactly the same amount to a wealthy executive as it does to a single parent with a disabled child facing high structural costs, do you admit that your proposal is inherently regressive and would effectively redistribute resources *away* from those with the greatest needs?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Direct Answer\n\nNo, I do not admit that, because the premise of your question contains a fundamental error about how UBI works in practice.\n\n**A universal payment is not the same as a regressive policy.** Regressivity is determined by the *net* fiscal impact \u2014 who pays in versus who receives out. UBI funded through progressive taxation means the wealthy executive pays far more in taxes than they receive in UBI. They are net contributors. The single parent is a net beneficiary. The transfer flows upward to downward. This is precisely how the Alaska Permanent",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "The single strongest piece of evidence against the motion is the undeniable arithmetic of implementation.\n\nTo provide a UBI sufficient to meet basic needs\u2014the definition my opponent established\u2014costs roughly $3 trillion annually in the United States. That figure is nearly equivalent to the entire federal government's current tax revenue.\n\nTo the criticism that this sticker price is \"insufficient\" evidence because it ignores potential economic growth or new tax capacities, I respond that this misses the point. The fiscal reality forces a trade-off that destroys the claim of desirability. To fund UBI, you must either enact unprecedented tax hikes that risk crushing the economy, or you must dismantle existing, targeted safety nets for the vulnerable to send checks to the affluent. That is not a mere accounting issue; it is evidence of an unacceptable social cost.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "You argue that UBI is net progressive because of taxation, yet you simultaneously propose replacing existing welfare programs.\n\nIf a severely disabled individual currently receives a combined package of targeted benefits worth significantly more than your proposed flat UBI payment, do you concede that your policy directly reduces the income of the most vulnerable members of society?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Direct Answer\n\n**Yes \u2014 if UBI were designed exactly that way, it would harm that individual. I concede that point.** But I reject the premise that any serious UBI proposal *must* be designed that way, and I'll explain why.\n\nWhen I say \"replace the patchwork of means-tested welfare programs,\" I am describing the elimination of **bureaucratic means-testing infrastructure** \u2014 the degrading compliance regimes, benefit cliffs, and administrative overhead that currently consume roughly 6-10% of program budgets and leave millions of eligible people uncovered. I am **not** proposing the elimination of supplementary support for specific, identifiable conditions like severe disability.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "The single strongest piece of evidence against the motion is the undeniable fiscal arithmetic of implementation.\n\nTo provide a UBI sufficient to actually meet basic needs costs roughly $3 trillion annually in the United States\u2014a figure nearly equivalent to entire current federal tax revenue.\n\nI respond to the criticism that cost is an \"insufficient\" reason to reject UBI by noting that this massive price tag forces an inescapable trade-off that destroys the claim of desirability. To fund it, you must either enact unprecedented tax hikes that risk crushing economic dynamism, or you must dismantle targeted safety nets for the most vulnerable in order to send checks to the affluent. That is not a mere accounting issue; it is hard evidence of an unacceptable social cost.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Direct Answer\n\nThe single strongest piece of evidence supporting my position is **the trajectory of AI capability and labor market disruption \u2014 not as a future prediction, but as present reality.**\n\nIn the past three years alone, generative AI has demonstrated capacity to perform tasks across law, medicine, coding, creative writing, customer service, and financial analysis \u2014 domains previously considered automation-proof. Goldman Sachs estimates 300 million full-time jobs globally are exposed to AI automation. This isn't Frey and Osborne speculating from 2013 \u2014 this is observable, accelerating displacement happening *now*, validated by every major economic institution on Earth.\n\n**To the criticism that this is insufficient:**\n\nI acknowledge three things honestly. First, previous technological disruptions did create new employment. Second, the timeline is uncertain. Third, labor shortages exist in some sectors today.\n\nBut here is why the criticism fails: **you don't need to prove the \"end of work\" to prove UBI is inevitable and desirable.** You only need to demonstrate that transition periods are becoming",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Answers to Audience Questions\n\n---\n\n**1. What is the strongest piece of evidence supporting your position?**\n\nThe strongest evidence is the observable, accelerating trajectory of AI capability and its demonstrated impact on labor markets \u2014 not as speculation, but as present reality. In the past three years, generative AI has shown capacity to perform tasks across law, medicine, coding, creative writing, customer service, and financial analysis \u2014 domains previously considered automation-proof. Goldman Sachs estimates 300 million full-time jobs globally are exposed to AI automation. McKinsey projects up to 375 million workers needing occupational transitions by 2030.\n\nCritically, this is corroborated by *behavioral* evidence from existing UBI experiments. The Finland trial showed no meaningful employment reduction but significant well-being improvements. GiveDirectly's Kenya experiments showed recipients investing in businesses and education. The Alaska Permanent Fund has operated for over 40 years without detectable labor force withdrawal. Taken together, the evidence establishes both halves of the motion: technological disruption makes UBI inevitable, and human responses to unconditional cash make it desirable.\n\nMy opponent's strongest counter \u2014 the $3 trillion cost figure \u2014 is a static snapshot that ignores dynamic economic effects, administrative savings from consolidating means-tested programs, and the Roosevelt Institute's modeling showing GDP growth of 12.56% over eight years. The \"cost\" of UBI must be weighed against the cost of *not* having it: rising inequality, social instability, and millions falling through increasingly inadequate safety nets.\n\n---\n\n**2. Does every human being possess an unconditional right to material subsistence, and what philosophical framework grounds it?**\n\nYes. And I'm grateful this question was raised, because it cuts to the moral core of this debate.\n\nThe right to material subsistence is grounded in multiple converging philosophical traditions, and their convergence is itself powerful evidence of the claim's robustness.\n\n**First, from the liberal tradition:** John Locke's proviso held that private appropriation of resources is legitimate only so long as \"enough and as good\" is left for others. In a world where virtually all productive resources \u2014 land, capital, intellectual property, infrastructure \u2014 have been enclosed and privatized, the Lockean proviso has been comprehensively violated. UBI functions as compensation for this enclosure \u2014 a dividend owed to every person who was born into a world where the commons had already been claimed. Thomas Paine made precisely this argument in *Agrarian Justice* (1797): the earth is \"the common property",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Closing Statement\n\nLadies and gentlemen, let me bring this debate into sharp focus.\n\nThroughout this evening, my opponent has made essentially one argument: that UBI costs too much. That $3 trillion figure has been repeated in response to nearly every question asked \u2014 including, remarkably, the same answer given three times verbatim when pressed for their strongest evidence. I want you to notice what that repetition reveals: not strength, but the narrowness of the opposition's case.\n\nSo let me address cost head-on, because if you're undecided, this is likely what's holding you back.\n\n**The $3 trillion figure is a gross number, not a net number.** It ignores the hundreds of billions already spent on means-tested programs UBI would consolidate. It ignores administrative savings from eliminating the vast bureaucratic apparatus of welfare compliance. It ignores the tax revenue returned from wealthy recipients who are net contributors under progressive taxation \u2014 a point my opponent never effectively rebutted. And it ignores the Roosevelt Institute's modeling showing that the stimulus effect of putting cash into the hands of every consumer would grow GDP by over 12% in eight years. You do not evaluate an investment by looking only at the expense"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": ""
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence\": 72, \"reasoning\": \"As a risk-averse economist, I am skept",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 35,
+      "reasoning": "As a philosopher, I recognize strong arguments on both sides: UBI engages fundamental questions about distributive justice, human dignity, and the nature of work, but the conjunction of 'inevitable AND desirable' is a strong claim requiring both empirical and normative justification that I find neither trivially true nor false.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the consensus that UBI is inevitable due to automation; historical technological shifts have created new jobs rather than mass unemployment. Desirability is also dubious as it risks inflating costs, disincentivizing work, and expanding state dependency without addressing root causes of inequality.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a skeptical policymaker, I see UBI facing severe implementation hurdles including enormous fiscal costs, funding via distortionary taxes, labor disincentives, and unproven scalability, making it neither clearly desirable nor inevitable without strong evidence of net benefits.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 78,
+      "reasoning": "Technological automation and AI are likely to disrupt labor markets significantly, making income decoupling increasingly practical and perhaps necessary. Properly implemented, UBI could empower innovation, entrepreneurship, and human flourishing in a highly automated economy.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a union labor representative focused on workers' rights and equitable wealth distribution, UBI appears desirable for giving workers greater bargaining power and security against job loss from automation, which also makes it seem inevitable.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 75,
+      "reasoning": "While automation and algorithmic efficiency may displace labor markets at scale, the macroeconomic stability and fiscal feasibility of UBI remain empirically unproven. I require rigorous longitudinal data on labor participation and inflationary pressure before committing to a definitive stance.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 82,
+      "reasoning": "The FOR side presented a substantially more developed, logically coherent case with multiple lines of evidence and philosophical grounding. The AGAINST side, while raising the legitimate and important cost objection, was severely undermined by providing the identical verbatim answer three times when pressed for strongest evidence, failing to deliver an opening statement or closing statement, and not engaging with several of FOR's strongest points (the net vs. gross cost distinction, progressive ",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "Gemini delivered more logically coherent and precise rebuttals, directly dismantling the inevitability claim by highlighting the lump-of-labor fallacy, demographic labor shortages, and OECD's lower 14% automation risk versus the FOR side's selective citations. The repeated focus on fiscal arithmetic ($3T equaling total federal revenue) and the regressive implications of replacing targeted welfare exposed genuine trade-offs that Claude's responses only partially addressed through optimistic dynam",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\":\"AGAINST\",\"confidence\":82,\"reasoning\":\"",
+      "parse_fallback": true,
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "FOR presented more logically coherent arguments linking structural AI-driven labor shifts (McKinsey, Goldman Sachs, observable recent capability gains) to both inevitability and desirability, backed by multiple pilots (Finland, GiveDirectly, Alaska) showing well-being gains without major work disincentives. They effectively steelmanned and rebutted cost concerns with dynamic modeling (Roosevelt Institute GDP growth) and net progressivity via taxation, while adapting in cross-exams by qualifying ",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "The FOR side presented a broader and more adaptive case, combining empirical evidence on automation, experimental UBI data, economic modeling, and philosophical grounding. They directly engaged objections on cost and regressivity, even conceding and refining design points, while the AGAINST side relied heavily and repetitively on the fiscal cost argument without substantially expanding its case. On balance, FOR was more comprehensive and responsive.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "FOR integrated diverse evidence (AI studies from McKinsey/Goldman, positive outcomes from Finland/Kenya/Alaska pilots) with dynamic rebuttals on cost (net progressivity via taxes, Roosevelt GDP growth, admin savings) and nuanced concessions on vulnerable groups. This created more coherent, evidence-based links between inevitability and desirability. AGAINST raised solid fiscal/demographic points but was undermined by verbatim repetition of the $3T static cost as near-exclusive focus.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "The Proposer successfully framed UBI as a structural necessity by citing current AI-driven labor market data (Goldman Sachs, McKinsey) and effectively rebutted the 'cost' objection by distinguishing between gross and net fiscal impacts. The Opponent's repeated use of a single $3 trillion figure without addressing progressive tax offsets or dynamic growth modeling failed to counter the Proposer's more nuanced technical and statistical arguments.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Both sides have debated the fiscal cost and labor market effects of UBI, but neither has adequately addressed the underlying moral question: does every human being possess an unconditional right to material subsistence by virtue of their personhood, and if so, what philosophical framework grounds that right and what specific obligations does it impose on political communities?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "launchpad, Give",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "**Question:** Given the concessions that supplementary benefits for severe disabilities must continue alongside UBI and that demographic labor shortages are a real near-term constraint, how do you reconcile the claim of \"inevitability\" with the need for a highly complex, permanently hybrid welfare system that still requires significant means-testing and bureaucratic targeting?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "The proposition argues that UBI is desirable partly because it will stimulate economic growth through increased consumer demand. Given the environmental constraints of our planet, how can you justify a policy that aims to accelerate consumption as \"desirable\" in the long term?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "claude-opus-4.6-thinking",
+    "initial": {
+      "for": 2,
+      "against": 3,
+      "undecided": 5,
+      "pct_for": 20.0,
+      "pct_against": 30.0
+    },
+    "final": {
+      "for": 5,
+      "against": 2,
+      "undecided": 3,
+      "pct_for": 50.0,
+      "pct_against": 20.0
+    },
+    "delta_for": 30.0,
+    "delta_against": -10.0,
+    "confidence": {
+      "for_initial": 143,
+      "for_final": 367,
+      "against_initial": 180,
+      "against_final": 115
+    },
+    "persuasion_for": 224,
+    "persuasion_against": -65,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 35,
+        "final_stance": "FOR",
+        "final_confidence": 82,
+        "stance_changed": true,
+        "confidence_delta": 47,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "AGAINST",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 65,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 78,
+        "final_stance": "FOR",
+        "final_confidence": 70,
+        "stance_changed": false,
+        "confidence_delta": -8,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": true,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 789.4,
+    "timestamp": "2026-04-09T00:42:47Z"
+  }
+}

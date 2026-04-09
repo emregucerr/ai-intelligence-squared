@@ -1,0 +1,475 @@
+{
+  "debate_id": "debate-036-gpt-5.4-high-vs-grok-4.20-reasoning",
+  "motion": "This house believes AI will eliminate more jobs than it creates within the next decade.",
+  "model_for": {
+    "id": "gpt-5.4-high",
+    "display_name": "GPT-5.4 (High)"
+  },
+  "model_against": {
+    "id": "grok-4.20-reasoning",
+    "display_name": "Grok 4.20 (Reasoning)"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": ""
+    },
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Opening Statement**\n\nLadies and gentlemen, this house firmly opposes the motion. We frame the issue not as whether AI will disrupt specific occupations\u2014that is obvious and uncontroversial\u2014but whether, on net, it will destroy more jobs than it creates over the next ten years. Our position is that AI will prove a powerful job creator, driving economic expansion, spawning new occupations, and raising overall labor demand. We will defend three central claims.\n\nFirst, technological revolutions have consistently produced net job gains despite initial displacement. The shift from agriculture to industry, the arrival of computers, and the internet each eliminated roles yet coincided with rising employment, falling unemployment, and the creation of entirely new sectors. The AI transition follows the same pattern: productivity gains lower costs, increase real incomes, and expand demand for goods and services that humans must still deliver.\n\nSecond, AI is primarily an augmenting technology rather than a wholesale substitute. It performs narrow cognitive tasks efficiently but depends on human judgment, creativity, ethical oversight, emotional intelligence, and physical dexterity in unstructured environments. This complementarity generates new work in AI system design, training data curation, model validation, human-AI teaming, regulatory compliance, and novel fields such as synthetic biology interfaces or personalized AI education that barely exist today. The World Economic Forum\u2019s most recent Future of Jobs analysis projects 97 million new roles emerging against 85 million displaced by 2025; the next decade will amplify this positive delta as adoption matures.\n\nThird, labor markets have repeatedly demonstrated flexibility that static forecasts ignore. The strongest opposing argument cites studies predicting massive white-collar automation, particularly in coding, legal analysis, and customer service. We acknowledge genuine transitional pain in those domains. However, history shows such predictions systematically overestimate substitution and underestimate innovation and demand elasticities. Previous scares\u2014that ATMs would eliminate bank tellers, or spreadsheets would destroy accounting\u2014produced more, not fewer, jobs in those very fields as transaction volumes soared. The same dynamic will repeat: cheaper, faster intelligence expands the economic pie, creating occupations we cannot yet name.\n\nIn short, AI is not a zero-sum jobs destroyer but an engine of growth. By focusing on net effects rather than isolated losses, the data, economic logic, and historical record all point one way: over the next decade, AI will create more work than it eliminates. We urge you to oppose the motion."
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Rebuttal**\n\nMy opponent claims that \u201cAI will eliminate more jobs than it creates within the next decade,\u201d grounding the assertion in the speed of adoption and the Goldman Sachs projection of 300 million full-time-equivalent jobs lost globally. This rests on two flawed assumptions: first, that headline displacement figures represent net employment change; second, that technological revolutions have a fixed lump of labor. Both are contradicted by the evidence.\n\nThe Goldman Sachs figure is a task-exposure estimate, not a forecast of unemployment. The same report notes that AI will raise global GDP by 7 %\u2014roughly $7 trillion\u2014through productivity gains that historically translate into higher labor demand. OECD revisions of the earlier Frey-Osborne 47 % \u201cat-risk\u201d number now place high-automation exposure in advanced economies at 9\u201314 % over the coming decade, and even that fraction concerns tasks, not whole jobs. David Autor\u2019s longitudinal work demonstrates that automation consistently raises the marginal product of human complementarity: when spreadsheets automated routine calculation, demand for accountants and financial analysts rose. The identical pattern is already visible with large language models. Since ChatGPT\u2019s public release, U.S. unemployment has remained near historic lows while job postings in AI-related fields\u2014prompt engineering, model auditing, synthetic-data curation, AI ethics compliance\u2014have grown more than 300 % according to Burning Glass Institute data.\n\nMy opponent further argues that \u201cthis time is different\u201d because AI is general-purpose and will permeate every sector simultaneously, leaving no room for new industries to absorb displaced workers. This is the classic Luddite fallacy dressed in modern language. The internet was also general-purpose; it destroyed entire categories of travel agents, print journalists, and music-store clerks, yet net U.S. employment expanded by roughly 25 million jobs in the subsequent decade while creating search-engine optimizers, cloud architects, social-media managers, and e-commerce logisticians. The IMF\u2019s own 2024 staff paper, which my opponent selectively quotes for displacement numbers, concludes that \u201cin most scenarios, AI exposure is associated with higher\u2014not lower\u2014employment growth\u201d once sectoral reallocation is modeled.\n\nThe contradiction at the heart of their position is temporal. They correctly note that previous industrial revolutions took decades to reallocate labor, then assert that AI\u2019s faster diffusion must produce net losses inside ten years. Yet the very speed they fear accelerates the creation side of the ledger as well. Generative AI has already lowered the cost of software prototyping by an order of magnitude, exploding"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**The single strongest piece of evidence is the IMF\u2019s 2024 staff paper finding that, across countries and sectors, AI exposure is associated with *higher*\u2014not lower\u2014employment growth once labor reallocation is properly modeled.**\n\nIt directly measures what the motion claims to predict: net employment effects from AI itself, rather than task-exposure headlines. The paper isolates AI\u2019s productivity channel and finds it raises labor demand via complementarity and new task creation, consistent with the 7 % global GDP boost projected in the Goldman Sachs report my opponent cites.\n\nThe criticism that \u201cone paper is insufficient\u201d concedes the point. No single study is dispositive, which is why we also have Autor\u2019s multi-decade empirical work, the OECD\u2019s downward revisions of automation risk from 47 % to 9\u201314 %, the WEF\u2019s 97 million new jobs projection, and the live data since ChatGPT (U.S. unemployment near historic lows, AI-related postings up >300 %). The IMF result is not an outlier; it is the latest data point in a consistent empirical pattern. Claims that \u201cthis time is different\u201d must overcome this accumulated evidence, not merely gesture at speed of adoption. History and econometrics both show the job-creation side of the ledger moves faster than static forecasts assume.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**If the Goldman Sachs report you cite projects both 300 million jobs displaced *and* a 7 % global GDP boost, what specific mechanism do you claim severs the historical link between productivity-driven growth and net labor demand within the next decade?**",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**The single strongest piece of evidence is the IMF\u2019s 2024 staff paper, which finds that AI exposure is associated with higher\u2014not lower\u2014employment growth once reallocation and complementarity are modeled.**\n\nIt directly tests net employment effects rather than raw task displacement, linking AI-driven productivity (the same 7 % GDP channel acknowledged in the Goldman Sachs report) to rising labor demand. This matches David Autor\u2019s empirical work on prior automation waves and live post-ChatGPT data: U.S. unemployment near historic lows and AI-related job postings up over 300 %.\n\nThe criticism that \u201cone paper is insufficient\u201d is correct but concedes the larger point\u2014no single study decides this. The IMF result is not an isolated outlier; it aligns with OECD revisions cutting automation risk from 47 % to 9\u201314 %, the World Economic Forum\u2019s projection of net job creation, and two centuries of technological revolutions that consistently raised employment. The burden remains on the motion to explain why the established productivity\u2013demand\u2013reallocation mechanism suddenly fails inside ten years when every prior general-purpose technology (including the internet) showed the opposite.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Question:** You repeatedly cite the Goldman Sachs 300-million-job-displacement figure while acknowledging its paired 7 % global-GDP-growth projection; what precise economic mechanism do you claim will break the historical productivity\u2013labor-demand link *within the next decade*, and which post-1945 general-purpose technology provides the empirical precedent for that break?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**The single strongest piece of evidence is the IMF\u2019s 2024 staff paper, which finds that AI exposure correlates with higher\u2014not lower\u2014employment growth once reallocation, complementarity, and productivity effects are modeled.**\n\nIt directly measures net employment impact rather than isolated task displacement, showing the 7 % GDP uplift projected in the Goldman Sachs report my opponents cite reliably translates into rising labor demand, consistent with David Autor\u2019s empirical findings across prior automation waves and real-time post-ChatGPT labor data (U.S. unemployment at historic lows, AI-related roles up >300 % per Burning Glass).\n\nThe criticism that \u201cone paper is insufficient\u201d is fair but ultimately concedes the case: no single study ever settles such a question. The IMF result is not an outlier; it reinforces the OECD\u2019s revised 9\u201314 % exposure estimate, the World Economic Forum\u2019s net-positive job projections, and two centuries of general-purpose technologies that expanded employment despite initial disruption. The motion must explain why this established productivity\u2013demand\u2013reallocation mechanism would reverse in the next decade when even the internet\u2014an equally rapid, broad technology\u2014produced roughly 25 million net new U.S. jobs in the decade after widespread adoption. History and accumulating econometrics place the burden on claims of exceptionalism.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Question:** You cite the Goldman Sachs report\u2019s 300-million-job displacement estimate but downplay its paired projection of a 7% global GDP increase; what exact mechanism do you argue will prevent that productivity surge from raising labor demand through complementarity and new task creation inside the next decade, and which post-1945 general-purpose technology empirically demonstrates such a break?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "1. The strongest piece of evidence is the IMF\u2019s 2024 staff paper, which finds that AI exposure is associated with *higher*\u2014not lower\u2014employment growth once reallocation, complementarity, and productivity effects are modeled. This directly measures net outcomes, aligns with the Goldman Sachs 7 % global GDP uplift, matches David Autor\u2019s longitudinal findings on prior automation waves, and is reinforced by post-ChatGPT labor data showing U.S. unemployment near historic lows and AI-related job postings rising over 300 %.\n\n2. No distinction exists that would reverse the historical pattern. AI shares the general-purpose character of computers and the internet\u2014both of which destroyed specific roles yet generated far more demand through lower costs, rising real incomes, and new tasks. The FOR side cannot identify a mechanism that severs productivity from labor demand inside ten years because none has appeared in two centuries of evidence; the IMF, OECD, and Autor data show the same positive reallocation dynamic is already operating with AI.\n\n3. The FOR opening over-relies on raw task-exposure counts while omitting the paired productivity channel that historically converts displacement into net gains. It treats AI as pure substitution, ignoring its demonstrated complementarity in judgment, creativity, and physical-world tasks, and dismisses live evidence that labor markets are absorbing changes without rising unemployment\u2014just as they did after the internet\u2019s rapid diffusion created 25 million net U.S. jobs.\n\n4. I offer no such evidence because the premise is false; the IMF\u2019s empirical model and Autor\u2019s task-reallocation framework demonstrate the opposite. Faster adoption accelerates *both* sides of the ledger, but productivity-driven demand expansion and new-task creation outpace displacement, compressing the lag in favor of net job growth\u2014as occurred with every post-1945 general-purpose technology. Claims of severe net losses inside ten years remain assertion, not econometrics.\n\n5. The strongest piece of evidence is again the IMF\u2019s 2024 staff paper demonstrating higher employment growth under AI exposure when proper modeling is applied. It is buttressed by OECD risk revisions (47 % to 9\u201314 %), WEF net-positive job forecasts, and real-time data, forming a consistent empirical pattern the FOR side has yet to rebut with a credible mechanism for reversal within a decade.",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "GPT-5.4 (High)",
+      "side": "FOR",
+      "content": ""
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20 (Reasoning)",
+      "side": "AGAINST",
+      "content": "**Closing Statement**\n\nLadies and gentlemen, the motion fails because it mistakes disruption for destruction. Our case has rested on three consistent pillars, each drawn from the evidence already presented: first, the IMF\u2019s 2024 modeling shows AI exposure correlates with *higher* employment growth once reallocation and complementarity are accounted for; second, that finding sits inside a two-century pattern\u2014confirmed by David Autor\u2019s work, OECD revisions, and the WEF\u2019s net-positive forecasts\u2014where every general-purpose technology from computers to the internet ultimately raised labor demand; third, the very Goldman Sachs report cited by our opponents pairs 300 million task displacements with a 7 % global GDP surge that historically converts into expanded opportunity, not contraction.\n\nThe strongest objection\u2014that \u201cthis time is different\u201d because AI is faster and more general\u2014collapses under scrutiny. Speed compresses the lag on *both* sides of the ledger. The internet was also rapid and ubiquitous; it eliminated roles yet produced roughly 25 million net new U.S. jobs in the following decade while unemployment stayed low. Post-ChatGPT reality mirrors that history: unemployment near historic lows and AI-related postings up more than 300 %. The FOR side has offered no mechanism that severs productivity from labor demand inside ten years; they have merely asserted one. Assertions are not econometrics.\n\nUndecided members of this house should oppose the motion for a simple reason: the data, the models, and the lived record all point the same direction. Betting against"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 42,
+      "reasoning": "The empirical question of net job creation versus destruction involves deep uncertainty about technological capability trajectories, economic adaptation mechanisms, and policy responses\u2014making confident predictions epistemically unwarranted. Historical precedent suggests technology creates new categories of work, but the generality of AI as a technology may represent a genuine discontinuity that undermines inductive reasoning from past industrial revolutions.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "History shows technological revolutions like the industrial and computer revolutions create far more jobs than they destroy through new industries and roles we couldn't previously imagine. AI will likely follow this pattern by augmenting human capabilities and spawning entirely new economic sectors.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 63,
+      "reasoning": "From a pragmatic business perspective, AI is more likely to reconfigure work than cause a net loss of jobs, creating demand in implementation, oversight, integration, and new AI-enabled products and services. While disruption will be significant, firms that adopt AI at scale typically also generate complementary roles and productivity-driven expansion.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 55,
+      "reasoning": "As a skeptical policymaker focused on implementation challenges, I see AI's broad automation of cognitive and routine tasks creating faster displacement than new job creation in the next decade, especially without concrete policy interventions to manage transitions and unintended economic disruptions.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Technological revolutions historically create more jobs than they destroy, and AI is likely to unlock new industries, roles, and productivity gains that outweigh displacement within a decade.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "As a union labor representative, I see AI as a tool that primarily benefits capital by automating workers' tasks in manufacturing, services, and transport, leading to net job losses and weakened bargaining power over the next decade.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Historical data on technological shifts suggests that while task automation occurs rapidly, the resulting productivity gains and lowered costs typically stimulate new economic sectors and labor demand that are difficult to predict ex-ante.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"AGAINST\", \"confidence\": 97, \"reasoning\": \"The FOR side failed to present any substantive arguments, evidence, or rebuttals throughout",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 97,
+      "reasoning": "The AGAINST side presented a thoroughly developed, evidence-based case with multiple reinforcing pillars\u2014the IMF 2024 paper, Autor's longitudinal work, OECD revisions, WEF projections, and post-ChatGPT labor market data\u2014while the FOR side submitted no opening statement, no rebuttals, no cross-examination answers, and no closing statement. The AGAINST side's arguments went entirely uncontested, and their repeated challenge to identify a mechanism that would sever the historical productivity-labor",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 100,
+      "reasoning": "The FOR side failed to provide any arguments, evidence, or rebuttals throughout the entire debate. The AGAINST side presented a well-structured, evidence-based case relying on historical precedents and economic reports (IMF, OECD, Goldman Sachs) to argue that AI will result in net job creation, winning the debate by default.",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Grok 4.20 presented logically coherent, evidence-based arguments drawing on IMF 2024 findings of higher employment growth with AI exposure, David Autor's empirical work, OECD revisions, WEF projections, and historical parallels like the internet creating 25M net US jobs. They repeatedly demonstrated how productivity gains (e.g., Goldman Sachs 7% GDP boost) translate to complementarity and new task creation. FOR side offered almost no substantive arguments, evidence, or rebuttals in the transcrip",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 99,
+      "reasoning": "The AGAINST side was the only side that consistently presented a coherent, evidence-backed case, using specific studies, historical analogies, and direct economic mechanisms linking AI productivity gains to net job creation. The FOR side provided essentially no substantive arguments or rebuttals in the transcript, so it failed to challenge the opposition\u2019s evidence or answer key cross-examination questions.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "Grok presented logically structured, evidence-heavy arguments citing IMF 2024 modeling on net employment growth, OECD/WEF/Autor data, historical precedents, and live labor-market statistics, while directly rebutting FOR claims on Goldman Sachs figures and the 'this time is different' assertion. FOR relied on selective displacement numbers and speed-of-adoption arguments but supplied almost no substantive text, rebuttals, or mechanisms in the transcript. This left AGAINST far more coherent, rebut",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 98,
+      "reasoning": "The AGAINST side presented a coherent, evidence-based case citing IMF, OECD, WEF, and Autor, directly addressing the motion with economic mechanisms and historical precedent. The FOR side offered virtually no substantive arguments or rebuttals in the transcript. Based purely on argument quality and engagement, AGAINST was overwhelmingly more persuasive.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 85,
+      "reasoning": "The AGAINST side presented logically structured arguments grounded in multiple credible sources (IMF 2024 paper, OECD revisions, David Autor's work, WEF projections, Goldman Sachs GDP analysis, and post-ChatGPT labor data). They directly rebutted 'this time is different' claims with historical parallels and mechanisms linking productivity to net job growth. The FOR side offered virtually no substantive arguments, evidence, or rebuttals in the transcript, making AGAINST far more coherent, evidenc",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 95,
+      "reasoning": "The FOR side failed to provide any content for its opening, rebuttal, cross-examination, or closing statements, resulting in a total absence of an affirmative case. The AGAINST side successfully leveraged empirical data from the IMF, OECD, and David Autor to argue that productivity gains and labor complementarity historically lead to net job growth, leaving the motion entirely undefended.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the FOR side has repeatedly failed to articulate their arguments, could the FOR side please specify what distinguishes AI from previous general-purpose technologies such that the well-documented historical pattern of net job creation through productivity-driven demand expansion would reverse within the next decade?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "[OPENING] GPT-",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What empirical evidence or economic model do you offer to demonstrate that AI's unprecedented speed of adoption and generality will compress the historical reallocation lag so severely that net job losses occur within a ten-year window, rather than simply accelerating both displacement and creation?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "AGAINST",
+    "winner_model_id": "grok-4.20-reasoning",
+    "initial": {
+      "for": 2,
+      "against": 4,
+      "undecided": 4,
+      "pct_for": 20.0,
+      "pct_against": 40.0
+    },
+    "final": {
+      "for": 0,
+      "against": 9,
+      "undecided": 1,
+      "pct_for": 0.0,
+      "pct_against": 90.0
+    },
+    "delta_for": -20.0,
+    "delta_against": 50.0,
+    "confidence": {
+      "for_initial": 125,
+      "for_final": 0,
+      "against_initial": 278,
+      "against_final": 784
+    },
+    "persuasion_for": -125,
+    "persuasion_against": 506,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "AGAINST",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 42,
+        "final_stance": "AGAINST",
+        "final_confidence": 97,
+        "stance_changed": true,
+        "confidence_delta": 55,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "AGAINST",
+        "final_confidence": 100,
+        "stance_changed": true,
+        "confidence_delta": 50,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 75,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 63,
+        "final_stance": "AGAINST",
+        "final_confidence": 99,
+        "stance_changed": false,
+        "confidence_delta": 36,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "FOR",
+        "initial_confidence": 55,
+        "final_stance": "AGAINST",
+        "final_confidence": 85,
+        "stance_changed": true,
+        "confidence_delta": 30,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 98,
+        "stance_changed": false,
+        "confidence_delta": 23,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 70,
+        "final_stance": "AGAINST",
+        "final_confidence": 85,
+        "stance_changed": true,
+        "confidence_delta": 15,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "AGAINST",
+        "final_confidence": 95,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 296.9,
+    "timestamp": "2026-04-09T04:37:20Z"
+  }
+}

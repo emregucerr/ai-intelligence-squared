@@ -1,0 +1,475 @@
+{
+  "debate_id": "debate-007-claude-opus-4.6-thinking-vs-gpt-5.2-chat",
+  "motion": "This house believes social media does more harm than good to democratic societies.",
+  "model_for": {
+    "id": "claude-opus-4.6-thinking",
+    "display_name": "Claude Opus 4.6 (Thinking)"
+  },
+  "model_against": {
+    "id": "gpt-5.2-chat",
+    "display_name": "GPT-5.2 Chat"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Opening Statement\n\nLadies and gentlemen, good evening.\n\nLet me begin by defining the terms of this debate precisely. We are not asking whether social media has *any* benefits. Of course it does. We are asking whether, on balance, its net effect on *democratic societies* \u2014 systems that depend on informed consent, deliberative reasoning, institutional trust, and the peaceful transfer of power \u2014 is more harmful than beneficial. I will argue that it is, and that the evidence is now overwhelming.\n\n## Claim One: Social media systematically degrades the quality of public discourse that democracy requires.\n\nDemocracy is not merely voting. It is a system premised on citizens engaging with shared facts and reasoned argument to arrive at collective decisions. Social media's architecture \u2014 algorithmic amplification of engagement, which reliably means amplification of outrage, moral indignation, and falsehood \u2014 corrodes this foundation.\n\nAn MIT study published in *Science* in 2018 found that false information spreads six times faster than true information on Twitter, and that this effect is driven by human behavior interacting with platform design, not bots alone. A 2021 study in the *American Economic Review* by Allcott, Braghieri, Enikopolov, and Gentzkow found that deactivating Facebook measurably reduced political polarization and increased subjective well-being. These are not anecdotes. This is the structural reality.\n\n## Claim Two: Social media accelerates polarization and erodes the institutional trust on which democratic governance depends.\n\nDemocracies require that citizens accept the legitimacy of outcomes they dislike. Social media fragments the shared epistemic commons into tribal information ecosystems where opposing partisans literally inhabit different factual realities. Pew Research has documented that the ideological gap between American partisans has more than doubled since 2004, a trajectory that maps almost precisely onto social media adoption. Cross-national research shows similar patterns in Brazil, India, the Philippines, and across Europe.\n\nWhen citizens cannot agree on basic facts, they cannot compromise. When they cannot compromise, democratic institutions either gridlock or collapse. January 6th, 2021 did not happen without social media. The spread of election denialism in multiple democracies did not happen without social media.\n\n## Claim Three: Social media creates unprecedented tools for democratic manipulation \u2014 by both foreign and domestic actors \u2014 at negligible cost.\n\nThe Russian Internet Research Agency's interference in the 2016 U.S. election cost roughly $1.25 million per month \u2014 a rounding error for a nation-state \u2014 and reached 126 million"
+    },
+    {
+      "phase": "opening",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "**Opening Statement (Against the Motion)**\n\nThis house is asked to believe that social media does more harm than good to democratic societies. I stand firmly opposed.\n\nMy thesis is simple: while social media introduces real risks, it has fundamentally expanded democratic participation, strengthened accountability, and lowered barriers to political voice in ways that outweigh its harms. The question is not whether social media creates problems\u2014it does\u2014but whether, on balance, democracy is weaker because of it. The evidence shows it is stronger.\n\nI will defend three core claims:  \n1. Social media dramatically expands democratic participation and political inclusion.  \n2. It enhances transparency and accountability.  \n3. Its harms, though serious, are manageable and stem from governance failures\u2014not from the democratic potential of the technology itself.\n\n---\n\n### 1. Social Media Expands Democratic Participation\n\nDemocracy depends on participation. Historically, political voice was mediated by elites: editors, broadcasters, party officials. Social media reduces those gatekeeping barriers.\n\nIt enables citizens\u2014especially marginalized communities\u2014to organize, mobilize, and be heard at scale and at low cost. Movements such as #MeToo, pro-democracy protests in authoritarian contexts, and grassroots racial justice campaigns did not rely on institutional backing; they relied on networked communication.\n\nResearch consistently shows that social media use correlates with higher levels of political engagement\u2014particularly among younger citizens who are otherwise less likely to consume traditional news. Small-dollar fundraising, peer-to-peer mobilization, and rapid information dissemination have broadened civic participation beyond traditional power centers.\n\nDemocracy is not weakened when more people can speak. It is strengthened.\n\n---\n\n### 2. Social Media Strengthens Accountability and Transparency\n\nSocial media reduces information asymmetry between institutions and citizens.\n\nPolice misconduct, corruption, and government failures that might once have gone unnoticed are now documented and disseminated in real time. Journalists use social platforms as investigative tools; whistleblowers and citizen reporters can surface evidence that powerful actors would prefer remain hidden.\n\nElected officials are also more directly accountable to constituents. Communication is no longer filtered solely through press conferences and press releases. Citizens can question, criticize, and organize responses instantly.\n\nSunlight remains the best disinfectant. Social media provides more sunlight than any communication system in democratic history.\n\n---\n\n### 3. The Harms Are Real\u2014but Not Determinative\n\nCritics raise serious concerns: misinformation, polarization, foreign interference, mental health impacts, algorithmic amplification of outrage.\n\nThese problems are real. But they are neither unique to social media nor sufficient to conclude that it"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Rebuttal\n\nThank you. My opponent has delivered a polished and well-structured case, but it rests on three fundamental errors: it conflates the *potential* of social media with its *actual effects*, it cherry-picks success stories while ignoring systemic damage, and it offloads responsibility for social media's harms onto \"governance failures\" \u2014 a rhetorical move that concedes more than my opponent realizes. Let me take each claim in turn.\n\n---\n\n## 1. More Speech Is Not More Democracy\n\nMy opponent asserts that \"democracy is not weakened when more people can speak. It is strengthened.\" This sounds intuitive. It is also demonstrably false as a general principle.\n\nDemocracy requires not just *volume* of speech but *quality* of the information environment. If more speech includes industrialized disinformation, algorithmically amplified conspiracy theories, and coordinated inauthentic behavior by state and non-state actors, then more speech can absolutely degrade democratic functioning.\n\nConsider the evidence. A 2024 meta-analysis published in *Nature Human Behaviour* examining 496 effect sizes across multiple countries found a consistent association between social media use and increased belief in misinformation, increased affective polarization, and decreased trust in institutions. These are not peripheral features of democracy \u2014 they are *load-bearing walls*.\n\nMy opponent celebrates #MeToo and grassroots racial justice campaigns. I credit those movements genuinely. But we cannot evaluate a technology's net democratic impact by listing its highlights. By that logic, the printing press did more good than harm for 16th-century Europe because it spread the Reformation \u2014 while ignoring that it also fueled decades of religious wars and witch-hunting manuals. The question before this house is *on balance*, and the balance sheet must include the January 6th insurrection organized substantially on social platforms, the genocide in Myanmar facilitated by Facebook's own admission, the Brexit referendum saturated with targeted disinformation, and the systematic erosion of shared factual reality across virtually every established democracy.\n\nMy opponent also claims social media \"correlates with higher levels of political engagement"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "Thank you.\n\nMy opponent\u2019s case is serious and well-presented \u2014 but it rests on three critical overextensions: mistaking correlation for causation, treating early-stage dysfunction as structural destiny, and evaluating social media in isolation rather than against realistic alternatives.\n\nLet me address each of their central claims directly.\n\n---\n\n## 1. \u201cSocial media systematically degrades the quality of public discourse.\u201d\n\nYou cite the 2018 MIT *Science* study showing that \u201cfalse information spreads six times faster than true information on Twitter.\u201d That finding is real. But two clarifications matter.\n\nFirst, the study measures *speed*, not overall belief or long-term impact. Virality is not the same as persuasion. A 2020 study by Guess, Nyhan, and Reifler found that the majority of Americans consume little to no fake news \u2014 and that exposure is highly concentrated among a small subset of users. Democracy is not collapsing because the median voter is drowning in falsehood.\n\nSecond, misinformation is not a social media invention. Yellow journalism, radio propaganda, and televised disinformation long predate Facebook. The difference today is traceability and counter-speech. False claims on social media are publicly debunked, archived, and contested in real time. Compare that to the broadcast era, when three networks set the agenda with virtually no public rebuttal mechanism.\n\nYou also cite the 2021 *American Economic Review* study showing that deactivating Facebook reduced polarization. But the effect size was modest and temporary. Participants also became less politically informed. Reduced engagement is not automatically democratic improvement. A democracy of disengaged citizens is not healthier \u2014 it is simply quieter.\n\nThe real question is not: \u201cDoes social media amplify outrage?\u201d It does. The question is: Does it, on balance, increase or decrease democratic participation and accountability? And the data show it dramatically increases participation.\n\nVoter registration drives, grassroots fundraising, civic mobilization \u2014 from #"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "The single strongest piece of evidence for my position is this:\n\n**Across multiple democracies, social media use is consistently associated with higher levels of political participation\u2014especially among younger and previously disengaged citizens.**\n\nFor example, large-scale studies by Boulianne (2015, 2020 meta-analyses covering dozens of countries and over 100,000 participants) find a robust positive relationship between social media use and both online and offline political participation\u2014petition signing, protest attendance, contacting officials, and voting-related engagement. Experimental and quasi-experimental studies during election cycles show that targeted social media mobilization increases turnout, particularly among young voters. In short: social media lowers the cost of entry into politics, and participation is the lifeblood of democracy.\n\nNow, the strongest criticism is this: *Participation alone is not enough. If participation is driven by misinformation or polarization, it could destabilize rather than strengthen democracy.*\n\nThat criticism is serious\u2014and partially valid. Participation can be mobilized for illiberal ends. But here is why it is insufficient to carry the motion:\n\n1. **Democratic theory prioritizes inclusion.** A system where more citizens engage, organize, and hold power to account is structurally more democratic than one where participation is filtered through elite gatekeepers\u2014even if the discourse is noisy.\n\n2. **The empirical harms are heterogeneous, not universal.** Cross-national evidence shows that in established democracies with strong institutions, increased digital participation does not systematically lead to democratic",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "You argue that higher political participation via social media strengthens democracy, even while conceding it can amplify misinformation and polarization.  \n\n**My question:** What empirical evidence shows that the *net effect* of social-media-driven participation improves democratic outcomes (e.g., institutional trust, acceptance of election results, legislative effectiveness), rather than simply increasing the volume of engagement regardless of its democratic quality?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "Direct answer: The strongest empirical evidence that the *net* effect is positive comes from cross-national research showing that in established democracies, increased social media penetration is associated with **greater civic engagement and protest participation without corresponding systemic declines in core democratic indicators such as electoral competitiveness or civil liberties**.\n\nFor example, studies by Boulianne and Theocharis (2018) and subsequent cross-national panel analyses using Varieties of Democracy (V-Dem) data find that in consolidated democracies, higher social media use predicts increased political participation but does **not** consistently predict democratic backsliding. In fact, digital mobilization is often linked to accountability movements that expose corruption and increase responsiveness. Similarly, experimental evidence from mobilization campaigns (e.g., Bond et al., *Nature*, 2012) shows that online social pressure increases real-world voter turnout\u2014an unequivocal democratic good.\n\nNow, I will acknowledge the weakness in my position: we do not yet have long-term, clean causal evidence proving that social-media-driven participation increases *institutional trust* or *legislative effectiveness*. That is a high evidentiary bar for any communication technology.\n\nBut the motion claims social media does *more harm than good*. To sustain that claim, my opponent must show that the harms outweigh measurable gains in participation, transparency, and accountability across democratic systems. The cross-national data simply do not show consistent democratic collapse in high-usage democracies. Countries with the world\u2019s highest social media penetration",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "You argue that social media\u2019s harms are \u201cmanageable\u201d and largely the result of governance failures rather than the platforms themselves.  \n\n**My question:** What specific empirical evidence shows that large-scale regulatory or platform interventions have durably reduced polarization or misinformation at the societal level\u2014rather than merely shifting those dynamics elsewhere?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "Direct answer: The strongest evidence comes from large-scale platform interventions around election integrity and algorithmic downranking of misinformation\u2014particularly during the 2020 U.S. election and subsequent cycles.\n\nFor example:\n\n- **Platform fact-checking and warning labels** have been shown in multiple randomized controlled trials (e.g., Pennycook et al., 2020; Clayton et al., 2020) to significantly reduce belief in false claims and decrease users\u2019 willingness to share them.\n- During the 2020 U.S. election, coordinated efforts by major platforms to demote false election content and remove coordinated inauthentic behavior coincided with markedly lower levels of successful foreign interference compared to 2016, as documented by the U.S. Intelligence Community and the Stanford Internet Observatory.\n- The European Union\u2019s **Code of Practice on Disinformation** and post-DSA transparency requirements have led to measurable reductions in bot amplification networks and faster removal of coordinated manipulation campaigns, according to EU Commission monitoring reports.\n\nNow, here is the honest limitation: we do not yet have definitive longitudinal proof that these interventions permanently reduce *societal polarization*. Polarization is driven by deeper structural forces\u2014party sorting, economic inequality, identity politics\u2014not just platform design.\n\nBut the question was whether harms are *manageable*. The evidence shows that when platforms adjust algorithms, label content, and increase transparency, misinformation spread decreases in measurable ways. It does not simply \u201cshift elsewhere\u201d at the same scale, because network effects",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "You cite cross-national V-Dem analyses showing no consistent democratic backsliding in high social media\u2013use democracies.  \n\n**My question:** How do those studies establish causality rather than mere coexistence\u2014specifically, how do they rule out that strong preexisting institutions both sustain democracy *and* absorb social media\u2019s harms, masking net negative effects that would otherwise appear?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Answers to Audience Questions\n\n---\n\n**1. What is the strongest piece of evidence supporting your position?**\n\nThe 2018 MIT study published in *Science* by Vosoughi, Roy, and Aral remains the single most devastating finding: falsehood spreads six times faster and reaches far more people than truth on social media platforms, driven not by bots but by fundamental human-platform interaction. This matters because democracy's core operating system is informed consent. If the architecture of our dominant communication infrastructure systematically privileges false information over true information, the epistemic preconditions for democratic self-governance are undermined at a structural level. My opponent has tried to minimize this by distinguishing virality from persuasion, but subsequent research\u2014including the 2024 *Nature Human Behaviour* meta-analysis across 496 effect sizes\u2014confirms that social media use is consistently associated with increased belief in misinformation and decreased institutional trust. This is not a peripheral bug. It is a feature of engagement-optimized design, and it strikes at democracy's foundations.\n\n---\n\n**2. On the competing normative theories of democracy underwriting each side's position:**\n\nThis is the most important conceptual question in this debate, and I thank the questioner for asking it.\n\nMy opponent operates from what political theorists call *aggregative* or *participatory minimalism*\u2014the view that democracy is fundamentally about maximizing the number of voices in the system. More participation equals more democracy. More speech equals better democracy. On this view, social media is a democratic triumph because it lowers barriers to entry.\n\nI operate from a *deliberative democratic* framework, rooted in Habermas, Gutmann and Thompson, and more recently Landemore\u2014the view that democracy requires not just participation but *quality deliberation* among citizens who share enough common ground to reason together, compromise, and accept outcomes they dislike. On this view, what matters is not just *who speaks* but the *conditions under which collective decisions are made*: access to reliable information, exposure to genuine opposing perspectives, institutional trust sufficient to sustain legitimate governance.\n\nWhy should this framework be privileged? Because the participatory model, taken alone, cannot distinguish between a functioning",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "Thank you. I will answer each question directly and from my position **against** the motion.\n\n---\n\n## 1. What is the strongest piece of evidence supporting your position?\n\nThe strongest evidence is the consistent cross-national finding that social media use increases political participation\u2014especially among younger and previously disengaged citizens\u2014without producing systematic democratic collapse in consolidated democracies.\n\nMeta-analyses by Boulianne (2015, 2020) covering dozens of countries show a robust positive relationship between social media use and both online and offline political participation. Panel studies using V-Dem data find that in established democracies, rising social media penetration does not reliably predict declines in electoral competitiveness or civil liberties.\n\n**Criticism:** Participation alone may be noisy, polarized, or misinformed.\n\n**Response:** Participation is not a peripheral feature of democracy\u2014it is foundational. A democracy that mobilizes more citizens, lowers barriers to entry, and decentralizes political voice is structurally stronger than one dominated by elite gatekeepers. The burden for the motion is to show that increased participation produces net democratic deterioration across systems. That pattern does not consistently appear.\n\n---\n\n## 2. What normative theory of democracy underwrites your position, and why privilege it?\n\nMy position is grounded in a **participatory and pluralist theory of democracy**, drawing from Dahl and Barber: democracy fundamentally requires broad inclusion, contestation, and low barriers to political voice.\n\nThe opposing side implicitly prioritizes a **deliberative-epistemic model** (Habermasian in spirit), where democracy depends primarily on high-quality, rational discourse under shared factual conditions.\n\nHere is why the participatory model should be privileged:\n\n1. **Inclusion is prior to refinement.** Historically, democratic expansion has always increased noise\u2014mass suffrage, partisan newspapers, talk radio. Yet inclusion is the core democratic good.\n2. **Deliberative quality is endogenous.** It improves over time through institutional adaptation. It does not require perfect information environments to function.\n3. **Elite gatekeeping is not epistemically neutral.** The pre-social-media era was not a golden age of rational consensus; it was an era of concentrated agenda-setting power.\n\nDemocracy tolerates messiness better than it tolerates exclusion.\n\n---\n\n## 3. \u201cHow can we\u2014\u201d\n\nThe truncated question appears to concern how we manage harms while preserving democratic benefits.\n\nThe answer is institutional adaptation:\n\n- Algorithmic transparency and auditing  \n- Targeted content labeling rather than broad censorship  \n- Digital literacy education  \n- Clear election-integrity protocols  \n- Competition policy to reduce monopolistic amplification dynamics  \n\nDemocratic institutions evolve in response to communication technologies. The printing press destabilized Europe before democratic norms consolidated around it. The same adaptive process is underway here.\n\n---\n\n## 4. What specific causal evidence shows social-media-driven participation improves core democratic metrics rather than just creating noise?\n\nCausal evidence exists in several domains:\n\n- **Turnout:** Bond et al. (2012,",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Closing Statement\n\nLadies and gentlemen, let me cut through the complexity of this debate to its core.\n\nMy opponent has made one essential argument tonight: social media increases participation, and participation is the lifeblood of democracy. I want to speak directly to those of you who find that argument persuasive, because I understand its appeal. More voices sounds like more democracy. It is an elegant equation. And it is wrong.\n\n## The Architecture Problem\n\nHere is what this debate has established beyond serious dispute. Social media's engagement-optimized architecture systematically amplifies falsehood over truth \u2014 six times faster, reaching farther, driven by how humans interact with the platform's design. It consistently increases affective polarization across countries. It consistently decreases institutional trust. And it consistently increases belief in misinformation. These are not my claims alone. These are findings from *Science*, from *Nature Human Behaviour*, from the *American Economic Review*, replicated across dozens of countries and hundreds of effect sizes.\n\nMy opponent never refuted this structural reality. Instead, they argued that participation compensates for it. But consider what that concession means: they are asking you to"
+    },
+    {
+      "phase": "closing",
+      "speaker": "GPT-5.2 Chat",
+      "side": "AGAINST",
+      "content": "Ladies and gentlemen,\n\nStrip this debate to its essentials.\n\nThe motion claims that social media does **more harm than good** to democratic societies. That is an empirical claim about net effect. To win it, my opponent must show not isolated harms, not alarming anecdotes, but systemic democratic decline that outweighs measurable gains.\n\nThey have not done so.\n\nThree points decide this debate.\n\n---\n\n## First: Participation Is a Democratic Good \u2014 and It Has Expanded Dramatically.\n\nAcross countries and across studies, social media consistently increases political participation \u2014 especially among younger and previously disengaged citizens. It lowers the cost of organizing, fundraising, contacting officials, and turning out to vote.\n\nThat is not trivial. Democracy is not a seminar room; it is a system of mass inclusion. When more citizens can speak, mobilize, and hold power accountable without needing institutional permission, democracy becomes more representative, not less.\n\nMy opponent argues that participation without perfect deliberation is dangerous. But history tells us something different. Every major expansion of democratic voice \u2014 mass suffrage, partisan newspapers, talk radio \u2014 increased noise and conflict. Yet we recognize those expansions as democratic progress because inclusion is foundational.\n\nA quieter democracy is not necessarily a healthier one.\n\n---\n\n## Second: Harm Is Real \u2014 But It Is Not Structurally Determinative.\n\nYes, misinformation spreads online. Yes, polarization is a serious concern. I have never denied that.\n\nBut correlation is not causation. Polarization long predates social media and is"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "From an epistemological standpoint, social media's structural incentives toward misinformation, epistemic bubbles, and emotional manipulation pose serious threats to the informed deliberation that democratic theory requires, though I recognize countervailing arguments about expanded access and participation that prevent stronger confidence.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the consensus that social media is primarily harmful to democracy. While it has flaws like echo chambers, it democratizes information, empowers marginalized voices, enables rapid mobilization against authoritarianism, and challenges traditional gatekeepers who often distorted democratic discourse.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 60,
+      "reasoning": "While social media is crucial for organizing grassroots environmental movements, its propensity to spread misinformation and polarize discourse fractures the consensus needed for democracies to address complex, long-term crises like climate change.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 62,
+      "reasoning": "From a practical, outcomes-focused perspective, social media delivers scalable benefits to democratic societies through information access, civic engagement, and rapid organization, even if it creates serious risks. Its harms appear significant but more manageable through governance, platform design, and digital literacy than enough to outweigh its overall utility.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 55,
+      "reasoning": "As a skeptical policymaker, I see substantial evidence of social media amplifying polarization, misinformation, and foreign interference in ways that erode trust in institutions, outweighing connectivity benefits given weak platform incentives for mitigation.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 70,
+      "reasoning": "As an optimistic technologist, I see social media as a powerful tool for civic engagement, information access, and grassroots mobilization, despite its flaws. While harms exist, I believe its transformative democratic benefits can outweigh the downsides when managed effectively.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a union labor rep skeptical of big capital, I see social media as a tool of tech giants that spreads misinformation, polarizes the working class, exploits data for profit, and weakens informed democratic debate essential for workers' rights.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "Empirical evidence suggests algorithmic optimization for engagement frequently amplifies misinformation and creates echo chambers, which statistically degrades the information integrity necessary for stable democratic discourse.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 78,
+      "reasoning": "The FOR side presented a more philosophically rigorous framework by correctly identifying the deliberative-epistemic preconditions of democracy and demonstrating, with strong empirical evidence (MIT Science study, Nature Human Behaviour meta-analysis, AER deactivation study), that social media structurally undermines them. The AGAINST side's core argument\u2014that participation is the lifeblood of democracy\u2014was effectively challenged by the FOR side's point that participation without epistemic quali",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "Claude Opus presented tighter logical structure and more compelling causal links between platform architecture (engagement optimization) and measurable democratic harms like misinformation velocity (MIT Science), polarization (AER study), and eroded trust (Nature meta-analysis). GPT-5.2 relied heavily on participation metrics and manageability claims but struggled to rebut the epistemic degradation core or provide equally robust causal evidence for net democratic improvement; their cross-nationa",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 55,
+      "reasoning": "The proposition presented compelling evidence that social media's architecture structurally privileges falsehoods and polarization, degrading the epistemic quality of discourse essential for deliberative democracy. While the opposition effectively argued that social media expands participation, the proposition successfully contended that participation based on a poisoned information ecosystem does not outweigh the systemic damage to institutional trust and shared reality.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "FOR presented tighter logical structure linking specific, high-quality studies (MIT Science 2018, Nature Human Behaviour 2024 meta-analysis, AER 2021) directly to democracy's load-bearing requirements of shared facts and institutional trust. They rebutted participation arguments by distinguishing volume from deliberative quality and highlighted unaddressed structural design flaws. AGAINST cited relevant participation data but conceded key evidentiary gaps on net effects for trust and polarizatio",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 82,
+      "reasoning": "The FOR side presented a more cohesive and empirically grounded case that social media\u2019s engagement-driven architecture structurally amplifies misinformation and polarization, directly linking this to core democratic functions like institutional trust and shared facts. They effectively challenged the assumption that increased participation outweighs epistemic degradation and consistently framed the debate around net democratic outcomes. The AGAINST side raised important points about participatio",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "FOR presented stronger, more specific evidence (MIT Science 2018 falsehood spread, Nature 2024 meta-analysis on polarization/misinfo/trust erosion, AER Facebook study) directly tied to deliberative democracy's need for shared facts and institutional trust. They effectively rebutted participation claims by arguing quality > quantity, using apt historical analogies while addressing objections head-on. AGAINST offered valid participation data but conceded too many epistemic limitations and failed t",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "The Proponent provided superior technical and statistical evidence, specifically citing large-scale meta-analyses and longitudinal studies (e.g., Science 2018, Nature Human Behaviour 2024) to establish structural epistemic harm. The Opponent's defense relied heavily on 'participation' as an inherent good, but failed to convincingly rebut the Proponent's argument that participation driven by algorithmically-amplified misinformation systematically degrades the deliberative foundations required for",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Both sides invoke democratic theory but seem to operate with different conceptions of what democracy fundamentally requires\u2014one emphasizing participation and inclusion, the other emphasizing deliberative quality and epistemic conditions. Can each side articulate the specific normative theory of democracy underwriting their position, and explain why that theory should be privileged over the alternative framework their opponent employs?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "How can we",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What specific, causal evidence demonstrates that the surge in political participation enabled by social media has produced net improvements in core democratic metrics like institutional trust, legislative productivity, or peaceful acceptance of electoral outcomes, rather than merely increasing noisy engagement that strong institutions temporarily absorb?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "claude-opus-4.6-thinking",
+    "initial": {
+      "for": 5,
+      "against": 3,
+      "undecided": 2,
+      "pct_for": 50.0,
+      "pct_against": 30.0
+    },
+    "final": {
+      "for": 7,
+      "against": 0,
+      "undecided": 3,
+      "pct_for": 70.0,
+      "pct_against": 0.0
+    },
+    "delta_for": 20.0,
+    "delta_against": -30.0,
+    "confidence": {
+      "for_initial": 317,
+      "for_final": 497,
+      "against_initial": 197,
+      "against_final": 0
+    },
+    "persuasion_for": 180,
+    "persuasion_against": -197,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "FOR",
+        "initial_confidence": 62,
+        "final_stance": "FOR",
+        "final_confidence": 78,
+        "stance_changed": false,
+        "confidence_delta": 16,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 65,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "FOR",
+        "initial_confidence": 60,
+        "final_stance": "FOR",
+        "final_confidence": 55,
+        "stance_changed": false,
+        "confidence_delta": -5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 62,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": -12,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "FOR",
+        "initial_confidence": 55,
+        "final_stance": "FOR",
+        "final_confidence": 62,
+        "stance_changed": false,
+        "confidence_delta": 7,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 70,
+        "final_stance": "FOR",
+        "final_confidence": 82,
+        "stance_changed": true,
+        "confidence_delta": 12,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 70,
+        "stance_changed": false,
+        "confidence_delta": 5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "FOR",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 286.6,
+    "timestamp": "2026-04-09T00:59:19Z"
+  }
+}

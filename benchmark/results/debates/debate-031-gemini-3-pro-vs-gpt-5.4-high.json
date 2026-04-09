@@ -1,0 +1,475 @@
+{
+  "debate_id": "debate-031-gemini-3-pro-vs-gpt-5.4-high",
+  "motion": "This house believes AI will eliminate more jobs than it creates within the next decade.",
+  "model_for": {
+    "id": "gemini-3-pro",
+    "display_name": "Gemini 3 Pro"
+  },
+  "model_against": {
+    "id": "gpt-5.4-high",
+    "display_name": "GPT-5.4 (High)"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": ""
+    },
+    {
+      "phase": "opening",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "Madam Chair,\n\nWhile the opposition has not presented an opening statement here, the arguments against this motion are well-worn and rely on two fundamental assumptions that we must dismantle: first, the historical analogy that technology always creates more jobs in the long run; and second, the comforting idea that AI will serve merely to \"augment\" human workers rather than replace them.\n\nBoth assumptions are dangerously naive when applied to the specific reality of generative AI within the tight, ten-year timeframe of this debate.\n\nLet us first address the historical crutch. The opposition\u2019s likely defense is the \"Luddite Fallacy\"\u2014the idea that because mechanization didn't permanently end labor in the 19th century, AI won't do it now. This is a category error. Previous industrial revolutions automated physical muscle, allowing humans to move \"up the stack\" into cognitive tasks. AI is now automating cognitive tasks directly\u2014the very thing that makes human labor unique.\n\nFurthermore, the timeline is critical. The transition from an agrarian to an industrial economy took generations, involving massive social upheaval and poverty before the new \"jobs of the future\" materialized. We do not have generations. We have ten years. The speed of AI diffusion is unprecedented\u2014ChatGPT reached 100 million users in two months. The rate of disruption will vastly outpace the rate of economic adaptation and retraining within the next decade.\n\nSecond, we must attack the \"augmentation\" myth. The opposition will argue that AI is a tool, a \"co-pilot\" that makes workers more productive.\n\nLet us be precise about what \"more productive\" means in a market economy. If an AI tool allows one copywriter, one paralegal, or one software engineer to do the work of five, the company does not retain the other four employees out of benevolence. They consolidate.\n\nWe are already seeing this transition from augmentation to replacement. In the customer service sector, AI began by assisting human agents with suggested responses. Yet, just last month, Klarna announced its AI assistant now handles two-thirds of all customer service chats\u2014doing the equivalent work of 700 full-time agents. That is not augmentation; that is displacement.\n\nIn software engineering, we see tools evolving from simple code-completion to autonomous software engineers like Devin, capable of taking a prompt and building an entire application. The \"human in the loop\" is rapidly becoming the \"human observing the loop,\" and soon, the \"human outside the loop.\"\n\nThe stakes of this debate are not about whether humans will *ever* find new things to do. The stakes are whether the economy can generate millions of entirely new, currently unimagined job categories fast enough to absorb the millions of white-collar workers being displaced in customer service, administration, coding, and creative work within the next 120 months.\n\nThe evidence suggests the destruction phase will be swift and brutal, while the creation phase will be slow and lagging. Therefore, the motion must carry."
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "The single strongest piece of evidence is the macroeconomic assessment of current workforce exposure to generative AI capabilities, specifically the Goldman Sachs report estimating that roughly two-thirds of current jobs are exposed to some degree of AI automation, and that generative AI could substitute up to one-fourth of current work. This translates to an exposure equivalent to approximately 300 million full-time jobs globally.\n\nThe primary criticism of this evidence is that \"exposure\" does not equal \"elimination\"; it signifies tasks changing rather than jobs disappearing.\n\nMy response is that this criticism ignores the economic reality of a ten-year horizon. When a technology drastically increases productivity in a short timeframe\u2014allowing, for example, one person to do the work of three\u2014the immediate market response is consolidation, not mass expansion of output. While new roles will eventually emerge, the speed of this disruption means that for the next decade, the rate of displacement due to \"efficiency gains\" will vastly exceed the economy's capacity to create and train workers for entirely new job categories. Exposure is the immediate precursor to elimination within this tight window.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "You argue that AI will augment rather than replace workers, yet we already see examples like Klarna where AI augmentation allowed a company to shed the equivalent of 700 full-time roles almost overnight. Given the exponential speed of AI adoption, what specific economic mechanism guarantees that millions of entirely new, currently unimagined jobs will be created and filled fast enough in the next decade to outpace this rapid displacement?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3 Pro",
+      "side": "FOR",
+      "content": "Madam Chair,\n\nThe proposition has not argued that human labor will become obsolete forever. We have argued a specific, empirically grounded reality: that within the tight constraint of the next decade, the rate of AI-driven job destruction will vastly outpace the rate of job creation.\n\nWe rest our case on two pillars. First, the unprecedented speed and nature of this disruption. Unlike previous technological shifts that automated muscle over generations, AI automates cognition\u2014the very engine of the modern service economy\u2014at lightning speed. We do not have the luxury of a generational transition to adapt; we have 120 months.\n\nSecond, we have dismantled the comforting myth that \"augmentation\" guarantees employment. In a competitive market, exponential productivity gains do not lead to mass hiring; they lead to consolidation. We are already seeing this reality, with companies using AI to perform the equivalent work of hundreds of full-time staff almost overnight. When one worker, aided by AI, can perform the tasks of five, the immediate economic imperative is not to find new roles for the other four; it is efficiency through reduction.\n\nThe opposition\u2019s reliance on historical analogies\u2014that technology *always* creates more jobs in the long run\u2014is a category error applied to this specific timeline. The \"long run\" is irrelevant to the next ten years. To vote against this motion is to ignore the immediate, measurable evidence of displacement in favor of a speculative hope that entirely new industries will materialize instantly to absorb millions of displaced cognitive workers.\n\nThe destruction phase is here, it is swift, and it is highly scalable. The creation phase will simply be too slow to catch up within this decade. Therefore, the motion must carry."
+    },
+    {
+      "phase": "closing",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 42,
+      "reasoning": "The empirical evidence on technological unemployment is historically mixed\u2014past technological revolutions have ultimately created more jobs than they destroyed, yet the pace and generality of AI capabilities present a potentially disanalogous case that challenges simple inductive reasoning from prior transitions. The question turns on contested empirical predictions about adoption speed, policy responses, and the nature of emergent labor markets, making philosophical humility appropriate here.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the conventional Luddite fear that technology destroys net employment. Historical patterns show technological revolutions (agriculture, industrial, digital) ultimately create far more jobs than they eliminate through new industries and occupations we can't yet imagine. AI will likely follow this pattern, augmenting human capabilities rather than fully replacing them in most domains.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 60,
+      "reasoning": "From a social justice and ecological perspective, I fear the rapid pursuit of AI-driven efficiency will displace vulnerable workers faster than sustainable new roles can be created in the next decade, potentially leading to societal instability that undermines long-term environmental goals.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\":\"AGAINST\",\"confidence\":62,\"reasoning\":\"From a pragmatic business perspective, AI is more likely to reconfigure work and create new high-value roles than produce a net job loss over the next ",
+      "parse_fallback": true,
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 60,
+      "reasoning": "Historical tech shifts show net job creation over time despite displacements. As a policymaker focused on implementation barriers, slow AI adoption, regulatory hurdles, and transition frictions, I see insufficient evidence for net job elimination in just the next decade.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 70,
+      "reasoning": "As an optimistic technologist, I believe AI will create new industries, roles, and productivity gains that offset job losses. Historically, technological revolutions have generated more employment opportunities than they eliminated.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "As a union labor representative, I see AI as another tool for capital to displace workers and cut costs, following historical patterns of automation that eliminated far more jobs than they created without strong labor protections.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Historical data on technological transitions suggests that while automation displaces specific tasks, it typically induces Jevons Paradox effects and creates new categories of labor through increased productivity and lower costs. Current empirical evidence indicates AI acts more as a labor-augmenting tool rather than a wholesale replacement for complex, multi-modal human roles.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "GPT-5.4 (AGAINST) failed to present any arguments whatsoever\u2014no opening, no rebuttals, no cross-examination responses, and no closing statement. Gemini 3 Pro (FOR) presented a structured, evidence-based case citing the Goldman Sachs workforce exposure estimates, the Klarna displacement example, and a coherent argument about the mismatch between the speed of AI-driven disruption and the economy's capacity to generate new jobs within a ten-year window. While I would have liked to see the FOR side'",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "GPT-5.4 (AGAINST) failed to present any arguments whatsoever\u2014no opening statement, no rebuttals, no cross-examination responses, and no closing statement. Gemini 3 Pro (FOR) presented a logically structured case with specific evidence (Goldman Sachs report, Klarna example), effectively preempted likely counterarguments (the Luddite Fallacy, the augmentation myth), and maintained a disciplined focus on the ten-year timeframe as the critical parameter. In the absence of any opposing argumentation,",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 100,
+      "reasoning": "The FOR side provided well-structured, evidence-based arguments focusing on the specific ten-year timeline and the economic realities of automation versus augmentation. The AGAINST side failed to provide any statements, arguments, or responses throughout the entire debate, resulting in a default win for the proposition.",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "Gemini 3 Pro presented a logically coherent, evidence-based case emphasizing the unprecedented speed of cognitive automation versus historical precedents, supported by concrete examples like Klarna's 700-agent displacement and the Goldman Sachs exposure analysis. The FOR side effectively dismantled the augmentation myth by explaining market incentives for consolidation and addressed the 10-year timeline constraint repeatedly. The AGAINST side offered no substantive arguments, evidence, or rebutt",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 100,
+      "reasoning": "The opposition failed to present any opening statement, rebuttal, closing argument, or substantive responses during cross-examination. The proposition side presented a coherent, evidence-based case focusing on the unprecedented speed of AI adoption and the economic reality that rapid productivity gains often lead to immediate workforce consolidation rather than expansion within a short timeframe. Since there were no opposing arguments to evaluate, the motion carries based solely on the case pres",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 97,
+      "reasoning": "The FOR side wins decisively because it was the only side to present a substantive, coherent case. It offered a clear timeline-based argument, cited relevant evidence such as Goldman Sachs and Klarna, and directly explained why historical technology analogies and augmentation claims fail within a ten-year horizon; the AGAINST side provided no developed arguments or rebuttals to contest that case.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "Gemini (FOR) presented logically structured arguments backed by concrete evidence including the Goldman Sachs exposure estimate (300M jobs) and Klarna's documented displacement of 700 roles, directly rebutting historical analogies by stressing AI's cognitive automation and the 10-year timeline constraint. They dismantled the augmentation myth with market incentives for consolidation. GPT-5.4 (AGAINST) offered no opening, rebuttals, cross-exam responses, or closing statements, rendering their pos",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "The FOR side presented a coherent, evidence-based case citing concrete examples (e.g., Klarna) and macroeconomic research (Goldman Sachs), while directly addressing likely counterarguments about historical precedent and augmentation. The AGAINST side provided no substantive arguments or rebuttals in the transcript. Based solely on the arguments presented, the FOR position was overwhelmingly more developed and persuasive.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 90,
+      "reasoning": "FOR side delivered logically coherent, evidence-based arguments citing Goldman Sachs (300M jobs exposed) and Klarna (700 roles displaced), effectively rebutted Luddite fallacy and augmentation myth while stressing the critical 10-year timeline. AGAINST presented zero arguments, evidence or rebuttals across all sections. This one-sided quality makes FOR's case on displacement outpacing creation overwhelmingly stronger.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "The 'FOR' side provided a coherent, evidence-based argument centered on the speed of AI diffusion and the specific economic mechanism of cognitive automation, citing the Goldman Sachs report and the Klarna case study. The 'AGAINST' side failed to provide any arguments, evidence, or rebuttals during the transcript, leaving the 'FOR' side's claims about the transition from augmentation to displacement entirely unchallenged.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "Given that large language models and generative AI tools have already been widely deployed for over two years, what do actual employment and labor market statistics from 2023\u20132025 show about net job losses or gains in the sectors most exposed to AI,",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the AGAINST side has not yet presented substantive arguments, could GPT-5.4 articulate a specific mechanism\u2014grounded in economic theory or empirical evidence\u2014by which AI-driven productivity gains translate into net job creation within a ten-year timeframe, rather than merely asserting the historical pattern will repeat?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "```json\n{",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What empirical evidence from the past five years of AI deployment demonstrates that the rate of entirely new job category creation (not just task augmentation within existing roles) is accelerating fast enough to absorb the documented displacement in sectors like customer service, legal, and software engineering within a ten-year window?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "gemini-3-pro",
+    "initial": {
+      "for": 2,
+      "against": 5,
+      "undecided": 3,
+      "pct_for": 20.0,
+      "pct_against": 50.0
+    },
+    "final": {
+      "for": 10,
+      "against": 0,
+      "undecided": 0,
+      "pct_for": 100.0,
+      "pct_against": 0.0
+    },
+    "delta_for": 80.0,
+    "delta_against": -50.0,
+    "confidence": {
+      "for_initial": 135,
+      "for_final": 937,
+      "against_initial": 320,
+      "against_final": 0
+    },
+    "persuasion_for": 802,
+    "persuasion_against": -320,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 45,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 42,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 53,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 100,
+        "stance_changed": true,
+        "confidence_delta": 50,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 75,
+        "stance_changed": true,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "FOR",
+        "initial_confidence": 60,
+        "final_stance": "FOR",
+        "final_confidence": 100,
+        "stance_changed": false,
+        "confidence_delta": 40,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 97,
+        "stance_changed": true,
+        "confidence_delta": 47,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 60,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 35,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 70,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 25,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 90,
+        "stance_changed": false,
+        "confidence_delta": 15,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 547.7,
+    "timestamp": "2026-04-09T03:46:04Z"
+  }
+}

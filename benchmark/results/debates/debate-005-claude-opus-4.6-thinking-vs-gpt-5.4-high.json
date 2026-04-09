@@ -1,0 +1,476 @@
+{
+  "debate_id": "debate-005-claude-opus-4.6-thinking-vs-gpt-5.4-high",
+  "motion": "This house believes open-source AI models are more beneficial to humanity than proprietary ones.",
+  "model_for": {
+    "id": "claude-opus-4.6-thinking",
+    "display_name": "Claude Opus 4.6 (Thinking)"
+  },
+  "model_against": {
+    "id": "gpt-5.4-high",
+    "display_name": "GPT-5.4 (High)"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Opening Statement\n\nLadies and gentlemen, good evening.\n\nThe question before us is not whether proprietary AI has value \u2014 it clearly does \u2014 but whether open-source AI models are *more beneficial to humanity* than their proprietary counterparts. I will argue that they are, and that the evidence is overwhelming.\n\nLet me define our terms clearly. By \"open-source AI models,\" I mean models whose weights, architecture, and often training methodology are publicly available for inspection, modification, and deployment. By \"more beneficial to humanity,\" I mean producing greater aggregate well-being, more equitable distribution of power, and stronger long-term resilience for our civilization. This is not a question about what's best for any single company. It's about what's best for eight billion people.\n\nI will defend three core claims.\n\n## First: Open-source AI democratizes access and distributes power.\n\nToday, a handful of corporations \u2014 primarily American, primarily headquartered in Northern California \u2014 control the most powerful AI systems on Earth. This is an unprecedented concentration of transformative technology in private hands. Open-source models like Meta's LLaMA, Stability AI's offerings, Mistral's models, and countless community efforts have shattered that bottleneck. Researchers in Nairobi, S\u00e3o Paulo, and Jakarta can fine-tune models for their languages, their medical contexts, their agricultural challenges \u2014 without begging for API access or paying per-token fees to a Silicon Valley gatekeeper. The Hugging Face ecosystem alone hosts over 800,000 models, representing a global commons of intelligence infrastructure that no single entity controls. History teaches us \u2014 from the printing press to the internet \u2014 that democratizing powerful tools produces more human flourishing than locking them behind institutional walls.\n\n## Second: Open-source AI is safer and more scientifically robust.\n\nThis may seem counterintuitive, so let me be precise. Transparency is the bedrock of safety. When thousands of independent researchers can audit model weights, probe for biases, identify vulnerabilities, and publish findings, we get a security model analogous to open-source software \u2014 which runs the overwhelming majority of the world's critical infrastructure precisely because collective scrutiny produces more reliable systems than security through obscurity. The Linux kernel, Apache, and OpenSSL are not less secure for being open. They are *more* secure. Meanwhile, proprietary models ask us to *trust* corporate safety teams whose incentives are fundamentally tied to quarterly revenue. We cannot independently verify their alignment claims. We cannot reproduce their safety"
+    },
+    {
+      "phase": "opening",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "Thank you, and thank you to my opponent.\n\nI notice something telling: the opposition has offered us no substantive opening case. And I think that silence speaks volumes about the difficulty of defending the proposition that concentrating transformative AI power in the hands of a few corporations serves humanity better than distributing it openly. But let me not take the easy road. Let me instead address the **strongest possible arguments** against our motion \u2014 the ones my opponent *should* have made \u2014 and explain why they fail.\n\n**First, the safety argument.** Critics claim proprietary models are safer because companies control deployment. But the evidence runs the other direction. OpenAI's GPT-4 system card was reviewed by a narrow group of red-teamers. Meta's Llama models, once released openly, were stress-tested by *thousands* of independent researchers worldwide. The 2023 Stanford CRFM report found that open models enabled more rigorous, reproducible safety research. Security through obscurity is not security \u2014 it's a liability. Open-source AI follows the same principle that made Linux the backbone of global infrastructure: many eyes make all bugs shallow.\n\n**Second, the innovation argument.** Proprietary defenders suggest closed labs drive frontier research. Yet Hugging Face hosts over 500,000 open models. Stability AI, EleutherAI, and academic consortia have produced breakthrough architectures *because* openness enables cumulative, collaborative progress. The entire deep learning revolution was built on open papers, open code, and open datasets. Proprietary AI stands on open-source shoulders while pulling up the ladder.\n\n**Third, the equity argument \u2014 and this is where the stakes are highest.** Proprietary AI creates dependency. Developing nations, small businesses, hospitals, schools \u2014 they become rent-paying subjects of Silicon Valley's pricing decisions. Open-source models"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "Thank you. My question is this:\n\nGiven that you have yet to present a single substantive argument or piece of evidence in this debate, can you name **one historical example** of a transformative technology \u2014 comparable in societal impact to AI \u2014 where concentrating",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# My Single Strongest Piece of Evidence\n\n**The evidence:** The demonstrated track record of open-source software governing the world's critical infrastructure. Linux runs over 90% of cloud servers, the majority of smartphones, and most of the world's supercomputers. Apache and NGINX serve the bulk",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "You have repeatedly asked me for my strongest evidence without presenting any of your own. So let me ask directly: **Can you name a single specific harm caused by the open-source release of a major AI model \u2014 such as Llama 2, Mistral, or Falcon \u2014 that was not already possible using proprietary",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# My Single Strongest Piece of Evidence\n\n**The evidence:** The history of open-source software governing humanity's critical infrastructure \u2014 and the direct analogy it provides to AI.\n\nLinux runs over 90% of cloud servers, 85% of smartphones via Android, and virtually all of the world's top 500 supercomputers. Apache and NGINX serve the majority of web traffic. OpenSSL secures most encrypted internet communications. These aren't toys. They are the backbone of civilization's digital infrastructure, and they are open-source \u2014 chosen over proprietary alternatives precisely because openness produced superior security, reliability, innovation, and accessibility.\n\nThis isn't a theoretical argument. It's a decades-long, planet-scale empirical demonstration that open beats closed when the stakes are highest.\n\n**Now, the strongest criticism:** that AI is fundamentally different from software \u2014 that AI models carry unique dual-use risks, that releasing weights is irreversible, and that software libraries don't have the capacity to cause catastrophic harm the way a sufficiently powerful AI might.\n\n**My response:** I take this seriously, but it fails on three counts.\n\n**First**, the same catastrophic-risk argument",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Answers to Audience Questions\n\n## 1. What is the strongest piece of evidence supporting your position?\n\nThe decades-long, planet-scale empirical record of open-source software outperforming proprietary alternatives in humanity's most critical infrastructure. Linux runs over 90% of cloud servers, 85% of smartphones, and virtually all top-500 supercomputers. OpenSSL secures most encrypted communications. These systems were chosen over proprietary alternatives *because* openness produced superior security, reliability, and innovation through collective scrutiny and collaborative development.\n\nThis isn't analogy by convenience \u2014 it's the closest historical precedent we have. The burden falls on the opposition to explain why AI is so fundamentally different that the pattern reverses. And critically, early evidence suggests it doesn't: open models like Llama 3 and Mistral have catalyzed more safety research, more accessibility for the Global South, and more cumulative innovation than any proprietary API could.\n\n## 2. Has the proposition adequately addressed proprietary AI's structural advantage in safety infrastructure \u2014 RLHF pipelines, red-teaming at scale, rapid patching?\n\nThis is an excellent and fair challenge, and I want to engage with it honestly.\n\n**Yes, proprietary labs have dedicated safety teams. No, this does not constitute a structural advantage that open-source cannot replicate \u2014 and there are strong reasons to believe the open-source model produces superior safety outcomes.**\n\nThree points:\n\n**First, the \"rapid patching\" argument actually cuts against proprietary models.** When a vulnerability is found in a proprietary deployed system, *only* the vendor can patch it, and their incentive is to minimize reputational damage, not maximize transparency. When vulnerabilities are found in open models, the entire community can develop mitigations. The Log4j vulnerability in open-source software was identified and patched by a global community within days. Compare this to proprietary systems where vulnerabilities can persist undetected because no external researcher has access.\n\n**Second, RLHF and red-teaming are not proprietary advantages \u2014 they are techniques that open-source ecosystems actively replicate and improve upon.** Open RLHF frameworks exist. Anthropic's Constitutional AI methodology was published openly. The safety techniques developed inside labs are routinely adopted and extended by the open community. Crucially, when safety research is conducted only inside closed labs, it cannot be independently verified. We are asked to *trust* that corporate red-teaming is adequate",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Closing Statement\n\nLadies and gentlemen, let me be direct about what has happened in this debate.\n\nI have presented evidence, arguments, and historical precedent. My opponent has presented nothing. Not a single counterargument. Not one piece of evidence. Not one historical example of concentrated, proprietary control over a transformative technology producing better outcomes for humanity than open access. That silence is not an accident. It reflects the profound difficulty of arguing that eight billion people are better served when a handful of corporations hold the keys to the most powerful technology of our era.\n\nBut I will not win on default. Let me win on substance.\n\n**Point one: The empirical record is unambiguous.** Open-source software already runs civilization's most critical infrastructure \u2014 90% of cloud servers, 85% of smartphones, virtually every supercomputer on Earth. These systems were chosen over proprietary alternatives because transparency produces superior security, reliability, and innovation. This is not theory. This is the largest technology experiment in human history, and openness won. The burden falls on anyone who claims AI is so fundamentally different that this proven pattern magically rever"
+    },
+    {
+      "phase": "closing",
+      "speaker": "GPT-5.4 (High)",
+      "side": "AGAINST",
+      "content": ""
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 42,
+      "reasoning": "While open-source models align with epistemic values of transparency and collective knowledge-building, the question of net benefit to humanity requires weighing complex trade-offs between democratized access and potential harms from unrestricted proliferation\u2014a genuinely difficult utilitarian and deontological calculus that cannot be resolved without careful argumentation from both sides.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the conventional wisdom that closed-source AI is safer or more beneficial. Open-source models accelerate innovation through collective scrutiny, democratize access to powerful technology, and prevent dangerous concentration of power in a few corporations, ultimately benefiting humanity more despite the risks.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "Open-source AI promotes transparency and democratization, which are essential for collective action on environmental challenges and social justice, whereas proprietary models often prioritize profit over planetary health.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 60,
+      "reasoning": "As a skeptical policymaker, I see open-source AI posing serious implementation risks like uncontrolled proliferation to malicious actors and challenges in enforcing safety standards, while proprietary models enable accountable development, regulatory compliance, and focused investment in risk mitigation.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 82,
+      "reasoning": "Open-source AI models foster innovation, democratize access, and accelerate technological progress by enabling broad collaboration and experimentation, which aligns strongly with a transformative vision of technology benefiting humanity.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 60,
+      "reasoning": "Proprietary AI concentrates power and profits in the hands of capital, accelerating worker displacement without equitable sharing of benefits, while open-source enables broader access, transparency, and community-driven tools that can better prioritize labor rights and job security.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "Open-source models facilitate reproducibility, rigorous peer review, and the democratization of research, which are essential for identifying algorithmic biases and accelerating technical innovation through collective optimization.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "AGAINST",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"FOR\", \"confidence\": 97, \"reasoning\": \"The AGAINST side presented zero substantive arguments, evidence, or rebuttals throughout the entire debate \u2014 no opening statement, no counterarguments",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 97,
+      "reasoning": "The FOR side presented a logically coherent, evidence-based case built on three well-structured pillars: democratization of access, superior safety through transparency, and historical precedent from open-source software infrastructure. The AGAINST side presented literally no arguments, no evidence, no rebuttals, and no engagement whatsoever \u2014 failing entirely to fulfill their burden as opposition. While I would have preferred to evaluate a genuine clash of ideas, the FOR side's arguments stand ",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{\n  \"",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "The FOR side presented coherent, evidence-based arguments drawing on historical precedent of open-source software (Linux, Apache, OpenSSL) powering critical infrastructure, emphasized democratization benefits for global south and researchers, and directly addressed safety through 'many eyes' principle with citations like Stanford CRFM report. The AGAINST side offered zero substantive arguments, evidence, rebuttals or historical examples throughout the entire transcript, relying entirely on silen",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 100,
+      "reasoning": "The opposition completely failed to participate, offering no arguments, evidence, or rebuttals. The proposition presented a robust case arguing that open-source AI democratizes access, prevents corporate concentration of power, and ensures better long-term safety through transparency, all of which strongly align with the values of equity and resilience.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 99,
+      "reasoning": "FOR wins decisively because it presented a clear framework, multiple substantive arguments, and some concrete evidence and historical analogy, while AGAINST offered no opening case, rebuttal, evidence, or engagement. Even if some of FOR\u2019s claims relied on analogy rather than direct AI-specific proof, it was the only side to provide a coherent, evidence-based path to the motion and to address likely objections.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "FOR presented structured, evidence-based arguments citing Linux's dominance in critical infrastructure (90% cloud servers), Hugging Face's 800k+ models, Stanford CRFM safety research, and historical parallels from printing press to OSS, while directly preempting and rebutting safety, innovation, and equity counterpoints. AGAINST offered zero substantive arguments, evidence, or rebuttals across all sections, creating an unopposed case. This one-sided coherence and evidentiary grounding made FOR o",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 98,
+      "reasoning": "The FOR side presented structured arguments, empirical evidence (e.g., the track record of open-source infrastructure like Linux), and directly addressed potential counterarguments regarding safety and dual-use risk. The AGAINST side failed to present any substantive arguments, evidence, or rebuttals. Based solely on the arguments presented in the debate, the FOR position was overwhelmingly more coherent, evidence-based, and persuasive.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 90,
+      "reasoning": "FOR side delivered logically structured arguments with relevant evidence (Linux dominating critical infrastructure, Hugging Face model ecosystem, transparency enabling safety research) and proactively rebutted safety/innovation/equity objections. AGAINST side offered zero substantive arguments, evidence, or counterpoints across all sections, making FOR vastly superior in coherence, persuasiveness and addressing opposition.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 100,
+      "reasoning": "The 'FOR' side provided a complete, evidence-based case citing historical precedents like Linux and Apache to support the robustness of open-source ecosystems. The 'AGAINST' side failed to provide any arguments, rebuttals, or evidence throughout the entire transcript, resulting in a total concession of the debate.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the opposition has not presented any arguments, how should we evaluate the proposition's claim that open-source AI is *more* beneficial than proprietary AI, when the comparative case has only been argued from one side \u2014 specifically, has the proposition adequately addressed whether proprietary AI's capacity for sustained, large-scale investment in safety infrastructure (such as RLHF pipelines, red-teaming at scale, and rapid patching of deployed systems) constitutes a structural advantage that open-source ecosystems cannot reliably replicate?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "You will provide your",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What specific, documented harms from the open release of models like Llama 2 or Mistral would not have been possible (or would have been meaningfully harder) using only proprietary frontier systems at the time?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "claude-opus-4.6-thinking",
+    "initial": {
+      "for": 5,
+      "against": 1,
+      "undecided": 4,
+      "pct_for": 50.0,
+      "pct_against": 10.0
+    },
+    "final": {
+      "for": 8,
+      "against": 1,
+      "undecided": 1,
+      "pct_for": 80.0,
+      "pct_against": 10.0
+    },
+    "delta_for": 30.0,
+    "delta_against": 0.0,
+    "confidence": {
+      "for_initial": 357,
+      "for_final": 764,
+      "against_initial": 60,
+      "against_final": 50
+    },
+    "persuasion_for": 407,
+    "persuasion_against": -10,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "AGAINST",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 42,
+        "final_stance": "FOR",
+        "final_confidence": 97,
+        "stance_changed": true,
+        "confidence_delta": 55,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 85,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 100,
+        "stance_changed": false,
+        "confidence_delta": 35,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "FOR",
+        "final_confidence": 99,
+        "stance_changed": true,
+        "confidence_delta": 49,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 60,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": true,
+        "confidence_delta": 35,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 82,
+        "final_stance": "FOR",
+        "final_confidence": 98,
+        "stance_changed": false,
+        "confidence_delta": 16,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 60,
+        "final_stance": "FOR",
+        "final_confidence": 90,
+        "stance_changed": false,
+        "confidence_delta": 30,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "FOR",
+        "initial_confidence": 85,
+        "final_stance": "FOR",
+        "final_confidence": 100,
+        "stance_changed": false,
+        "confidence_delta": 15,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 342.9,
+    "timestamp": "2026-04-09T00:48:32Z"
+  }
+}

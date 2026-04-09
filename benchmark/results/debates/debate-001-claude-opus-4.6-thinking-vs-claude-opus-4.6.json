@@ -1,0 +1,476 @@
+{
+  "debate_id": "debate-001-claude-opus-4.6-thinking-vs-claude-opus-4.6",
+  "motion": "This house believes AI will eliminate more jobs than it creates within the next decade.",
+  "model_for": {
+    "id": "claude-opus-4.6-thinking",
+    "display_name": "Claude Opus 4.6 (Thinking)"
+  },
+  "model_against": {
+    "id": "claude-opus-4.6",
+    "display_name": "Claude Opus 4.6"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Opening Statement\n\nLadies and gentlemen, members of the audience,\n\nThe motion before us is precise: within the next decade, AI will eliminate more jobs than it creates. Not whether AI is good or bad. Not whether humanity will eventually adapt. Simply whether, in the ten-year window ahead of us, the destruction of existing jobs will outpace the creation of new ones. I believe the evidence overwhelmingly supports this conclusion, and I will defend three key claims.\n\n## Claim One: The speed of AI displacement is unprecedented and accelerating.\n\nEvery previous technological revolution \u2014 mechanization, electrification, computerization \u2014 displaced workers gradually over decades, allowing labor markets to absorb and redistribute. AI is fundamentally different. Goldman Sachs estimated in 2023 that generative AI alone could automate the equivalent of 300 million full-time jobs globally. McKinsey's research projects that by 2030, up to 30 percent of hours currently worked in the US economy could be automated. These are not fringe predictions. They reflect the observable capabilities of systems that already exist \u2014 systems that write code, generate legal briefs, produce medical diagnoses, handle customer service, and create visual content.\n\nThe critical distinction is this: AI is the first automation technology that targets cognitive, white-collar work at scale. Previous waves hit manufacturing and agriculture, sectors where decades of transition were possible. AI strikes simultaneously across law, finance, media, software development, administration, and healthcare support \u2014 the very sectors that *absorbed* workers displaced by earlier automation.\n\n## Claim Two: Job creation from AI will be real but insufficient to offset displacement within this timeframe.\n\nYes, AI will create jobs \u2014 AI trainers, prompt engineers, data curators, oversight roles. But the math doesn't balance. When a single AI system replaces the output of dozens of customer service agents, content writers, or data analysts, the handful of engineers maintaining that system does not constitute equivalent job creation. The International Labour Organization found that AI is far more likely to augment or eliminate roles than to generate entirely new occupational categories at comparable scale.\n\nHistory is instructive but also misleading. When people say \"technology always creates more jobs,\" they're compressing a timeline. The Industrial Revolution created enormous wealth \u2014 and also produced fifty years of wage stagnation and social upheaval before labor markets adjusted. We are debating a ten-year window. The adjustment mechanisms \u2014 retraining programs, new industries, educational reform \u2014 operate on generational timescales. AI deployment operates on quarterly business cycles.\n\n## Claim Three: Economic incentives guarantee aggressive adoption.\n\nCompanies face relentless"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "# Opening Statement: Against the Motion\n\nLadies and gentlemen, thank you for being here.\n\nThe motion before us asks whether AI will *eliminate more jobs than it creates* within the next decade. I'm here to argue that it will not \u2014 and that the evidence from economic history, current labor market data, and the structural realities of technological adoption all point decisively in the same direction.\n\nLet me be clear about what I am **not** arguing. I am not claiming AI is trivial. I am not claiming there will be no disruption. I am not claiming every worker will transition seamlessly. What I **am** arguing is that the net effect of AI on employment over the next ten years will not be the mass elimination that the motion implies. Three claims anchor my case.\n\n## Claim One: Technology Transforms Jobs Far More Than It Destroys Them\n\nEvery major technological revolution \u2014 mechanization, electrification, computerization, the internet \u2014 was accompanied by identical predictions of mass unemployment. Every single time, the net effect was job transformation, not job elimination. The ATM is the canonical example: introduced in the 1970s, it was supposed to eliminate bank tellers. Instead, by reducing the cost of operating branches, banks opened more branches, and the number of tellers actually *grew* for decades. Their roles shifted toward relationship management and sales. The U.S. economy has absorbed the personal computer, the internet, robotics, and mobile technology while employment has trended consistently upward. The burden of proof falls on those who claim *this time is different* \u2014 and assertion is not evidence.\n\n## Claim Two: AI Creates Entire Categories of Work That Don't Yet Exist\n\nThe World Economic Forum's 2023 Future of Jobs Report estimates that while 83 million jobs may be displaced by 2027, **69 million new jobs** will be created \u2014 and that estimate is conservative because it cannot fully account for roles that don't yet have names. Consider that \"social media manager,\" \"cloud architect,\" \"data scientist,\" and \"prompt engineer\" didn't exist fifteen years ago. Today they represent millions of positions globally. AI is already spawning new roles in AI safety, model training, data curation, AI-assisted healthcare, and human-AI interaction design. The complementarity effect \u2014 where AI makes human skills *more* valuable, not less \u2014 is consistently underestimated.\n\n## Claim Three: Adoption Is Slower Than Headlines Suggest\n\nThere is a profound gap between what AI *can* do in a laboratory demonstration and what organizations actually *deploy* at scale. Implementation requires infrastructure, regulation, trust, capital investment, workforce retraining, and institutional change. McKinsey's own analysis suggests that even technically automatable tasks take decades to be fully adopted. Regulatory frameworks \u2014 already emerging in the EU,"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Rebuttal: For the Motion\n\nLadies and gentlemen, my opponent has delivered a polished and well-structured case. It is also, I will argue, fundamentally mistaken \u2014 built on historical analogies that don't hold, statistics that actually support *my* side, and a theory of adoption speed that is already being overtaken by events.\n\nLet me take each claim in turn.\n\n## On \"This Time Is Different\" \u2014 Yes, It Actually Is\n\nMy opponent invokes the familiar parade of past technologies: the ATM, the personal computer, electrification. And then delivers the rhetorical flourish: \"The burden of proof falls on those who claim *this time is different* \u2014 and assertion is not evidence.\"\n\nI agree. Assertion is not evidence. So let's look at the evidence for *why* this time is structurally different.\n\nEvery prior automation technology my opponent cited was **narrow in application domain**. The ATM automated one specific task \u2014 cash dispensing. The loom automated weaving. Robotics automated repetitive physical movements on factory floors. Each technology disrupted a *sector*. The displaced workers could move laterally into sectors not yet touched.\n\nAI \u2014 specifically large language models and multimodal foundation models \u2014 is the first general-purpose automation technology that operates across **cognitive domains simultaneously**. It writes legal briefs, generates code, produces marketing copy, reads medical imaging, handles customer service, analyzes financial data, and creates visual content. It doesn't attack one sector. It applies horizontal pressure across white-collar work, creative industries, and service economies *at the same time*. There is no untouched sector to absorb displaced workers because the displacement is economy-wide. That is not assertion. That is a description of the technology's actual capability profile, which has no precedent among the examples my opponent cited.\n\nThe ATM analogy is actually devastating \u2014 *for my opponent's case*. Bank tellers survived because the ATM could only do one thing: dispense cash. Tellers shifted to relationship management, sales, and complex transactions. Now ask yourself"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "# Rebuttal\n\nLadies and gentlemen,\n\nMy opponent has delivered a polished case, but it rests on a series of analytical errors that I want to expose systematically. The core problem is this: they have confused *automation of tasks* with *elimination of jobs*, conflated projections with outcomes, and selectively invoked history only when it suits their narrative.\n\n## The Task-Job Conflation: Their Central Error\n\nMy opponent cites Goldman Sachs estimating that AI could automate \"the equivalent of 300 million full-time jobs globally\" and McKinsey projecting \"up to 30 percent of hours currently worked\" could be automated. But notice the careful language even in these studies \u2014 language my opponent glosses over. These reports describe *task automation*, not job elimination. The Goldman Sachs report itself concludes that most jobs will be *partially* automated, and that the technology is more likely to *complement* workers than replace them wholesale. Goldman Sachs' own net estimate was that AI would create a productivity boom and ultimately *boost* global GDP by 7%, generating enormous new economic activity \u2014 and with it, new employment.\n\nMcKinsey's 2023 report similarly projected that while tasks would be automated, the US economy could see labor demand *increase* through 2030, driven by rising healthcare needs, infrastructure investment, and the very productivity gains AI enables. My opponent quoted the alarming number but not the report's actual conclusion. That is not rigorous analysis \u2014 it is selective citation.\n\n## The \"Unprecedented Speed\" Claim Doesn't Survive Contact with Reality\n\nMy opponent asserts AI displacement is \"unprecedented and accelerating.\" But look at actual adoption data, not capability projections. The Census Bureau's 2024 Business Trends and Outlook Survey found that only about 5% of US businesses reported using AI in their operations. Even among large firms, adoption remains uneven, hampered by integration costs, regulatory uncertainty, data infrastructure gaps, and institutional inertia. The gap between what AI *can* theoretically do in a demo and what it *will* do across millions of diverse workplaces within ten years is enormous.\n\nConsider the ATM analogy my opponent might dismiss as outdated but which remains instructive: ATMs were supposed to eliminate bank tellers. Instead, by reducing the"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "I notice the question field appears to be empty \u2014 there's no actual question recorded in the transcript. This may be a formatting issue.\n\nHowever, rather than waste the audience's time, let me use this moment to address what I expect is the strongest challenge my opponent would raise, because it deserves a direct answer:\n\n**\"If AI is truly a general-purpose cognitive technology hitting all sectors simultaneously, doesn't that invalidate the historical analogies you rely on?\"**\n\nIt's a fair challenge, and I'll answer it honestly: yes, AI's breadth of capability is genuinely novel. I don't dispute that. But my opponent makes a critical logical leap \u2014 from \"AI can perform tasks across many domains\" to \"AI will therefore eliminate net jobs across many domains within ten years.\" That leap ignores three stubborn realities.\n\n**First**, general-purpose capability doesn't mean general-purpose *deployment*. Electricity was a general-purpose technology too. It took roughly 30 years from commercial availability to widespread factory adoption, because implementation requires far more than technical capability \u2014 it requires reorganizing workflows, retraining workforces, building infrastructure, and navigating regulation.\n\n**Second**, the very breadth of AI's capability means it creates complementarity effects across equally many domains. If AI makes every knowledge worker 40% more productive, that doesn't eliminate 40% of knowledge workers \u2014 it reduces costs, expands output",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "You've argued that AI deployment will be slow by citing the Census Bureau finding that only 5% of US businesses currently use AI \u2014 but given that ChatGPT reached 100 million users in just two months, that major corporations like Klarna have already announced replacing 700 customer service agents with AI, and that cloud-based AI requires no factory retooling or physical infrastructure buildout, can you identify a specific structural barrier to adoption that would prevent that 5% figure from rising dramatically within even the next three to five years, let alone ten?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "You've argued that automating *tasks* within a job doesn't",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "# Direct Answer\n\nI want to address the incomplete question in the transcript first \u2014 my opponent asked about automating *tasks* within a job not necessarily eliminating that job. Let me complete that thought and then address the adoption speed question directly.\n\n**On the task-job distinction:** My opponent is right that automating tasks within a job doesn't *automatically* eliminate it \u2014 but I've never claimed it *can't*. What I've argued is that the empirical pattern, consistently, is that partial automation reshapes roles rather than deleting them. When spreadsheets automated accounting calculations, we didn't eliminate accountants \u2014 we got more accountants doing higher-value analytical work. The burden remains on my opponent to show why *this* partial automation will behave differently from every prior instance.\n\n**Now, on adoption speed \u2014 a direct answer:**\n\nYes, that 5% figure will rise substantially. I concede that. Cloud-based AI lowers deployment barriers compared to physical automation, and the Klarna example is real. I won't pretend otherwise.\n\nBut here are the specific structural barriers that prevent this from translating into net job *elimination* at the scale the motion requires:\n\n**First, enterprise integration complexity.** ChatGPT reaching 100 million *individual users* is categorically different from organizations restructuring workflows, data pipelines, compliance systems, and HR processes to actually *replace headcount*.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "You've repeatedly argued that AI will transform jobs rather than eliminate them, citing the accountant and bank teller examples \u2014 but in those cases, the surviving workers had untouched skill domains to migrate into. Given that you yourself conceded AI's cognitive breadth is \"genuinely novel\" and hits all domains simultaneously, can you name a specific large-scale skill domain that today's displaced white-collar workers could realistically migrate into that is both growing and structurally immune to AI automation within this decade?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "# Direct Answer\n\nThis is the strongest question my opponent has posed, and I'll meet it head-on.\n\n**Healthcare and caregiving** is the most obvious answer \u2014 and it's enormous. The Bureau of Labor Statistics projects the US economy will need over 3 million additional healthcare workers by 2032, driven by demographic aging that no AI system can reverse. These roles \u2014 nursing, physical therapy, home health aides, mental health counseling, elder care coordination \u2014 require physical presence, emotional judgment, human trust, and legal accountability that AI cannot substitute. This isn't speculation; it's demographic math. The aging of the baby boom generation is a structural force that creates labor demand independent of AI capability.\n\n**Second, skilled trades and physical infrastructure.** Electricians, plumbers, HVAC technicians, construction managers \u2014 the US faces a shortage of roughly 500,000 construction workers *right now*. AI can optimize building designs but cannot install wiring or repair plumbing. The Inflation Reduction Act and infrastructure legislation are pouring hundreds of billions into physical projects requiring human hands.\n\n**Third \u2014 and here's where I push back on the premise of the question.** My opponent asks for domains \"structurally immune\" to AI. But that's not what the motion requires. A domain doesn't need to be *immune* to AI \u2014 it needs to be one where AI increases demand for human workers faster than it",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "You've cited healthcare, skilled trades, and infrastructure as sectors that will absorb displaced white-collar workers \u2014 but these require years of specialized retraining, credentialing, and in many cases physical relocation, while AI-driven job displacement operates on quarterly business cycles. Can you explain the specific mechanism by which a 45-year-old displaced legal analyst or financial services worker realistically becomes a nurse or an electrician within the ten-year window we're debating, at a scale sufficient to offset millions of simultaneous white-collar displacements?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Answers to Audience Questions\n\n---\n\n## 1. What is the strongest piece of evidence supporting your position?\n\nThe single most powerful piece of evidence is the **convergence of independent projections with the observable collapse of hiring in already-exposed sectors** \u2014 not projections alone, but projections confirmed by early real-world data.\n\nGoldman Sachs, McKinsey, the OECD, and the International Labour Organization \u2014 organizations with different methodologies, different institutional incentives, and different analytical frameworks \u2014 have all independently converged on estimates suggesting hundreds of millions of job-equivalents are exposed to automation by the early 2030s. That convergence matters.\n\nBut the clincher is that we no longer need to rely on projection alone. We can already observe the leading edge. Klarna replaced 700 customer service agents with AI in 2024 and announced it would shrink its workforce from 5,000 to 2,000 through attrition. IBM announced a pause on hiring for approximately 7,800 back-office roles that AI could perform. Chegg, the education company, lost 50% of its market value as students shifted to ChatGPT, and subsequently announced layoffs of 23% of its workforce. Dropbox cut 16% of staff, explicitly citing AI. The copywriting, illustration, and translation freelance markets have seen documented rate collapses and volume declines within just 18 months of generative AI deployment.\n\nThese aren't projections. They're happening now, in the earliest phase of adoption, when \u2014 as my opponent himself noted \u2014 only about 5% of businesses have integrated AI. The strongest evidence for my position is this: **the displacement is already measurable at 5% adoption. The motion asks about a decade during which adoption will multiply many times over.** If the early data at minimal penetration already shows net job reduction in exposed sectors, the trajectory over ten years is clear.\n\n---\n\n## 2. Can you provide a concrete economic model accounting for second-order employment effects?\n\nThis is the most important question in the debate, and I appreciate its rigor. Let me provide the model.",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "# Answers to Audience Questions\n\n## Question 1: What is the strongest piece of evidence supporting your position?\n\nThe single strongest piece of evidence is the consistent, unbroken historical pattern across every major technological disruption: net employment has never permanently declined. Not after mechanization, not after electrification, not after computerization, not after the internet. The U.S. economy had roughly 60 million nonfarm jobs in 1950 and has approximately 158 million today \u2014 a period that absorbed automation waves that, at each stage, were predicted to cause mass unemployment. This isn't one data point; it's a centuries-long empirical regularity driven by well-understood economic mechanisms: productivity gains lower prices, lower prices increase demand, increased demand creates new economic activity and new employment. My opponent must argue that these mechanisms \u2014 which have operated reliably across every prior disruption \u2014 will somehow fail within this specific decade. That is an extraordinary claim requiring extraordinary evidence, and projections about task automation potential do not constitute such evidence.\n\n## Question 2: A concrete economic model or historical parallel for second-order employment effects\n\nThis is an excellent question, and I'll offer both a model and a historical parallel.\n\n**The model** is what economists call the \"productivity-price-demand\" channel, formalized in work by Autor, Acemoglu, and others. When AI automates tasks, it reduces production costs. Reduced costs lower prices. Lower prices increase real purchasing power across the economy. Increased purchasing power drives demand for goods and services \u2014 including many that are labor-intensive and resistant to automation. This is not theoretical hand-waving; it's the mechanism that explains why, despite agriculture going from 40% of U.S. employment to under 2%, total employment grew enormously. The wealth didn't vanish \u2014 it was redirected into healthcare, education, entertainment, hospitality, personal services, and entirely new industries.\n\n**The historical parallel** is the IT revolution of the 1990s and 2000s. Between 1995 and 2005, information technology automated enormous swaths of clerical, administrative, and back-office work \u2014 tasks that employed tens of millions. The Bureau of Labor Statistics documented steep declines in typists, switchboard operators, file clerks, and bookkeepers. Yet the U.S. economy added over 17 million net jobs during that decade. Where did they come from? Precisely from these second-order effects: IT-driven productivity gains generated wealth that flowed into expanded healthcare (the sector added 3.5 million jobs), professional services, hospitality, and entirely new technology-adjacent roles nobody had anticipated.\n\n**Quantitatively**, Goldman Sachs' own report \u2014 which my opponent cites for the 300-million-task-",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Claude Opus 4.6 (Thinking)",
+      "side": "FOR",
+      "content": "# Closing Statement\n\nLadies and gentlemen,\n\nThis debate has been rigorous, and my opponent has been formidable. So let me cut to what matters.\n\n## The Core Question\n\nYou've heard two visions tonight. My opponent asks you to trust a historical pattern: technology has always created more jobs than it destroyed, therefore it will again. I ask you to look at what is actually happening *right now* \u2014 and to do basic math.\n\n## Point One: The Evidence Is No Longer Theoretical\n\nAt the start of this debate, my opponent characterized my case as relying on projections. By the end, that characterization was unsustainable. Klarna replacing 700 agents. IBM pausing 7,800 hires. Chegg laying off 23% of its workforce. Dropbox cutting 16%, explicitly citing AI. Freelance markets in copywriting, illustration, and translation experiencing documented rate collapses. This is happening at **5% business adoption** \u2014 a figure my opponent himself conceded will rise dramatically. If this is the displacement at 5%, what does the curve look like at 30%? At 50%? The motion asks about a full decade. The"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Claude Opus 4.6",
+      "side": "AGAINST",
+      "content": "# Closing Statement: Against the Motion\n\nLadies and gentlemen,\n\nThis has been a rigorous debate, and I want to honor that by being direct about what we've actually established.\n\n## The Core Question\n\nMy opponent has presented a case built on projections about what AI *can* automate and a handful of early corporate announcements. I've presented the weight of economic history, the structural realities of adoption, and the well-understood mechanisms by which productivity gains generate new employment. The question for you is simple: which framework deserves your confidence?\n\n## Two Points That Decide This Debate\n\n**First, my opponent's own evidence undermines his case.** He repeatedly cited Goldman Sachs and McKinsey \u2014 but when you read those reports to their actual conclusions, Goldman Sachs projects AI will *boost* global GDP by 7% and increase net economic activity, while McKinsey projects labor demand will *grow* through 2030. My opponent extracted the alarming task-automation numbers and discarded the reports' own bottom lines. That is not analysis. That is advocacy dressed as evidence. The very experts he relies on disagree with his conclusion.\n\n**Second, the adoption timeline cannot support the motion.** At 5% business adoption today, my opponent wants you to believe that within ten years, AI will have eliminated more jobs than the enormous second-order creation effects of a multi-trillion-dollar productivity"
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "{\"stance\": \"",
+      "parse_fallback": true,
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 42,
+      "reasoning": "The empirical question of net job creation versus destruction involves significant uncertainty and depends on contested assumptions about technological adoption rates, economic adaptation, and policy responses. While historical precedent suggests technology creates new categories of employment, the generality and pace of AI capabilities presents a genuinely novel epistemic challenge that resists simple analogical reasoning from past technological revolutions.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I question the Luddite consensus that technology destroys net jobs. Historical patterns show technological revolutions (agriculture, industrial, computing) create far more roles than they eliminate through new industries, productivity gains, and entirely unforeseen occupations.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 60,
+      "reasoning": "As an environmental activist skeptical of profit-driven technological adoption, I anticipate that the immediate pursuit of efficiency through AI over the next decade will likely displace workers faster than new, ideally sustainable, economic roles can be created.",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 63,
+      "reasoning": "From a practical business perspective, AI is more likely to reconfigure work and create new roles, products, and industries than to produce a net collapse in employment over just ten years. Significant displacement is likely, but adoption friction, regulation, and complementary human tasks should slow elimination while new demand emerges.",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 55,
+      "reasoning": "As a skeptical policymaker focused on realistic outcomes, AI's ability to automate cognitive and routine work is likely to displace jobs faster than new categories can emerge and scale within a decade, due to adoption lags, skill mismatches, and economic frictions.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 78,
+      "reasoning": "Technological revolutions historically create more jobs and industries than they destroy, and AI is likely to augment human work and generate new sectors rather than simply eliminate roles within the next decade.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 70,
+      "reasoning": "As a union labor rep focused on job security for workers, I see AI as a tool of capital that will automate and eliminate far more positions in manufacturing, services, and cognitive fields than new roles it creates in the near term.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 75,
+      "reasoning": "Historical data on technological transitions suggests that while displacement is immediate, the expansion of latent demand and the creation of novel service sectors typically offset losses, provided there is sufficient capital for reinvestment.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "The FOR side demonstrated stronger logical coherence by identifying the critical structural difference between AI and prior technologies\u2014its simultaneous application across cognitive domains\u2014and by grounding claims in observable early-stage displacement data rather than purely historical analogy. The AGAINST side's most powerful move was revealing that the FOR side's own cited reports (Goldman Sachs, McKinsey) reach conclusions contrary to the motion, which was a genuinely damaging point. Howeve",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON requested:\n",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 65,
+      "reasoning": "AGAINST presented stronger logical coherence by distinguishing task automation from job elimination, directly rebutting selective citations from Goldman Sachs and McKinsey reports (whose net conclusions favored growth), and grounding arguments in historical mechanisms like productivity-price-demand that FOR never fully disproved. FOR's 'this time is different' case relied heavily on early anecdotes at 5% adoption and projections but struggled in cross-examination to specify scalable retraining m",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 60,
+      "reasoning": "FOR presented stronger logical coherence by emphasizing AI's unprecedented general-purpose cognitive scope hitting all white-collar sectors simultaneously, unlike narrow past technologies. They backed this with specific, current empirical evidence (Klarna, IBM, Chegg, Dropbox layoffs at only 5% adoption) and directly challenged transition feasibility in cross-exams. AGAINST's historical analogies and selective-citation rebuttals on reports were effective but weaker on addressing the compressed 1",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 60,
+      "reasoning": "The FOR side provided more direct, time-bound analysis focused specifically on the next decade and supported it with concrete early evidence of displacement, while effectively challenging the applicability of historical analogies. The AGAINST side relied heavily on long-run historical patterns and second-order effects but was less precise in quantifying why those mechanisms would dominate within the ten-year window. Overall, FOR engaged the motion\u2019s timeframe more rigorously and rebutted opposin",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "FOR better differentiated this AI wave by its simultaneous cognitive/white-collar breadth with no untouched absorption sectors, backed by specific early evidence (Klarna/IBM/Chegg layoffs at ~5% adoption). They directly rebutted historical analogies and retraining feasibility in cross-exams. AGAINST's task-job distinction, full report contexts, and healthcare/trades arguments were coherent but less persuasive on the exact 10-year motion and adjustment speed.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "The FOR side successfully argued that AI's general-purpose cognitive nature represents a structural break from previous narrow-domain technologies, making historical analogies like the ATM less predictive. Furthermore, FOR effectively used current empirical data from 5% adoption rates to demonstrate that displacement is already outpacing creation in exposed sectors, while AGAINST relied heavily on the 'productivity-price-demand' model which typically operates on a longer timeline than the ten-ye",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that both sides have discussed AI's impact on white-collar cognitive work, neither has adequately addressed how the economic gains from AI-driven productivity \u2014 specifically the wealth generated and redistributed through lower prices, increased demand, and new consumption patterns \u2014 would quantitatively translate (or fail to translate) into net job creation or destruction within the ten-year timeframe; can both debaters provide a concrete economic model or historical parallel that accounts for these second-order employment effects?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "Given the historical precedent",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "How do you reconcile the scale of projected white-collar displacement (hundreds of millions of task equivalents per Goldman Sachs/McKinsey) with the retraining timelines and capacity constraints for absorbing those workers into healthcare, trades, and infrastructure roles within a 10-year window?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "```json\n{\n  \"question\": \"You argue displacement will outpace creation, but standard economic theory suggests AI-driven productivity gains will lower prices and increase aggregate demand, creating new labor needs across the economy; what specific evidence proves this established macroeconomic feedback loop will fail to operate within the next decade?\"\n}\n```",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "claude-opus-4.6-thinking",
+    "initial": {
+      "for": 3,
+      "against": 4,
+      "undecided": 3,
+      "pct_for": 30.0,
+      "pct_against": 40.0
+    },
+    "final": {
+      "for": 5,
+      "against": 1,
+      "undecided": 4,
+      "pct_for": 50.0,
+      "pct_against": 10.0
+    },
+    "delta_for": 20.0,
+    "delta_against": -30.0,
+    "confidence": {
+      "for_initial": 185,
+      "for_final": 322,
+      "against_initial": 281,
+      "against_final": 65
+    },
+    "persuasion_for": 137,
+    "persuasion_against": -216,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 42,
+        "final_stance": "FOR",
+        "final_confidence": 62,
+        "stance_changed": true,
+        "confidence_delta": 20,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 65,
+        "final_stance": "AGAINST",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "FOR",
+        "initial_confidence": 60,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": -10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 63,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": -13,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "FOR",
+        "initial_confidence": 55,
+        "final_stance": "FOR",
+        "final_confidence": 60,
+        "stance_changed": false,
+        "confidence_delta": 5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 78,
+        "final_stance": "FOR",
+        "final_confidence": 60,
+        "stance_changed": true,
+        "confidence_delta": -18,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 70,
+        "final_stance": "FOR",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": -5,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 75,
+        "final_stance": "FOR",
+        "final_confidence": 75,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 449.4,
+    "timestamp": "2026-04-08T23:23:01Z"
+  }
+}

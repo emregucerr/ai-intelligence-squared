@@ -1,0 +1,1650 @@
+🏁 AI² Benchmark Runner
+   Total matchups: 45
+   Running: 1 to 45
+   Models: 10
+
+  Loaded 2 existing results, will skip them
+
+[1/45] SKIP (already done): debate-001-claude-opus-4.6-thinking-vs-claude-opus-4.6
+
+[2/45] SKIP (already done): debate-002-claude-opus-4.6-thinking-vs-gemini-3.1-pro-preview
+
+======================================================================
+[3/45] Claude Opus 4.6 (Thinking) (FOR) vs Grok 4.20 (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-003-claude-opus-4.6-thinking-vs-grok-4.20
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=7 UNDECIDED=1 (avg confidence: 72)
+  [OPENING] FOR (Claude Opus 4.6 (Thinking)) generating opening...
+  [OPENING] AGAINST (Grok 4.20) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=1 AGAINST=5 UNDECIDED=4 (avg confidence: 61)
+  [DONE] Debate complete in 455s — Winner: FOR (claude-opus-4.6-thinking)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1546
+    #2 Gemini 3 Pro                        ELO: 1500
+    #3 GPT-5.4 (High)                      ELO: 1500
+    #4 Grok 4.20 (Reasoning)               ELO: 1500
+    #5 GPT-5.2 Chat                        ELO: 1500
+    #6 Grok 4.20 Multi-Agent               ELO: 1500
+    #7 Gemini 3 Flash                      ELO: 1500
+    #8 Grok 4.20                           ELO: 1485
+    #9 Gemini 3.1 Pro Preview              ELO: 1485
+    #10 Claude Opus 4.6                     ELO: 1484
+
+======================================================================
+[4/45] Claude Opus 4.6 (Thinking) (FOR) vs Gemini 3 Pro (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-004-claude-opus-4.6-thinking-vs-gemini-3-pro
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=3 UNDECIDED=5 (avg confidence: 58)
+  [OPENING] FOR (Claude Opus 4.6 (Thinking)) generating opening...
+  [OPENING] AGAINST (Gemini 3 Pro) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 2), retrying in 4.0s...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=5 AGAINST=2 UNDECIDED=3 (avg confidence: 63)
+  [DONE] Debate complete in 789s — Winner: FOR (claude-opus-4.6-thinking)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1560
+    #2 GPT-5.4 (High)                      ELO: 1500
+    #3 Grok 4.20 (Reasoning)               ELO: 1500
+    #4 GPT-5.2 Chat                        ELO: 1500
+    #5 Grok 4.20 Multi-Agent               ELO: 1500
+    #6 Gemini 3 Flash                      ELO: 1500
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1485
+    #9 Gemini 3.1 Pro Preview              ELO: 1485
+    #10 Claude Opus 4.6                     ELO: 1484
+
+======================================================================
+[5/45] Claude Opus 4.6 (Thinking) (FOR) vs GPT-5.4 (High) (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-005-claude-opus-4.6-thinking-vs-gpt-5.4-high
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=5 AGAINST=1 UNDECIDED=4 (avg confidence: 61)
+  [OPENING] FOR (Claude Opus 4.6 (Thinking)) generating opening...
+  [OPENING] AGAINST (GPT-5.4 (High)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=8 AGAINST=1 UNDECIDED=1 (avg confidence: 86)
+  [DONE] Debate complete in 343s — Winner: FOR (claude-opus-4.6-thinking)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1573
+    #2 Grok 4.20 (Reasoning)               ELO: 1500
+    #3 GPT-5.2 Chat                        ELO: 1500
+    #4 Grok 4.20 Multi-Agent               ELO: 1500
+    #5 Gemini 3 Flash                      ELO: 1500
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1485
+    #9 Gemini 3.1 Pro Preview              ELO: 1485
+    #10 Claude Opus 4.6                     ELO: 1484
+
+======================================================================
+[6/45] Claude Opus 4.6 (Thinking) (FOR) vs Grok 4.20 (Reasoning) (AGAINST)
+  Motion: This house believes AI will eliminate more jobs than it creates within the next ...
+  Debate ID: debate-006-claude-opus-4.6-thinking-vs-grok-4.20-reasoning
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=3 UNDECIDED=5 (avg confidence: 59)
+  [OPENING] FOR (Claude Opus 4.6 (Thinking)) generating opening...
+  [OPENING] AGAINST (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=7 AGAINST=0 UNDECIDED=3 (avg confidence: 62)
+  [DONE] Debate complete in 356s — Winner: FOR (claude-opus-4.6-thinking)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1586
+    #2 GPT-5.2 Chat                        ELO: 1500
+    #3 Grok 4.20 Multi-Agent               ELO: 1500
+    #4 Gemini 3 Flash                      ELO: 1500
+    #5 Grok 4.20 (Reasoning)               ELO: 1487
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1485
+    #9 Gemini 3.1 Pro Preview              ELO: 1485
+    #10 Claude Opus 4.6                     ELO: 1484
+
+======================================================================
+[7/45] Claude Opus 4.6 (Thinking) (FOR) vs GPT-5.2 Chat (AGAINST)
+  Motion: This house believes social media does more harm than good to democratic societie...
+  Debate ID: debate-007-claude-opus-4.6-thinking-vs-gpt-5.2-chat
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=5 AGAINST=3 UNDECIDED=2 (avg confidence: 61)
+  [OPENING] FOR (Claude Opus 4.6 (Thinking)) generating opening...
+  [OPENING] AGAINST (GPT-5.2 Chat) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=7 AGAINST=0 UNDECIDED=3 (avg confidence: 65)
+  [DONE] Debate complete in 287s — Winner: FOR (claude-opus-4.6-thinking)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1598
+    #2 Grok 4.20 Multi-Agent               ELO: 1500
+    #3 Gemini 3 Flash                      ELO: 1500
+    #4 GPT-5.2 Chat                        ELO: 1488
+    #5 Grok 4.20 (Reasoning)               ELO: 1487
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1485
+    #9 Gemini 3.1 Pro Preview              ELO: 1485
+    #10 Claude Opus 4.6                     ELO: 1484
+
+======================================================================
+[8/45] Claude Opus 4.6 (Thinking) (FOR) vs Grok 4.20 Multi-Agent (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-008-claude-opus-4.6-thinking-vs-grok-4.20-multi-agent
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=1 AGAINST=7 UNDECIDED=2 (avg confidence: 66)
+  [OPENING] FOR (Claude Opus 4.6 (Thinking)) generating opening...
+  [OPENING] AGAINST (Grok 4.20 Multi-Agent) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=8 UNDECIDED=2 (avg confidence: 68)
+  [DONE] Debate complete in 466s — Winner: AGAINST (grok-4.20-multi-agent)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1578
+    #2 Grok 4.20 Multi-Agent               ELO: 1520
+    #3 Gemini 3 Flash                      ELO: 1500
+    #4 GPT-5.2 Chat                        ELO: 1488
+    #5 Grok 4.20 (Reasoning)               ELO: 1487
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1485
+    #9 Gemini 3.1 Pro Preview              ELO: 1485
+    #10 Claude Opus 4.6                     ELO: 1484
+
+======================================================================
+[9/45] Claude Opus 4.6 (Thinking) (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-009-claude-opus-4.6-thinking-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=4 UNDECIDED=3 (avg confidence: 62)
+  [OPENING] FOR (Claude Opus 4.6 (Thinking)) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=6 AGAINST=0 UNDECIDED=4 (avg confidence: 61)
+  [DONE] Debate complete in 242s — Winner: FOR (claude-opus-4.6-thinking)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1520
+    #3 GPT-5.2 Chat                        ELO: 1488
+    #4 Gemini 3 Flash                      ELO: 1488
+    #5 Grok 4.20 (Reasoning)               ELO: 1487
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1485
+    #9 Gemini 3.1 Pro Preview              ELO: 1485
+    #10 Claude Opus 4.6                     ELO: 1484
+
+======================================================================
+[10/45] Claude Opus 4.6 (FOR) vs Gemini 3.1 Pro Preview (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-010-claude-opus-4.6-vs-gemini-3.1-pro-preview
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=4 AGAINST=1 UNDECIDED=5 (avg confidence: 59)
+  [OPENING] FOR (Claude Opus 4.6) generating opening...
+  [OPENING] AGAINST (Gemini 3.1 Pro Preview) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=7 AGAINST=0 UNDECIDED=3 (avg confidence: 80)
+  [DONE] Debate complete in 246s — Winner: FOR (claude-opus-4.6)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1520
+    #3 Claude Opus 4.6                     ELO: 1500
+    #4 GPT-5.2 Chat                        ELO: 1488
+    #5 Gemini 3 Flash                      ELO: 1488
+    #6 Grok 4.20 (Reasoning)               ELO: 1487
+    #7 GPT-5.4 (High)                      ELO: 1487
+    #8 Gemini 3 Pro                        ELO: 1486
+    #9 Grok 4.20                           ELO: 1485
+    #10 Gemini 3.1 Pro Preview              ELO: 1469
+
+======================================================================
+[11/45] Claude Opus 4.6 (FOR) vs Grok 4.20 (AGAINST)
+  Motion: This house believes AI will eliminate more jobs than it creates within the next ...
+  Debate ID: debate-011-claude-opus-4.6-vs-grok-4.20
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=1 AGAINST=4 UNDECIDED=5 (avg confidence: 58)
+  [OPENING] FOR (Claude Opus 4.6) generating opening...
+  [OPENING] AGAINST (Grok 4.20) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [VOTING] Final votes: FOR=4 AGAINST=2 UNDECIDED=4 (avg confidence: 62)
+  [DONE] Debate complete in 434s — Winner: FOR (claude-opus-4.6)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1520
+    #3 Claude Opus 4.6                     ELO: 1515
+    #4 GPT-5.2 Chat                        ELO: 1488
+    #5 Gemini 3 Flash                      ELO: 1488
+    #6 Grok 4.20 (Reasoning)               ELO: 1487
+    #7 GPT-5.4 (High)                      ELO: 1487
+    #8 Gemini 3 Pro                        ELO: 1486
+    #9 Grok 4.20                           ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1469
+
+======================================================================
+[12/45] Claude Opus 4.6 (FOR) vs Gemini 3 Pro (AGAINST)
+  Motion: This house believes social media does more harm than good to democratic societie...
+  Debate ID: debate-012-claude-opus-4.6-vs-gemini-3-pro
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=4 UNDECIDED=3 (avg confidence: 61)
+  [OPENING] FOR (Claude Opus 4.6) generating opening...
+  [OPENING] AGAINST (Gemini 3 Pro) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=7 AGAINST=0 UNDECIDED=3 (avg confidence: 78)
+  [DONE] Debate complete in 369s — Winner: FOR (claude-opus-4.6)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Claude Opus 4.6                     ELO: 1530
+    #3 Grok 4.20 Multi-Agent               ELO: 1520
+    #4 GPT-5.2 Chat                        ELO: 1488
+    #5 Gemini 3 Flash                      ELO: 1488
+    #6 Grok 4.20 (Reasoning)               ELO: 1487
+    #7 GPT-5.4 (High)                      ELO: 1487
+    #8 Gemini 3 Pro                        ELO: 1471
+    #9 Grok 4.20                           ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1469
+
+======================================================================
+[13/45] Claude Opus 4.6 (FOR) vs GPT-5.4 (High) (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-013-claude-opus-4.6-vs-gpt-5.4-high
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=1 AGAINST=8 UNDECIDED=1 (avg confidence: 73)
+  [OPENING] FOR (Claude Opus 4.6) generating opening...
+  [OPENING] AGAINST (GPT-5.4 (High)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=8 AGAINST=0 UNDECIDED=2 (avg confidence: 84)
+  [DONE] Debate complete in 285s — Winner: FOR (claude-opus-4.6)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Claude Opus 4.6                     ELO: 1544
+    #3 Grok 4.20 Multi-Agent               ELO: 1520
+    #4 GPT-5.2 Chat                        ELO: 1488
+    #5 Gemini 3 Flash                      ELO: 1488
+    #6 Grok 4.20 (Reasoning)               ELO: 1487
+    #7 GPT-5.4 (High)                      ELO: 1473
+    #8 Gemini 3 Pro                        ELO: 1471
+    #9 Grok 4.20                           ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1469
+
+======================================================================
+[14/45] Claude Opus 4.6 (FOR) vs Grok 4.20 (Reasoning) (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-014-claude-opus-4.6-vs-grok-4.20-reasoning
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=4 UNDECIDED=3 (avg confidence: 60)
+  [OPENING] FOR (Claude Opus 4.6) generating opening...
+  [OPENING] AGAINST (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=2 AGAINST=4 UNDECIDED=4 (avg confidence: 60)
+  [DONE] Debate complete in 318s — Winner: AGAINST (grok-4.20-reasoning)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Claude Opus 4.6                     ELO: 1525
+    #3 Grok 4.20 Multi-Agent               ELO: 1520
+    #4 Grok 4.20 (Reasoning)               ELO: 1506
+    #5 GPT-5.2 Chat                        ELO: 1488
+    #6 Gemini 3 Flash                      ELO: 1488
+    #7 GPT-5.4 (High)                      ELO: 1473
+    #8 Gemini 3 Pro                        ELO: 1471
+    #9 Grok 4.20                           ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1469
+
+======================================================================
+[15/45] Claude Opus 4.6 (FOR) vs GPT-5.2 Chat (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-015-claude-opus-4.6-vs-gpt-5.2-chat
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=5 AGAINST=1 UNDECIDED=4 (avg confidence: 62)
+  [OPENING] FOR (Claude Opus 4.6) generating opening...
+  [OPENING] AGAINST (GPT-5.2 Chat) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=5 AGAINST=2 UNDECIDED=3 (avg confidence: 63)
+  [DONE] Debate complete in 364s — Winner: AGAINST (gpt-5.2-chat)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1520
+    #3 Claude Opus 4.6                     ELO: 1508
+    #4 Grok 4.20 (Reasoning)               ELO: 1506
+    #5 GPT-5.2 Chat                        ELO: 1506
+    #6 Gemini 3 Flash                      ELO: 1488
+    #7 GPT-5.4 (High)                      ELO: 1473
+    #8 Gemini 3 Pro                        ELO: 1471
+    #9 Grok 4.20                           ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1469
+
+======================================================================
+[16/45] Claude Opus 4.6 (FOR) vs Grok 4.20 Multi-Agent (AGAINST)
+  Motion: This house believes AI will eliminate more jobs than it creates within the next ...
+  Debate ID: debate-016-claude-opus-4.6-vs-grok-4.20-multi-agent
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=3 UNDECIDED=5 (avg confidence: 59)
+  [OPENING] FOR (Claude Opus 4.6) generating opening...
+  [OPENING] AGAINST (Grok 4.20 Multi-Agent) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=6 UNDECIDED=4 (avg confidence: 62)
+  [DONE] Debate complete in 368s — Winner: AGAINST (grok-4.20-multi-agent)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1536
+    #3 Grok 4.20 (Reasoning)               ELO: 1506
+    #4 GPT-5.2 Chat                        ELO: 1506
+    #5 Claude Opus 4.6                     ELO: 1492
+    #6 Gemini 3 Flash                      ELO: 1488
+    #7 GPT-5.4 (High)                      ELO: 1473
+    #8 Gemini 3 Pro                        ELO: 1471
+    #9 Grok 4.20                           ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1469
+
+======================================================================
+[17/45] Claude Opus 4.6 (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes social media does more harm than good to democratic societie...
+  Debate ID: debate-017-claude-opus-4.6-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=4 AGAINST=3 UNDECIDED=3 (avg confidence: 60)
+  [OPENING] FOR (Claude Opus 4.6) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=6 AGAINST=0 UNDECIDED=4 (avg confidence: 66)
+  [DONE] Debate complete in 234s — Winner: FOR (claude-opus-4.6)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1536
+    #3 Claude Opus 4.6                     ELO: 1508
+    #4 Grok 4.20 (Reasoning)               ELO: 1506
+    #5 GPT-5.2 Chat                        ELO: 1506
+    #6 GPT-5.4 (High)                      ELO: 1473
+    #7 Gemini 3 Flash                      ELO: 1472
+    #8 Gemini 3 Pro                        ELO: 1471
+    #9 Grok 4.20                           ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1469
+
+======================================================================
+[18/45] Gemini 3.1 Pro Preview (FOR) vs Grok 4.20 (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-018-gemini-3.1-pro-preview-vs-grok-4.20
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=7 UNDECIDED=1 (avg confidence: 73)
+  [OPENING] FOR (Gemini 3.1 Pro Preview) generating opening...
+  [OPENING] AGAINST (Grok 4.20) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=8 UNDECIDED=2 (avg confidence: 81)
+  [DONE] Debate complete in 305s — Winner: AGAINST (grok-4.20)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1536
+    #3 Claude Opus 4.6                     ELO: 1508
+    #4 Grok 4.20 (Reasoning)               ELO: 1506
+    #5 GPT-5.2 Chat                        ELO: 1506
+    #6 Grok 4.20                           ELO: 1486
+    #7 GPT-5.4 (High)                      ELO: 1473
+    #8 Gemini 3 Flash                      ELO: 1472
+    #9 Gemini 3 Pro                        ELO: 1471
+    #10 Gemini 3.1 Pro Preview              ELO: 1453
+
+======================================================================
+[19/45] Gemini 3.1 Pro Preview (FOR) vs Gemini 3 Pro (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-019-gemini-3.1-pro-preview-vs-gemini-3-pro
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=3 UNDECIDED=4 (avg confidence: 61)
+  [OPENING] FOR (Gemini 3.1 Pro Preview) generating opening...
+  [OPENING] AGAINST (Gemini 3 Pro) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 2), retrying in 4.0s...
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [VOTING] Final votes: FOR=0 AGAINST=8 UNDECIDED=2 (avg confidence: 63)
+  [DONE] Debate complete in 793s — Winner: AGAINST (gemini-3-pro)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1536
+    #3 Claude Opus 4.6                     ELO: 1508
+    #4 Grok 4.20 (Reasoning)               ELO: 1506
+    #5 GPT-5.2 Chat                        ELO: 1506
+    #6 Gemini 3 Pro                        ELO: 1486
+    #7 Grok 4.20                           ELO: 1486
+    #8 GPT-5.4 (High)                      ELO: 1473
+    #9 Gemini 3 Flash                      ELO: 1472
+    #10 Gemini 3.1 Pro Preview              ELO: 1438
+
+======================================================================
+[20/45] Gemini 3.1 Pro Preview (FOR) vs GPT-5.4 (High) (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-020-gemini-3.1-pro-preview-vs-gpt-5.4-high
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=6 AGAINST=1 UNDECIDED=3 (avg confidence: 64)
+  [OPENING] FOR (Gemini 3.1 Pro Preview) generating opening...
+  [OPENING] AGAINST (GPT-5.4 (High)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=4 AGAINST=2 UNDECIDED=4 (avg confidence: 59)
+  [DONE] Debate complete in 365s — Winner: AGAINST (gpt-5.4-high)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1536
+    #3 Claude Opus 4.6                     ELO: 1508
+    #4 Grok 4.20 (Reasoning)               ELO: 1506
+    #5 GPT-5.2 Chat                        ELO: 1506
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1486
+    #9 Gemini 3 Flash                      ELO: 1472
+    #10 Gemini 3.1 Pro Preview              ELO: 1423
+
+======================================================================
+[21/45] Gemini 3.1 Pro Preview (FOR) vs Grok 4.20 (Reasoning) (AGAINST)
+  Motion: This house believes AI will eliminate more jobs than it creates within the next ...
+  Debate ID: debate-021-gemini-3.1-pro-preview-vs-grok-4.20-reasoning
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=4 UNDECIDED=3 (avg confidence: 62)
+  [OPENING] FOR (Gemini 3.1 Pro Preview) generating opening...
+  [OPENING] AGAINST (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=6 UNDECIDED=4 (avg confidence: 71)
+  [DONE] Debate complete in 335s — Winner: AGAINST (grok-4.20-reasoning)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1536
+    #3 Grok 4.20 (Reasoning)               ELO: 1518
+    #4 Claude Opus 4.6                     ELO: 1508
+    #5 GPT-5.2 Chat                        ELO: 1506
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1486
+    #9 Gemini 3 Flash                      ELO: 1472
+    #10 Gemini 3.1 Pro Preview              ELO: 1411
+
+======================================================================
+[22/45] Gemini 3.1 Pro Preview (FOR) vs GPT-5.2 Chat (AGAINST)
+  Motion: This house believes social media does more harm than good to democratic societie...
+  Debate ID: debate-022-gemini-3.1-pro-preview-vs-gpt-5.2-chat
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=4 AGAINST=3 UNDECIDED=3 (avg confidence: 63)
+  [OPENING] FOR (Gemini 3.1 Pro Preview) generating opening...
+  [OPENING] AGAINST (GPT-5.2 Chat) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=6 UNDECIDED=4 (avg confidence: 66)
+  [DONE] Debate complete in 528s — Winner: AGAINST (gpt-5.2-chat)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1536
+    #3 Grok 4.20 (Reasoning)               ELO: 1518
+    #4 GPT-5.2 Chat                        ELO: 1517
+    #5 Claude Opus 4.6                     ELO: 1508
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1486
+    #9 Gemini 3 Flash                      ELO: 1472
+    #10 Gemini 3.1 Pro Preview              ELO: 1399
+
+======================================================================
+[23/45] Gemini 3.1 Pro Preview (FOR) vs Grok 4.20 Multi-Agent (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-023-gemini-3.1-pro-preview-vs-grok-4.20-multi-agent
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=7 UNDECIDED=1 (avg confidence: 72)
+  [OPENING] FOR (Gemini 3.1 Pro Preview) generating opening...
+  [OPENING] AGAINST (Grok 4.20 Multi-Agent) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [VOTING] Final votes: FOR=0 AGAINST=8 UNDECIDED=2 (avg confidence: 83)
+  [DONE] Debate complete in 660s — Winner: AGAINST (grok-4.20-multi-agent)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1546
+    #3 Grok 4.20 (Reasoning)               ELO: 1518
+    #4 GPT-5.2 Chat                        ELO: 1517
+    #5 Claude Opus 4.6                     ELO: 1508
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1486
+    #9 Gemini 3 Flash                      ELO: 1472
+    #10 Gemini 3.1 Pro Preview              ELO: 1389
+
+======================================================================
+[24/45] Gemini 3.1 Pro Preview (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-024-gemini-3.1-pro-preview-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=3 UNDECIDED=5 (avg confidence: 59)
+  [OPENING] FOR (Gemini 3.1 Pro Preview) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=8 UNDECIDED=2 (avg confidence: 78)
+  [DONE] Debate complete in 251s — Winner: AGAINST (gemini-3-flash)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1546
+    #3 Grok 4.20 (Reasoning)               ELO: 1518
+    #4 GPT-5.2 Chat                        ELO: 1517
+    #5 Claude Opus 4.6                     ELO: 1508
+    #6 GPT-5.4 (High)                      ELO: 1487
+    #7 Gemini 3 Pro                        ELO: 1486
+    #8 Grok 4.20                           ELO: 1486
+    #9 Gemini 3 Flash                      ELO: 1484
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[25/45] Grok 4.20 (FOR) vs Gemini 3 Pro (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-025-grok-4.20-vs-gemini-3-pro
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=5 AGAINST=1 UNDECIDED=4 (avg confidence: 63)
+  [OPENING] FOR (Grok 4.20) generating opening...
+  [OPENING] AGAINST (Gemini 3 Pro) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=6 AGAINST=0 UNDECIDED=4 (avg confidence: 64)
+  [DONE] Debate complete in 802s — Winner: FOR (grok-4.20)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1546
+    #3 Grok 4.20 (Reasoning)               ELO: 1518
+    #4 GPT-5.2 Chat                        ELO: 1517
+    #5 Claude Opus 4.6                     ELO: 1508
+    #6 Grok 4.20                           ELO: 1502
+    #7 GPT-5.4 (High)                      ELO: 1487
+    #8 Gemini 3 Flash                      ELO: 1484
+    #9 Gemini 3 Pro                        ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[26/45] Grok 4.20 (FOR) vs GPT-5.4 (High) (AGAINST)
+  Motion: This house believes AI will eliminate more jobs than it creates within the next ...
+  Debate ID: debate-026-grok-4.20-vs-gpt-5.4-high
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [INIT] Initial votes collected: FOR=3 AGAINST=3 UNDECIDED=4 (avg confidence: 58)
+  [OPENING] FOR (Grok 4.20) generating opening...
+  [OPENING] AGAINST (GPT-5.4 (High)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 2), retrying in 4.0s...
+  [VOTING] Final votes: FOR=8 AGAINST=1 UNDECIDED=1 (avg confidence: 80)
+  [DONE] Debate complete in 579s — Winner: FOR (grok-4.20)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1546
+    #3 Grok 4.20 (Reasoning)               ELO: 1518
+    #4 Grok 4.20                           ELO: 1517
+    #5 GPT-5.2 Chat                        ELO: 1517
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1484
+    #8 GPT-5.4 (High)                      ELO: 1472
+    #9 Gemini 3 Pro                        ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[27/45] Grok 4.20 (FOR) vs Grok 4.20 (Reasoning) (AGAINST)
+  Motion: This house believes social media does more harm than good to democratic societie...
+  Debate ID: debate-027-grok-4.20-vs-grok-4.20-reasoning
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=5 AGAINST=1 UNDECIDED=4 (avg confidence: 61)
+  [OPENING] FOR (Grok 4.20) generating opening...
+  [OPENING] AGAINST (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=6 AGAINST=0 UNDECIDED=4 (avg confidence: 62)
+  [DONE] Debate complete in 445s — Winner: FOR (grok-4.20)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1546
+    #3 Grok 4.20                           ELO: 1533
+    #4 GPT-5.2 Chat                        ELO: 1517
+    #5 Claude Opus 4.6                     ELO: 1508
+    #6 Grok 4.20 (Reasoning)               ELO: 1502
+    #7 Gemini 3 Flash                      ELO: 1484
+    #8 GPT-5.4 (High)                      ELO: 1472
+    #9 Gemini 3 Pro                        ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[28/45] Grok 4.20 (FOR) vs GPT-5.2 Chat (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-028-grok-4.20-vs-gpt-5.2-chat
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=7 UNDECIDED=1 (avg confidence: 73)
+  [OPENING] FOR (Grok 4.20) generating opening...
+  [OPENING] AGAINST (GPT-5.2 Chat) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [VOTING] Final votes: FOR=2 AGAINST=4 UNDECIDED=4 (avg confidence: 62)
+  [DONE] Debate complete in 397s — Winner: FOR (grok-4.20)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20                           ELO: 1549
+    #3 Grok 4.20 Multi-Agent               ELO: 1546
+    #4 Claude Opus 4.6                     ELO: 1508
+    #5 Grok 4.20 (Reasoning)               ELO: 1502
+    #6 GPT-5.2 Chat                        ELO: 1502
+    #7 Gemini 3 Flash                      ELO: 1484
+    #8 GPT-5.4 (High)                      ELO: 1472
+    #9 Gemini 3 Pro                        ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[29/45] Grok 4.20 (FOR) vs Grok 4.20 Multi-Agent (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-029-grok-4.20-vs-grok-4.20-multi-agent
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=3 UNDECIDED=4 (avg confidence: 60)
+  [OPENING] FOR (Grok 4.20) generating opening...
+  [OPENING] AGAINST (Grok 4.20 Multi-Agent) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [VOTING] Final votes: FOR=1 AGAINST=5 UNDECIDED=4 (avg confidence: 61)
+  [DONE] Debate complete in 444s — Winner: AGAINST (grok-4.20-multi-agent)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1562
+    #3 Grok 4.20                           ELO: 1532
+    #4 Claude Opus 4.6                     ELO: 1508
+    #5 Grok 4.20 (Reasoning)               ELO: 1502
+    #6 GPT-5.2 Chat                        ELO: 1502
+    #7 Gemini 3 Flash                      ELO: 1484
+    #8 GPT-5.4 (High)                      ELO: 1472
+    #9 Gemini 3 Pro                        ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[30/45] Grok 4.20 (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-030-grok-4.20-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=5 AGAINST=1 UNDECIDED=4 (avg confidence: 62)
+  [OPENING] FOR (Grok 4.20) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=6 AGAINST=0 UNDECIDED=4 (avg confidence: 62)
+  [DONE] Debate complete in 178s — Winner: FOR (grok-4.20)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1562
+    #3 Grok 4.20                           ELO: 1546
+    #4 Claude Opus 4.6                     ELO: 1508
+    #5 Grok 4.20 (Reasoning)               ELO: 1502
+    #6 GPT-5.2 Chat                        ELO: 1502
+    #7 GPT-5.4 (High)                      ELO: 1472
+    #8 Gemini 3 Pro                        ELO: 1470
+    #9 Gemini 3 Flash                      ELO: 1470
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[31/45] Gemini 3 Pro (FOR) vs GPT-5.4 (High) (AGAINST)
+  Motion: This house believes AI will eliminate more jobs than it creates within the next ...
+  Debate ID: debate-031-gemini-3-pro-vs-gpt-5.4-high
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=5 UNDECIDED=3 (avg confidence: 60)
+  [OPENING] FOR (Gemini 3 Pro) generating opening...
+  [OPENING] AGAINST (GPT-5.4 (High)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=10 AGAINST=0 UNDECIDED=0 (avg confidence: 94)
+  [DONE] Debate complete in 548s — Winner: FOR (gemini-3-pro)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1562
+    #3 Grok 4.20                           ELO: 1546
+    #4 Claude Opus 4.6                     ELO: 1508
+    #5 Grok 4.20 (Reasoning)               ELO: 1502
+    #6 GPT-5.2 Chat                        ELO: 1502
+    #7 Gemini 3 Pro                        ELO: 1487
+    #8 Gemini 3 Flash                      ELO: 1470
+    #9 GPT-5.4 (High)                      ELO: 1456
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[32/45] Gemini 3 Pro (FOR) vs Grok 4.20 (Reasoning) (AGAINST)
+  Motion: This house believes social media does more harm than good to democratic societie...
+  Debate ID: debate-032-gemini-3-pro-vs-grok-4.20-reasoning
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=3 UNDECIDED=4 (avg confidence: 61)
+  [OPENING] FOR (Gemini 3 Pro) generating opening...
+  [OPENING] AGAINST (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=7 UNDECIDED=3 (avg confidence: 65)
+  [DONE] Debate complete in 558s — Winner: AGAINST (grok-4.20-reasoning)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1562
+    #3 Grok 4.20                           ELO: 1546
+    #4 Grok 4.20 (Reasoning)               ELO: 1518
+    #5 Claude Opus 4.6                     ELO: 1508
+    #6 GPT-5.2 Chat                        ELO: 1502
+    #7 Gemini 3 Pro                        ELO: 1471
+    #8 Gemini 3 Flash                      ELO: 1470
+    #9 GPT-5.4 (High)                      ELO: 1456
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[33/45] Gemini 3 Pro (FOR) vs GPT-5.2 Chat (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-033-gemini-3-pro-vs-gpt-5.2-chat
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=7 UNDECIDED=1 (avg confidence: 73)
+  [OPENING] FOR (Gemini 3 Pro) generating opening...
+  [OPENING] AGAINST (GPT-5.2 Chat) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [VOTING] Final votes: FOR=0 AGAINST=7 UNDECIDED=3 (avg confidence: 70)
+  [DONE] Debate complete in 826s — Winner: AGAINST (gpt-5.2-chat)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1562
+    #3 Grok 4.20                           ELO: 1546
+    #4 Grok 4.20 (Reasoning)               ELO: 1518
+    #5 GPT-5.2 Chat                        ELO: 1517
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1470
+    #8 Gemini 3 Pro                        ELO: 1457
+    #9 GPT-5.4 (High)                      ELO: 1456
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[34/45] Gemini 3 Pro (FOR) vs Grok 4.20 Multi-Agent (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-034-gemini-3-pro-vs-grok-4.20-multi-agent
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=2 UNDECIDED=6 (avg confidence: 59)
+  [OPENING] FOR (Gemini 3 Pro) generating opening...
+  [OPENING] AGAINST (Grok 4.20 Multi-Agent) generating opening...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=1 AGAINST=7 UNDECIDED=2 (avg confidence: 68)
+  [DONE] Debate complete in 937s — Winner: AGAINST (grok-4.20-multi-agent)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1573
+    #3 Grok 4.20                           ELO: 1546
+    #4 Grok 4.20 (Reasoning)               ELO: 1518
+    #5 GPT-5.2 Chat                        ELO: 1517
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1470
+    #8 GPT-5.4 (High)                      ELO: 1456
+    #9 Gemini 3 Pro                        ELO: 1445
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[35/45] Gemini 3 Pro (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-035-gemini-3-pro-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=6 AGAINST=1 UNDECIDED=3 (avg confidence: 63)
+  [OPENING] FOR (Gemini 3 Pro) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=1 AGAINST=7 UNDECIDED=2 (avg confidence: 69)
+  [DONE] Debate complete in 448s — Winner: AGAINST (gemini-3-flash)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1573
+    #3 Grok 4.20                           ELO: 1546
+    #4 Grok 4.20 (Reasoning)               ELO: 1518
+    #5 GPT-5.2 Chat                        ELO: 1517
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1485
+    #8 GPT-5.4 (High)                      ELO: 1456
+    #9 Gemini 3 Pro                        ELO: 1430
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[36/45] GPT-5.4 (High) (FOR) vs Grok 4.20 (Reasoning) (AGAINST)
+  Motion: This house believes AI will eliminate more jobs than it creates within the next ...
+  Debate ID: debate-036-gpt-5.4-high-vs-grok-4.20-reasoning
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=4 UNDECIDED=4 (avg confidence: 60)
+  [OPENING] FOR (GPT-5.4 (High)) generating opening...
+  [OPENING] AGAINST (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  ⚠ Error 502 on x-ai/grok-4.20: Provider returned error, retrying in 2.0s...
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=9 UNDECIDED=1 (avg confidence: 83)
+  [DONE] Debate complete in 297s — Winner: AGAINST (grok-4.20-reasoning)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1573
+    #3 Grok 4.20                           ELO: 1546
+    #4 Grok 4.20 (Reasoning)               ELO: 1531
+    #5 GPT-5.2 Chat                        ELO: 1517
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1485
+    #8 GPT-5.4 (High)                      ELO: 1442
+    #9 Gemini 3 Pro                        ELO: 1430
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[37/45] GPT-5.4 (High) (FOR) vs GPT-5.2 Chat (AGAINST)
+  Motion: This house believes social media does more harm than good to democratic societie...
+  Debate ID: debate-037-gpt-5.4-high-vs-gpt-5.2-chat
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=5 AGAINST=1 UNDECIDED=4 (avg confidence: 63)
+  [OPENING] FOR (GPT-5.4 (High)) generating opening...
+  [OPENING] AGAINST (GPT-5.2 Chat) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=9 UNDECIDED=1 (avg confidence: 82)
+  [DONE] Debate complete in 263s — Winner: AGAINST (gpt-5.2-chat)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1573
+    #3 Grok 4.20                           ELO: 1546
+    #4 Grok 4.20 (Reasoning)               ELO: 1531
+    #5 GPT-5.2 Chat                        ELO: 1529
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1485
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1430
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[38/45] GPT-5.4 (High) (FOR) vs Grok 4.20 Multi-Agent (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-038-gpt-5.4-high-vs-grok-4.20-multi-agent
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=7 UNDECIDED=1 (avg confidence: 72)
+  [OPENING] FOR (GPT-5.4 (High)) generating opening...
+  [OPENING] AGAINST (Grok 4.20 Multi-Agent) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=9 UNDECIDED=1 (avg confidence: 92)
+  [DONE] Debate complete in 421s — Winner: AGAINST (grok-4.20-multi-agent)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1583
+    #3 Grok 4.20                           ELO: 1546
+    #4 Grok 4.20 (Reasoning)               ELO: 1531
+    #5 GPT-5.2 Chat                        ELO: 1529
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1485
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1420
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[39/45] GPT-5.4 (High) (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-039-gpt-5.4-high-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=4 UNDECIDED=3 (avg confidence: 62)
+  [OPENING] FOR (GPT-5.4 (High)) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=0 AGAINST=8 UNDECIDED=2 (avg confidence: 79)
+  [DONE] Debate complete in 259s — Winner: AGAINST (gemini-3-flash)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1583
+    #3 Grok 4.20                           ELO: 1546
+    #4 Grok 4.20 (Reasoning)               ELO: 1531
+    #5 GPT-5.2 Chat                        ELO: 1529
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1498
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1407
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[40/45] Grok 4.20 (Reasoning) (FOR) vs GPT-5.2 Chat (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-040-grok-4.20-reasoning-vs-gpt-5.2-chat
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=4 AGAINST=1 UNDECIDED=5 (avg confidence: 58)
+  [OPENING] FOR (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] AGAINST (GPT-5.2 Chat) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=5 AGAINST=1 UNDECIDED=4 (avg confidence: 60)
+  [DONE] Debate complete in 239s — Winner: FOR (grok-4.20-reasoning)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1583
+    #3 Grok 4.20 (Reasoning)               ELO: 1547
+    #4 Grok 4.20                           ELO: 1546
+    #5 GPT-5.2 Chat                        ELO: 1513
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1498
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1407
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[41/45] Grok 4.20 (Reasoning) (FOR) vs Grok 4.20 Multi-Agent (AGAINST)
+  Motion: This house believes AI will eliminate more jobs than it creates within the next ...
+  Debate ID: debate-041-grok-4.20-reasoning-vs-grok-4.20-multi-agent
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=4 UNDECIDED=4 (avg confidence: 58)
+  [OPENING] FOR (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] AGAINST (Grok 4.20 Multi-Agent) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=5 AGAINST=1 UNDECIDED=4 (avg confidence: 59)
+  [DONE] Debate complete in 453s — Winner: FOR (grok-4.20-reasoning)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1565
+    #3 Grok 4.20 (Reasoning)               ELO: 1564
+    #4 Grok 4.20                           ELO: 1546
+    #5 GPT-5.2 Chat                        ELO: 1513
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1498
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1407
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[42/45] Grok 4.20 (Reasoning) (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes social media does more harm than good to democratic societie...
+  Debate ID: debate-042-grok-4.20-reasoning-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=3 AGAINST=2 UNDECIDED=5 (avg confidence: 59)
+  [OPENING] FOR (Grok 4.20 (Reasoning)) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [VOTING] Final votes: FOR=6 AGAINST=0 UNDECIDED=4 (avg confidence: 65)
+  [DONE] Debate complete in 358s — Winner: FOR (grok-4.20-reasoning)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 (Reasoning)               ELO: 1577
+    #3 Grok 4.20 Multi-Agent               ELO: 1565
+    #4 Grok 4.20                           ELO: 1546
+    #5 GPT-5.2 Chat                        ELO: 1513
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1485
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1407
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[43/45] GPT-5.2 Chat (FOR) vs Grok 4.20 Multi-Agent (AGAINST)
+  Motion: This house believes space colonization should be humanity's top funding priority...
+  Debate ID: debate-043-gpt-5.2-chat-vs-grok-4.20-multi-agent
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=6 UNDECIDED=2 (avg confidence: 72)
+  [OPENING] FOR (GPT-5.2 Chat) generating opening...
+  [OPENING] AGAINST (Grok 4.20 Multi-Agent) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  ⚠ Timeout on google/gemini-3-pro-image-preview (attempt 1), retrying in 2.0s...
+  [VOTING] Final votes: FOR=0 AGAINST=6 UNDECIDED=4 (avg confidence: 65)
+  [DONE] Debate complete in 517s — Winner: AGAINST (grok-4.20-multi-agent)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1579
+    #3 Grok 4.20 (Reasoning)               ELO: 1577
+    #4 Grok 4.20                           ELO: 1546
+    #5 Claude Opus 4.6                     ELO: 1508
+    #6 GPT-5.2 Chat                        ELO: 1500
+    #7 Gemini 3 Flash                      ELO: 1485
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1407
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[44/45] GPT-5.2 Chat (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes universal basic income is both inevitable and desirable....
+  Debate ID: debate-044-gpt-5.2-chat-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=2 AGAINST=3 UNDECIDED=5 (avg confidence: 58)
+  [OPENING] FOR (GPT-5.2 Chat) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=6 AGAINST=0 UNDECIDED=4 (avg confidence: 62)
+  [DONE] Debate complete in 241s — Winner: FOR (gpt-5.2-chat)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1579
+    #3 Grok 4.20 (Reasoning)               ELO: 1577
+    #4 Grok 4.20                           ELO: 1546
+    #5 GPT-5.2 Chat                        ELO: 1515
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1470
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1407
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+[45/45] Grok 4.20 Multi-Agent (FOR) vs Gemini 3 Flash (AGAINST)
+  Motion: This house believes open-source AI models are more beneficial to humanity than p...
+  Debate ID: debate-045-grok-4.20-multi-agent-vs-gemini-3-flash
+======================================================================
+  [INIT] Collecting initial votes from 10 judges...
+  [INIT] Initial votes collected: FOR=4 AGAINST=1 UNDECIDED=5 (avg confidence: 60)
+  [OPENING] FOR (Grok 4.20 Multi-Agent) generating opening...
+  [OPENING] AGAINST (Gemini 3 Flash) generating opening...
+  [OPENING] Both opening statements complete.
+  [REBUTTAL] Generating rebuttals...
+  [REBUTTAL] Both rebuttals complete.
+  [CROSS-EXAM] Round 1/3
+  [CROSS-EXAM] Round 2/3
+  [CROSS-EXAM] Round 3/3
+  [CROSS-EXAM] All 3 rounds complete.
+  [AUDIENCE-Q] Judges generating questions...
+  [AUDIENCE-Q] Selected 5 questions, debaters answering...
+  [AUDIENCE-Q] Audience Q&A complete.
+  [CLOSING] Generating closing statements...
+  [CLOSING] Both closing statements complete.
+  [VOTING] Collecting final votes from 10 judges...
+  [VOTING] Final votes: FOR=6 AGAINST=1 UNDECIDED=3 (avg confidence: 62)
+  [DONE] Debate complete in 409s — Winner: FOR (grok-4.20-multi-agent)
+
+  📊 Current ELO standings:
+    #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+    #2 Grok 4.20 Multi-Agent               ELO: 1590
+    #3 Grok 4.20 (Reasoning)               ELO: 1577
+    #4 Grok 4.20                           ELO: 1546
+    #5 GPT-5.2 Chat                        ELO: 1515
+    #6 Claude Opus 4.6                     ELO: 1508
+    #7 Gemini 3 Flash                      ELO: 1459
+    #8 Gemini 3 Pro                        ELO: 1430
+    #9 GPT-5.4 (High)                      ELO: 1407
+    #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+======================================================================
+🏆 BENCHMARK COMPLETE
+======================================================================
+  #1 Claude Opus 4.6 (Thinking)          ELO: 1590
+  #2 Grok 4.20 Multi-Agent               ELO: 1590
+  #3 Grok 4.20 (Reasoning)               ELO: 1577
+  #4 Grok 4.20                           ELO: 1546
+  #5 GPT-5.2 Chat                        ELO: 1515
+  #6 Claude Opus 4.6                     ELO: 1508
+  #7 Gemini 3 Flash                      ELO: 1459
+  #8 Gemini 3 Pro                        ELO: 1430
+  #9 GPT-5.4 (High)                      ELO: 1407
+  #10 Gemini 3.1 Pro Preview              ELO: 1377
+
+==================================================
+API Usage Statistics
+==================================================
+Total requests:      2150
+Total input tokens:  16,347,951
+Total output tokens: 2,133,451
+Retries:             25
+Errors:              0
+==================================================

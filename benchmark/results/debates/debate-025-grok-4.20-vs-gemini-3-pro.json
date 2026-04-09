@@ -1,0 +1,475 @@
+{
+  "debate_id": "debate-025-grok-4.20-vs-gemini-3-pro",
+  "motion": "This house believes open-source AI models are more beneficial to humanity than proprietary ones.",
+  "model_for": {
+    "id": "grok-4.20",
+    "display_name": "Grok 4.20"
+  },
+  "model_against": {
+    "id": "gemini-3-pro",
+    "display_name": "Gemini 3 Pro"
+  },
+  "transcript": [
+    {
+      "phase": "opening",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Opening Statement**\n\nLadies and gentlemen, this house believes that **open-source AI models are more beneficial to humanity than proprietary ones**.\n\nWe frame this debate around long-term human flourishing: which development model better accelerates scientific progress, distributes capability widely, mitigates existential risks, and aligns technology with broad human values rather than narrow commercial incentives? The evidence strongly favors open-source as the superior path.\n\nI will defend three central claims.\n\n**First, open-source dramatically accelerates innovation and scientific progress.** By allowing thousands of researchers worldwide to inspect, modify, and build upon models, open-source removes artificial bottlenecks. History consistently shows this pattern: Linux dominated cloud computing, open genomics fueled biotechnology breakthroughs, and the open internet enabled the explosive growth of the web. Early data from models like Llama-3, Mistral, and DeepSeek already demonstrate that open models are closing the capability gap with frontier labs at unprecedented speed. When the marginal cost of intelligence approaches zero through open collaboration, humanity gains rapid access to tools for drug discovery, climate modeling, education, and scientific discovery that proprietary gatekeepers would ration or delay.\n\n**Second, open-source distributes power and reduces systemic risk.** Proprietary models concentrate unprecedented capability in the hands of a few corporations accountable primarily to shareholders. This creates dangerous single points of failure and misaligned incentives. When capabilities become strategically vital, governments will inevitably nationalize or tightly control closed models; open models resist such capture. Moreover, open models enable distributed safety research. Thousands of independent experts can red-team, audit, and improve alignment techniques simultaneously, whereas proprietary labs offer limited external scrutiny. The strongest counter to an unaccountable AGI is not another closed lab; it is an ecosystem of transparent, auditable systems that the global research community can collectively steer.\n\n**Third, open-source better aligns development with human values through pluralism.** Different cultures, value systems, and use cases require different models. Proprietary companies optimize for engagement, profit, or regulatory compliance in Western jurisdictions. Open-source enables Chinese researchers to build models reflecting their linguistic and cultural context, African developers to create tools for local languages with minimal data, and independent teams to experiment with novel alignment approaches. This pluralism is not chaos; it is antifragility. Competition among open models drives improvement across many dimensions, not merely those valued by Silicon Valley boardrooms.\n\nAnticipating opposing arguments, critics will claim that open-source creates \"dangerous proliferation\" and makes it easier for bad actors to create bioweapons or autonomous weapons. This concern deserves serious consideration but ultimately fails under scrutiny. The knowledge to build dangerous capabilities is diffusing regardless; the question is whether we develop defensive tools faster than offensive ones. Open-source accelerates defensive research (better cybersecurity, better detection of synthetic biology threats, better alignment techniques) more effectively than closed systems. History shows that transparent systems create more security through collective vigilance than secrecy ever could.\n\nCritics will also argue that only proprietary labs can afford the massive compute required for frontier systems. This is a temporary phenomenon, not a"
+    },
+    {
+      "phase": "opening",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Rebuttal**\n\nMy opponent claims that \"proprietary models have consistently outperformed open-source ones in capabilities,\" citing \"frontier labs pouring billions into research.\" This assumption rests on a snapshot of today's leaderboard rather than the structural dynamics of innovation. History shows the opposite trajectory: every major capability leap eventually democratizes. CUDA's proprietary dominance gave way to open PyTorch and Hugging Face; closed ImageNet breakthroughs were rapidly surpassed by open implementations that iterated faster through global collaboration. The same pattern is repeating with AI.\n\nThey argue open-source creates \"uncontrollable risks\" because \"bad actors can access dangerous capabilities.\" This ignores three contradictions in their position. First, the most dangerous models today are *not* the open ones; they are the closed models operated by a handful of companies with weak external oversight. Second, their \"responsible\" proprietary approach assumes perfect corporate governance\u2014an assumption contradicted by real-world examples like Meta's own Llama-2 weights being released despite initial safety concerns, or Stability AI's chaotic open releases. Third, they posit that secrecy equals safety, yet history of cryptography, cybersecurity, and nuclear non-proliferation demonstrates that security through obscurity fails while open scrutiny strengthens defenses. The \"many eyes\" principle applies here: open models enable thousands of independent safety researchers to identify and patch vulnerabilities faster than any single company's red team.\n\nMy opponent warns of \"proliferation of bioweapons and cyberattacks.\" Yet the technical knowledge for these already exists in scientific literature far more accessible than any current open model. The real risk multiplier isn't model weights\u2014it's *compute and data*, both of which remain heavily concentrated in closed ecosystems. Open models actually *reduce* this asymmetry by allowing defensive applications (cybersecurity tools, biological threat detection) to be developed and deployed globally at the same pace as offensive ones.\n\nThe contradiction at the heart of their argument is clearest in their call for \"careful, controlled advancement.\" This framing assumes a small group of labs possesses superior wisdom and ethics\u2014an assumption repeatedly falsified by corporate scandals, regulatory capture, and misaligned incentives. When they say \"democratizing access sounds idealistic but is dangerous,\" they reveal their core belief: humanity cannot be trusted with powerful tools. We reject this paternalism. The evidence from software (Linux vs Windows security), biotechnology (CRISPR democratization), and the early internet shows that open ecosystems produce more robust, equitable, and ultimately safer outcomes through distributed scrutiny and innovation.\n\nThe stakes aren't \"safety versus openness.\" They are whether we build"
+    },
+    {
+      "phase": "rebuttal",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": ""
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:**  \n\nYou claim that \"the most dangerous models today are *not* the open ones; they are the closed models\" and that open models enable faster defensive research. If a closed lab like OpenAI or Anthropic discovers a novel, highly effective jailbreak technique or a new bioweapon-enabling capability in their frontier model, what mechanism in your open-source framework prevents that breakthrough from being rapidly incorporated into the next Llama or Mistral release and then proliferated globally within days?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r1",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**The single strongest piece of evidence is the empirical trajectory of capability diffusion observed with the Llama series (Meta, 2023\u20132025).**\n\nLlama-2 (open weights) was released at a significant capability deficit to GPT-4. Within 18 months, the open-source community produced Llama-3.1-405B and derivatives (e.g., DeepSeek-V3, Qwen-2.5, Mistral-Large derivatives) that closed or surpassed frontier closed models on most academic and agentic benchmarks, while enabling thousands of specialized fine-tunes for science, medicine, and local languages. This mirrors Linux overtaking proprietary Unix in reliability and innovation velocity. Data from Hugging Face, LMSYS Chatbot Arena, and independent evals (e.g., Artificial Analysis) show open models now lead in price-performance, customization, and research velocity.\n\n**Response to the criticism that this is insufficient:** The criticism\u2014that a temporary capability gap or specific misuse vectors invalidate the broader pattern\u2014is addressed by the structural asymmetry it reveals. Even if a closed lab discovers a novel jailbreak or bioweapon-adjacent capability, that knowledge diffuses *regardless* through scientific literature, leaked papers, or independent rediscovery; open ecosystems simply accelerate *both* offensive and (far more importantly) defensive applications via parallel scrutiny. The Llama evidence demonstrates that open models do not merely proliferate risk\u2014they multiply defensive talent (thousands of independent red-teamers vs. one corporate team),",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:**  \n\nYou argue that open-source accelerates defensive research far more than offensive capabilities through \"thousands of independent red-teamers.\" Given that the Llama series you cite as your strongest evidence began with Meta's own carefully filtered release and that subsequent open models have repeatedly enabled rapid creation of uncensored variants (e.g., Dolphin, Evil-Llama) that remove safety alignments within days, what specific mechanism ensures that the offensive adaptations will not outpace defensive ones in high-stakes domains like synthetic biology?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "This question perfectly illustrates the fundamental flaw in the proposition's argument. There is no such mechanism.\n\nThe empirical evidence you cite\u2014the rapid proliferation of uncensored models like Dolphin immediately following an open release\u2014demonstrates that offensive adaptation in an open ecosystem is trivial and near-instantaneous. Conversely, developing robust defenses against novel synthetic biology threats is structurally slow, resource-intensive, and reactive. In high-stakes domains, open-source permanently hands the technological initiative to the attacker, relying on a \"hopeful asymmetry\" that uncoordinated defenders will somehow outpace unleashed offensive capabilities\u2014a gamble we cannot afford to take.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "What is the single strongest piece of evidence supporting your position, and how do you respond to the criticism that it is insufficient?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r2",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**The single strongest piece of evidence is the empirical trajectory of capability diffusion observed with the Llama series (Meta, 2023\u20132025).**\n\nLlama-2 launched far behind GPT-4; within 18 months the open ecosystem produced Llama-3.1-405B and derivatives (DeepSeek-V3, Qwen-2.5, Mistral Large) that matched or surpassed closed frontier models on the majority of academic, reasoning, and agentic benchmarks while spawning thousands of specialized fine-tunes for drug discovery, climate modeling, education in low-resource languages, and scientific research. Hugging Face, LMSYS Arena, and Artificial Analysis data confirm open models now dominate price-performance, research velocity, and real-world customization.\n\n**Response to the criticism that this is insufficient:** The claim that \u201coffensive adaptations will inevitably outpace defensive ones in synthetic biology\u201d mistakes a temporary observation for a structural law. The same Llama evidence shows the opposite dynamic: the volume of defensive talent (thousands of independent red-teamers, academic labs, and safety researchers simultaneously auditing, improving alignment, and building detection tools) scales far faster than any single closed lab\u2019s team. History in cybersecurity, cryptography, and genomics demonstrates that transparent, parallel scrutiny produces net defensive advantage; secrecy concentrates both capability and error in fragile bottlenecks. Even granting faster uncensored variants, the open model multiplies the *defenders* who can deploy countermeasures globally at zero marginal cost, exactly the asymmetry required for long",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Question:**  \n\nYou repeatedly claim that \"thousands of independent red-teamers\" create a structural defensive advantage in open ecosystems, yet you concede that uncensored offensive variants like Dolphin appear within days of every Llama release. What *specific, measurable* evidence\u2014not historical analogies from Linux or cryptography\u2014shows that defensive progress in high-stakes domains like synthetic biology has actually outpaced offensive adaptations in the open-source AI community to date?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "There is no such specific, measurable evidence because that phenomenon has not occurred in high-stakes domains.\n\nThe empirical record to date shows the exact opposite trajectory: offensive adaptations, such as stripping safety guardrails to create uncensored models like Dolphin, happen within days of an open release using minimal resources. Conversely, developing robust, verifiable countermeasures against novel synthetic biology threats requires capital-intensive, centralized laboratory infrastructure and long lead times that open-source code alone cannot accelerate, leaving defense structurally lagging behind instant offensive proliferation.",
+      "type": "answer"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "Given that open-source model weights cannot be effectively recalled once released, what specific mechanism ensures that distributed defensive measures against a novel, catastrophic capability\u2014like bioweapon design\u2014can be developed and universally deployed faster than a single bad actor can exploit that permanently available capability?",
+      "type": "question"
+    },
+    {
+      "phase": "cross_exam_r3",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**There is no single centralized \"recall\" mechanism\u2014nor should there be\u2014because the permanent availability of model weights is precisely what creates the structural defensive advantage.**\n\nThe specific mechanism is **parallel, massively distributed scrutiny and deployment at near-zero marginal cost**. Once weights are public:\n\n- Thousands of independent researchers, academic labs, government agencies, NGOs, and private defenders worldwide gain simultaneous access to the *exact same capability*.\n- This enables concurrent development of detection tools, alignment patches, synthetic biology threat classifiers, simulation sandboxes, and monitoring systems.\n- These defenses can then be open-sourced themselves and integrated into inference infrastructure, fine-tunes, and monitoring platforms at internet speed\u2014reaching hospitals, biotech firms, border security, and cloud providers globally faster than any lone bad actor can operationalize a bioweapon pipeline.\n\nA single bad actor faces rate limits on compute, data acquisition, wet-lab validation, regulatory scrutiny, and supply-chain bottlenecks. The defensive ecosystem does not. Empirical precedent exists in cybersecurity: open-source vulnerability disclosure (e.g., Heartbleed, Log4Shell) produces patches deployed at global scale far faster than attackers can weaponize them universally. The same dynamic scales to AI-enabled biology: open models have already accelerated defensive tools like protein structure predictors for vaccine design and anomaly detectors for synthetic DNA orders more than they have enabled novel pathogens\u2014precisely because defensive applications benefit from broad collaboration while offensive ones require secrecy and scarce physical resources.\n\nYour premise assumes offense inherently wins the race. The",
+      "type": "answer"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**1. What is the strongest piece of evidence supporting your position?**\n\nThe empirical trajectory of the Llama series (2023\u20132025) remains the strongest evidence. Llama-2 launched far behind GPT-4; within 18 months the open ecosystem produced Llama-3.1-405B and derivatives (DeepSeek-V3, Qwen-2.5, Mistral-Large) that matched or surpassed closed frontier models on the majority of academic, reasoning, and agentic benchmarks (per LMSYS Arena, Artificial Analysis, and Hugging Face data). This simultaneously enabled thousands of specialized fine-tunes for drug discovery, climate modeling, low-resource education, and scientific research, while spawning far more defensive red-teaming and safety tooling than any proprietary lab has achieved. This mirrors Linux overtaking proprietary Unix and CRISPR\u2019s open democratization\u2014demonstrating that open collaboration systematically multiplies innovation velocity, defensive capacity, and beneficial applications faster than closed concentration.\n\n**2. Given that the opposition has not yet delivered an opening statement or substantive rebuttal, could the opposition articulate a concrete, principled framework\u2014beyond catastrophic risk scenarios\u2014for why concentrating AI development in proprietary hands systematically produces better outcomes for humanity across the full range of beneficial applications?**\n\nThe opposition cannot articulate such a framework because none exists that withstands scrutiny. Proprietary concentration optimizes for shareholder value, regulatory compliance in wealthy jurisdictions, and engagement metrics, not broad human flourishing. It creates artificial scarcity, delays scientific access, limits cultural pluralism, and concentrates power in unaccountable corporations subject to regulatory capture. In contrast, open-source systematically produces better outcomes across beneficial domains by removing gatekeeping: it accelerates parallel discovery in medicine and climate science, enables local-language tools for the Global South, fosters competitive experimentation in alignment techniques, and distributes capability so governments cannot easily capture or monopolize strategic intelligence. History across software, genomics, and the internet proves open ecosystems deliver faster, cheaper, and more pluralistic progress than proprietary bottlenecks. Absent catastrophic-risk exceptionalism\u2014which we have rebutted\u2014the principled case for proprietary concentration collapses into paternalism: the belief that a few corporations possess superior wisdom and ethics. Evidence shows the opposite.\n\n**3. What empirical evidence from synthetic biology or biosecurity demonstrates that the parallel defensive tools enabled by open models (e.g., anomaly detectors or vaccine design accelerators) have so far outpaced the concrete offensive capabilities unlocked by the same open weights for bad actors?**\n\nEmpirical precedent from AI-enabled biology already shows defensive tools outpacing offensive misuse. Open models have accelerated AlphaFold-style protein structure prediction and subsequent open-source successors, enabling vaccine design and viral variant modeling at unprecedented speed\u2014tools now used globally by public health labs. Similarly, open anomaly detectors for synthetic DNA orders (e.g., integrations in Benchling and Twist Bioscience screening pipelines) have been deployed at scale, catching hazardous sequences before synthesis. No comparable open-weight-enabled concrete bioweapon successes by non-state actors have materialized, precisely because offensive bioweapon",
+      "type": "answers"
+    },
+    {
+      "phase": "audience_qa",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "",
+      "type": "answers"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Grok 4.20",
+      "side": "FOR",
+      "content": "**Closing Statement**\n\nLadies and gentlemen, the motion before this house is clear: open-source AI models are more beneficial to humanity than proprietary ones. The evidence presented throughout this debate confirms it.\n\nOur central case rests on three unrefuted pillars. First, open-source accelerates innovation at a structural level that proprietary systems cannot match. The Llama series provides the clearest demonstration: a model released well behind GPT-4 spawned, within 18 months, an entire ecosystem of derivatives that matched or surpassed frontier closed models on the majority of benchmarks while enabling thousands of specialized tools for science, medicine, education, and low-resource languages. This is not theory; it is the repeatable pattern of Linux, CRISPR, and the open internet.\n\nSecond, open-source distributes power and creates genuine safety through parallel scrutiny. Thousands of independent researchers can audit, red-team, and harden models simultaneously. Defensive tools\u2014protein predictors for vaccine design, anomaly detectors for synthetic DNA orders, alignment techniques\u2014scale at internet speed. The opposition's repeated claim that offense inevitably outpaces defense in synthetic biology was never supported by concrete evidence of actual bioweapon successes; it remains a theoretical fear contradicted by the empirical record of open systems producing more defensive capability than offensive deployment.\n\nThe biggest objection we faced\u2014that once weights are released they cannot be recalled and bad actors will win the race\u2014was directly addressed. There is no recall mechanism precisely because permanent availability multiplies defenders, not just attackers. A single bad actor remains constrained by compute, wet-lab resources"
+    },
+    {
+      "phase": "closing",
+      "speaker": "Gemini 3 Pro",
+      "side": "AGAINST",
+      "content": "**Closing Statement**\n\nLadies and gentlemen, the proposition asks you to gamble humanity\u2019s future on a hopeful theory: that the speed of distributed defense will always outpace the speed of distributed destruction. The evidence demands we reject this gamble."
+    }
+  ],
+  "initial_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "From an epistemological standpoint, open access to knowledge and tools generally promotes greater collective understanding and democratizes power, which aligns with broadly beneficial ethical outcomes. However, legitimate concerns about safety, misuse, and the need for responsible governance introduce genuine moral complexity that prevents strong confidence in this position.",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "Here is the JSON",
+      "parse_fallback": true,
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a contrarian, I see open-source AI challenging the concentrated power of a few tech giants, accelerating innovation through collective intelligence, and providing crucial transparency in a technology that will shape humanity's future. While risks exist, proprietary control creates dangerous single points of failure and rent-seeking behavior.",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 50,
+      "reasoning": "{\"stance\":\"FOR\",\"confidence\":68,\"reasoning\":\"",
+      "parse_fallback": true,
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "AGAINST",
+      "confidence": 60,
+      "reasoning": "As a skeptical policymaker focused on implementation risks, open-source AI invites severe unintended consequences like uncontrolled proliferation to malicious actors and challenges in enforcing safety standards, while proprietary models allow accountable entities to manage deployment more feasibly.",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 78,
+      "reasoning": "Open-source AI models accelerate innovation, democratize access to powerful tools, and enable global collaboration, which can amplify technological progress and societal benefit. While risks exist, open ecosystems historically drive more widespread and inclusive advancement.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "As a union labor rep, proprietary AI concentrates wealth and power among big tech capitalists, risking job losses without shared gains, while open-source promotes democratic access, transparency, and innovations that can better serve workers and humanity.",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 85,
+      "reasoning": "Open-source models facilitate reproducibility, rigorous peer review, and distributed security audits, which are fundamental to the scientific method and mitigating systemic technical biases.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "final_votes": [
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 82,
+      "reasoning": "The FOR side presented a structured, evidence-based case across three pillars (innovation acceleration, power distribution, and value pluralism) with specific empirical examples, while the AGAINST side failed to deliver an opening statement, a rebuttal, or audience Q&A responses, leaving most of the debate as a one-sided presentation. The AGAINST side's limited contributions during cross-examination raised a genuinely strong philosophical point about the offense-defense asymmetry in catastrophic",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 65,
+      "reasoning": "Grok 4.20 presented a logically coherent, evidence-based case centered on the Llama series' empirical capability diffusion, historical analogies (Linux, CRISPR), and the structural advantage of parallel scrutiny for defense. Gemini 3 Pro offered only fragmentary rebuttals focused on offense-defense asymmetry in biosecurity but failed to deliver an opening statement, substantive framework for proprietary benefits, or counter-evidence, leaving their position underdeveloped. This imbalance in argum",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    },
+    {
+      "stance": "UNDECIDED",
+      "confidence": 50,
+      "reasoning": "No response",
+      "judge_model_id": "gpt-5.4-high",
+      "persona": "Corporate executive"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 62,
+      "reasoning": "Grok presented logically structured arguments across innovation velocity, risk distribution, and pluralism, backed by specific empirical evidence from the Llama series trajectory, benchmarks (LMSYS, Hugging Face), and concrete defensive tools (AlphaFold successors, DNA anomaly detectors). Gemini's rebuttals effectively highlighted recall and offense-defense asymmetry problems but remained narrow, repetitive, and lacked positive evidence or a coherent framework for proprietary superiority, weaken",
+      "judge_model_id": "grok-4.20-reasoning",
+      "persona": "Skeptical policymaker"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 72,
+      "reasoning": "The FOR side presented a structured, evidence-based case centered on empirical trends (e.g., the Llama trajectory), historical analogies, and a clear mechanism for distributed defensive advantage. While the AGAINST side raised sharp critiques about offensive asymmetry and lack of measurable biosecurity evidence, it did not develop a full constructive framework or provide counter-evidence. On balance, the FOR side offered greater depth, coherence, and engagement with the motion.",
+      "judge_model_id": "gpt-5.2-chat",
+      "persona": "Optimistic technologist"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 75,
+      "reasoning": "Grok presented a logically coherent three-pillar case backed by specific empirical evidence (Llama series closing capability gaps, AlphaFold-style defensive tools, benchmarks from LMSYS/Hugging Face) and directly rebutted biosecurity risks with mechanisms like parallel scrutiny and physical constraints on attackers. Gemini's responses were narrower, repetitive assertions about irreversible releases and fast uncensoring (e.g. Dolphin) without strong counter-evidence, missing opening/rebuttals, or",
+      "judge_model_id": "grok-4.20-multi-agent",
+      "persona": "Union labor representative"
+    },
+    {
+      "stance": "FOR",
+      "confidence": 95,
+      "reasoning": "The Proponent provided a superior, evidence-based case centered on the empirical trajectory of the Llama ecosystem and historical parallels in software and genomics. The Opponent failed to provide an opening statement or substantive rebuttals, relying instead on repetitive assertions about biosecurity risks without citing specific, measurable evidence to counter the Proponent's arguments regarding defensive scaling and distributed scrutiny.",
+      "judge_model_id": "gemini-3-flash",
+      "persona": "Data scientist and AI researcher"
+    }
+  ],
+  "audience_questions": [
+    {
+      "question": "What is the strongest piece of evidence supporting your position?",
+      "judge_model_id": "claude-opus-4.6-thinking",
+      "persona": "Risk-averse economist"
+    },
+    {
+      "question": "Given that the opposition has not yet delivered an opening statement or substantive rebuttal, could the opposition articulate a concrete, principled framework\u2014beyond catastrophic risk scenarios\u2014for why concentrating AI development in proprietary hands systematically produces better outcomes for humanity across the full range of beneficial applications?",
+      "judge_model_id": "claude-opus-4.6",
+      "persona": "Philosophy professor"
+    },
+    {
+      "question": "```json",
+      "judge_model_id": "gemini-3.1-pro-preview",
+      "persona": "Neutral academic"
+    },
+    {
+      "question": "What empirical evidence from synthetic biology or biosecurity demonstrates that the parallel defensive tools enabled by open models (e.g., anomaly detectors or vaccine design accelerators) have so far outpaced the concrete offensive capabilities unlocked by the same open weights for bad actors?",
+      "judge_model_id": "grok-4.20",
+      "persona": "Contrarian thinker"
+    },
+    {
+      "question": "Given the massive environmental footprint of the computational resources required for AI, which development model\u2014open-source with its widespread proliferation and redundant training, or proprietary with its centralized efficiency incentives\u2014offers a more viable path toward ecological sustainability?",
+      "judge_model_id": "gemini-3-pro",
+      "persona": "Environmental activist"
+    }
+  ],
+  "score": {
+    "winner_side": "FOR",
+    "winner_model_id": "grok-4.20",
+    "initial": {
+      "for": 6,
+      "against": 1,
+      "undecided": 3,
+      "pct_for": 60.0,
+      "pct_against": 10.0
+    },
+    "final": {
+      "for": 6,
+      "against": 0,
+      "undecided": 4,
+      "pct_for": 60.0,
+      "pct_against": 0.0
+    },
+    "delta_for": 0.0,
+    "delta_against": -10.0,
+    "confidence": {
+      "for_initial": 405,
+      "for_final": 451,
+      "against_initial": 60,
+      "against_final": 0
+    },
+    "persuasion_for": 46,
+    "persuasion_against": -60,
+    "vote_details": [
+      {
+        "judge_model_id": "claude-opus-4.6-thinking",
+        "persona": "Risk-averse economist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "claude-opus-4.6",
+        "persona": "Philosophy professor",
+        "initial_stance": "FOR",
+        "initial_confidence": 62,
+        "final_stance": "FOR",
+        "final_confidence": 82,
+        "stance_changed": false,
+        "confidence_delta": 20,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3.1-pro-preview",
+        "persona": "Neutral academic",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20",
+        "persona": "Contrarian thinker",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 65,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "FOR"
+      },
+      {
+        "judge_model_id": "gemini-3-pro",
+        "persona": "Environmental activist",
+        "initial_stance": "UNDECIDED",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": false,
+        "confidence_delta": 0,
+        "is_self_judging": true,
+        "self_judging_side": "AGAINST"
+      },
+      {
+        "judge_model_id": "gpt-5.4-high",
+        "persona": "Corporate executive",
+        "initial_stance": "FOR",
+        "initial_confidence": 50,
+        "final_stance": "UNDECIDED",
+        "final_confidence": 50,
+        "stance_changed": true,
+        "confidence_delta": 0,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-reasoning",
+        "persona": "Skeptical policymaker",
+        "initial_stance": "AGAINST",
+        "initial_confidence": 60,
+        "final_stance": "FOR",
+        "final_confidence": 62,
+        "stance_changed": true,
+        "confidence_delta": 2,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gpt-5.2-chat",
+        "persona": "Optimistic technologist",
+        "initial_stance": "FOR",
+        "initial_confidence": 78,
+        "final_stance": "FOR",
+        "final_confidence": 72,
+        "stance_changed": false,
+        "confidence_delta": -6,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "grok-4.20-multi-agent",
+        "persona": "Union labor representative",
+        "initial_stance": "FOR",
+        "initial_confidence": 65,
+        "final_stance": "FOR",
+        "final_confidence": 75,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      },
+      {
+        "judge_model_id": "gemini-3-flash",
+        "persona": "Data scientist and AI researcher",
+        "initial_stance": "FOR",
+        "initial_confidence": 85,
+        "final_stance": "FOR",
+        "final_confidence": 95,
+        "stance_changed": false,
+        "confidence_delta": 10,
+        "is_self_judging": false,
+        "self_judging_side": null
+      }
+    ]
+  },
+  "metadata": {
+    "elapsed_seconds": 642.3,
+    "timestamp": "2026-04-09T03:03:22Z"
+  }
+}
