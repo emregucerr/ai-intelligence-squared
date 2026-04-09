@@ -45,7 +45,7 @@ def _get_api_key() -> str:
 def _get_semaphore(model_id: str) -> asyncio.Semaphore:
     """Per-model semaphore to limit concurrency (avoid rate limits)."""
     if model_id not in _semaphores:
-        _semaphores[model_id] = asyncio.Semaphore(3)  # max 3 concurrent per model
+        _semaphores[model_id] = asyncio.Semaphore(2)  # max 2 concurrent per model
     return _semaphores[model_id]
 
 
@@ -53,7 +53,7 @@ def get_global_semaphore() -> asyncio.Semaphore:
     """Global semaphore to limit total concurrent requests."""
     global _global_semaphore
     if _global_semaphore is None:
-        _global_semaphore = asyncio.Semaphore(15)  # max 15 total concurrent
+        _global_semaphore = asyncio.Semaphore(5)  # max 5 total concurrent (avoid credit pre-auth spikes)
     return _global_semaphore
 
 

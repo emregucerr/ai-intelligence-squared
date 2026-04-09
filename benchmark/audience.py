@@ -110,49 +110,57 @@ class JudgePanel:
             self.agents.append(JudgeAgent(model, persona, motion))
 
     async def collect_initial_votes(self) -> list[dict]:
-        """Run all 10 judges in parallel to get pre-debate stances."""
-        tasks = [agent.initial_vote() for agent in self.agents]
-        results = await asyncio.gather(*tasks, return_exceptions=True)
-        votes = []
-        for i, r in enumerate(results):
-            if isinstance(r, Exception):
-                print(f"  ⚠ Judge {self.agents[i].model['id']} initial vote failed: {r}")
-                votes.append({
-                    "stance": "UNDECIDED",
-                    "confidence": 50,
-                    "reasoning": f"Error: {str(r)}",
-                    "judge_model_id": self.agents[i].model["id"],
-                    "persona": self.agents[i].persona_name,
-                    "error": True,
-                })
-            else:
-                votes.append(r)
-        return votes
+        """Run judges in small batches to avoid credit pre-auth spikes."""
+        return await self._run_batched(
+            [agent.initial_vote() for agent in self.agents],
+            "initial vote",
+        )
 
     async def collect_questions(self, transcript: str) -> list[dict]:
-        """Each judge generates one question. Returns list of {question, judge_model_id}."""
-        tasks = [agent.generate_question(transcript) for agent in self.agents]
-        results = await asyncio.gather(*tasks, return_exceptions=True)
+        """Each judge generates one question in small batches."""
+        coros = [agent.generate_question(transcript) for agent in self.agents]
+        results = await self._run_batched_raw(coros, "question")
         questions = []
         for i, r in enumerate(results):
-            if isinstance(r, Exception):
-                print(f"  ⚠ Judge {self.agents[i].model['id']} question failed: {r}")
-            else:
+            if r is not None:
                 questions.append(r)
         return questions
 
     async def collect_final_votes(self, transcript: str) -> list[dict]:
-        """Run all 10 judges in parallel to get post-debate stances."""
-        tasks = [agent.final_vote(transcript) for agent in self.agents]
-        results = await asyncio.gather(*tasks, return_exceptions=True)
+        """Run judges in small batches to avoid credit pre-auth spikes."""
+        return await self._run_batched(
+            [agent.final_vote(transcript) for agent in self.agents],
+            "final vote",
+        )
+
+    async def _run_batched_raw(self, coros: list, label: str, batch_size: int = 3):
+        """Run coroutines in batches, returning results (or None for failures)."""
+        results = [None] * len(coros)
+        for start in range(0, len(coros), batch_size):
+            batch = coros[start : start + batch_size]
+            batch_results = await asyncio.gather(*batch, return_exceptions=True)
+            for j, r in enumerate(batch_results):
+                idx = start + j
+                if isinstance(r, Exception):
+                    print(f"  ⚠ Judge {self.agents[idx].model['id']} {label} failed: {r}")
+                    results[idx] = None
+                else:
+                    results[idx] = r
+            # Brief pause between batches to let credits settle
+            if start + batch_size < len(coros):
+                await asyncio.sleep(1)
+        return results
+
+    async def _run_batched(self, coros: list, label: str, batch_size: int = 3) -> list[dict]:
+        """Run vote coroutines in batches, with fallback for failures."""
+        raw = await self._run_batched_raw(coros, label, batch_size)
         votes = []
-        for i, r in enumerate(results):
-            if isinstance(r, Exception):
-                print(f"  ⚠ Judge {self.agents[i].model['id']} final vote failed: {r}")
+        for i, r in enumerate(raw):
+            if r is None:
                 votes.append({
                     "stance": "UNDECIDED",
                     "confidence": 50,
-                    "reasoning": f"Error: {str(r)}",
+                    "reasoning": f"Error during {label}",
                     "judge_model_id": self.agents[i].model["id"],
                     "persona": self.agents[i].persona_name,
                     "error": True,
