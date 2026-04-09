@@ -14,7 +14,7 @@ import time
 
 # Load env
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override=True)
 
 from benchmark.models import MODELS, PERSONA_MAP, TOPICS, get_model_by_id
 from benchmark.api_client import chat_completion, print_stats, stats

@@ -15,7 +15,7 @@ import time
 from itertools import combinations
 
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(override=True)
 
 from benchmark.models import MODELS, TOPICS, get_all_model_ids
 from benchmark.debate import run_debate
@@ -66,12 +66,12 @@ async def run_benchmark(start_from: int = 0, end_at: int = 45):
     # Initialize ELO tracker
     elo = EloTracker(get_all_model_ids())
     
-    # Load existing results if resuming
+    # Always load existing results to skip already-completed debates
     all_results = []
     existing_ids = set()
     
-    if start_from > 0:
-        for fname in os.listdir(DEBATES_DIR):
+    if os.path.exists(DEBATES_DIR):
+        for fname in sorted(os.listdir(DEBATES_DIR)):
             if fname.endswith(".json") and fname != "test-001.json":
                 fpath = os.path.join(DEBATES_DIR, fname)
                 with open(fpath) as f:
@@ -85,7 +85,8 @@ async def run_benchmark(start_from: int = 0, end_at: int = 45):
                         result["score"]["winner_model_id"],
                         debate_id=result["debate_id"],
                     )
-        print(f"  Loaded {len(all_results)} existing results")
+        if all_results:
+            print(f"  Loaded {len(all_results)} existing results, will skip them")
     
     # Run debates
     for i in range(start_from, total):
