@@ -53,7 +53,7 @@ def get_global_semaphore() -> asyncio.Semaphore:
     """Global semaphore to limit total concurrent requests."""
     global _global_semaphore
     if _global_semaphore is None:
-        _global_semaphore = asyncio.Semaphore(5)  # max 5 total concurrent (avoid credit pre-auth spikes)
+        _global_semaphore = asyncio.Semaphore(10)  # max 10 total concurrent (3 parallel debates)
     return _global_semaphore
 
 

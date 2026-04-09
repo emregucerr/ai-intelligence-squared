@@ -25,6 +25,7 @@ from benchmark.api_client import print_stats
 
 RESULTS_DIR = "benchmark/results"
 DEBATES_DIR = os.path.join(RESULTS_DIR, "debates")
+PARALLEL_DEBATES = 3  # Run 3 debates concurrently
 
 
 def generate_matchups() -> list[tuple[dict, dict, str, str]]:
@@ -88,21 +89,25 @@ async def run_benchmark(start_from: int = 0, end_at: int = 45):
         if all_results:
             print(f"  Loaded {len(all_results)} existing results, will skip them")
     
-    # Run debates
+    # Collect remaining (not-yet-completed) debates
+    remaining = []
     for i in range(start_from, total):
         model_for, model_against, motion, debate_id = matchups[i]
-        
-        # Skip if already completed
         if debate_id in existing_ids:
-            print(f"\n[{i+1}/{total}] SKIP (already done): {debate_id}")
+            print(f"  SKIP (already done): {debate_id}")
             continue
-        
+        remaining.append((i, model_for, model_against, motion, debate_id))
+
+    print(f"\n  {len(remaining)} debates remaining, running {PARALLEL_DEBATES} in parallel\n")
+
+    async def run_single(idx, model_for, model_against, motion, debate_id):
+        """Run a single debate, save result, return result dict or None."""
         print(f"\n{'='*70}")
-        print(f"[{i+1}/{total}] {model_for['display_name']} (FOR) vs {model_against['display_name']} (AGAINST)")
+        print(f"[{idx+1}/{total}] {model_for['display_name']} (FOR) vs {model_against['display_name']} (AGAINST)")
         print(f"  Motion: {motion[:80]}...")
         print(f"  Debate ID: {debate_id}")
         print(f"{'='*70}")
-        
+
         try:
             result = await run_debate(
                 model_for=model_for,
@@ -110,40 +115,49 @@ async def run_benchmark(start_from: int = 0, end_at: int = 45):
                 motion=motion,
                 debate_id=debate_id,
             )
-            
-            # Save individual debate result
+
             result_dict = result.to_dict()
             fpath = os.path.join(DEBATES_DIR, f"{debate_id}.json")
             with open(fpath, "w") as f:
                 json.dump(result_dict, f, indent=2)
-            
-            all_results.append(result_dict)
-            
-            # Update ELO
-            elo.update(
-                model_for["id"],
-                model_against["id"],
-                result.score["winner_model_id"],
-                debate_id=debate_id,
-            )
-            
-            # Print intermediate leaderboard
-            print(f"\n  📊 Current ELO standings:")
-            for entry in elo.get_leaderboard():
-                print(f"    #{entry['rank']} {entry['display_name']:35s} ELO: {entry['elo']:.0f}")
-            
-            # Save intermediate leaderboard
-            _save_leaderboard(elo, all_results)
-            
-            # Brief pause between debates to be nice to APIs
-            await asyncio.sleep(2)
-            
+
+            return result_dict
+
         except Exception as e:
-            print(f"\n  ❌ DEBATE FAILED: {e}")
+            print(f"\n  ❌ DEBATE FAILED ({debate_id}): {e}")
             import traceback
             traceback.print_exc()
-            # Continue with next matchup
-            continue
+            return None
+
+    # Run debates in parallel batches
+    for batch_start in range(0, len(remaining), PARALLEL_DEBATES):
+        batch = remaining[batch_start : batch_start + PARALLEL_DEBATES]
+        print(f"\n🚀 Launching batch of {len(batch)} debates in parallel...")
+
+        tasks = [
+            run_single(idx, mf, ma, mot, did)
+            for idx, mf, ma, mot, did in batch
+        ]
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        for r in results:
+            if isinstance(r, Exception):
+                print(f"  ❌ Batch item failed: {r}")
+            elif r is not None:
+                all_results.append(r)
+                elo.update(
+                    r["model_for"]["id"],
+                    r["model_against"]["id"],
+                    r["score"]["winner_model_id"],
+                    debate_id=r["debate_id"],
+                )
+
+        # Print intermediate leaderboard after each batch
+        print(f"\n  📊 Current ELO standings ({len(all_results)} debates):")
+        for entry in elo.get_leaderboard():
+            print(f"    #{entry['rank']} {entry['display_name']:35s} ELO: {entry['elo']:.0f}")
+
+        _save_leaderboard(elo, all_results)
     
     # Final save
     _save_leaderboard(elo, all_results)
