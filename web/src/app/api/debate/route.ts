@@ -1,7 +1,8 @@
 import { NextRequest } from "next/server";
 
-// OpenRouter API proxy for live debates
-// The user's API key is passed per-request and never stored
+export const runtime = "nodejs";
+export const maxDuration = 300;
+export const dynamic = "force-dynamic";
 
 const OPENROUTER_API = "https://openrouter.ai/api/v1/chat/completions";
 

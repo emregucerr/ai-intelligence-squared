@@ -126,6 +126,57 @@ Visit the `/arena` page to:
 └── sync_results.sh         # Sync benchmark → web app
 ```
 
+## ☁️ Deploy to Vercel
+
+The recommended way to deploy AI² is on [Vercel](https://vercel.com), which natively supports Next.js.
+
+### One-Click Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR_USERNAME/YOUR_REPO&root-directory=web)
+
+### Manual Deploy
+
+1. **Install the Vercel CLI**:
+   ```bash
+   npm i -g vercel
+   ```
+
+2. **Deploy from the `web/` directory**:
+   ```bash
+   cd web
+   vercel
+   ```
+   Follow the prompts. Vercel auto-detects Next.js and uses `npm run build`.
+
+3. **Deploy to production**:
+   ```bash
+   vercel --prod
+   ```
+
+### Configuration Details
+
+- **Root Directory**: Set to `web` in Vercel project settings (or pass `--cwd web` via CLI). The Next.js app lives in `web/`, not the repo root.
+- **Framework Preset**: Next.js (auto-detected).
+- **Build Command**: `npm run build` (default).
+- **Output Directory**: `.next` (default).
+- **Node.js Version**: 22.x (set in Vercel project settings under General > Node.js Version).
+
+### Live Arena API Endpoint
+
+The `/api/debate` route is a serverless function that orchestrates live debates via SSE streaming. It makes many sequential calls to the OpenRouter API, so it requires an extended execution timeout:
+
+- **`maxDuration: 300`** (5 minutes) is configured in both `vercel.json` and as a route segment export. This requires a **Vercel Pro plan** or higher. On the free Hobby plan, the max is 60 seconds, which is too short for a full debate.
+- The route uses `runtime: "nodejs"` and `dynamic: "force-dynamic"` to ensure it always runs as a serverless function, never statically cached.
+- No environment variables are needed on Vercel — the user's OpenRouter API key is passed per-request from the browser and never stored server-side.
+
+### Vercel Plan Requirements
+
+| Feature | Hobby (Free) | Pro | Enterprise |
+|---------|-------------|-----|------------|
+| Static pages | ✅ | ✅ | ✅ |
+| Live Arena (short debates) | ⚠️ 60s limit | ✅ | ✅ |
+| Live Arena (full debates) | ❌ Too slow | ✅ 300s | ✅ 900s |
+
 ## 🔬 Unique Analytics
 
 - **Self-judging bias**: Does a model favor itself when it's both debater and judge?
