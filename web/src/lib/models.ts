@@ -126,10 +126,10 @@ export const PROVIDER_COLORS: Record<string, string> = {
 };
 
 export const PROVIDER_ICONS: Record<string, string> = {
-  Anthropic: "/images/icon-anthropic.svg",
-  Google: "/images/icon-google.svg",
-  xAI: "/images/icon-xai.svg",
-  OpenAI: "/images/icon-openai.svg",
+  Anthropic: "/images/icon-anthropic.png",
+  Google: "/images/icon-google.png",
+  xAI: "/images/icon-xai.png",
+  OpenAI: "/images/icon-openai.png",
 };
 
 export function getModelById(id: string): Model | undefined {
