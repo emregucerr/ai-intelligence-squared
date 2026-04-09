@@ -12,7 +12,7 @@
       "model_id": "grok-4.20-multi-agent",
       "display_name": "Grok 4.20 Multi-Agent",
       "provider": "xAI",
-      "elo": 1520.4,
+      "elo": 1535.8,
       "arena_score": 1475,
       "rank": 2
     },
@@ -20,7 +20,7 @@
       "model_id": "claude-opus-4.6",
       "display_name": "Claude Opus 4.6",
       "provider": "Anthropic",
-      "elo": 1507.7,
+      "elo": 1508.1,
       "arena_score": 1497,
       "rank": 3
     },
@@ -41,19 +41,19 @@
       "rank": 5
     },
     {
-      "model_id": "gemini-3-flash",
-      "display_name": "Gemini 3 Flash",
-      "provider": "Google",
-      "elo": 1487.5,
-      "arena_score": 1474,
-      "rank": 6
-    },
-    {
       "model_id": "gpt-5.4-high",
       "display_name": "GPT-5.4 (High)",
       "provider": "OpenAI",
       "elo": 1472.7,
       "arena_score": 1484,
+      "rank": 6
+    },
+    {
+      "model_id": "gemini-3-flash",
+      "display_name": "Gemini 3 Flash",
+      "provider": "Google",
+      "elo": 1471.7,
+      "arena_score": 1474,
       "rank": 7
     },
     {
@@ -291,19 +291,47 @@
         "claude-opus-4.6": 1507.7,
         "gpt-5.2-chat": 1505.6
       }
+    },
+    {
+      "debate_id": "debate-016-claude-opus-4.6-vs-grok-4.20-multi-agent",
+      "model_a": "claude-opus-4.6",
+      "model_b": "grok-4.20-multi-agent",
+      "winner": "grok-4.20-multi-agent",
+      "elo_before": {
+        "claude-opus-4.6": 1507.7,
+        "grok-4.20-multi-agent": 1520.4
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1492.3,
+        "grok-4.20-multi-agent": 1535.8
+      }
+    },
+    {
+      "debate_id": "debate-017-claude-opus-4.6-vs-gemini-3-flash",
+      "model_a": "claude-opus-4.6",
+      "model_b": "gemini-3-flash",
+      "winner": "claude-opus-4.6",
+      "elo_before": {
+        "claude-opus-4.6": 1492.3,
+        "gemini-3-flash": 1487.5
+      },
+      "elo_after": {
+        "claude-opus-4.6": 1508.1,
+        "gemini-3-flash": 1471.7
+      }
     }
   ],
   "judge_tendencies": {
     "per_judge": {
       "claude-opus-4.6-thinking": {
-        "total_judgments": 15,
-        "stance_flip_rate": 46.7,
+        "total_judgments": 17,
+        "stance_flip_rate": 41.2,
         "avg_confidence_initial": 50.0,
         "avg_confidence_final": 50.0,
         "avg_confidence_delta": 0.0,
         "for_vote_pct": 0.0,
-        "against_vote_pct": 6.7,
-        "undecided_vote_pct": 93.3,
+        "against_vote_pct": 5.9,
+        "undecided_vote_pct": 94.1,
         "self_judging": {
           "total": 9,
           "favored_self": 0,
@@ -376,18 +404,18 @@
         }
       },
       "claude-opus-4.6": {
-        "total_judgments": 15,
-        "stance_flip_rate": 66.7,
-        "avg_confidence_initial": 50.6,
-        "avg_confidence_final": 78.8,
-        "avg_confidence_delta": 28.2,
-        "for_vote_pct": 86.7,
-        "against_vote_pct": 13.3,
+        "total_judgments": 17,
+        "stance_flip_rate": 64.7,
+        "avg_confidence_initial": 50.8,
+        "avg_confidence_final": 78.0,
+        "avg_confidence_delta": 27.2,
+        "for_vote_pct": 82.4,
+        "against_vote_pct": 17.6,
         "undecided_vote_pct": 0.0,
         "self_judging": {
-          "total": 7,
-          "favored_self": 6,
-          "self_bias_rate": 85.7,
+          "total": 9,
+          "favored_self": 7,
+          "self_bias_rate": 77.8,
           "votes": [
             {
               "debate_for": "claude-opus-4.6-thinking",
@@ -437,12 +465,26 @@
               "self_side": "FOR",
               "voted": "FOR",
               "favored_self": true
+            },
+            {
+              "debate_for": "claude-opus-4.6",
+              "debate_against": "grok-4.20-multi-agent",
+              "self_side": "FOR",
+              "voted": "AGAINST",
+              "favored_self": false
+            },
+            {
+              "debate_for": "claude-opus-4.6",
+              "debate_against": "gemini-3-flash",
+              "self_side": "FOR",
+              "voted": "FOR",
+              "favored_self": true
             }
           ]
         }
       },
       "gemini-3.1-pro-preview": {
-        "total_judgments": 15,
+        "total_judgments": 17,
         "stance_flip_rate": 0.0,
         "avg_confidence_initial": 50.0,
         "avg_confidence_final": 50.0,
@@ -473,13 +515,13 @@
         }
       },
       "grok-4.20": {
-        "total_judgments": 15,
-        "stance_flip_rate": 33.3,
+        "total_judgments": 17,
+        "stance_flip_rate": 41.2,
         "avg_confidence_initial": 65.0,
-        "avg_confidence_final": 71.7,
-        "avg_confidence_delta": 6.7,
-        "for_vote_pct": 66.7,
-        "against_vote_pct": 33.3,
+        "avg_confidence_final": 70.9,
+        "avg_confidence_delta": 5.9,
+        "for_vote_pct": 64.7,
+        "against_vote_pct": 35.3,
         "undecided_vote_pct": 0.0,
         "self_judging": {
           "total": 2,
@@ -504,14 +546,14 @@
         }
       },
       "gemini-3-pro": {
-        "total_judgments": 15,
-        "stance_flip_rate": 60.0,
-        "avg_confidence_initial": 63.0,
-        "avg_confidence_final": 66.3,
-        "avg_confidence_delta": 3.3,
-        "for_vote_pct": 40.0,
-        "against_vote_pct": 6.7,
-        "undecided_vote_pct": 53.3,
+        "total_judgments": 17,
+        "stance_flip_rate": 52.9,
+        "avg_confidence_initial": 61.5,
+        "avg_confidence_final": 64.4,
+        "avg_confidence_delta": 2.9,
+        "for_vote_pct": 35.3,
+        "against_vote_pct": 5.9,
+        "undecided_vote_pct": 58.8,
         "self_judging": {
           "total": 2,
           "favored_self": 0,
@@ -535,14 +577,14 @@
         }
       },
       "gpt-5.4-high": {
-        "total_judgments": 15,
-        "stance_flip_rate": 80.0,
-        "avg_confidence_initial": 57.7,
-        "avg_confidence_final": 65.9,
-        "avg_confidence_delta": 8.2,
-        "for_vote_pct": 33.3,
-        "against_vote_pct": 13.3,
-        "undecided_vote_pct": 53.3,
+        "total_judgments": 17,
+        "stance_flip_rate": 82.4,
+        "avg_confidence_initial": 56.8,
+        "avg_confidence_final": 64.1,
+        "avg_confidence_delta": 7.2,
+        "for_vote_pct": 29.4,
+        "against_vote_pct": 11.8,
+        "undecided_vote_pct": 58.8,
         "self_judging": {
           "total": 2,
           "favored_self": 0,
@@ -566,13 +608,13 @@
         }
       },
       "grok-4.20-reasoning": {
-        "total_judgments": 15,
-        "stance_flip_rate": 40.0,
-        "avg_confidence_initial": 62.7,
-        "avg_confidence_final": 71.7,
-        "avg_confidence_delta": 9.1,
-        "for_vote_pct": 73.3,
-        "against_vote_pct": 26.7,
+        "total_judgments": 17,
+        "stance_flip_rate": 41.2,
+        "avg_confidence_initial": 62.9,
+        "avg_confidence_final": 71.2,
+        "avg_confidence_delta": 8.2,
+        "for_vote_pct": 70.6,
+        "against_vote_pct": 29.4,
         "undecided_vote_pct": 0.0,
         "self_judging": {
           "total": 2,
@@ -597,13 +639,13 @@
         }
       },
       "gpt-5.2-chat": {
-        "total_judgments": 15,
-        "stance_flip_rate": 53.3,
-        "avg_confidence_initial": 76.1,
-        "avg_confidence_final": 79.2,
-        "avg_confidence_delta": 3.1,
-        "for_vote_pct": 73.3,
-        "against_vote_pct": 26.7,
+        "total_judgments": 17,
+        "stance_flip_rate": 52.9,
+        "avg_confidence_initial": 75.6,
+        "avg_confidence_final": 78.9,
+        "avg_confidence_delta": 3.2,
+        "for_vote_pct": 70.6,
+        "against_vote_pct": 29.4,
         "undecided_vote_pct": 0.0,
         "self_judging": {
           "total": 2,
@@ -628,21 +670,28 @@
         }
       },
       "grok-4.20-multi-agent": {
-        "total_judgments": 15,
-        "stance_flip_rate": 20.0,
-        "avg_confidence_initial": 69.3,
-        "avg_confidence_final": 72.7,
-        "avg_confidence_delta": 3.3,
-        "for_vote_pct": 80.0,
-        "against_vote_pct": 20.0,
+        "total_judgments": 17,
+        "stance_flip_rate": 23.5,
+        "avg_confidence_initial": 68.8,
+        "avg_confidence_final": 72.6,
+        "avg_confidence_delta": 3.8,
+        "for_vote_pct": 76.5,
+        "against_vote_pct": 23.5,
         "undecided_vote_pct": 0.0,
         "self_judging": {
-          "total": 1,
-          "favored_self": 1,
+          "total": 2,
+          "favored_self": 2,
           "self_bias_rate": 100.0,
           "votes": [
             {
               "debate_for": "claude-opus-4.6-thinking",
+              "debate_against": "grok-4.20-multi-agent",
+              "self_side": "AGAINST",
+              "voted": "AGAINST",
+              "favored_self": true
+            },
+            {
+              "debate_for": "claude-opus-4.6",
               "debate_against": "grok-4.20-multi-agent",
               "self_side": "AGAINST",
               "voted": "AGAINST",
@@ -652,21 +701,28 @@
         }
       },
       "gemini-3-flash": {
-        "total_judgments": 15,
-        "stance_flip_rate": 53.3,
-        "avg_confidence_initial": 76.7,
-        "avg_confidence_final": 86.0,
-        "avg_confidence_delta": 9.3,
-        "for_vote_pct": 80.0,
-        "against_vote_pct": 20.0,
+        "total_judgments": 17,
+        "stance_flip_rate": 47.1,
+        "avg_confidence_initial": 76.5,
+        "avg_confidence_final": 85.9,
+        "avg_confidence_delta": 9.4,
+        "for_vote_pct": 76.5,
+        "against_vote_pct": 23.5,
         "undecided_vote_pct": 0.0,
         "self_judging": {
-          "total": 1,
+          "total": 2,
           "favored_self": 0,
           "self_bias_rate": 0.0,
           "votes": [
             {
               "debate_for": "claude-opus-4.6-thinking",
+              "debate_against": "gemini-3-flash",
+              "self_side": "AGAINST",
+              "voted": "FOR",
+              "favored_self": false
+            },
+            {
+              "debate_for": "claude-opus-4.6",
               "debate_against": "gemini-3-flash",
               "self_side": "AGAINST",
               "voted": "FOR",
@@ -685,7 +741,7 @@
         },
         "claude-opus-4.6": {
           "favored": 0,
-          "total": 7,
+          "total": 9,
           "favor_rate": 0.0
         },
         "gemini-3.1-pro-preview": {
@@ -720,12 +776,12 @@
         },
         "grok-4.20-multi-agent": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
@@ -736,9 +792,9 @@
           "favor_rate": 77.8
         },
         "claude-opus-4.6": {
-          "favored": 6,
-          "total": 7,
-          "favor_rate": 85.7
+          "favored": 7,
+          "total": 9,
+          "favor_rate": 77.8
         },
         "gemini-3.1-pro-preview": {
           "favored": 0,
@@ -771,13 +827,13 @@
           "favor_rate": 0.0
         },
         "grok-4.20-multi-agent": {
-          "favored": 1,
-          "total": 1,
+          "favored": 2,
+          "total": 2,
           "favor_rate": 100.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
@@ -789,7 +845,7 @@
         },
         "claude-opus-4.6": {
           "favored": 0,
-          "total": 7,
+          "total": 9,
           "favor_rate": 0.0
         },
         "gemini-3.1-pro-preview": {
@@ -824,20 +880,20 @@
         },
         "grok-4.20-multi-agent": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
       "grok-4.20": {
         "claude-opus-4.6": {
-          "favored": 5,
-          "total": 7,
-          "favor_rate": 71.4
+          "favored": 6,
+          "total": 9,
+          "favor_rate": 66.7
         },
         "claude-opus-4.6-thinking": {
           "favored": 6,
@@ -875,13 +931,13 @@
           "favor_rate": 0.0
         },
         "grok-4.20-multi-agent": {
-          "favored": 1,
-          "total": 1,
+          "favored": 2,
+          "total": 2,
           "favor_rate": 100.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
@@ -893,8 +949,8 @@
         },
         "claude-opus-4.6": {
           "favored": 2,
-          "total": 7,
-          "favor_rate": 28.6
+          "total": 9,
+          "favor_rate": 22.2
         },
         "gemini-3.1-pro-preview": {
           "favored": 0,
@@ -928,12 +984,12 @@
         },
         "grok-4.20-multi-agent": {
           "favored": 1,
-          "total": 1,
-          "favor_rate": 100.0
+          "total": 2,
+          "favor_rate": 50.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
@@ -945,8 +1001,8 @@
         },
         "claude-opus-4.6": {
           "favored": 3,
-          "total": 7,
-          "favor_rate": 42.9
+          "total": 9,
+          "favor_rate": 33.3
         },
         "gemini-3.1-pro-preview": {
           "favored": 0,
@@ -980,12 +1036,12 @@
         },
         "grok-4.20-multi-agent": {
           "favored": 1,
-          "total": 1,
-          "favor_rate": 100.0
+          "total": 2,
+          "favor_rate": 50.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
@@ -996,9 +1052,9 @@
           "favor_rate": 77.8
         },
         "claude-opus-4.6": {
-          "favored": 4,
-          "total": 7,
-          "favor_rate": 57.1
+          "favored": 5,
+          "total": 9,
+          "favor_rate": 55.6
         },
         "gemini-3.1-pro-preview": {
           "favored": 0,
@@ -1031,13 +1087,13 @@
           "favor_rate": 50.0
         },
         "grok-4.20-multi-agent": {
-          "favored": 1,
-          "total": 1,
+          "favored": 2,
+          "total": 2,
           "favor_rate": 100.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
@@ -1048,9 +1104,9 @@
           "favor_rate": 77.8
         },
         "claude-opus-4.6": {
-          "favored": 4,
-          "total": 7,
-          "favor_rate": 57.1
+          "favored": 5,
+          "total": 9,
+          "favor_rate": 55.6
         },
         "gemini-3.1-pro-preview": {
           "favored": 0,
@@ -1083,13 +1139,13 @@
           "favor_rate": 50.0
         },
         "grok-4.20-multi-agent": {
-          "favored": 1,
-          "total": 1,
+          "favored": 2,
+          "total": 2,
           "favor_rate": 100.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
@@ -1100,9 +1156,9 @@
           "favor_rate": 77.8
         },
         "claude-opus-4.6": {
-          "favored": 5,
-          "total": 7,
-          "favor_rate": 71.4
+          "favored": 6,
+          "total": 9,
+          "favor_rate": 66.7
         },
         "gemini-3.1-pro-preview": {
           "favored": 0,
@@ -1135,13 +1191,13 @@
           "favor_rate": 0.0
         },
         "grok-4.20-multi-agent": {
-          "favored": 1,
-          "total": 1,
+          "favored": 2,
+          "total": 2,
           "favor_rate": 100.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       },
@@ -1152,9 +1208,9 @@
           "favor_rate": 77.8
         },
         "claude-opus-4.6": {
-          "favored": 5,
-          "total": 7,
-          "favor_rate": 71.4
+          "favored": 6,
+          "total": 9,
+          "favor_rate": 66.7
         },
         "gemini-3.1-pro-preview": {
           "favored": 0,
@@ -1187,19 +1243,19 @@
           "favor_rate": 0.0
         },
         "grok-4.20-multi-agent": {
-          "favored": 1,
-          "total": 1,
+          "favored": 2,
+          "total": 2,
           "favor_rate": 100.0
         },
         "gemini-3-flash": {
           "favored": 0,
-          "total": 1,
+          "total": 2,
           "favor_rate": 0.0
         }
       }
     }
   },
-  "total_debates": 15,
+  "total_debates": 17,
   "debates": [
     {
       "debate_id": "debate-001-claude-opus-4.6-thinking-vs-claude-opus-4.6",
@@ -3689,6 +3745,338 @@
       "metadata": {
         "elapsed_seconds": 363.6,
         "timestamp": "2026-04-09T01:44:59Z"
+      }
+    },
+    {
+      "debate_id": "debate-016-claude-opus-4.6-vs-grok-4.20-multi-agent",
+      "motion": "This house believes AI will eliminate more jobs than it creates within the next decade.",
+      "model_for": {
+        "id": "claude-opus-4.6",
+        "display_name": "Claude Opus 4.6"
+      },
+      "model_against": {
+        "id": "grok-4.20-multi-agent",
+        "display_name": "Grok 4.20 Multi-Agent"
+      },
+      "score": {
+        "winner_side": "AGAINST",
+        "winner_model_id": "grok-4.20-multi-agent",
+        "initial": {
+          "for": 2,
+          "against": 3,
+          "undecided": 5,
+          "pct_for": 20.0,
+          "pct_against": 30.0
+        },
+        "final": {
+          "for": 0,
+          "against": 6,
+          "undecided": 4,
+          "pct_for": 0.0,
+          "pct_against": 60.0
+        },
+        "delta_for": -20.0,
+        "delta_against": 30.0,
+        "confidence": {
+          "for_initial": 135,
+          "for_final": 0,
+          "against_initial": 200,
+          "against_final": 417
+        },
+        "persuasion_for": -135,
+        "persuasion_against": 217,
+        "vote_details": [
+          {
+            "judge_model_id": "claude-opus-4.6-thinking",
+            "persona": "Risk-averse economist",
+            "initial_stance": "UNDECIDED",
+            "initial_confidence": 50,
+            "final_stance": "UNDECIDED",
+            "final_confidence": 50,
+            "stance_changed": false,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "claude-opus-4.6",
+            "persona": "Philosophy professor",
+            "initial_stance": "UNDECIDED",
+            "initial_confidence": 42,
+            "final_stance": "AGAINST",
+            "final_confidence": 62,
+            "stance_changed": true,
+            "confidence_delta": 20,
+            "is_self_judging": true,
+            "self_judging_side": "FOR"
+          },
+          {
+            "judge_model_id": "gemini-3.1-pro-preview",
+            "persona": "Neutral academic",
+            "initial_stance": "UNDECIDED",
+            "initial_confidence": 50,
+            "final_stance": "UNDECIDED",
+            "final_confidence": 50,
+            "stance_changed": false,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "grok-4.20",
+            "persona": "Contrarian thinker",
+            "initial_stance": "FOR",
+            "initial_confidence": 65,
+            "final_stance": "AGAINST",
+            "final_confidence": 65,
+            "stance_changed": true,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "gemini-3-pro",
+            "persona": "Environmental activist",
+            "initial_stance": "UNDECIDED",
+            "initial_confidence": 50,
+            "final_stance": "UNDECIDED",
+            "final_confidence": 50,
+            "stance_changed": false,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "gpt-5.4-high",
+            "persona": "Corporate executive",
+            "initial_stance": "AGAINST",
+            "initial_confidence": 50,
+            "final_stance": "UNDECIDED",
+            "final_confidence": 50,
+            "stance_changed": true,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "grok-4.20-reasoning",
+            "persona": "Skeptical policymaker",
+            "initial_stance": "UNDECIDED",
+            "initial_confidence": 65,
+            "final_stance": "AGAINST",
+            "final_confidence": 62,
+            "stance_changed": true,
+            "confidence_delta": -3,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "gpt-5.2-chat",
+            "persona": "Optimistic technologist",
+            "initial_stance": "AGAINST",
+            "initial_confidence": 75,
+            "final_stance": "AGAINST",
+            "final_confidence": 78,
+            "stance_changed": false,
+            "confidence_delta": 3,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "grok-4.20-multi-agent",
+            "persona": "Union labor representative",
+            "initial_stance": "FOR",
+            "initial_confidence": 70,
+            "final_stance": "AGAINST",
+            "final_confidence": 65,
+            "stance_changed": true,
+            "confidence_delta": -5,
+            "is_self_judging": true,
+            "self_judging_side": "AGAINST"
+          },
+          {
+            "judge_model_id": "gemini-3-flash",
+            "persona": "Data scientist and AI researcher",
+            "initial_stance": "AGAINST",
+            "initial_confidence": 75,
+            "final_stance": "AGAINST",
+            "final_confidence": 85,
+            "stance_changed": false,
+            "confidence_delta": 10,
+            "is_self_judging": false,
+            "self_judging_side": null
+          }
+        ]
+      },
+      "metadata": {
+        "elapsed_seconds": 367.5,
+        "timestamp": "2026-04-09T01:51:09Z"
+      }
+    },
+    {
+      "debate_id": "debate-017-claude-opus-4.6-vs-gemini-3-flash",
+      "motion": "This house believes social media does more harm than good to democratic societies.",
+      "model_for": {
+        "id": "claude-opus-4.6",
+        "display_name": "Claude Opus 4.6"
+      },
+      "model_against": {
+        "id": "gemini-3-flash",
+        "display_name": "Gemini 3 Flash"
+      },
+      "score": {
+        "winner_side": "FOR",
+        "winner_model_id": "claude-opus-4.6",
+        "initial": {
+          "for": 4,
+          "against": 3,
+          "undecided": 3,
+          "pct_for": 40.0,
+          "pct_against": 30.0
+        },
+        "final": {
+          "for": 6,
+          "against": 0,
+          "undecided": 4,
+          "pct_for": 60.0,
+          "pct_against": 0.0
+        },
+        "delta_for": 20.0,
+        "delta_against": -30.0,
+        "confidence": {
+          "for_initial": 262,
+          "for_final": 459,
+          "against_initial": 185,
+          "against_final": 0
+        },
+        "persuasion_for": 197,
+        "persuasion_against": -185,
+        "vote_details": [
+          {
+            "judge_model_id": "claude-opus-4.6-thinking",
+            "persona": "Risk-averse economist",
+            "initial_stance": "UNDECIDED",
+            "initial_confidence": 50,
+            "final_stance": "UNDECIDED",
+            "final_confidence": 50,
+            "stance_changed": false,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "claude-opus-4.6",
+            "persona": "Philosophy professor",
+            "initial_stance": "FOR",
+            "initial_confidence": 62,
+            "final_stance": "FOR",
+            "final_confidence": 82,
+            "stance_changed": false,
+            "confidence_delta": 20,
+            "is_self_judging": true,
+            "self_judging_side": "FOR"
+          },
+          {
+            "judge_model_id": "gemini-3.1-pro-preview",
+            "persona": "Neutral academic",
+            "initial_stance": "UNDECIDED",
+            "initial_confidence": 50,
+            "final_stance": "UNDECIDED",
+            "final_confidence": 50,
+            "stance_changed": false,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "grok-4.20",
+            "persona": "Contrarian thinker",
+            "initial_stance": "AGAINST",
+            "initial_confidence": 65,
+            "final_stance": "FOR",
+            "final_confidence": 65,
+            "stance_changed": true,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "gemini-3-pro",
+            "persona": "Environmental activist",
+            "initial_stance": "UNDECIDED",
+            "initial_confidence": 50,
+            "final_stance": "UNDECIDED",
+            "final_confidence": 50,
+            "stance_changed": false,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "gpt-5.4-high",
+            "persona": "Corporate executive",
+            "initial_stance": "AGAINST",
+            "initial_confidence": 50,
+            "final_stance": "UNDECIDED",
+            "final_confidence": 50,
+            "stance_changed": true,
+            "confidence_delta": 0,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "grok-4.20-reasoning",
+            "persona": "Skeptical policymaker",
+            "initial_stance": "FOR",
+            "initial_confidence": 65,
+            "final_stance": "FOR",
+            "final_confidence": 72,
+            "stance_changed": false,
+            "confidence_delta": 7,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "gpt-5.2-chat",
+            "persona": "Optimistic technologist",
+            "initial_stance": "AGAINST",
+            "initial_confidence": 70,
+            "final_stance": "FOR",
+            "final_confidence": 75,
+            "stance_changed": true,
+            "confidence_delta": 5,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "grok-4.20-multi-agent",
+            "persona": "Union labor representative",
+            "initial_stance": "FOR",
+            "initial_confidence": 60,
+            "final_stance": "FOR",
+            "final_confidence": 80,
+            "stance_changed": false,
+            "confidence_delta": 20,
+            "is_self_judging": false,
+            "self_judging_side": null
+          },
+          {
+            "judge_model_id": "gemini-3-flash",
+            "persona": "Data scientist and AI researcher",
+            "initial_stance": "FOR",
+            "initial_confidence": 75,
+            "final_stance": "FOR",
+            "final_confidence": 85,
+            "stance_changed": false,
+            "confidence_delta": 10,
+            "is_self_judging": true,
+            "self_judging_side": "AGAINST"
+          }
+        ]
+      },
+      "metadata": {
+        "elapsed_seconds": 234.1,
+        "timestamp": "2026-04-09T01:55:05Z"
       }
     }
   ]
