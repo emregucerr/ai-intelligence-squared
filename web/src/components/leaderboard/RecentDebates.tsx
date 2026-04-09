@@ -30,12 +30,6 @@ export function RecentDebates({ debates }: Props) {
             (m) => m.id === debate.model_against.id
           );
           const winnerSide = debate.score.winner_side;
-          const winnerName =
-            winnerSide === "FOR"
-              ? debate.model_for.display_name
-              : winnerSide === "AGAINST"
-              ? debate.model_against.display_name
-              : "Tie";
 
           return (
             <Link

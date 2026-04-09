@@ -1,13 +1,12 @@
 "use client";
 
 import { DebateResult, Vote } from "@/lib/types";
-import { MODELS, PROVIDER_COLORS, PERSONA_MAP } from "@/lib/models";
+import { MODELS, PROVIDER_COLORS } from "@/lib/models";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import {
   Trophy,
-  Brain,
   Swords,
   MessageSquare,
   HelpCircle,
@@ -15,7 +14,6 @@ import {
   Users,
   ArrowRight,
   TrendingUp,
-  TrendingDown,
 } from "lucide-react";
 
 interface Props {
@@ -47,7 +45,7 @@ const phaseLabels: Record<string, { label: string; icon: React.ReactNode }> = {
   closing: { label: "Closing Statement", icon: <Flag className="h-4 w-4" /> },
 };
 
-function VoteCard({ vote, showChange, initialVote }: { vote: Vote; showChange?: boolean; initialVote?: Vote }) {
+function VoteCard({ vote, initialVote }: { vote: Vote; showChange?: boolean; initialVote?: Vote }) {
   const model = MODELS.find((m) => m.id === vote.judge_model_id);
   const color = PROVIDER_COLORS[model?.provider || ""] || "#888";
   const changed = initialVote && initialVote.stance !== vote.stance;
@@ -109,9 +107,6 @@ export function DebateReplay({ debate }: Props) {
   const modelFor = MODELS.find((m) => m.id === debate.model_for.id);
   const modelAgainst = MODELS.find((m) => m.id === debate.model_against.id);
   const score = debate.score;
-
-  // Group transcript by phase
-  let currentPhase = "";
 
   return (
     <div className="space-y-8">
@@ -234,8 +229,7 @@ export function DebateReplay({ debate }: Props) {
         </h2>
         <div className="space-y-4">
           {debate.transcript.map((entry, idx) => {
-            const showPhaseHeader = entry.phase !== currentPhase;
-            currentPhase = entry.phase;
+            const showPhaseHeader = idx === 0 || entry.phase !== debate.transcript[idx - 1].phase;
             const phaseInfo = phaseLabels[entry.phase] || {
               label: entry.phase,
               icon: null,

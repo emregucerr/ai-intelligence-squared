@@ -2,7 +2,7 @@
 
 import { useState, useRef, useCallback } from "react";
 import { Navbar } from "@/components/Navbar";
-import { MODELS, DEBATE_TOPICS, PROVIDER_COLORS, PERSONA_MAP } from "@/lib/models";
+import { MODELS, DEBATE_TOPICS, PROVIDER_COLORS } from "@/lib/models";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

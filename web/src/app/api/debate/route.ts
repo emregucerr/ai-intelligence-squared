@@ -1,5 +1,7 @@
 import { NextRequest } from "next/server";
 
+export const maxDuration = 60;
+
 // OpenRouter API proxy for live debates
 // The user's API key is passed per-request and never stored
 

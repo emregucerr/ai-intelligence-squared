@@ -20,7 +20,6 @@ import {
   Zap,
   Shield,
 } from "lucide-react";
-import Link from "next/link";
 
 interface Props {
   leaderboard: LeaderboardEntry[];
