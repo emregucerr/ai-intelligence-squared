@@ -2,6 +2,7 @@
 
 import { LeaderboardEntry } from "@/lib/types";
 import { PROVIDER_COLORS, getModelById, PERSONA_MAP } from "@/lib/models";
+import { ProviderIcon } from "@/components/ProviderIcon";
 import { Badge } from "@/components/ui/badge";
 import {
   Table,
@@ -16,37 +17,19 @@ import {
   TrendingUp,
   TrendingDown,
   Minus,
-  Brain,
-  Zap,
-  Shield,
 } from "lucide-react";
-import Link from "next/link";
 
 interface Props {
   leaderboard: LeaderboardEntry[];
   modelStats?: Record<string, { wins: number; losses: number; ties: number; win_rate: number; avg_persuasion: number }>;
 }
 
-const rankIcons = [
-  <Trophy key="1" className="h-5 w-5 text-yellow-400" />,
-  <Trophy key="2" className="h-5 w-5 text-gray-300" />,
-  <Trophy key="3" className="h-5 w-5 text-amber-600" />,
-];
-
-function getProviderIcon(provider: string) {
-  switch (provider) {
-    case "Anthropic":
-      return <Brain className="h-4 w-4" />;
-    case "Google":
-      return <Zap className="h-4 w-4" />;
-    case "xAI":
-      return <Shield className="h-4 w-4" />;
-    case "OpenAI":
-      return <TrendingUp className="h-4 w-4" />;
-    default:
-      return null;
-  }
-}
+const rankDisplay = (idx: number, rank: number) => {
+  if (idx === 0) return <Trophy className="h-4 w-4 text-yellow-600" />;
+  if (idx === 1) return <Trophy className="h-4 w-4 text-gray-400" />;
+  if (idx === 2) return <Trophy className="h-4 w-4 text-amber-700" />;
+  return <span className="text-muted-foreground text-sm">{rank}</span>;
+};
 
 export function LeaderboardTable({ leaderboard, modelStats }: Props) {
   const maxElo = Math.max(...leaderboard.map((e) => e.elo));
@@ -54,22 +37,18 @@ export function LeaderboardTable({ leaderboard, modelStats }: Props) {
   const eloRange = maxElo - minElo || 1;
 
   return (
-    <div className="rounded-xl border border-border/50 bg-card/50 backdrop-blur-sm overflow-hidden">
+    <div className="rounded-md border border-border bg-card overflow-hidden">
       <Table>
         <TableHeader>
-          <TableRow className="border-border/50 hover:bg-transparent">
-            <TableHead className="w-16 text-center">#</TableHead>
-            <TableHead>Model</TableHead>
-            <TableHead className="text-center">Provider</TableHead>
-            <TableHead className="text-center">
-              <span className="flex items-center justify-center gap-1">
-                Debate ELO
-              </span>
-            </TableHead>
-            <TableHead className="text-center">Arena Score</TableHead>
-            <TableHead className="text-center">Win Rate</TableHead>
-            <TableHead className="text-center">Persuasion</TableHead>
-            <TableHead className="text-center">Judge Persona</TableHead>
+          <TableRow className="border-border hover:bg-transparent">
+            <TableHead className="w-12 text-center text-xs">#</TableHead>
+            <TableHead className="text-xs">Model</TableHead>
+            <TableHead className="text-center text-xs">Provider</TableHead>
+            <TableHead className="text-center text-xs">Debate ELO</TableHead>
+            <TableHead className="text-center text-xs">Arena Score</TableHead>
+            <TableHead className="text-center text-xs">Win Rate</TableHead>
+            <TableHead className="text-center text-xs">Persuasion</TableHead>
+            <TableHead className="text-center text-xs">Judge Persona</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
@@ -77,38 +56,28 @@ export function LeaderboardTable({ leaderboard, modelStats }: Props) {
             const model = getModelById(entry.model_id);
             const providerColor = PROVIDER_COLORS[entry.provider] || "#888";
             const stats = modelStats?.[entry.model_id];
-            const eloBarWidth =
-              ((entry.elo - minElo) / eloRange) * 100;
+            const eloBarWidth = ((entry.elo - minElo) / eloRange) * 100;
             const persona = PERSONA_MAP[entry.model_id] || "";
 
             return (
               <TableRow
                 key={entry.model_id}
-                className="border-border/30 hover:bg-accent/50 transition-colors group cursor-pointer"
+                className="border-border/60 hover:bg-muted/50 transition-colors group cursor-pointer"
                 onClick={() => window.location.href = `/model/${entry.model_id}`}
               >
-                {/* Rank */}
-                <TableCell className="text-center font-bold text-lg">
-                  {idx < 3 ? (
-                    rankIcons[idx]
-                  ) : (
-                    <span className="text-muted-foreground">{entry.rank}</span>
-                  )}
+                <TableCell className="text-center">
+                  {rankDisplay(idx, entry.rank)}
                 </TableCell>
 
-                {/* Model Name */}
                 <TableCell>
-                  <div className="flex items-center gap-3">
-                    <div
-                      className="w-2 h-8 rounded-full"
-                      style={{ backgroundColor: providerColor }}
-                    />
+                  <div className="flex items-center gap-2.5">
+                    <ProviderIcon provider={entry.provider} size={24} className="shrink-0" />
                     <div>
-                      <div className="font-semibold text-sm group-hover:text-primary transition-colors">
+                      <div className="font-medium text-sm group-hover:text-primary transition-colors">
                         {entry.display_name}
                       </div>
                       {model?.config && Object.keys(model.config).length > 0 && (
-                        <Badge variant="outline" className="text-[10px] mt-0.5 px-1.5 py-0">
+                        <Badge variant="outline" className="text-[9px] mt-0.5 px-1 py-0">
                           Extended Thinking
                         </Badge>
                       )}
@@ -116,63 +85,59 @@ export function LeaderboardTable({ leaderboard, modelStats }: Props) {
                   </div>
                 </TableCell>
 
-                {/* Provider */}
                 <TableCell className="text-center">
                   <Badge
                     variant="secondary"
-                    className="gap-1 text-xs"
+                    className="text-[10px] gap-1"
                     style={{
-                      borderColor: providerColor + "40",
+                      borderColor: providerColor + "30",
                       color: providerColor,
                     }}
                   >
-                    {getProviderIcon(entry.provider)}
                     {entry.provider}
                   </Badge>
                 </TableCell>
 
-                {/* ELO */}
                 <TableCell className="text-center">
                   <div className="flex flex-col items-center gap-1">
-                    <span className="font-mono font-bold text-lg">
+                    <span className="font-mono font-semibold text-base">
                       {Math.round(entry.elo)}
                     </span>
-                    <div className="w-24 h-1.5 bg-muted rounded-full overflow-hidden">
+                    <div className="w-20 h-1 bg-muted rounded-full overflow-hidden">
                       <div
                         className="h-full rounded-full transition-all duration-500"
                         style={{
                           width: `${Math.max(5, eloBarWidth)}%`,
-                          background: `linear-gradient(90deg, ${providerColor}80, ${providerColor})`,
+                          backgroundColor: providerColor,
+                          opacity: 0.7,
                         }}
                       />
                     </div>
                   </div>
                 </TableCell>
 
-                {/* Arena Score */}
                 <TableCell className="text-center">
-                  <span className="text-muted-foreground font-mono text-sm">
+                  <span className="text-muted-foreground font-mono text-xs">
                     {entry.arena_score}
                   </span>
                 </TableCell>
 
-                {/* Win Rate */}
                 <TableCell className="text-center">
                   {stats ? (
                     <div className="flex items-center justify-center gap-1">
                       {stats.win_rate >= 60 ? (
-                        <TrendingUp className="h-3 w-3 text-green-400" />
+                        <TrendingUp className="h-3 w-3 text-green-600" />
                       ) : stats.win_rate <= 40 ? (
-                        <TrendingDown className="h-3 w-3 text-red-400" />
+                        <TrendingDown className="h-3 w-3 text-red-600" />
                       ) : (
                         <Minus className="h-3 w-3 text-muted-foreground" />
                       )}
                       <span
-                        className={`font-mono text-sm font-semibold ${
+                        className={`font-mono text-xs font-medium ${
                           stats.win_rate >= 60
-                            ? "text-green-400"
+                            ? "text-green-600"
                             : stats.win_rate <= 40
-                            ? "text-red-400"
+                            ? "text-red-600"
                             : "text-muted-foreground"
                         }`}
                       >
@@ -180,19 +145,18 @@ export function LeaderboardTable({ leaderboard, modelStats }: Props) {
                       </span>
                     </div>
                   ) : (
-                    <span className="text-muted-foreground text-sm">—</span>
+                    <span className="text-muted-foreground text-xs">&mdash;</span>
                   )}
                 </TableCell>
 
-                {/* Persuasion */}
                 <TableCell className="text-center">
                   {stats ? (
                     <span
-                      className={`font-mono text-sm ${
+                      className={`font-mono text-xs ${
                         stats.avg_persuasion > 0
-                          ? "text-green-400"
+                          ? "text-green-600"
                           : stats.avg_persuasion < 0
-                          ? "text-red-400"
+                          ? "text-red-600"
                           : "text-muted-foreground"
                       }`}
                     >
@@ -200,13 +164,12 @@ export function LeaderboardTable({ leaderboard, modelStats }: Props) {
                       {stats.avg_persuasion}
                     </span>
                   ) : (
-                    <span className="text-muted-foreground text-sm">—</span>
+                    <span className="text-muted-foreground text-xs">&mdash;</span>
                   )}
                 </TableCell>
 
-                {/* Judge Persona */}
                 <TableCell className="text-center">
-                  <span className="text-xs text-muted-foreground italic">
+                  <span className="text-[10px] text-muted-foreground italic">
                     {persona}
                   </span>
                 </TableCell>

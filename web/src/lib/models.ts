@@ -119,10 +119,10 @@ export const PERSONA_MAP: Record<string, string> = {
 };
 
 export const PROVIDER_COLORS: Record<string, string> = {
-  Anthropic: "#D97706",  // amber
-  Google: "#2563EB",     // blue
-  xAI: "#A855F7",        // purple
-  OpenAI: "#10B981",     // green
+  Anthropic: "#D4A574",
+  Google: "#4285F4",
+  xAI: "#111111",
+  OpenAI: "#10A37F",
 };
 
 export const PROVIDER_ICONS: Record<string, string> = {

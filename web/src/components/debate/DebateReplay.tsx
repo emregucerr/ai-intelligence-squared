@@ -1,13 +1,13 @@
 "use client";
 
 import { DebateResult, Vote } from "@/lib/types";
-import { MODELS, PROVIDER_COLORS, PERSONA_MAP } from "@/lib/models";
+import { MODELS } from "@/lib/models";
+import { ProviderIcon } from "@/components/ProviderIcon";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import {
   Trophy,
-  Brain,
   Swords,
   MessageSquare,
   HelpCircle,
@@ -15,7 +15,6 @@ import {
   Users,
   ArrowRight,
   TrendingUp,
-  TrendingDown,
 } from "lucide-react";
 
 interface Props {
@@ -23,81 +22,77 @@ interface Props {
 }
 
 const phaseLabels: Record<string, { label: string; icon: React.ReactNode }> = {
-  opening: { label: "Opening Statement", icon: <Flag className="h-4 w-4" /> },
+  opening: { label: "Opening Statement", icon: <Flag className="h-3.5 w-3.5" /> },
   rebuttal: {
     label: "Rebuttal",
-    icon: <MessageSquare className="h-4 w-4" />,
+    icon: <MessageSquare className="h-3.5 w-3.5" />,
   },
   cross_exam_r1: {
     label: "Cross-Examination Round 1",
-    icon: <HelpCircle className="h-4 w-4" />,
+    icon: <HelpCircle className="h-3.5 w-3.5" />,
   },
   cross_exam_r2: {
     label: "Cross-Examination Round 2",
-    icon: <HelpCircle className="h-4 w-4" />,
+    icon: <HelpCircle className="h-3.5 w-3.5" />,
   },
   cross_exam_r3: {
     label: "Cross-Examination Round 3",
-    icon: <HelpCircle className="h-4 w-4" />,
+    icon: <HelpCircle className="h-3.5 w-3.5" />,
   },
   audience_qa: {
     label: "Audience Q&A",
-    icon: <Users className="h-4 w-4" />,
+    icon: <Users className="h-3.5 w-3.5" />,
   },
-  closing: { label: "Closing Statement", icon: <Flag className="h-4 w-4" /> },
+  closing: { label: "Closing Statement", icon: <Flag className="h-3.5 w-3.5" /> },
 };
 
-function VoteCard({ vote, showChange, initialVote }: { vote: Vote; showChange?: boolean; initialVote?: Vote }) {
+function VoteCard({ vote, initialVote }: { vote: Vote; showChange?: boolean; initialVote?: Vote }) {
   const model = MODELS.find((m) => m.id === vote.judge_model_id);
-  const color = PROVIDER_COLORS[model?.provider || ""] || "#888";
   const changed = initialVote && initialVote.stance !== vote.stance;
 
   return (
     <div
-      className={`rounded-lg border p-3 ${
+      className={`rounded-md border p-3 ${
         vote.stance === "FOR"
-          ? "border-blue-500/30 bg-blue-500/5"
+          ? "border-primary/20 bg-primary/[0.02]"
           : vote.stance === "AGAINST"
-          ? "border-red-500/30 bg-red-500/5"
-          : "border-border/30 bg-muted/5"
+          ? "border-destructive/20 bg-destructive/[0.02]"
+          : "border-border bg-card"
       }`}
     >
-      <div className="flex items-center gap-2 mb-1">
-        <div
-          className="w-1.5 h-4 rounded-full"
-          style={{ backgroundColor: color }}
-        />
-        <span className="text-xs font-semibold truncate">
+      <div className="flex items-center gap-1.5 mb-1">
+        <ProviderIcon provider={model?.provider || ""} size={14} />
+        <span className="text-[10px] font-medium truncate">
           {model?.display_name || vote.judge_model_id}
         </span>
       </div>
-      <p className="text-[10px] text-muted-foreground italic mb-1">
+      <p className="text-[9px] text-muted-foreground italic mb-1">
         {vote.persona}
       </p>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-1.5">
         <Badge
           variant="outline"
-          className={`text-[10px] ${
+          className={`text-[9px] ${
             vote.stance === "FOR"
-              ? "text-blue-400 border-blue-500/50"
+              ? "border-primary/30"
               : vote.stance === "AGAINST"
-              ? "text-red-400 border-red-500/50"
+              ? "border-destructive/30"
               : ""
           }`}
         >
           {vote.stance}
         </Badge>
-        <span className="text-[10px] font-mono text-muted-foreground">
+        <span className="text-[9px] font-mono text-muted-foreground">
           {vote.confidence}%
         </span>
         {changed && (
-          <Badge variant="secondary" className="text-[9px] px-1 py-0 bg-yellow-500/20 text-yellow-400">
+          <Badge variant="secondary" className="text-[8px] px-1 py-0">
             FLIPPED
           </Badge>
         )}
       </div>
       {vote.reasoning && (
-        <p className="text-[10px] text-muted-foreground mt-1 line-clamp-2">
+        <p className="text-[9px] text-muted-foreground mt-1 line-clamp-2">
           {vote.reasoning}
         </p>
       )}
@@ -110,55 +105,50 @@ export function DebateReplay({ debate }: Props) {
   const modelAgainst = MODELS.find((m) => m.id === debate.model_against.id);
   const score = debate.score;
 
-  // Group transcript by phase
-  let currentPhase = "";
+  const transcriptWithHeaders = debate.transcript.map((entry, idx) => ({
+    ...entry,
+    showPhaseHeader: idx === 0 || entry.phase !== debate.transcript[idx - 1].phase,
+  }));
 
   return (
     <div className="space-y-8">
       {/* Header */}
       <div className="text-center">
-        <Badge variant="outline" className="mb-4 text-xs">
+        <Badge variant="outline" className="mb-4 text-[10px] font-mono">
           {debate.debate_id}
         </Badge>
-        <h1 className="text-2xl font-bold mb-2">
+        <h1 className="text-xl font-bold mb-2 font-[family-name:var(--font-montserrat)]">
           {debate.model_for.display_name}
           <span className="text-muted-foreground mx-3">vs</span>
           {debate.model_against.display_name}
         </h1>
-        <p className="text-sm text-muted-foreground italic max-w-2xl mx-auto">
+        <p className="text-xs text-muted-foreground italic max-w-2xl mx-auto">
           &ldquo;{debate.motion}&rdquo;
         </p>
       </div>
 
       {/* Score Summary */}
-      <Card className="p-6 bg-gradient-to-r from-blue-500/5 via-transparent to-red-500/5">
+      <Card className="p-6">
         <div className="grid grid-cols-3 gap-4 text-center">
-          {/* FOR */}
           <div>
             <div className="flex items-center justify-center gap-2 mb-2">
-              <div
-                className="w-2 h-6 rounded-full"
-                style={{
-                  backgroundColor:
-                    PROVIDER_COLORS[modelFor?.provider || ""] || "#888",
-                }}
-              />
-              <span className="font-semibold text-sm text-blue-400">
+              <ProviderIcon provider={modelFor?.provider || ""} size={20} />
+              <span className="font-medium text-xs">
                 {debate.model_for.display_name}
               </span>
               {score.winner_side === "FOR" && (
-                <Trophy className="h-4 w-4 text-yellow-400" />
+                <Trophy className="h-3.5 w-3.5 text-yellow-600" />
               )}
             </div>
-            <div className="text-3xl font-bold text-blue-400">
+            <div className="text-2xl font-bold font-mono">
               {score.final.for}
             </div>
-            <div className="text-xs text-muted-foreground">
-              {score.initial.for} → {score.final.for} votes
+            <div className="text-[10px] text-muted-foreground">
+              {score.initial.for} &rarr; {score.final.for} votes
             </div>
             <div
-              className={`text-sm font-mono mt-1 ${
-                score.delta_for > 0 ? "text-green-400" : "text-muted-foreground"
+              className={`text-xs font-mono mt-1 ${
+                score.delta_for > 0 ? "text-green-600" : "text-muted-foreground"
               }`}
             >
               {score.delta_for > 0 ? "+" : ""}
@@ -166,43 +156,35 @@ export function DebateReplay({ debate }: Props) {
             </div>
           </div>
 
-          {/* Middle */}
           <div className="flex flex-col items-center justify-center">
-            <Swords className="h-8 w-8 text-muted-foreground mb-2" />
-            <span className="text-xs text-muted-foreground">
+            <Swords className="h-6 w-6 text-muted-foreground mb-2" />
+            <span className="text-[10px] text-muted-foreground">
               {debate.metadata?.elapsed_seconds
                 ? `${Math.round(debate.metadata.elapsed_seconds / 60)}min`
                 : ""}
             </span>
           </div>
 
-          {/* AGAINST */}
           <div>
             <div className="flex items-center justify-center gap-2 mb-2">
-              <div
-                className="w-2 h-6 rounded-full"
-                style={{
-                  backgroundColor:
-                    PROVIDER_COLORS[modelAgainst?.provider || ""] || "#888",
-                }}
-              />
-              <span className="font-semibold text-sm text-red-400">
+              <ProviderIcon provider={modelAgainst?.provider || ""} size={20} />
+              <span className="font-medium text-xs">
                 {debate.model_against.display_name}
               </span>
               {score.winner_side === "AGAINST" && (
-                <Trophy className="h-4 w-4 text-yellow-400" />
+                <Trophy className="h-3.5 w-3.5 text-yellow-600" />
               )}
             </div>
-            <div className="text-3xl font-bold text-red-400">
+            <div className="text-2xl font-bold font-mono">
               {score.final.against}
             </div>
-            <div className="text-xs text-muted-foreground">
-              {score.initial.against} → {score.final.against} votes
+            <div className="text-[10px] text-muted-foreground">
+              {score.initial.against} &rarr; {score.final.against} votes
             </div>
             <div
-              className={`text-sm font-mono mt-1 ${
+              className={`text-xs font-mono mt-1 ${
                 score.delta_against > 0
-                  ? "text-green-400"
+                  ? "text-green-600"
                   : "text-muted-foreground"
               }`}
             >
@@ -215,8 +197,8 @@ export function DebateReplay({ debate }: Props) {
 
       {/* Initial Votes */}
       <div>
-        <h2 className="text-lg font-semibold mb-3 flex items-center gap-2">
-          <Users className="h-5 w-5 text-purple-400" />
+        <h2 className="text-sm font-semibold mb-3 flex items-center gap-2 font-[family-name:var(--font-montserrat)]">
+          <Users className="h-4 w-4 text-muted-foreground" />
           Initial Jury Votes (Pre-Debate)
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
@@ -228,14 +210,12 @@ export function DebateReplay({ debate }: Props) {
 
       {/* Transcript */}
       <div>
-        <h2 className="text-lg font-semibold mb-3 flex items-center gap-2">
-          <MessageSquare className="h-5 w-5 text-blue-400" />
+        <h2 className="text-sm font-semibold mb-3 flex items-center gap-2 font-[family-name:var(--font-montserrat)]">
+          <MessageSquare className="h-4 w-4 text-muted-foreground" />
           Full Debate Transcript
         </h2>
-        <div className="space-y-4">
-          {debate.transcript.map((entry, idx) => {
-            const showPhaseHeader = entry.phase !== currentPhase;
-            currentPhase = entry.phase;
+        <div className="space-y-3">
+          {transcriptWithHeaders.map((entry, idx) => {
             const phaseInfo = phaseLabels[entry.phase] || {
               label: entry.phase,
               icon: null,
@@ -243,10 +223,10 @@ export function DebateReplay({ debate }: Props) {
 
             return (
               <div key={idx}>
-                {showPhaseHeader && (
+                {entry.showPhaseHeader && (
                   <div className="flex items-center gap-2 mb-3 mt-6">
                     {phaseInfo.icon}
-                    <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
+                    <h3 className="text-[10px] font-semibold text-muted-foreground uppercase tracking-wider">
                       {phaseInfo.label}
                     </h3>
                     <Separator className="flex-1" />
@@ -254,33 +234,33 @@ export function DebateReplay({ debate }: Props) {
                 )}
 
                 <div
-                  className={`p-4 rounded-lg border ${
+                  className={`p-4 rounded-md border ${
                     entry.side === "FOR"
-                      ? "border-blue-500/20 bg-blue-500/5 ml-0 mr-8"
-                      : "border-red-500/20 bg-red-500/5 ml-8 mr-0"
+                      ? "border-primary/15 bg-primary/[0.02] ml-0 mr-8"
+                      : "border-destructive/15 bg-destructive/[0.02] ml-8 mr-0"
                   }`}
                 >
                   <div className="flex items-center gap-2 mb-2">
                     <Badge
                       variant="outline"
-                      className={`text-[10px] ${
+                      className={`text-[9px] ${
                         entry.side === "FOR"
-                          ? "text-blue-400 border-blue-500/50"
-                          : "text-red-400 border-red-500/50"
+                          ? "border-primary/30"
+                          : "border-destructive/30"
                       }`}
                     >
                       {entry.side}
                     </Badge>
-                    <span className="text-xs font-semibold">
+                    <span className="text-[10px] font-semibold">
                       {entry.speaker}
                     </span>
                     {entry.type && (
-                      <Badge variant="secondary" className="text-[10px]">
+                      <Badge variant="secondary" className="text-[9px]">
                         {entry.type}
                       </Badge>
                     )}
                   </div>
-                  <p className="text-sm leading-relaxed whitespace-pre-wrap">
+                  <p className="text-xs leading-relaxed whitespace-pre-wrap">
                     {entry.content}
                   </p>
                 </div>
@@ -292,8 +272,8 @@ export function DebateReplay({ debate }: Props) {
 
       {/* Final Votes */}
       <div>
-        <h2 className="text-lg font-semibold mb-3 flex items-center gap-2">
-          <Trophy className="h-5 w-5 text-yellow-400" />
+        <h2 className="text-sm font-semibold mb-3 flex items-center gap-2 font-[family-name:var(--font-montserrat)]">
+          <Trophy className="h-4 w-4 text-yellow-600" />
           Final Jury Votes (Post-Debate)
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
@@ -316,35 +296,38 @@ export function DebateReplay({ debate }: Props) {
       {/* Vote Details */}
       {score.vote_details && score.vote_details.length > 0 && (
         <div>
-          <h2 className="text-lg font-semibold mb-3 flex items-center gap-2">
-            <TrendingUp className="h-5 w-5 text-green-400" />
+          <h2 className="text-sm font-semibold mb-3 flex items-center gap-2 font-[family-name:var(--font-montserrat)]">
+            <TrendingUp className="h-4 w-4 text-green-600" />
             Vote Shift Analysis
           </h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-xs">
+          <div className="overflow-x-auto rounded-md border border-border">
+            <table className="w-full text-[10px]">
               <thead>
-                <tr className="border-b border-border/40">
-                  <th className="text-left p-2">Judge</th>
-                  <th className="text-center p-2">Before</th>
-                  <th className="text-center p-2">→</th>
-                  <th className="text-center p-2">After</th>
-                  <th className="text-center p-2">Δ Conf</th>
-                  <th className="text-center p-2">Self?</th>
+                <tr className="border-b border-border bg-muted/50">
+                  <th className="text-left p-2 font-medium">Judge</th>
+                  <th className="text-center p-2 font-medium">Before</th>
+                  <th className="text-center p-2 font-medium">&rarr;</th>
+                  <th className="text-center p-2 font-medium">After</th>
+                  <th className="text-center p-2 font-medium">&Delta; Conf</th>
+                  <th className="text-center p-2 font-medium">Self?</th>
                 </tr>
               </thead>
               <tbody>
                 {score.vote_details.map((vd, idx) => (
-                  <tr key={idx} className="border-b border-border/20">
+                  <tr key={idx} className="border-b border-border/60">
                     <td className="p-2 font-medium">
-                      {MODELS.find((m) => m.id === vd.judge_model_id)?.display_name ||
-                        vd.judge_model_id}
+                      <div className="flex items-center gap-1.5">
+                        <ProviderIcon provider={MODELS.find((m) => m.id === vd.judge_model_id)?.provider || ""} size={12} />
+                        {MODELS.find((m) => m.id === vd.judge_model_id)?.display_name ||
+                          vd.judge_model_id}
+                      </div>
                     </td>
                     <td
                       className={`p-2 text-center ${
                         vd.initial_stance === "FOR"
-                          ? "text-blue-400"
+                          ? "text-foreground"
                           : vd.initial_stance === "AGAINST"
-                          ? "text-red-400"
+                          ? "text-destructive"
                           : "text-muted-foreground"
                       }`}
                     >
@@ -352,17 +335,17 @@ export function DebateReplay({ debate }: Props) {
                     </td>
                     <td className="p-2 text-center">
                       {vd.stance_changed ? (
-                        <ArrowRight className="h-3 w-3 text-yellow-400 mx-auto" />
+                        <ArrowRight className="h-3 w-3 text-yellow-600 mx-auto" />
                       ) : (
-                        <span className="text-muted-foreground">—</span>
+                        <span className="text-muted-foreground">&mdash;</span>
                       )}
                     </td>
                     <td
                       className={`p-2 text-center font-semibold ${
                         vd.final_stance === "FOR"
-                          ? "text-blue-400"
+                          ? "text-foreground"
                           : vd.final_stance === "AGAINST"
-                          ? "text-red-400"
+                          ? "text-destructive"
                           : "text-muted-foreground"
                       }`}
                     >
@@ -371,9 +354,9 @@ export function DebateReplay({ debate }: Props) {
                     <td
                       className={`p-2 text-center font-mono ${
                         vd.confidence_delta > 0
-                          ? "text-green-400"
+                          ? "text-green-600"
                           : vd.confidence_delta < 0
-                          ? "text-red-400"
+                          ? "text-red-600"
                           : "text-muted-foreground"
                       }`}
                     >
@@ -381,7 +364,7 @@ export function DebateReplay({ debate }: Props) {
                       {vd.confidence_delta}
                     </td>
                     <td className="p-2 text-center">
-                      {vd.is_self_judging ? "⚔️" : "—"}
+                      {vd.is_self_judging ? "*" : "&mdash;"}
                     </td>
                   </tr>
                 ))}
